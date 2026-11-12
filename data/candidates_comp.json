@@ -1,0 +1,957 @@
+[
+  {
+    "title": "挑战赛A榜-2026中国软件杯大学生软件设计大赛——文心小汪赛道",
+    "organizer": null,
+    "mode": null,
+    "city": null,
+    "start_date": "2026-07-29",
+    "end_date": "2026-08-01",
+    "deadline": null,
+    "prize": "国赛",
+    "tracks": [
+      "CV与多模态大模型"
+    ],
+    "url": "https://aistudio.baidu.com/competition/detail/1490/0/introduction",
+    "source": "aistudio",
+    "source_url": "https://aistudio.baidu.com/competition",
+    "notes": "飞桨AI Studio · 已结束 · 参赛 30 人"
+  },
+  {
+    "title": "挑战赛B榜-2026中国软件杯大学生软件设计大赛——文心小汪赛道",
+    "organizer": null,
+    "mode": null,
+    "city": null,
+    "start_date": "2026-03-26",
+    "end_date": "2026-08-31",
+    "deadline": null,
+    "prize": "榜单国赛",
+    "tracks": [
+      "CV与多模态大模型"
+    ],
+    "url": "https://aistudio.baidu.com/competition/detail/1468/0/introduction",
+    "source": "aistudio",
+    "source_url": "https://aistudio.baidu.com/competition",
+    "notes": "飞桨AI Studio · 已结束 · 参赛 420 人"
+  },
+  {
+    "title": "百度商业AI技术创新大赛-生成式推荐广告排序推理性能优化",
+    "organizer": null,
+    "mode": null,
+    "city": null,
+    "start_date": "2026-05-06",
+    "end_date": "2026-08-31",
+    "deadline": null,
+    "prize": "￥19W (含NV-DGX-Spark)",
+    "tracks": [
+      "生成式推荐",
+      "推理"
+    ],
+    "url": "https://aistudio.baidu.com/competition/detail/1461/0/introduction",
+    "source": "aistudio",
+    "source_url": "https://aistudio.baidu.com/competition",
+    "notes": "飞桨AI Studio · 已结束 · 参赛 1905 人"
+  },
+  {
+    "title": "MICCAI2026 Challenge: GAVE2",
+    "organizer": null,
+    "mode": null,
+    "city": null,
+    "start_date": "2026-05-20",
+    "end_date": "2026-10-01",
+    "deadline": null,
+    "prize": "1000 USD",
+    "tracks": [
+      "CV"
+    ],
+    "url": "https://aistudio.baidu.com/competition/detail/1463/0/introduction",
+    "source": "aistudio",
+    "source_url": "https://aistudio.baidu.com/competition",
+    "notes": "飞桨AI Studio · 已结束 · 参赛 247 人"
+  },
+  {
+    "title": "千言数据集-航旅纵横：段落级答案抽取",
+    "organizer": null,
+    "mode": null,
+    "city": null,
+    "start_date": "2022-10-20",
+    "end_date": "2026-10-22",
+    "deadline": null,
+    "prize": "千言定制大礼包",
+    "tracks": [
+      "自然语言处理-问答"
+    ],
+    "url": "https://aistudio.baidu.com/competition/detail/666/0/introduction",
+    "source": "aistudio",
+    "source_url": "https://aistudio.baidu.com/competition",
+    "notes": "飞桨AI Studio · 已结束 · 参赛 6031 人"
+  },
+  {
+    "title": "千言数据集-航旅纵横：细粒度文本级答案抽取",
+    "organizer": null,
+    "mode": null,
+    "city": null,
+    "start_date": "2022-10-20",
+    "end_date": "2026-10-22",
+    "deadline": null,
+    "prize": "千言定制大礼包",
+    "tracks": [
+      "自然语言处理-问答"
+    ],
+    "url": "https://aistudio.baidu.com/competition/detail/668/0/introduction",
+    "source": "aistudio",
+    "source_url": "https://aistudio.baidu.com/competition",
+    "notes": "飞桨AI Studio · 已结束 · 参赛 228 人"
+  },
+  {
+    "title": "千言数据集：视频看点抽取",
+    "organizer": null,
+    "mode": null,
+    "city": null,
+    "start_date": "2022-10-21",
+    "end_date": "2026-10-29",
+    "deadline": null,
+    "prize": "千言定制大礼包",
+    "tracks": [
+      "自然语言处理"
+    ],
+    "url": "https://aistudio.baidu.com/competition/detail/672/0/introduction",
+    "source": "aistudio",
+    "source_url": "https://aistudio.baidu.com/competition",
+    "notes": "飞桨AI Studio · 已结束 · 参赛 202 人"
+  },
+  {
+    "title": "千言数据集：低资源翻译-法俄泰与中文互译（“一带一路”重点语种）",
+    "organizer": "联合国教科文组织国际工程科技知识中心（IKCEST）、中国工程科技知识中心（CKCEST）",
+    "mode": null,
+    "city": null,
+    "start_date": "2022-11-29",
+    "end_date": "2026-11-19",
+    "deadline": null,
+    "prize": "千言超级大礼包",
+    "tracks": [
+      "机器翻译"
+    ],
+    "url": "https://aistudio.baidu.com/competition/detail/728/0/introduction",
+    "source": "aistudio",
+    "source_url": "https://aistudio.baidu.com/competition",
+    "notes": "飞桨AI Studio · 进行中 · 参赛 4584 人"
+  },
+  {
+    "title": "千言数据集：中学语文阅读理解",
+    "organizer": null,
+    "mode": null,
+    "city": null,
+    "start_date": "2022-11-14",
+    "end_date": "2026-11-26",
+    "deadline": null,
+    "prize": "千言定制大礼包",
+    "tracks": [
+      "阅读理解"
+    ],
+    "url": "https://aistudio.baidu.com/competition/detail/708/0/introduction",
+    "source": "aistudio",
+    "source_url": "https://aistudio.baidu.com/competition",
+    "notes": "飞桨AI Studio · 进行中 · 参赛 256 人"
+  },
+  {
+    "title": "千言数据集：对话共指消解评测",
+    "organizer": null,
+    "mode": null,
+    "city": null,
+    "start_date": "2022-10-13",
+    "end_date": "2026-12-31",
+    "deadline": null,
+    "prize": "千言定制大礼包",
+    "tracks": [
+      "对话共指消解"
+    ],
+    "url": "https://aistudio.baidu.com/competition/detail/550/0/introduction",
+    "source": "aistudio",
+    "source_url": "https://aistudio.baidu.com/competition",
+    "notes": "飞桨AI Studio · 进行中 · 参赛 176 人"
+  },
+  {
+    "title": "野生动物目标检测挑战赛",
+    "organizer": "北京百度网讯科技有限公司",
+    "mode": null,
+    "city": null,
+    "start_date": "2025-10-14",
+    "end_date": "2026-12-31",
+    "deadline": null,
+    "prize": "神秘礼品",
+    "tracks": [
+      "CV",
+      "目标检测"
+    ],
+    "url": "https://aistudio.baidu.com/competition/detail/1407/0/introduction",
+    "source": "aistudio",
+    "source_url": "https://aistudio.baidu.com/competition",
+    "notes": "飞桨AI Studio · 进行中 · 参赛 351 人"
+  },
+  {
+    "title": "多模态感知融合增强的具身自主抓取任务挑战",
+    "organizer": "中国电子学会&睿创微纳",
+    "mode": null,
+    "city": null,
+    "start_date": "2026-03-16",
+    "end_date": "2026-06-20",
+    "deadline": null,
+    "prize": "145,000元",
+    "tracks": [
+      "多模态"
+    ],
+    "url": "https://www.datafountain.cn/competitions/1163",
+    "source": "datafountain",
+    "source_url": "https://www.datafountain.cn/competitions",
+    "notes": "DataFountain · 智能算法 · 状态：OUT_SERVICE"
+  },
+  {
+    "title": "红外智感—红外开放世界全模态分割挑战",
+    "organizer": "中国电子学会&睿创微纳",
+    "mode": null,
+    "city": null,
+    "start_date": "2026-03-16",
+    "end_date": "2026-07-30",
+    "deadline": null,
+    "prize": "145,000元",
+    "tracks": [
+      "图像分割"
+    ],
+    "url": "https://www.datafountain.cn/competitions/1164",
+    "source": "datafountain",
+    "source_url": "https://www.datafountain.cn/competitions",
+    "notes": "DataFountain · 智能算法 · 状态：OUT_SERVICE"
+  },
+  {
+    "title": "AI新睿人才“星探计划”",
+    "organizer": "烟台睿创微纳技术股份有限公司",
+    "mode": null,
+    "city": null,
+    "start_date": "2026-04-07",
+    "end_date": "2026-08-31",
+    "deadline": null,
+    "prize": "90,000元",
+    "tracks": [
+      "图像分割"
+    ],
+    "url": "https://www.datafountain.cn/competitions/1169",
+    "source": "datafountain",
+    "source_url": "https://www.datafountain.cn/competitions",
+    "notes": "DataFountain · 智能算法 · 状态：OUT_SERVICE"
+  },
+  {
+    "title": "“猎鹰·微波智探”—雷达多目标智能探测与识别挑战",
+    "organizer": "中国电子学会&睿创微纳",
+    "mode": null,
+    "city": null,
+    "start_date": "2026-03-16",
+    "end_date": "2026-08-31",
+    "deadline": null,
+    "prize": "145,000元",
+    "tracks": [
+      "人工智能"
+    ],
+    "url": "https://www.datafountain.cn/competitions/1166",
+    "source": "datafountain",
+    "source_url": "https://www.datafountain.cn/competitions",
+    "notes": "DataFountain · 智能算法 · 状态：OUT_SERVICE"
+  },
+  {
+    "title": "具有多模态能力的客服智能体设计",
+    "organizer": "中国电子学会&睿创微纳",
+    "mode": null,
+    "city": null,
+    "start_date": "2026-03-16",
+    "end_date": "2026-08-31",
+    "deadline": null,
+    "prize": "145,000元",
+    "tracks": [
+      "多模态"
+    ],
+    "url": "https://www.datafountain.cn/competitions/1165",
+    "source": "datafountain",
+    "source_url": "https://www.datafountain.cn/competitions",
+    "notes": "DataFountain · 智能算法 · 状态：OUT_SERVICE"
+  },
+  {
+    "title": "面向生物医学全文的特定患者表型概念识别任务-赛后评测",
+    "organizer": null,
+    "mode": null,
+    "city": null,
+    "start_date": "2026-08-20",
+    "end_date": "2027-09-30",
+    "deadline": "2026-08-19",
+    "prize": null,
+    "tracks": [
+      "‌医疗健康",
+      "自然语言处理",
+      "大语言模型"
+    ],
+    "url": "https://tianchi.aliyun.com/competition/entrance/532512",
+    "source": "tianchi",
+    "source_url": "https://tianchi.aliyun.com/competition/gameList/activeList",
+    "notes": "天池 · AI大模型赛 · 544 支队伍"
+  },
+  {
+    "title": "2026-具身仿真合成挑战赛",
+    "organizer": null,
+    "mode": null,
+    "city": null,
+    "start_date": "2026-07-30",
+    "end_date": "2026-11-15",
+    "deadline": "2026-09-21",
+    "prize": "100,000元",
+    "tracks": [
+      "AI大模型赛"
+    ],
+    "url": "https://tianchi.aliyun.com/competition/entrance/532506",
+    "source": "tianchi",
+    "source_url": "https://tianchi.aliyun.com/competition/gameList/activeList",
+    "notes": "天池 · AI大模型赛 · 254 支队伍"
+  },
+  {
+    "title": "2026-具身安全应用挑战赛",
+    "organizer": null,
+    "mode": null,
+    "city": null,
+    "start_date": "2026-07-30",
+    "end_date": "2026-11-15",
+    "deadline": "2026-09-21",
+    "prize": "100,000元",
+    "tracks": [
+      "AI大模型赛"
+    ],
+    "url": "https://tianchi.aliyun.com/competition/entrance/532507",
+    "source": "tianchi",
+    "source_url": "https://tianchi.aliyun.com/competition/gameList/activeList",
+    "notes": "天池 · AI大模型赛 · 204 支队伍"
+  },
+  {
+    "title": "2026-跨本体具身认知极限联合挑战赛",
+    "organizer": null,
+    "mode": null,
+    "city": null,
+    "start_date": "2026-07-30",
+    "end_date": "2026-11-20",
+    "deadline": "2026-10-21",
+    "prize": "100,000元",
+    "tracks": [
+      "机器人"
+    ],
+    "url": "https://tianchi.aliyun.com/competition/entrance/532508",
+    "source": "tianchi",
+    "source_url": "https://tianchi.aliyun.com/competition/gameList/activeList",
+    "notes": "天池 · AI大模型赛 · 239 支队伍"
+  },
+  {
+    "title": "蚂蚁灵波具身大模型挑战赛",
+    "organizer": null,
+    "mode": null,
+    "city": null,
+    "start_date": "2026-09-11",
+    "end_date": "2026-11-16",
+    "deadline": "2026-10-26",
+    "prize": "280,000元",
+    "tracks": [
+      "机器人",
+      "计算机视觉‌"
+    ],
+    "url": "https://tianchi.aliyun.com/competition/entrance/532514",
+    "source": "tianchi",
+    "source_url": "https://tianchi.aliyun.com/competition/gameList/activeList",
+    "notes": "天池 · AI大模型赛 · 1854 支队伍"
+  },
+  {
+    "title": "2026 Qoder 高校创造力大赛",
+    "organizer": null,
+    "mode": null,
+    "city": null,
+    "start_date": "2026-10-29",
+    "end_date": "2026-12-15",
+    "deadline": "2026-11-30",
+    "prize": "88,500元",
+    "tracks": [
+      "信息技术",
+      "教育"
+    ],
+    "url": "https://tianchi.aliyun.com/competition/entrance/532536",
+    "source": "tianchi",
+    "source_url": "https://tianchi.aliyun.com/competition/gameList/activeList",
+    "notes": "天池 · AI大模型赛 · 3247 支队伍"
+  },
+  {
+    "title": "2026-具身极限挑战赛",
+    "organizer": null,
+    "mode": null,
+    "city": null,
+    "start_date": "2026-08-06",
+    "end_date": "2026-11-30",
+    "deadline": null,
+    "prize": "300,000元",
+    "tracks": [
+      "机器人"
+    ],
+    "url": "https://tianchi.aliyun.com/competition/entrance/41",
+    "source": "tianchi",
+    "source_url": "https://tianchi.aliyun.com/competition/gameList/activeList",
+    "notes": "天池 · AI大模型赛 · 697 支队伍"
+  },
+  {
+    "title": "【天池经典打榜赛】赛道六-评论观点挖掘赛",
+    "organizer": null,
+    "mode": null,
+    "city": null,
+    "start_date": "2025-08-26",
+    "end_date": "2026-11-30",
+    "deadline": "2026-11-30",
+    "prize": null,
+    "tracks": [
+      "电商",
+      "阿里云竞赛"
+    ],
+    "url": "https://tianchi.aliyun.com/competition/entrance/532421",
+    "source": "tianchi",
+    "source_url": "https://tianchi.aliyun.com/competition/gameList/activeList",
+    "notes": "天池 · 日常学习赛 · 1068 支队伍"
+  },
+  {
+    "title": "征集赛15-智析云荐——基于百炼的智能新闻推荐系统挑战赛",
+    "organizer": null,
+    "mode": null,
+    "city": null,
+    "start_date": "2026-10-21",
+    "end_date": "2026-12-01",
+    "deadline": "2026-12-01",
+    "prize": null,
+    "tracks": [
+      "信息技术",
+      "大语言模型",
+      "自然语言处理",
+      "智能体"
+    ],
+    "url": "https://tianchi.aliyun.com/competition/entrance/532532",
+    "source": "tianchi",
+    "source_url": "https://tianchi.aliyun.com/competition/gameList/activeList",
+    "notes": "天池 · AI大模型赛 · 24 支队伍"
+  },
+  {
+    "title": "余震预测技术国际大赛",
+    "organizer": null,
+    "mode": null,
+    "city": null,
+    "start_date": "2026-01-28",
+    "end_date": "2026-12-20",
+    "deadline": null,
+    "prize": "30,000元",
+    "tracks": [
+      "地质科学",
+      "地震学",
+      "地球物理学"
+    ],
+    "url": "https://tianchi.aliyun.com/competition/entrance/532460",
+    "source": "tianchi",
+    "source_url": "https://tianchi.aliyun.com/competition/gameList/activeList",
+    "notes": "天池 · 数据算法赛 · 894 支队伍"
+  },
+  {
+    "title": "知乎知学堂大模型挑战赛：大模型复杂表格识别与内容理解",
+    "organizer": null,
+    "mode": null,
+    "city": null,
+    "start_date": "2026-08-07",
+    "end_date": "2026-12-31",
+    "deadline": "2026-12-31",
+    "prize": "20,000元",
+    "tracks": [
+      "自然语言处理",
+      "大语言模型"
+    ],
+    "url": "https://tianchi.aliyun.com/competition/entrance/532510",
+    "source": "tianchi",
+    "source_url": "https://tianchi.aliyun.com/competition/gameList/activeList",
+    "notes": "天池 · AI大模型赛 · 2450 支队伍"
+  },
+  {
+    "title": "2026CCKS系列赛",
+    "organizer": null,
+    "mode": null,
+    "city": null,
+    "start_date": "2026-05-01",
+    "end_date": "2026-12-31",
+    "deadline": null,
+    "prize": null,
+    "tracks": [
+      "自然语言处理",
+      "大语言模型",
+      "学术顶会论文发表"
+    ],
+    "url": "https://tianchi.aliyun.com/competition/entrance/35",
+    "source": "tianchi",
+    "source_url": "https://tianchi.aliyun.com/competition/gameList/activeList",
+    "notes": "天池 · AI大模型赛 · 1445 支队伍"
+  },
+  {
+    "title": "2026CCL系列赛",
+    "organizer": null,
+    "mode": null,
+    "city": null,
+    "start_date": "2026-05-15",
+    "end_date": "2026-12-31",
+    "deadline": null,
+    "prize": "40,000元",
+    "tracks": [
+      "学术顶会论文发表"
+    ],
+    "url": "https://tianchi.aliyun.com/competition/entrance/36",
+    "source": "tianchi",
+    "source_url": "https://tianchi.aliyun.com/competition/gameList/activeList",
+    "notes": "天池 · AI大模型赛 · 1938 支队伍"
+  },
+  {
+    "title": "OpenLET 具身智能挑战赛",
+    "organizer": "开放原子开源基金会丨OpenLET 具身智能开源数据集社区",
+    "mode": null,
+    "city": null,
+    "start_date": "2026-09-23",
+    "end_date": "2026-12-31",
+    "deadline": "2026-12-31",
+    "prize": "500,000元",
+    "tracks": [
+      "机器人",
+      "工业制造",
+      "第三方竞赛"
+    ],
+    "url": "https://tianchi.aliyun.com/competition/entrance/532515",
+    "source": "tianchi",
+    "source_url": "https://tianchi.aliyun.com/competition/gameList/activeList",
+    "notes": "天池 · 工程开发赛 · 216 支队伍"
+  },
+  {
+    "title": "资金流入流出预测-挑战Baseline",
+    "organizer": null,
+    "mode": null,
+    "city": null,
+    "start_date": "2016-05-10",
+    "end_date": "2027-05-06",
+    "deadline": "2027-05-06",
+    "prize": null,
+    "tracks": [
+      "‌金融"
+    ],
+    "url": "https://tianchi.aliyun.com/competition/entrance/231573",
+    "source": "tianchi",
+    "source_url": "https://tianchi.aliyun.com/competition/gameList/activeList",
+    "notes": "天池 · 日常学习赛 · 16097 支队伍"
+  },
+  {
+    "title": "【打榜赛】CCL25-Eval 任务2：第三届汉语框架语义解析评测",
+    "organizer": null,
+    "mode": null,
+    "city": null,
+    "start_date": "2025-03-20",
+    "end_date": "2027-05-25",
+    "deadline": "2027-05-24",
+    "prize": "5,000元",
+    "tracks": [
+      "自然语言处理"
+    ],
+    "url": "https://tianchi.aliyun.com/competition/entrance/532338",
+    "source": "tianchi",
+    "source_url": "https://tianchi.aliyun.com/competition/gameList/activeList",
+    "notes": "天池 · AI大模型赛 · 693 支队伍"
+  },
+  {
+    "title": "CCL25-Eval 打榜赛系列赛",
+    "organizer": null,
+    "mode": null,
+    "city": null,
+    "start_date": "2025-06-20",
+    "end_date": "2027-05-25",
+    "deadline": null,
+    "prize": "11,000元",
+    "tracks": [
+      "AI大模型赛"
+    ],
+    "url": "https://tianchi.aliyun.com/competition/entrance/19",
+    "source": "tianchi",
+    "source_url": "https://tianchi.aliyun.com/competition/gameList/activeList",
+    "notes": "天池 · AI大模型赛 · 3087 支队伍"
+  },
+  {
+    "title": "Q力星期四",
+    "organizer": null,
+    "mode": null,
+    "city": null,
+    "start_date": "2026-07-16",
+    "end_date": "2027-07-31",
+    "deadline": null,
+    "prize": null,
+    "tracks": [
+      "AI大模型赛"
+    ],
+    "url": "https://tianchi.aliyun.com/competition/entrance/39",
+    "source": "tianchi",
+    "source_url": "https://tianchi.aliyun.com/competition/gameList/activeList",
+    "notes": "天池 · AI大模型赛 · 471 支队伍"
+  },
+  {
+    "title": "高分辨率遥感影像变电站识别挑战赛",
+    "organizer": "长光卫星技术股份有限公司",
+    "mode": null,
+    "city": null,
+    "start_date": "2026-06-09",
+    "end_date": "2026-10-24",
+    "deadline": "2026-08-10",
+    "prize": "1万元",
+    "tracks": [
+      "计算机视觉",
+      "算法赛"
+    ],
+    "url": "https://challenge.xfyun.cn/topic/info?type=HSI-SubID",
+    "source": "xfyun",
+    "source_url": "https://challenge.xfyun.cn/competition",
+    "notes": "讯飞AI开发者大赛 · 算法赛 · 参赛团队 1465"
+  },
+  {
+    "title": "智慧生活助理Skill开发挑战赛",
+    "organizer": "科大讯飞股份有限公司",
+    "mode": null,
+    "city": null,
+    "start_date": "2026-06-23",
+    "end_date": "2026-10-24",
+    "deadline": "2026-08-27",
+    "prize": "1.23万元",
+    "tracks": [
+      "Skill技能开发",
+      "算法赛"
+    ],
+    "url": "https://challenge.xfyun.cn/topic/info?type=SLA-Skill",
+    "source": "xfyun",
+    "source_url": "https://challenge.xfyun.cn/competition",
+    "notes": "讯飞AI开发者大赛 · 算法赛 · 参赛团队 8312"
+  },
+  {
+    "title": "人才匹配与发展智能辅助Skill开发挑战赛",
+    "organizer": "科大讯飞股份有限公司",
+    "mode": null,
+    "city": null,
+    "start_date": "2026-06-09",
+    "end_date": "2026-10-24",
+    "deadline": "2026-08-27",
+    "prize": "1.23万元",
+    "tracks": [
+      "Skill技能开发",
+      "算法赛"
+    ],
+    "url": "https://challenge.xfyun.cn/topic/info?type=TM-DIA-Skill",
+    "source": "xfyun",
+    "source_url": "https://challenge.xfyun.cn/competition",
+    "notes": "讯飞AI开发者大赛 · 算法赛 · 参赛团队 1914"
+  },
+  {
+    "title": "智能办公协同助理Skill开发挑战赛",
+    "organizer": "科大讯飞股份有限公司",
+    "mode": null,
+    "city": null,
+    "start_date": "2026-06-09",
+    "end_date": "2026-10-24",
+    "deadline": "2026-08-27",
+    "prize": "1.23万元",
+    "tracks": [
+      "Skill技能开发",
+      "算法赛"
+    ],
+    "url": "https://challenge.xfyun.cn/topic/info?type=OCAS-skill",
+    "source": "xfyun",
+    "source_url": "https://challenge.xfyun.cn/competition",
+    "notes": "讯飞AI开发者大赛 · 算法赛 · 参赛团队 1851"
+  },
+  {
+    "title": "编程竞赛测试用例生成挑战赛 赛季2",
+    "organizer": "中国科学技术大学认知智能全国重点实验室",
+    "mode": null,
+    "city": null,
+    "start_date": "2026-06-09",
+    "end_date": "2026-10-24",
+    "deadline": "2026-08-27",
+    "prize": "1万元",
+    "tracks": [
+      "大模型技术",
+      "算法赛"
+    ],
+    "url": "https://challenge.xfyun.cn/topic/info?type=CP-TCG",
+    "source": "xfyun",
+    "source_url": "https://challenge.xfyun.cn/competition",
+    "notes": "讯飞AI开发者大赛 · 算法赛 · 参赛团队 627"
+  },
+  {
+    "title": "声纹迷雾复杂场景说话人确认挑战赛",
+    "organizer": "声网",
+    "mode": null,
+    "city": null,
+    "start_date": "2026-08-19",
+    "end_date": "2026-10-24",
+    "deadline": "2026-09-17",
+    "prize": "1万元",
+    "tracks": [
+      "语音技术",
+      "算法赛"
+    ],
+    "url": "https://challenge.xfyun.cn/topic/info?type=SourceSTC",
+    "source": "xfyun",
+    "source_url": "https://challenge.xfyun.cn/competition",
+    "notes": "讯飞AI开发者大赛 · 算法赛 · 参赛团队 346"
+  },
+  {
+    "title": "恶劣场景下的车道线检测挑战赛",
+    "organizer": "中国矿业大学",
+    "mode": null,
+    "city": null,
+    "start_date": "2026-08-19",
+    "end_date": "2026-10-24",
+    "deadline": "2026-09-18",
+    "prize": "1万元",
+    "tracks": [
+      "计算机视觉",
+      "算法赛"
+    ],
+    "url": "https://challenge.xfyun.cn/topic/info?type=lane-detection-challenge",
+    "source": "xfyun",
+    "source_url": "https://challenge.xfyun.cn/competition",
+    "notes": "讯飞AI开发者大赛 · 算法赛 · 参赛团队 158"
+  },
+  {
+    "title": "基于星评测Agent的养虾Skills横评挑战赛",
+    "organizer": "科大讯飞股份有限公司",
+    "mode": null,
+    "city": null,
+    "start_date": "2026-08-14",
+    "end_date": "2026-10-24",
+    "deadline": "2026-09-21",
+    "prize": "1万元",
+    "tracks": [
+      "大模型技术",
+      "算法赛"
+    ],
+    "url": "https://challenge.xfyun.cn/topic/info?type=ShrimpAIBench",
+    "source": "xfyun",
+    "source_url": "https://challenge.xfyun.cn/competition",
+    "notes": "讯飞AI开发者大赛 · 算法赛 · 参赛团队 397"
+  },
+  {
+    "title": "语音质量修复挑战赛 赛季2",
+    "organizer": "声网",
+    "mode": null,
+    "city": null,
+    "start_date": "2026-08-14",
+    "end_date": "2026-10-24",
+    "deadline": "2026-09-24",
+    "prize": "1万元",
+    "tracks": [
+      "语音技术",
+      "算法赛"
+    ],
+    "url": "https://challenge.xfyun.cn/topic/info?type=VoiceFixer",
+    "source": "xfyun",
+    "source_url": "https://challenge.xfyun.cn/competition",
+    "notes": "讯飞AI开发者大赛 · 算法赛 · 参赛团队 703"
+  },
+  {
+    "title": "果粒着色阶段智能分级挑战赛",
+    "organizer": "中国农业大学",
+    "mode": null,
+    "city": null,
+    "start_date": "2026-09-04",
+    "end_date": "2026-10-24",
+    "deadline": "2026-09-28",
+    "prize": "1万元",
+    "tracks": [
+      "计算机视觉",
+      "算法赛"
+    ],
+    "url": "https://challenge.xfyun.cn/topic/info?type=BerryColorGrade",
+    "source": "xfyun",
+    "source_url": "https://challenge.xfyun.cn/competition",
+    "notes": "讯飞AI开发者大赛 · 算法赛 · 参赛团队 617"
+  },
+  {
+    "title": "阳光玫瑰葡萄花穗完整性判断与分割挑战赛",
+    "organizer": "中国农业大学",
+    "mode": null,
+    "city": null,
+    "start_date": "2026-09-03",
+    "end_date": "2026-10-24",
+    "deadline": "2026-09-28",
+    "prize": "1万元",
+    "tracks": [
+      "计算机视觉",
+      "算法赛"
+    ],
+    "url": "https://challenge.xfyun.cn/topic/info?type=GrapeFlowerSeg",
+    "source": "xfyun",
+    "source_url": "https://challenge.xfyun.cn/competition",
+    "notes": "讯飞AI开发者大赛 · 算法赛 · 参赛团队 412"
+  },
+  {
+    "title": "玉米出苗期杂草目标检测挑战赛",
+    "organizer": "中国农业大学",
+    "mode": null,
+    "city": null,
+    "start_date": "2026-09-04",
+    "end_date": "2026-10-24",
+    "deadline": "2026-09-28",
+    "prize": "1万元",
+    "tracks": [
+      "计算机视觉",
+      "算法赛"
+    ],
+    "url": "https://challenge.xfyun.cn/topic/info?type=CornWeedDet",
+    "source": "xfyun",
+    "source_url": "https://challenge.xfyun.cn/competition",
+    "notes": "讯飞AI开发者大赛 · 算法赛 · 参赛团队 381"
+  },
+  {
+    "title": "基于智能眼镜的第一视角阳光玫瑰劳作动作识别挑战赛",
+    "organizer": "中国农业大学",
+    "mode": null,
+    "city": null,
+    "start_date": "2026-09-03",
+    "end_date": "2026-10-24",
+    "deadline": "2026-09-28",
+    "prize": "1万元",
+    "tracks": [
+      "计算机视觉",
+      "算法赛"
+    ],
+    "url": "https://challenge.xfyun.cn/topic/info?type=FPVSMAC",
+    "source": "xfyun",
+    "source_url": "https://challenge.xfyun.cn/competition",
+    "notes": "讯飞AI开发者大赛 · 算法赛 · 参赛团队 309"
+  },
+  {
+    "title": "基于无人机的玉米苗检测挑战赛",
+    "organizer": "中国农业大学",
+    "mode": null,
+    "city": null,
+    "start_date": "2026-09-04",
+    "end_date": "2026-10-24",
+    "deadline": "2026-09-28",
+    "prize": "1万元",
+    "tracks": [
+      "计算机视觉",
+      "算法赛"
+    ],
+    "url": "https://challenge.xfyun.cn/topic/info?type=UAVCornDet",
+    "source": "xfyun",
+    "source_url": "https://challenge.xfyun.cn/competition",
+    "notes": "讯飞AI开发者大赛 · 算法赛 · 参赛团队 326"
+  },
+  {
+    "title": "Spark-X2.5端侧模型创新挑战赛",
+    "organizer": "词元星火科技有限公司",
+    "mode": null,
+    "city": null,
+    "start_date": "2026-09-11",
+    "end_date": "2026-11-10",
+    "deadline": "2026-11-10",
+    "prize": "10万元",
+    "tracks": [
+      "办公",
+      "应用赛"
+    ],
+    "url": "https://challenge.xfyun.cn/topic/info?type=Spark-X25",
+    "source": "xfyun",
+    "source_url": "https://challenge.xfyun.cn/competition",
+    "notes": "讯飞AI开发者大赛 · 应用赛 · 参赛团队 301"
+  },
+  {
+    "title": "自动音频标记练手赛",
+    "organizer": "合肥工业大学",
+    "mode": null,
+    "city": null,
+    "start_date": "2026-09-04",
+    "end_date": "2027-01-01",
+    "deadline": "2027-01-01",
+    "prize": null,
+    "tracks": [
+      "语音技术",
+      "练习赛"
+    ],
+    "url": "https://challenge.xfyun.cn/topic/info?type=train-auto-audio-tagging",
+    "source": "xfyun",
+    "source_url": "https://challenge.xfyun.cn/competition",
+    "notes": "讯飞AI开发者大赛 · 练习赛 · 参赛团队 4"
+  },
+  {
+    "title": "文档公式解析与智能问答练手赛",
+    "organizer": "科大讯飞xDatawhale",
+    "mode": null,
+    "city": null,
+    "start_date": "2026-09-21",
+    "end_date": "2027-01-31",
+    "deadline": "2027-01-31",
+    "prize": null,
+    "tracks": [
+      "多模态技术",
+      "练习赛"
+    ],
+    "url": "https://challenge.xfyun.cn/topic/info?type=train-Parse-QA",
+    "source": "xfyun",
+    "source_url": "https://challenge.xfyun.cn/competition",
+    "notes": "讯飞AI开发者大赛 · 练习赛 · 参赛团队 8"
+  },
+  {
+    "title": "用户新增预测练手赛",
+    "organizer": "科大讯飞股份有限公司",
+    "mode": null,
+    "city": null,
+    "start_date": "2026-06-09",
+    "end_date": "2027-01-31",
+    "deadline": "2027-01-31",
+    "prize": null,
+    "tracks": [
+      "数据挖掘",
+      "练习赛"
+    ],
+    "url": "https://challenge.xfyun.cn/topic/info?type=Train-subscriber-addition2025",
+    "source": "xfyun",
+    "source_url": "https://challenge.xfyun.cn/competition",
+    "notes": "讯飞AI开发者大赛 · 练习赛 · 参赛团队 154"
+  },
+  {
+    "title": "脑PET图像分析和疾病预测练手赛",
+    "organizer": "安徽大学",
+    "mode": null,
+    "city": null,
+    "start_date": "2026-06-09",
+    "end_date": "2027-01-31",
+    "deadline": "2027-01-31",
+    "prize": null,
+    "tracks": [
+      "计算机视觉",
+      "练习赛"
+    ],
+    "url": "https://challenge.xfyun.cn/topic/info?type=Train-pet",
+    "source": "xfyun",
+    "source_url": "https://challenge.xfyun.cn/competition",
+    "notes": "讯飞AI开发者大赛 · 练习赛 · 参赛团队 69"
+  },
+  {
+    "title": "基于论文摘要的文本分类与关键词抽取练手赛",
+    "organizer": "沈阳药科大学",
+    "mode": null,
+    "city": null,
+    "start_date": "2026-06-09",
+    "end_date": "2027-01-31",
+    "deadline": "2027-01-31",
+    "prize": null,
+    "tracks": [
+      "自然语言处理",
+      "练习赛"
+    ],
+    "url": "https://challenge.xfyun.cn/topic/info?type=Train-abstract-of-the-paper",
+    "source": "xfyun",
+    "source_url": "https://challenge.xfyun.cn/competition",
+    "notes": "讯飞AI开发者大赛 · 练习赛 · 参赛团队 55"
+  }
+]

@@ -1,0 +1,323 @@
+# AI 赛事雷达 · 人工核验种子数据（curator, 2026-11-06）
+# 目标窗口：2026-10 ~ 2026-12，及 2027 年初已开放报名的赛事
+# 核验方式：每条 url 均经 web_fetch 实测 HTTP 200；source_url 为验证时打开的页面
+# 说明：部分平台页正文需 JS 渲染，仅能验证官方入口可打开，赛事事实以 source_url 页面文案为准（见 evidence）
+
+- title: 天猫 AI 黑客松·高校挑战赛
+  organizer: 天猫
+  mode: online
+  city: null
+  start_date: null
+  end_date: null
+  deadline: 2026-11-07
+  prize: ¥20万元
+  tracks: [黑客松, 高校 AI 应用]
+  url: https://modelscope.cn/events/383/%E5%86%B3%E8%B5%9B%E8%B7%AF%E6%BC%94%E6%8A%A5%E5%90%8D
+  source: curated
+  source_url: https://modelscope.cn/events
+  evidence: 魔搭活动列表显示该赛事状态「进行中」、类型「黑客松」、奖励「¥20万元」、报名截止 2026-11-07 15:59
+  verified_at: 2026-11-06
+
+- title: 支付宝｜智能体涌现奖比赛
+  organizer: 支付宝
+  mode: online
+  city: null
+  start_date: null
+  end_date: null
+  deadline: 2026-11-10
+  prize: 1000万智能体发展奖金总奖池
+  tracks: [应用开发赛, 智能体]
+  url: https://modelscope.cn/events/375/%E6%AF%94%E8%B5%9B%E4%BB%8B%E7%BB%8D
+  source: curated
+  source_url: https://modelscope.cn/events
+  evidence: 魔搭活动列表显示该赛事状态「进行中」、类型「应用开发赛」、奖励「1000万智能体发展奖金总奖池」、报名截止 2026-11-10 15:59
+  verified_at: 2026-11-06
+
+- title: 首届AI × 音乐视觉黑客松
+  organizer: WaytoAGI × ACE-CON
+  mode: hybrid
+  city: 北京
+  start_date: 2026-11-02
+  end_date: 2026-11-21
+  deadline: 2026-11-15
+  prize: 赛事奖金+官方证书+华为电脑/AirPods 等实物奖品+剪映 Hub 积分与流量曝光
+  tracks: [共振场（乐队 Live 创作）, 回声场（自由视觉创作）, AI 音乐视觉]
+  url: https://resonance.waytoagi.com/
+  source: curated
+  source_url: https://events.waytoagi.com/events/%E9%A6%96%E5%B1%8Aai-%E9%9F%B3%E4%B9%90%E8%A7%86%E8%A7%89%E9%BB%91%E5%AE%A2%E6%9D%BE-e_6c03ce7c53
+  evidence: 官方赛事页标题「首届AI × 音乐视觉黑客松」，活动时间 2026-11-02 至 11-21，报名截止 2026-11-15 23:59
+  verified_at: 2026-11-06
+
+- title: 第八届海南岛国际电影节·AI电影展影片征集
+  organizer: 海南岛国际电影节组委会
+  mode: offline
+  city: 三亚
+  start_date: 2026-10-21
+  end_date: null
+  deadline: 2026-11-15
+  prize: 10万元现金激励（每项年度之选 1 万元税前）+官方证书+电影节展映
+  tracks: [AI电影级长片, AI精品剧集, AI电影级短片, AI实验影像]
+  url: https://www.liblib.tv/hiiff-aifilmseason
+  source: curated
+  source_url: https://www.liblib.tv/hiiff-aifilmseason
+  evidence: 官方征片平台标题「第八届海南岛国际电影节·AI电影展」，征片 2026-10-21 起、截止 2026-11-15，设四大征集单元
+  verified_at: 2026-11-06
+
+- title: 群核科技Ahoolo 全球3D AI黑客松
+  organizer: 群核科技
+  mode: online
+  city: null
+  start_date: null
+  end_date: null
+  deadline: 2026-11-19
+  prize: ¥32万元奖金池
+  tracks: [黑客松, 3D AI, 3D 生成模型 Aholo Lux3D]
+  url: https://modelscope.cn/events/386/%E6%AF%94%E8%B5%9B%E4%BB%8B%E7%BB%8D
+  source: curated
+  source_url: https://modelscope.cn/events
+  evidence: 魔搭活动列表显示该赛事状态「进行中」、类型「黑客松」、奖励「¥32万元奖金池」、报名截止 2026-11-19 15:59
+  verified_at: 2026-11-06
+
+- title: 全新升级！第二届具亮计划·全球具身智能黑客松
+  organizer: 具亮计划
+  mode: online
+  city: null
+  start_date: null
+  end_date: null
+  deadline: 2026-11-19
+  prize: 100万奖金池+礼品
+  tracks: [具身智能, LLM 算法竞赛]
+  url: https://modelscope.cn/events/393/%E6%AF%94%E8%B5%9B%E4%BB%8B%E7%BB%8D
+  source: curated
+  source_url: https://modelscope.cn/events
+  evidence: 魔搭活动列表显示该赛事状态「进行中」、类型「LLM算法竞赛」、奖励「100万奖金池+礼品」、报名截止 2026-11-19 16:00
+  verified_at: 2026-11-06
+
+- title: 华硕 A+ 青年 Creator Lab
+  organizer: 华硕 A+ 青年
+  mode: offline
+  city: null
+  start_date: 2026-11-21
+  end_date: 2026-11-22
+  deadline: null
+  prize: null
+  tracks: [48 小时黑客松, AI 创作, 跨学科共创]
+  url: https://events.waytoagi.com/events/%E5%8D%8E%E7%A1%95-a-%E9%9D%92%E5%B9%B4-creator-lab-e_c2f243437e
+  source: curated
+  source_url: https://events.waytoagi.com/events/%E5%8D%8E%E7%A1%95-a-%E9%9D%92%E5%B9%B4-creator-lab-e_c2f243437e
+  evidence: WaytoAGI Events 活动页显示「华硕 A+ 青年 Creator Lab」为 2026-11-21 至 11-22 的 48 小时 AI 创作黑客松，不设专业门槛
+  verified_at: 2026-11-06
+
+- title: 48H和真实世界碰一碰｜首届地瓜机器人黑客松
+  organizer: 地瓜机器人
+  mode: online
+  city: null
+  start_date: null
+  end_date: null
+  deadline: 2026-11-30
+  prize: 30W现金奖池
+  tracks: [黑客松, 具身智能, 机器人]
+  url: https://modelscope.cn/events/416/%E6%AF%94%E8%B5%9B%E7%AE%80%E4%BB%8B
+  source: curated
+  source_url: https://modelscope.cn/events
+  evidence: 魔搭活动列表显示该赛事状态「进行中」、类型「黑客松」、奖励「30W现金奖池」、报名截止 2026-11-30 15:59
+  verified_at: 2026-11-06
+
+- title: 支付宝AI付年度黑客松
+  organizer: 支付宝
+  mode: online
+  city: null
+  start_date: null
+  end_date: null
+  deadline: 2026-12-01
+  prize: 总奖池¥200,000
+  tracks: [黑客松, AI 商业闭环]
+  url: https://modelscope.cn/events/380/%E6%AF%94%E8%B5%9B%E4%BB%8B%E7%BB%8D
+  source: curated
+  source_url: https://modelscope.cn/events
+  evidence: 魔搭活动列表显示该赛事状态「进行中」、类型「黑客松」、奖励「总奖池¥200,000」、报名截止 2026-12-01 15:59
+  verified_at: 2026-11-06
+
+- title: AI造游戏，人人都是游戏制作人｜AI+∞开发者创作大赛第三期
+  organizer: 魔搭社区（ModelScope）
+  mode: online
+  city: null
+  start_date: null
+  end_date: null
+  deadline: 2026-12-01
+  prize: 万元奖金+硬件大奖
+  tracks: [应用开发赛, AI 游戏创作, 魔搭创空间]
+  url: https://modelscope.cn/events/394/%E6%AF%94%E8%B5%9B%E4%BB%8B%E7%BB%8D
+  source: curated
+  source_url: https://modelscope.cn/events
+  evidence: 魔搭活动列表显示第三期主题「AI 造游戏」、类型「应用开发赛」、奖励「万元奖金+硬件大奖」、报名截止 2026-12-01 10:00
+  verified_at: 2026-11-06
+
+- title: 2026华为云具身智能大赛
+  organizer: 华为
+  mode: hybrid
+  city: null
+  start_date: null
+  end_date: null
+  deadline: null
+  prize: ¥88,000 奖金池
+  tracks: [具身智能, 线上仿真赛段, 线下真机赛段]
+  url: https://developer.huaweicloud.com/competition/information/1300000267
+  source: curated
+  source_url: https://airadar.laifuyou.com/zh/o/recvoLLzVwRz5u/2026-8-8
+  evidence: AI 活动雷达详情页标注「线上仿真+线下真机双赛段」、奖金池 ¥88,000、状态进行中（截止时间标注为约值，以官网为准）
+  verified_at: 2026-11-06
+
+- title: AFAC2026金融智能创新大赛
+  organizer: 蚂蚁集团
+  mode: online
+  city: null
+  start_date: null
+  end_date: null
+  deadline: null
+  prize: 挑战组单赛道最高¥5万；初创组冠军¥10万+亚军¥5万+季军¥3万；总奖金池百万级
+  tracks: [金融智能, 挑战组（算法）, 初创组（产品/商业）]
+  url: https://tianchi.aliyun.com/competition/entrance/532489
+  source: curated
+  source_url: https://airadar.laifuyou.com/zh/o/recvosBbqd6dk9/afac2026
+  evidence: 天池赛事页入口 532489 可打开（200）；聚合页标注主办蚂蚁集团、百万奖金池、8 天截止（约 2026-11-14，截止时间待官方确认）
+  verified_at: 2026-11-06
+
+- title: 2026阿里云Data+AI工程师全球挑战赛
+  organizer: 阿里云+天池
+  mode: online
+  city: null
+  start_date: null
+  end_date: null
+  deadline: null
+  prize: null
+  tracks: [Data+AI, 算法竞赛]
+  url: https://tianchi.aliyun.com/specials/promotion/ai2026
+  source: curated
+  source_url: https://tianchi.aliyun.com/specials/promotion/ai2026
+  evidence: 天池官方专题页标题「阿里云Data+AI工程师全球挑战赛」（200）；聚合页标注进行中、28 天截止（约 2026-12-04），具体奖金未公开
+  verified_at: 2026-11-06
+
+- title: 复杂工业场景异常检测算法挑战赛
+  organizer: 天池（阿里云）+CSIG
+  mode: online
+  city: null
+  start_date: null
+  end_date: null
+  deadline: null
+  prize: 总奖金¥40,000（一等奖1名¥14,000、二等奖2名各¥8,000、三等奖3名各¥3,000）
+  tracks: [异常检测, 工业算法]
+  url: https://tianchi.aliyun.com/competition/entrance/532482
+  source: curated
+  source_url: https://airadar.laifuyou.com/zh/o/recvosBeNY3Igw/40k-695
+  evidence: 天池赛事入口 532482 可打开（200）；聚合页标注奖金 ¥40,000、已有 695 支队伍、80 天截止（约 2027-01-25）
+  verified_at: 2026-11-06
+
+- title: 第四届开放原子大赛
+  organizer: 开放原子开源基金会
+  mode: hybrid
+  city: null
+  start_date: null
+  end_date: 2026-12-31
+  deadline: null
+  prize: null
+  tracks: [开源操作系统, 开源数据库, 开源行业解决方案, 开源智能硬件]
+  url: https://competition.openatom.tech/
+  source: curated
+  source_url: https://competition.openatom.tech/
+  evidence: 官网首页时间安排：赛事实施 2026年8月—2026年11月，颁奖闭幕 2026年12月
+  verified_at: 2026-11-06
+
+- title: 2026 iFLYTEK AI开发者大赛
+  organizer: 科大讯飞、中国信息协会
+  mode: online
+  city: null
+  start_date: null
+  end_date: null
+  deadline: null
+  prize: null
+  tracks: [AI算法赛, AI应用赛, 星火杯]
+  url: https://challenge.xfyun.cn/competition
+  source: curated
+  source_url: https://challenge.xfyun.cn/competition
+  evidence: 官网标题「2026 iFLYTEK AI开发者大赛」，页面显示「赛题上新中，请保持关注」
+  verified_at: 2026-11-06
+
+- title: 天工计划·鸿蒙智能体开发者激励
+  organizer: 华为
+  mode: online
+  city: null
+  start_date: null
+  end_date: null
+  deadline: null
+  prize: 开发者激励金
+  tracks: [鸿蒙智能体, 开发者激励]
+  url: https://developer.huawei.com/consumer/cn/activity/incentive/ai
+  source: curated
+  source_url: https://developer.huawei.com/consumer/cn/activity/incentive/ai
+  evidence: 华为开发者联盟官方活动页标题「天工计划·鸿蒙智能体开发者激励」（200），页面标注进行中
+  verified_at: 2026-11-06
+
+- title: 火山杯 Agent 创新大赛
+  organizer: 火山引擎
+  mode: online
+  city: null
+  start_date: null
+  end_date: null
+  deadline: null
+  prize: null
+  tracks: [AI Agent, 应用创新]
+  url: https://www.volcengine.com/activity/agent/competition/2026
+  source: curated
+  source_url: https://www.volcengine.com/activity/agent/competition/2026
+  evidence: 火山引擎官方活动页可打开（200），标题为「火山杯Agent创新大赛」，正文需 JS 渲染
+  verified_at: 2026-11-06
+
+- title: SMP 2026 大模型图网络决策挑战赛
+  organizer: 中国中文信息学会社会媒体处理专委会（中国传媒大学、北京邮电大学承办）
+  mode: online
+  city: null
+  start_date: 2026-08-28
+  end_date: 2026-11-15
+  deadline: 2026-09-30
+  prize: 总奖金¥55,000（一等奖1名¥20,000、二等奖2名各¥10,000、三等奖3名各¥5,000）
+  tracks: [大模型+多智能体, 图网络决策, casevo 框架]
+  url: http://smp2026.cips-smp.org/ji-shu-ping-ce
+  source: curated
+  source_url: http://smp2026.cips-smp.org/ji-shu-ping-ce
+  evidence: 官方技术评测页：报名 2026-08-28 至 09-30，复赛 10-09 至 10-23，颁奖 11-14/15（报名已截止，赛程延续至 11 月）
+  verified_at: 2026-11-06
+
+- title: Spatial Joy 2026 Rokid 全球开发大赛
+  organizer: Rokid 乐奇（灵伴科技）
+  mode: hybrid
+  city: null
+  start_date: 2026-10-27
+  end_date: null
+  deadline: 2027-01-28
+  prize: 主奖项金奖 ¥100,000×3 / 银奖 ¥80,000×6 / 铜奖 ¥50,000×9；AR 游戏赛道金奖 ¥200,000；行业命题赛道金奖 ¥200,000×3；另有专项奖与 Token 支持（税前）
+  tracks: [AIUI 智能体, AR 游戏, 行业命题]
+  url: https://spatialjoy.rokid.com/2026
+  source: curated
+  source_url: https://spatialjoy.rokid.com/2026
+  evidence: 官方赛事页（Vite SPA，headless Chrome 渲染核验）：Rokid 第五届全球开发大赛，报名 2026-10-27 开始，报名/作品提交截止 2027-01-28，评选 2027-01-28 至 2027-02-28，3 月 2 日公布决赛入围，3 月中旬线下决赛；AI 赛道为 AIUI 智能体循环赛，另有 AR 游戏赛道与行业命题赛道（文旅/自然/科技场馆）；决赛入围团队可瓜分 20,000 美金骁龙奖等
+  verified_at: 2026-11-06
+
+- title: "回到未来的 3D 创作｜Ship it Sunday #015"
+  organizer: AI Hacker House × Hi3D
+  mode: offline
+  city: 上海
+  start_date: 2026-11-08
+  end_date: 2026-11-08
+  deadline: 2026-11-06
+  prize: "¥20,000（冠军 ¥10,000 / 亚军 ¥5,000 / 季军 ¥2,000 / 第 4–6 名各 ¥1,000）"
+  tracks: [AI 3D 创作]
+  registration_closed: true
+  url: https://luma.com/gsdrc8e4
+  source: curated
+  source_url: https://luma.com/gsdrc8e4
+  evidence: >-
+    Luma 官方活动页（2026-11-06 实测 HTTP 200，Registration Closed）：Ship it Sunday #015，
+    时间 2026-11-08 09:30–21:30（Asia/Shanghai），地点 AI Hacker House @上海漕河泾开发区公园（凭审核通过信息入场），
+    主办 AI Hacker House，联合 Hi3D；页面写明审核制、62 Going；奖金结构与活动说明（6 小时创作 + 展示）均见页面。
+  verified_at: 2026-11-06

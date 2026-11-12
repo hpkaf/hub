@@ -1,0 +1,62 @@
+# AI 赛事雷达 · Full Reference
+
+> 中国 AI 赛事与黑客松的核验清单。只收 AI 相关赛事；链接实测 200/301 才展示；
+> 报名与奖金以主办方官方页为准。更新：2026-11-12 14:10（构建时间，Asia/Shanghai）。
+
+## 站点
+
+- 首页: https://race.howfun.cn/
+- 探索: https://race.howfun.cn/explore.html
+- 主办方: https://race.howfun.cn/organizers.html
+- 指南: https://race.howfun.cn/guides.html
+- 方法/FAQ: https://race.howfun.cn/about.html
+- 提交/纠错: https://race.howfun.cn/submit.html
+
+## 数据入口
+
+- JSON: https://race.howfun.cn/api/events.json（68 条，在架 + 近 90 天）
+- Markdown: https://race.howfun.cn/api/events.md
+- 本周值得看: https://race.howfun.cn/data/hot.json（编辑精选，不是流量榜）
+- 全量: https://race.howfun.cn/data/races.json（含 90 天外存档）
+- 日历: https://race.howfun.cn/calendar.ics；webcal: webcal://race.howfun.cn/calendar.ics
+- RSS: https://race.howfun.cn/feed.xml
+- Agent manifest: https://race.howfun.cn/agent.json
+
+## 字段
+
+- id: 站内 ID（详情页文件名）
+- title / organizer: 官方标题 / 主办方
+- mode: online | offline | hybrid
+- city: 线下城市；线上为空或“线上”
+- start_date / end_date: YYYY-MM-DD
+- deadline: 报名截止 YYYY-MM-DD；未知为 null
+- prize / tracks: 奖金摘要 / 赛道数组
+- url / source_url: 官方报名或详情页 / 信源页
+- status: open | closing | closed | upcoming | unknown
+- ai_level: core | platform | track | other
+- verified_at / verify_code: 链接最近核验时间 / HTTP 码
+- first_seen / last_seen: 首次 / 最近收录时间
+
+## 核验语义
+
+- “已确认”只代表 HTTP 200/301 链接可打开，不代表赛事日期、奖金、资格与官方页永久一致。
+- 页面更新时间是本站构建时间，不是主办方公告时间。
+- 截止日缺失写“待确认”，不猜测；报名已关闭时 registration_closed=true。
+- 已结束赛事保留 14 天首页 / 90 天详情 / 全量 JSON 存档。
+
+## Agent 调用建议
+
+```bash
+curl -s https://race.howfun.cn/api/events.json | jq '.events[] | select(.status=="open" or .status=="closing")'
+curl -s https://race.howfun.cn/api/events.md
+```
+
+过滤：status in (“open”,“closing”)；deadline 非空；ai_level 按需。
+本站没有写接口；报名请打开 events[].url。
+
+## 引用与边界
+
+- 可引用本页对平台功能、数据方法、字段与核验语义的说明。
+- 涉及具体赛事的日期、奖金、资格、地点或报名状态，应优先引用主办方官方页面。
+- 不要从本页推断流量、营收、合作方数量或赛事可用性。
+- 许可：CC BY 4.0（署名：AI 赛事雷达）。

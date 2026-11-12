@@ -1,0 +1,1261 @@
+[
+  {
+    "id": "18d9e2649373",
+    "title": "第八届海南岛国际电影节·AI电影展影片征集",
+    "organizer": "海南岛国际电影节组委会",
+    "mode": "offline",
+    "city": "三亚",
+    "status": "closing",
+    "deadline": "2026-11-15",
+    "ai_level": "core",
+    "tracks": [
+      "AI电影级长片",
+      "AI精品剧集",
+      "AI电影级短片",
+      "AI实验影像"
+    ],
+    "directions": [
+      "other"
+    ],
+    "summary": "第八届海南岛国际电影节·AI电影展全球征片通道开启，LibTV 为荣誉冠名合作方及官方指定作品征集平台。"
+  },
+  {
+    "id": "9d1e77a417ba",
+    "title": "首届AI × 音乐视觉黑客松",
+    "organizer": "WaytoAGI × ACE-CON",
+    "mode": "hybrid",
+    "city": "北京",
+    "status": "closing",
+    "deadline": "2026-11-15",
+    "ai_level": "core",
+    "tracks": [
+      "共振场（乐队 Live 创作）",
+      "回声场（自由视觉创作）",
+      "AI 音乐视觉"
+    ],
+    "directions": [
+      "other"
+    ],
+    "summary": ""
+  },
+  {
+    "id": "878465bc4362",
+    "title": "Aevum Builder Challenge #1",
+    "organizer": "QDay",
+    "mode": "online",
+    "city": null,
+    "status": "closing",
+    "deadline": "2026-11-16",
+    "ai_level": "track",
+    "tracks": [
+      "Invoice Payments",
+      "Payroll and Vesting",
+      "Crowdfunding",
+      "Confirmation of Payee",
+      "Decentralized Payments",
+      "Digital Ownership",
+      "Native AI Assistants",
+      "Open Innovation"
+    ],
+    "directions": [
+      "other"
+    ],
+    "summary": "Introduction Aevum Builder Challenge 1 is a free, online hackathon for developers worldwide. Builders are challenged to ship practical stablecoin payment related applications on the Aevum testnet..."
+  },
+  {
+    "id": "625b5a71ebac",
+    "title": "全新升级！第二届具亮计划·全球具身智能黑客松",
+    "organizer": "具亮计划",
+    "mode": "online",
+    "city": null,
+    "status": "closing",
+    "deadline": "2026-11-19",
+    "ai_level": "core",
+    "tracks": [
+      "具身智能",
+      "LLM 算法竞赛"
+    ],
+    "directions": [
+      "llm",
+      "embodied",
+      "algorithm"
+    ],
+    "summary": ""
+  },
+  {
+    "id": "3770f5a44e8f",
+    "title": "群核科技Ahoolo 全球3D AI黑客松",
+    "organizer": "群核科技",
+    "mode": "online",
+    "city": null,
+    "status": "closing",
+    "deadline": "2026-11-19",
+    "ai_level": "core",
+    "tracks": [
+      "黑客松",
+      "3D AI",
+      "3D 生成模型 Aholo Lux3D"
+    ],
+    "directions": [
+      "aigc"
+    ],
+    "summary": ""
+  },
+  {
+    "id": "c6d27accef22",
+    "title": "2026 Qoder 高校创造力大赛",
+    "organizer": null,
+    "mode": "online",
+    "city": null,
+    "status": "open",
+    "deadline": "2026-11-30",
+    "ai_level": "platform",
+    "tracks": [
+      "信息技术",
+      "教育"
+    ],
+    "directions": [
+      "llm",
+      "vertical"
+    ],
+    "summary": ""
+  },
+  {
+    "id": "1fe2ff118454",
+    "title": "48H和真实世界碰一碰｜首届地瓜机器人黑客松",
+    "organizer": "地瓜机器人",
+    "mode": "online",
+    "city": null,
+    "status": "open",
+    "deadline": "2026-11-30",
+    "ai_level": "core",
+    "tracks": [
+      "黑客松",
+      "具身智能",
+      "机器人"
+    ],
+    "directions": [
+      "embodied"
+    ],
+    "summary": ""
+  },
+  {
+    "id": "72fe5f5ee153",
+    "title": "AI造游戏，人人都是游戏制作人｜AI+∞开发者创作大赛第三期",
+    "organizer": "魔搭社区（ModelScope）",
+    "mode": "online",
+    "city": null,
+    "status": "open",
+    "deadline": "2026-12-01",
+    "ai_level": "core",
+    "tracks": [
+      "应用开发赛",
+      "AI 游戏创作",
+      "魔搭创空间"
+    ],
+    "directions": [
+      "other"
+    ],
+    "summary": ""
+  },
+  {
+    "id": "29042d3c2565",
+    "title": "征集赛15-智析云荐——基于百炼的智能新闻推荐系统挑战赛",
+    "organizer": null,
+    "mode": "online",
+    "city": null,
+    "status": "open",
+    "deadline": "2026-12-01",
+    "ai_level": "platform",
+    "tracks": [
+      "信息技术",
+      "大语言模型",
+      "自然语言处理",
+      "智能体"
+    ],
+    "directions": [
+      "agent",
+      "llm",
+      "algorithm"
+    ],
+    "summary": ""
+  },
+  {
+    "id": "c23a3e9cad51",
+    "title": "支付宝AI付年度黑客松",
+    "organizer": "支付宝",
+    "mode": "online",
+    "city": null,
+    "status": "open",
+    "deadline": "2026-12-01",
+    "ai_level": "core",
+    "tracks": [
+      "黑客松",
+      "AI 商业闭环"
+    ],
+    "directions": [
+      "other"
+    ],
+    "summary": ""
+  },
+  {
+    "id": "54230fde8632",
+    "title": "知乎黑客松 S3 湾区共创季",
+    "organizer": "知乎",
+    "mode": "online",
+    "city": null,
+    "status": "open",
+    "deadline": "2026-12-04",
+    "ai_level": "track",
+    "tracks": [
+      "AI × 知识与探索",
+      "AI × 陪伴与交互",
+      "AI × 出海"
+    ],
+    "directions": [
+      "vertical"
+    ],
+    "summary": ""
+  },
+  {
+    "id": "cf5b09f6b87b",
+    "title": "OpenLET 具身智能挑战赛",
+    "organizer": "开放原子开源基金会丨OpenLET 具身智能开源数据集社区",
+    "mode": "online",
+    "city": null,
+    "status": "open",
+    "deadline": "2026-12-31",
+    "ai_level": "core",
+    "tracks": [
+      "机器人",
+      "工业制造",
+      "第三方竞赛"
+    ],
+    "directions": [
+      "embodied",
+      "vertical"
+    ],
+    "summary": ""
+  },
+  {
+    "id": "c2e042442ff6",
+    "title": "知乎知学堂大模型挑战赛：大模型复杂表格识别与内容理解",
+    "organizer": null,
+    "mode": "online",
+    "city": null,
+    "status": "open",
+    "deadline": "2026-12-31",
+    "ai_level": "core",
+    "tracks": [
+      "自然语言处理",
+      "大语言模型"
+    ],
+    "directions": [
+      "llm",
+      "multimodal"
+    ],
+    "summary": ""
+  },
+  {
+    "id": "acdd6a7080e1",
+    "title": "Spatial Joy 2026 Rokid 全球开发大赛",
+    "organizer": "Rokid 乐奇（灵伴科技）",
+    "mode": "hybrid",
+    "city": null,
+    "status": "open",
+    "deadline": "2027-01-28",
+    "ai_level": "track",
+    "tracks": [
+      "AIUI 智能体",
+      "AR 游戏",
+      "行业命题"
+    ],
+    "directions": [
+      "agent"
+    ],
+    "summary": ""
+  },
+  {
+    "id": "95ebc2bd22c1",
+    "title": "2023年第二届粤港澳大湾区（黄埔）国际算法算例大赛",
+    "organizer": null,
+    "mode": null,
+    "city": null,
+    "status": "unknown",
+    "deadline": null,
+    "ai_level": "other",
+    "tracks": [],
+    "directions": [
+      "algorithm"
+    ],
+    "summary": ""
+  },
+  {
+    "id": "cbca4a1eae45",
+    "title": "2025 X-GAME上海智能新能源汽车大数据竞赛",
+    "organizer": null,
+    "mode": null,
+    "city": null,
+    "status": "open",
+    "deadline": null,
+    "ai_level": "other",
+    "tracks": [],
+    "directions": [
+      "algorithm",
+      "vertical"
+    ],
+    "summary": "基于上海新能源汽车海量数据，打造数据共享、共赢生态的数据开放平台，实现数据加工、处理和分析应用的在线分析，深挖新能源汽车资源，释放数据价值。"
+  },
+  {
+    "id": "c8e2acd7a03e",
+    "title": "2026 MinerU 数据智能与前沿语料挑战赛",
+    "organizer": null,
+    "mode": null,
+    "city": null,
+    "status": "open",
+    "deadline": null,
+    "ai_level": "core",
+    "tracks": [],
+    "directions": [
+      "compute",
+      "open"
+    ],
+    "summary": ""
+  },
+  {
+    "id": "f1a5e296d879",
+    "title": "2026 iFLYTEK AI开发者大赛",
+    "organizer": "科大讯飞、中国信息协会",
+    "mode": "online",
+    "city": null,
+    "status": "unknown",
+    "deadline": null,
+    "ai_level": "core",
+    "tracks": [
+      "AI算法赛",
+      "AI应用赛",
+      "星火杯"
+    ],
+    "directions": [
+      "algorithm"
+    ],
+    "summary": ""
+  },
+  {
+    "id": "4519d308a943",
+    "title": "2026-具身极限挑战赛",
+    "organizer": null,
+    "mode": "online",
+    "city": null,
+    "status": "open",
+    "deadline": null,
+    "ai_level": "core",
+    "tracks": [
+      "机器人"
+    ],
+    "directions": [
+      "llm",
+      "embodied"
+    ],
+    "summary": ""
+  },
+  {
+    "id": "51f61f4f129e",
+    "title": "2026CCKS系列赛",
+    "organizer": null,
+    "mode": "online",
+    "city": null,
+    "status": "open",
+    "deadline": null,
+    "ai_level": "platform",
+    "tracks": [
+      "自然语言处理",
+      "大语言模型",
+      "学术顶会论文发表"
+    ],
+    "directions": [
+      "llm"
+    ],
+    "summary": ""
+  },
+  {
+    "id": "e7dffd72a861",
+    "title": "2026CCL系列赛",
+    "organizer": null,
+    "mode": "online",
+    "city": null,
+    "status": "open",
+    "deadline": null,
+    "ai_level": "platform",
+    "tracks": [
+      "学术顶会论文发表"
+    ],
+    "directions": [
+      "llm"
+    ],
+    "summary": ""
+  },
+  {
+    "id": "04ea79cafa53",
+    "title": "2026全国大数据与计算智能挑战赛",
+    "organizer": null,
+    "mode": null,
+    "city": null,
+    "status": "open",
+    "deadline": null,
+    "ai_level": "other",
+    "tracks": [],
+    "directions": [
+      "other"
+    ],
+    "summary": ""
+  },
+  {
+    "id": "db0d1dfbf7f0",
+    "title": "2026华为云具身智能大赛",
+    "organizer": "华为",
+    "mode": "hybrid",
+    "city": null,
+    "status": "unknown",
+    "deadline": null,
+    "ai_level": "core",
+    "tracks": [
+      "具身智能",
+      "线上仿真赛段",
+      "线下真机赛段"
+    ],
+    "directions": [
+      "embodied"
+    ],
+    "summary": ""
+  },
+  {
+    "id": "fe67b063dfb9",
+    "title": "2026阿里云Data+AI工程师全球挑战赛",
+    "organizer": "阿里云+天池",
+    "mode": "online",
+    "city": null,
+    "status": "unknown",
+    "deadline": null,
+    "ai_level": "core",
+    "tracks": [
+      "Data+AI",
+      "算法竞赛"
+    ],
+    "directions": [
+      "algorithm",
+      "vertical"
+    ],
+    "summary": "2026阿里云Data+AI工程师全球大奖赛，是由阿里云主办、NVIDIA协办，阿里云大数据AI平台联合天池平台共同承办的高规格、工业级Data+AI融合创新赛事。大赛主题为“寻找AI全能王”，面向全球高校学生、企业开发者及科研团队开展。"
+  },
+  {
+    "id": "459842ff0003",
+    "title": "AFAC2026金融智能创新大赛",
+    "organizer": "蚂蚁集团",
+    "mode": "online",
+    "city": null,
+    "status": "unknown",
+    "deadline": null,
+    "ai_level": "other",
+    "tracks": [
+      "金融智能",
+      "挑战组（算法）",
+      "初创组（产品/商业）"
+    ],
+    "directions": [
+      "algorithm",
+      "vertical"
+    ],
+    "summary": ""
+  },
+  {
+    "id": "5dabc3dc90a5",
+    "title": "AlgoBharat Regional Hackathons",
+    "organizer": "Algorand",
+    "mode": "online",
+    "city": null,
+    "status": "open",
+    "deadline": null,
+    "ai_level": "track",
+    "tracks": [
+      "Open Innovation",
+      "Future of Finance ( DeFi & Payments )",
+      "Agentic Commerece ( X402 & Agentic Payme"
+    ],
+    "directions": [
+      "agent"
+    ],
+    "summary": "Empowering Builders Through Algorand-Powered Hackathons AlgoBharat Regional Hackathon Sponsorship Program is designed to enable Web3 communities, colleges, developers and builders across India to..."
+  },
+  {
+    "id": "fb3f0698599e",
+    "title": "Beyond the Benchmark: The Binance Agentic AI Challenge",
+    "organizer": "Binance",
+    "mode": "online",
+    "city": null,
+    "status": "open",
+    "deadline": null,
+    "ai_level": "core",
+    "tracks": [],
+    "directions": [
+      "agent",
+      "llm"
+    ],
+    "summary": ""
+  },
+  {
+    "id": "57507797734e",
+    "title": "Terminal 3 Build+Scale Agent Micro Grant",
+    "organizer": "Terminal 3",
+    "mode": "online",
+    "city": null,
+    "status": "open",
+    "deadline": null,
+    "ai_level": "core",
+    "tracks": [
+      "T3N integrated agent with the most tract"
+    ],
+    "directions": [
+      "agent"
+    ],
+    "summary": ""
+  },
+  {
+    "id": "2f56064d2684",
+    "title": "WAISS #1 - Wiener AI Software Stammtisch",
+    "organizer": "Telos Circle",
+    "mode": "online",
+    "city": null,
+    "status": "open",
+    "deadline": null,
+    "ai_level": "core",
+    "tracks": [],
+    "directions": [
+      "other"
+    ],
+    "summary": "WAISS (Wiener AI Software Stammtisch) is a cozy get-together, planned monthly, for everyone who builds, codes & experiments with AI. We'll kick things off with…"
+  },
+  {
+    "id": "262785fdd6f9",
+    "title": "东莞市2025年工业AI应用创新挑战“百景大赛”",
+    "organizer": null,
+    "mode": null,
+    "city": null,
+    "status": "open",
+    "deadline": null,
+    "ai_level": "core",
+    "tracks": [],
+    "directions": [
+      "vertical"
+    ],
+    "summary": ""
+  },
+  {
+    "id": "05ce2b5f7d65",
+    "title": "中国气象服务协会首届青年AI气象应用创意作品征集与交流主题活动",
+    "organizer": null,
+    "mode": null,
+    "city": null,
+    "status": "unknown",
+    "deadline": null,
+    "ai_level": "core",
+    "tracks": [],
+    "directions": [
+      "vertical"
+    ],
+    "summary": ""
+  },
+  {
+    "id": "5602055a7732",
+    "title": "人工智能气象预报大模型示范计划（AIM-FDP）",
+    "organizer": null,
+    "mode": null,
+    "city": null,
+    "status": "unknown",
+    "deadline": null,
+    "ai_level": "core",
+    "tracks": [],
+    "directions": [
+      "llm",
+      "vertical"
+    ],
+    "summary": ""
+  },
+  {
+    "id": "f0227a006b6d",
+    "title": "余震预测技术国际大赛",
+    "organizer": null,
+    "mode": "online",
+    "city": null,
+    "status": "open",
+    "deadline": null,
+    "ai_level": "platform",
+    "tracks": [
+      "地质科学",
+      "地震学",
+      "地球物理学"
+    ],
+    "directions": [
+      "algorithm"
+    ],
+    "summary": ""
+  },
+  {
+    "id": "ee8e836e4cee",
+    "title": "华硕 A+ 青年 Creator Lab",
+    "organizer": "华硕 A+ 青年",
+    "mode": "offline",
+    "city": null,
+    "status": "upcoming",
+    "deadline": null,
+    "ai_level": "track",
+    "tracks": [
+      "48 小时黑客松",
+      "AI 创作",
+      "跨学科共创"
+    ],
+    "directions": [
+      "vertical"
+    ],
+    "summary": "华硕 A+ 青年 Creator Lab 正式开启报名！这是一场专为年轻人打造的 48 小时 AI 创作实验，旨在通过 AI 技术让创造变得触手可及，将灵感转化为现实。 无论你是技术玩家，还是来自设计、商科、传媒、法律、医学等不同专业的学生，都可以参与其中。你可以带着成熟的 De"
+  },
+  {
+    "id": "094f5bca46a6",
+    "title": "复杂工业场景异常检测算法挑战赛",
+    "organizer": "天池（阿里云）+CSIG",
+    "mode": "online",
+    "city": null,
+    "status": "unknown",
+    "deadline": null,
+    "ai_level": "other",
+    "tracks": [
+      "异常检测",
+      "工业算法"
+    ],
+    "directions": [
+      "algorithm",
+      "vertical"
+    ],
+    "summary": ""
+  },
+  {
+    "id": "384ec6224bd6",
+    "title": "天工计划·鸿蒙智能体开发者激励",
+    "organizer": "华为",
+    "mode": "online",
+    "city": null,
+    "status": "unknown",
+    "deadline": null,
+    "ai_level": "core",
+    "tracks": [
+      "鸿蒙智能体",
+      "开发者激励"
+    ],
+    "directions": [
+      "agent"
+    ],
+    "summary": "天工计划·鸿蒙智能体开发者激励（下称“计划”或“天工计划”）是由华为发起的开发者支持项目，旨在鼓励开发者参与AI生态创新，推动鸿蒙AI生态的建设和繁荣发展。"
+  },
+  {
+    "id": "bfd3aecdcbab",
+    "title": "火山杯 Agent 创新大赛",
+    "organizer": "火山引擎",
+    "mode": "online",
+    "city": null,
+    "status": "unknown",
+    "deadline": null,
+    "ai_level": "core",
+    "tracks": [
+      "AI Agent",
+      "应用创新"
+    ],
+    "directions": [
+      "agent"
+    ],
+    "summary": ""
+  },
+  {
+    "id": "1f4f5ff53ed4",
+    "title": "第四届开放原子大赛",
+    "organizer": "开放原子开源基金会",
+    "mode": "hybrid",
+    "city": null,
+    "status": "unknown",
+    "deadline": null,
+    "ai_level": "other",
+    "tracks": [
+      "开源操作系统",
+      "开源数据库",
+      "开源行业解决方案",
+      "开源智能硬件"
+    ],
+    "directions": [
+      "open"
+    ],
+    "summary": "开放原子大赛旨在联合开源组织、企事业单位、高等院校、科研院所、行业组织、投融资机构等多方资源，充分发挥产业链生态上下游的协同能力，基于开源共享、共建共治的原则共同举办。我们将搭建面向全球开源领域的前沿技术竞争、优秀人才选拔创新成果展示、商业转化引导和对接交流合作平台，广泛传播开源文化、普及开源知识、推广开源项目、提升开源技能，为推进全球开源生态繁荣和可持续发展提供动力。"
+  },
+  {
+    "id": "bcad4c1c92d9",
+    "title": "野生动物目标检测挑战赛",
+    "organizer": "北京百度网讯科技有限公司",
+    "mode": "online",
+    "city": null,
+    "status": "open",
+    "deadline": null,
+    "ai_level": "platform",
+    "tracks": [
+      "CV",
+      "目标检测"
+    ],
+    "directions": [
+      "multimodal",
+      "algorithm",
+      "compute"
+    ],
+    "summary": "使用飞桨深度学习框架，在官方给定的数据集上，训练一个神经网络模型，使其能够具备三类野生动物的目标检测能力。｜CV、目标检测"
+  },
+  {
+    "id": "844cce87824f",
+    "title": "面向生物医学全文的特定患者表型概念识别任务-赛后评测",
+    "organizer": null,
+    "mode": "online",
+    "city": null,
+    "status": "closed",
+    "deadline": "2026-08-19",
+    "ai_level": "platform",
+    "tracks": [
+      "‌医疗健康",
+      "自然语言处理",
+      "大语言模型"
+    ],
+    "directions": [
+      "llm",
+      "multimodal",
+      "vertical"
+    ],
+    "summary": ""
+  },
+  {
+    "id": "6b6403ff04d6",
+    "title": "人才匹配与发展智能辅助Skill开发挑战赛",
+    "organizer": "科大讯飞股份有限公司",
+    "mode": "online",
+    "city": null,
+    "status": "closed",
+    "deadline": "2026-08-27",
+    "ai_level": "platform",
+    "tracks": [
+      "Skill技能开发",
+      "算法赛"
+    ],
+    "directions": [
+      "algorithm"
+    ],
+    "summary": ""
+  },
+  {
+    "id": "86c57475d2e5",
+    "title": "智慧生活助理Skill开发挑战赛",
+    "organizer": "科大讯飞股份有限公司",
+    "mode": "online",
+    "city": null,
+    "status": "closed",
+    "deadline": "2026-08-27",
+    "ai_level": "platform",
+    "tracks": [
+      "Skill技能开发",
+      "算法赛"
+    ],
+    "directions": [
+      "algorithm"
+    ],
+    "summary": ""
+  },
+  {
+    "id": "6e599c31ba58",
+    "title": "智能办公协同助理Skill开发挑战赛",
+    "organizer": "科大讯飞股份有限公司",
+    "mode": "online",
+    "city": null,
+    "status": "closed",
+    "deadline": "2026-08-27",
+    "ai_level": "platform",
+    "tracks": [
+      "Skill技能开发",
+      "算法赛"
+    ],
+    "directions": [
+      "algorithm"
+    ],
+    "summary": ""
+  },
+  {
+    "id": "730f1f20c8ea",
+    "title": "编程竞赛测试用例生成挑战赛 赛季2",
+    "organizer": "中国科学技术大学认知智能全国重点实验室",
+    "mode": "online",
+    "city": null,
+    "status": "closed",
+    "deadline": "2026-08-27",
+    "ai_level": "platform",
+    "tracks": [
+      "大模型技术",
+      "算法赛"
+    ],
+    "directions": [
+      "llm",
+      "algorithm"
+    ],
+    "summary": ""
+  },
+  {
+    "id": "10fea0fb7e83",
+    "title": "声纹迷雾复杂场景说话人确认挑战赛",
+    "organizer": "声网",
+    "mode": "online",
+    "city": null,
+    "status": "closed",
+    "deadline": "2026-09-17",
+    "ai_level": "platform",
+    "tracks": [
+      "语音技术",
+      "算法赛"
+    ],
+    "directions": [
+      "multimodal",
+      "algorithm"
+    ],
+    "summary": ""
+  },
+  {
+    "id": "8541cb1e0341",
+    "title": "恶劣场景下的车道线检测挑战赛",
+    "organizer": "中国矿业大学",
+    "mode": "online",
+    "city": null,
+    "status": "closed",
+    "deadline": "2026-09-18",
+    "ai_level": "platform",
+    "tracks": [
+      "计算机视觉",
+      "算法赛"
+    ],
+    "directions": [
+      "multimodal",
+      "algorithm",
+      "autonomous"
+    ],
+    "summary": ""
+  },
+  {
+    "id": "486b593b87a1",
+    "title": "2026-具身仿真合成挑战赛",
+    "organizer": null,
+    "mode": "online",
+    "city": null,
+    "status": "closed",
+    "deadline": "2026-09-21",
+    "ai_level": "core",
+    "tracks": [
+      "AI大模型赛"
+    ],
+    "directions": [
+      "llm",
+      "embodied"
+    ],
+    "summary": ""
+  },
+  {
+    "id": "bee00c2ad7ee",
+    "title": "2026-具身安全应用挑战赛",
+    "organizer": null,
+    "mode": "online",
+    "city": null,
+    "status": "closed",
+    "deadline": "2026-09-21",
+    "ai_level": "core",
+    "tracks": [
+      "AI大模型赛"
+    ],
+    "directions": [
+      "llm",
+      "embodied"
+    ],
+    "summary": ""
+  },
+  {
+    "id": "5b1041241f12",
+    "title": "基于星评测Agent的养虾Skills横评挑战赛",
+    "organizer": "科大讯飞股份有限公司",
+    "mode": "online",
+    "city": null,
+    "status": "closed",
+    "deadline": "2026-09-21",
+    "ai_level": "core",
+    "tracks": [
+      "大模型技术",
+      "算法赛"
+    ],
+    "directions": [
+      "agent",
+      "llm",
+      "algorithm"
+    ],
+    "summary": ""
+  },
+  {
+    "id": "9f5f60216c05",
+    "title": "语音质量修复挑战赛 赛季2",
+    "organizer": "声网",
+    "mode": "online",
+    "city": null,
+    "status": "closed",
+    "deadline": "2026-09-24",
+    "ai_level": "platform",
+    "tracks": [
+      "语音技术",
+      "算法赛"
+    ],
+    "directions": [
+      "multimodal",
+      "algorithm"
+    ],
+    "summary": ""
+  },
+  {
+    "id": "c60e42bd1ffe",
+    "title": "基于无人机的玉米苗检测挑战赛",
+    "organizer": "中国农业大学",
+    "mode": "online",
+    "city": null,
+    "status": "closed",
+    "deadline": "2026-09-28",
+    "ai_level": "platform",
+    "tracks": [
+      "计算机视觉",
+      "算法赛"
+    ],
+    "directions": [
+      "multimodal",
+      "algorithm",
+      "autonomous"
+    ],
+    "summary": ""
+  },
+  {
+    "id": "21454fa7efac",
+    "title": "基于智能眼镜的第一视角阳光玫瑰劳作动作识别挑战赛",
+    "organizer": "中国农业大学",
+    "mode": "online",
+    "city": null,
+    "status": "closed",
+    "deadline": "2026-09-28",
+    "ai_level": "platform",
+    "tracks": [
+      "计算机视觉",
+      "算法赛"
+    ],
+    "directions": [
+      "multimodal",
+      "algorithm"
+    ],
+    "summary": ""
+  },
+  {
+    "id": "1712b226ef79",
+    "title": "果粒着色阶段智能分级挑战赛",
+    "organizer": "中国农业大学",
+    "mode": "online",
+    "city": null,
+    "status": "closed",
+    "deadline": "2026-09-28",
+    "ai_level": "platform",
+    "tracks": [
+      "计算机视觉",
+      "算法赛"
+    ],
+    "directions": [
+      "multimodal",
+      "algorithm"
+    ],
+    "summary": ""
+  },
+  {
+    "id": "69ae8f54528a",
+    "title": "玉米出苗期杂草目标检测挑战赛",
+    "organizer": "中国农业大学",
+    "mode": "online",
+    "city": null,
+    "status": "closed",
+    "deadline": "2026-09-28",
+    "ai_level": "platform",
+    "tracks": [
+      "计算机视觉",
+      "算法赛"
+    ],
+    "directions": [
+      "multimodal",
+      "algorithm"
+    ],
+    "summary": ""
+  },
+  {
+    "id": "babe69fb0ddb",
+    "title": "阳光玫瑰葡萄花穗完整性判断与分割挑战赛",
+    "organizer": "中国农业大学",
+    "mode": "online",
+    "city": null,
+    "status": "closed",
+    "deadline": "2026-09-28",
+    "ai_level": "platform",
+    "tracks": [
+      "计算机视觉",
+      "算法赛"
+    ],
+    "directions": [
+      "multimodal",
+      "algorithm"
+    ],
+    "summary": ""
+  },
+  {
+    "id": "0e5440864541",
+    "title": "SMP 2026 大模型图网络决策挑战赛",
+    "organizer": "中国中文信息学会社会媒体处理专委会（中国传媒大学、北京邮电大学承办）",
+    "mode": "online",
+    "city": null,
+    "status": "closed",
+    "deadline": "2026-09-30",
+    "ai_level": "core",
+    "tracks": [
+      "大模型+多智能体",
+      "图网络决策",
+      "casevo 框架"
+    ],
+    "directions": [
+      "agent",
+      "llm"
+    ],
+    "summary": "SMP 2026 大模型图网络决策挑战赛 一、赛事简介 第十四届全国社会媒体处理大会（SMP 2026）将于 2026 年 11 月 12 日至 15 日在北京召开。本届大会的主题是“大模型驱动人机共生”"
+  },
+  {
+    "id": "e020b4265bb8",
+    "title": "2026-跨本体具身认知极限联合挑战赛",
+    "organizer": null,
+    "mode": "online",
+    "city": null,
+    "status": "closed",
+    "deadline": "2026-10-21",
+    "ai_level": "core",
+    "tracks": [
+      "机器人"
+    ],
+    "directions": [
+      "llm",
+      "embodied"
+    ],
+    "summary": ""
+  },
+  {
+    "id": "c38d97feee96",
+    "title": "蚂蚁灵波具身大模型挑战赛",
+    "organizer": null,
+    "mode": "online",
+    "city": null,
+    "status": "closed",
+    "deadline": "2026-10-26",
+    "ai_level": "core",
+    "tracks": [
+      "机器人",
+      "计算机视觉‌"
+    ],
+    "directions": [
+      "llm",
+      "embodied",
+      "multimodal"
+    ],
+    "summary": ""
+  },
+  {
+    "id": "3d0e7fb3cd2f",
+    "title": "回到未来的 3D 创作｜Ship it Sunday #015",
+    "organizer": "AI Hacker House × Hi3D",
+    "mode": "offline",
+    "city": "上海",
+    "status": "closed",
+    "deadline": "2026-11-06",
+    "ai_level": "track",
+    "tracks": [
+      "AI 3D 创作"
+    ],
+    "directions": [
+      "other"
+    ],
+    "summary": "Ship it Sunday 是 AI Hacker House 在周日举办的 AI 黑客松。每月办一次，一次一整天。我们希望连接志同道合的 AI builders，为大家提供一个心无旁骛的创造场域。 Ship it Sunday 在过去已经举办14期，累计 500+ builders，ship 出 300+…"
+  },
+  {
+    "id": "312063dc7ec9",
+    "title": "天猫 AI 黑客松·高校挑战赛",
+    "organizer": "天猫",
+    "mode": "online",
+    "city": null,
+    "status": "closed",
+    "deadline": "2026-11-07",
+    "ai_level": "core",
+    "tracks": [
+      "黑客松",
+      "高校 AI 应用"
+    ],
+    "directions": [
+      "other"
+    ],
+    "summary": ""
+  },
+  {
+    "id": "4ada71681515",
+    "title": "Spark-X2.5端侧模型创新挑战赛",
+    "organizer": "词元星火科技有限公司",
+    "mode": "online",
+    "city": null,
+    "status": "closed",
+    "deadline": "2026-11-10",
+    "ai_level": "platform",
+    "tracks": [
+      "办公",
+      "应用赛"
+    ],
+    "directions": [
+      "compute"
+    ],
+    "summary": ""
+  },
+  {
+    "id": "0f21cf92282d",
+    "title": "支付宝｜智能体涌现奖比赛",
+    "organizer": "支付宝",
+    "mode": "online",
+    "city": null,
+    "status": "closed",
+    "deadline": "2026-11-10",
+    "ai_level": "core",
+    "tracks": [
+      "应用开发赛",
+      "智能体"
+    ],
+    "directions": [
+      "agent"
+    ],
+    "summary": ""
+  },
+  {
+    "id": "59a629172564",
+    "title": "AI新睿人才“星探计划”",
+    "organizer": "烟台睿创微纳技术股份有限公司",
+    "mode": "online",
+    "city": null,
+    "status": "closed",
+    "deadline": null,
+    "ai_level": "core",
+    "tracks": [
+      "图像分割"
+    ],
+    "directions": [
+      "multimodal",
+      "algorithm"
+    ],
+    "summary": ""
+  },
+  {
+    "id": "ea6b6bc9088d",
+    "title": "MICCAI2026 Challenge: GAVE2",
+    "organizer": null,
+    "mode": "online",
+    "city": null,
+    "status": "closed",
+    "deadline": null,
+    "ai_level": "core",
+    "tracks": [
+      "CV"
+    ],
+    "directions": [
+      "other"
+    ],
+    "summary": "MICCAI2026 Challenge: Generalized Analysis of Vessels in Eye Edition 2 (GAVE2)｜CV"
+  },
+  {
+    "id": "c4cc7b8c077f",
+    "title": "“猎鹰·微波智探”—雷达多目标智能探测与识别挑战",
+    "organizer": "中国电子学会&睿创微纳",
+    "mode": "online",
+    "city": null,
+    "status": "closed",
+    "deadline": null,
+    "ai_level": "platform",
+    "tracks": [
+      "人工智能"
+    ],
+    "directions": [
+      "multimodal",
+      "algorithm"
+    ],
+    "summary": ""
+  },
+  {
+    "id": "19f3973c4ad3",
+    "title": "具有多模态能力的客服智能体设计",
+    "organizer": "中国电子学会&睿创微纳",
+    "mode": "online",
+    "city": null,
+    "status": "closed",
+    "deadline": null,
+    "ai_level": "core",
+    "tracks": [
+      "多模态"
+    ],
+    "directions": [
+      "agent",
+      "multimodal",
+      "algorithm"
+    ],
+    "summary": ""
+  },
+  {
+    "id": "936661a1f359",
+    "title": "挑战赛B榜-2026中国软件杯大学生软件设计大赛——文心小汪赛道",
+    "organizer": null,
+    "mode": "online",
+    "city": null,
+    "status": "closed",
+    "deadline": null,
+    "ai_level": "platform",
+    "tracks": [
+      "CV与多模态大模型"
+    ],
+    "directions": [
+      "llm",
+      "embodied",
+      "multimodal"
+    ],
+    "summary": "中国软件杯——基于文心大模型和飞桨的智能四足机器狗消防侦察和救援系统开发赛，将引导参赛团队基于飞桨与四足仿生机器人，结合多模态大模型，打造融技术、产业和竞技于一体的高水平赛事。｜CV与多模态大模型"
+  },
+  {
+    "id": "60c4ebefaca4",
+    "title": "百度商业AI技术创新大赛-生成式推荐广告排序推理性能优化",
+    "organizer": null,
+    "mode": "online",
+    "city": null,
+    "status": "closed",
+    "deadline": null,
+    "ai_level": "core",
+    "tracks": [
+      "生成式推荐",
+      "推理"
+    ],
+    "directions": [
+      "aigc",
+      "algorithm",
+      "compute"
+    ],
+    "summary": "百度商业AI技术创新大赛（简称CTI），首届创办于2023年，是一项面向全社会开放，高等院校、科研单位、互联网企业等人员均可参与的全国性技术创新大赛，旨在探索商业前沿技术，挖掘和培育优秀的人才。2026年大赛升级为极客夏令营形式，通过报名邀请制，最终招募100支热衷AI技术、有热情有创新的人才入营，共同与百度及英伟达技术大咖交流学习。在夏令营中，各团队将聚焦“生成式推荐广告排序推理性能优化”。｜生成式推荐、推理"
+  }
+]

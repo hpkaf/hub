@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AI Race Radar//CN//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:AI 赛事雷达
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:21454fa7efac@ai-race-radar
+DTSTAMP:20261112T061004Z
+DTSTART;VALUE=DATE:20260903
+DTEND;VALUE=DATE:20261025
+SUMMARY:基于智能眼镜的第一视角阳光玫瑰劳作动作识别
+ 挑战赛
+DESCRIPTION:主办方：中国农业大学；报名截止：2026-09-28；
+ 奖金：1万元；报名：https://challenge.xfyun.cn/topic/info?type=F
+ PVSMAC；收录：AI 赛事雷达（2026-11-12T08:06:21 核验）
+URL:https://challenge.xfyun.cn/topic/info?type=FPVSMAC
+LOCATION:线上
+END:VEVENT
+BEGIN:VEVENT
+UID:21454fa7efac-deadline@ai-race-radar
+DTSTAMP:20261112T061004Z
+DTSTART;VALUE=DATE:20260928
+DTEND;VALUE=DATE:20260929
+SUMMARY:⏰ 报名截止：基于智能眼镜的第一视角阳光玫瑰
+ 劳作动作识别挑战赛
+DESCRIPTION:报名：https://challenge.xfyun.cn/topic/info?type=FPVSMAC
+URL:https://challenge.xfyun.cn/topic/info?type=FPVSMAC
+END:VEVENT
+END:VCALENDAR

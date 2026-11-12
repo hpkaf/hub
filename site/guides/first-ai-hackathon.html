@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>第一次参加 AI 黑客松：从选赛到提交 · AI 赛事雷达</title>
+<meta name="description" content="第一次参加 AI 黑客松的选赛、报名、48 小时排期与提交材料清单。">
+<meta property="og:title" content="第一次参加 AI 黑客松：从选赛到提交 · AI 赛事雷达">
+<meta property="og:description" content="第一次参加 AI 黑客松的选赛、报名、48 小时排期与提交材料清单。">
+<meta name="theme-color" content="#0b100d" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#f3f4ec" media="(prefers-color-scheme: light)">
+<meta name="color-scheme" content="dark light">
+<script>
+(function(){
+  try{
+    var q = new URLSearchParams(location.search).get('theme');
+    var t = q || localStorage.getItem('airr-theme');
+    if (t === 'light' || t === 'dark') document.documentElement.setAttribute('data-theme', t);
+  }catch(e){}
+})();
+</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://race.howfun.cn/#organization", "name": "AI 赛事雷达", "url": "https://race.howfun.cn/", "description": "每一场都经过人工核验：官方链接、报名截止、线上 / 线下，点开就能报名。", "knowsAbout": ["AI 赛事", "黑客松", "hackathon", "AI competition", "算法赛", "智能体"]}, {"@type": "WebSite", "@id": "https://race.howfun.cn/#website", "url": "https://race.howfun.cn/", "name": "AI 赛事雷达", "description": "每一场都经过人工核验：官方链接、报名截止、线上 / 线下，点开就能报名。", "inLanguage": "zh-CN", "publisher": {"@id": "https://race.howfun.cn/#organization"}, "potentialAction": {"@type": "SearchAction", "target": {"@type": "EntryPoint", "urlTemplate": "https://race.howfun.cn/explore.html?q={search_term_string}"}, "query-input": "required name=search_term_string"}}, {"@type": "Dataset", "name": "AI 赛事雷达公开数据", "description": "中国 AI 赛事与黑客松的核验清单，含状态、截止日、AI 分级与核验时间。", "url": "https://race.howfun.cn/api/events.json", "license": "https://creativecommons.org/licenses/by/4.0/", "creator": {"@id": "https://race.howfun.cn/#organization"}, "isAccessibleForFree": true}]}</script>
+<link rel="alternate" type="text/calendar" title="AI 赛事雷达 · 赛事日历" href="../calendar.ics">
+<link rel="alternate" type="application/rss+xml" title="AI 赛事雷达 · 赛事 RSS" href="../feed.xml">
+<link rel="alternate" type="text/plain" title="AI 赛事雷达 · llms.txt" href="../llms.txt">
+<link rel="stylesheet" href="../assets/style.css?v=20261112141003">
+</head>
+<body>
+<header class="site"><div class="wrap hrow">
+  <a class="brand" href="../index.html"><span class="mark"></span><span class="bname">AI 赛事雷达</span><span class="ben">AI RACE RADAR</span></a>
+  <nav class="top"><a href="../index.html">赛事</a><a href="../explore.html">探索</a><a href="../calendar.ics">日历</a><a href="../submit.html">投稿</a></nav>
+  <button class="theme-toggle" id="theme-toggle" type="button" aria-label="切换明暗主题" aria-pressed="false" title="切换明暗主题"><span aria-hidden="true">◐</span></button>
+  <span class="live"><i></i><span class="lk">LIVE · 08:00</span></span>
+</div></header>
+<main class="wrap">
+<div class="crumbs"><a href="../guides.html">← 指南</a></div>
+<article class="guide-article prose">
+
+<div class="guide-meta">GUIDE 02 · 适合第一次参赛</div>
+<h1>第一次参加 AI 黑客松：从选赛到提交</h1>
+<p class="lead">第一次参赛最容易犯的错，不是技术不够，而是<strong>选错赛、错过截止、提交材料不齐</strong>。下面是一份可以照着做的清单。</p>
+
+<h2>1. 先选「能完成」的赛，而不是「看起来最酷」的赛</h2>
+<ul>
+<li><strong>时间</strong>：48 小时线下赛和 4 周线上赛是两种运动；先看自己能不能在截止前留出完整时间。</li>
+<li><strong>形式</strong>：线上赛省通勤，线下赛更容易组队和拿反馈；本站当前收录 54 场线上、3 场线下、4 场混合。</li>
+<li><strong>方向</strong>：智能体、大模型应用、具身、算法/AIGC 的评审标准不同；用 <a href="../match.html">匹配页</a> 按方向筛，不要盲投。</li>
+<li><strong>资格</strong>：学生/高校/企业/地区限制在官方页，别只看海报。</li>
+</ul>
+
+<h2>2. 报名前核对四件事</h2>
+<ol>
+<li>官方报名页能打开，且截止日没写「已结束」；</li>
+<li>组队要求（个人/2–4 人/必须跨校）和年龄/身份限制；</li>
+<li>提交物：Demo、GitHub 仓库、Pitch deck、视频、现场路演，哪些必须；</li>
+<li>奖金/差旅/住宿规则，尤其是「税前」「代金券」「股权投资」这类口径。</li>
+</ol>
+
+<h2>3. 48 小时怎么排</h2>
+<table>
+<tr><th>时间</th><th>动作</th></tr>
+<tr><td>前 2 小时</td><td>定一个能演示的最小问题；确定技术栈与分工</td></tr>
+<tr><td>第 1 天</td><td>跑通端到端 Demo，先有可演示的「丑版本」</td></tr>
+<tr><td>第 2 天上午</td><td>补关键功能、写 README、录 Demo 视频</td></tr>
+<tr><td>最后 3 小时</td><td>只做提交材料与路演稿，不再加新功能</td></tr>
+</table>
+
+<h2>4. 提交材料清单</h2>
+<ul>
+<li>项目名 + 一句话介绍 + 目标用户；</li>
+<li>Demo 链接 / 视频（确保评委不用登录也能看）；</li>
+<li>代码仓库（公开或按赛事要求）；</li>
+<li>技术栈、使用到的模型/API、数据来源；</li>
+<li>团队成员与分工；</li>
+<li>若使用开源项目/数据集，写清许可与出处。</li>
+</ul>
+
+<h2>5. 去哪里找下一场</h2>
+<p>用 <a href="../explore.html">探索页</a> 按方向/形式/截止筛，或订阅 <a href="../calendar.ics">日历</a>。
+本站只做信息整理，报名与资格以主办方官方页为准。</p>
+
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "第一次参加 AI 黑客松：从选赛到提交", "description": "第一次参加 AI 黑客松的选赛、报名、48 小时排期与提交材料清单。", "dateModified": "2026-11-12", "inLanguage": "zh-CN", "author": {"@type": "Organization", "name": "AI 赛事雷达"}, "publisher": {"@type": "Organization", "name": "AI 赛事雷达"}}</script>
+</article>
+</main>
+<footer class="site"><div class="wrap">
+  <div class="fcols">
+    <div class="fcol">
+      <div class="fmark">AI 赛事雷达 / AI RACE RADAR</div>
+      <p>中国 AI 赛事与黑客松的核验清单。只在官方链接能打开、日期对得上时才收录；每天 08:00 重跑一次。</p>
+      <p class="fmeta">DATA UPDATED · 2026-11-12 14:10</p>
+    </div>
+    <div class="fcol"><div class="fhead">EXPLORE</div>
+      <a href="../explore.html">探索全部</a>
+      <a href="../organizers.html">主办方</a>
+      <a href="../guides.html">指南</a>
+      <a href="../match.html">帮我找赛事</a>
+    </div>
+    <div class="fcol"><div class="fhead">DATA</div>
+      <a href="../api/events.json">api/events.json</a>
+      <a href="../llms.txt">llms.txt</a>
+      <a href="../llms-full.txt">llms-full.txt</a>
+      <a href="../agent.json">agent.json</a>
+      <a href="../sitemap.xml">sitemap.xml</a>
+    </div>
+    <div class="fcol"><div class="fhead">ABOUT</div>
+      <a href="../about.html">方法与信源</a>
+      <a href="../about.html#faq">常见问题</a>
+      <a href="../submit.html">提交赛事 / 纠错</a>
+      <a href="../calendar.ics">日历订阅</a>
+      <a href="../feed.xml">RSS</a>
+    </div>
+  </div>
+  <div class="fine">
+    <span>© 2026 AI 赛事雷达</span>
+    <span>不收费 · 不代办报名 · 以主办方官方页面为准</span>
+    <span>CC BY 4.0</span>
+  </div>
+</div></footer>
+<script src="../assets/app.js?v=20261112141003"></script>
+</body></html>

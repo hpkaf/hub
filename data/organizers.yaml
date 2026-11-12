@@ -1,0 +1,41 @@
+# 主办方实体页的策展信息（可选）。
+# slug / website / intro 不填也能自动生成页面；填了会更完整。
+organizers:
+  - name: 中国农业大学
+    slug: cau
+    website: https://www.cau.edu.cn
+    intro: 中国农业大学是教育部直属高校，组织农业与 AI 交叉方向的赛事。
+  - name: 科大讯飞股份有限公司
+    slug: iflytek
+    website: https://www.iflytek.com
+    intro: 科大讯飞是智能语音与人工智能企业，主办讯飞 AI 开发者大赛系列。
+  - name: 中国电子学会&睿创微纳
+    slug: cie-raytron
+    website: https://www.cie.org.cn
+    intro: 中国电子学会与睿创微纳联合主办 AI 与红外/感知相关赛事。
+  - name: 声网
+    slug: agora
+    website: https://www.shengwang.cn
+    intro: 声网（Agora）是实时音视频云服务商，主办 RTE/AI 相关开发赛事。
+  - name: 支付宝
+    slug: alipay
+    website: https://www.alipay.com
+    intro: 支付宝是蚂蚁集团旗下的数字支付与生活服务平台，主办 AI 付 PAYATHON、智能体涌现奖等赛事。
+  - name: 华为
+    slug: huawei
+    website: https://www.huawei.com
+    intro: 华为技术有限公司，主办昇腾、鲲鹏等 AI 与计算相关赛事。
+  - name: 中国科学技术大学认知智能全国重点实验室
+    slug: ustc-cogai
+    website: https://www.ustc.edu.cn
+    intro: 中国科学技术大学认知智能全国重点实验室，研究方向覆盖认知智能与大模型。
+  - name: 中国矿业大学
+    slug: cumt
+    website: https://www.cumt.edu.cn
+    intro: 中国矿业大学是教育部直属高校，组织 AI 与矿业/安全交叉方向赛事。
+  - name: 光年AI
+    slug: guangnian-ai
+    intro: 光年AI 是 AI 应用与智能体方向的团队，组织 AI 黑客松系列活动。
+  - name: AI Hacker House × Hi3D
+    slug: aihh-hi3d
+    intro: AI Hacker House 与 Hi3D 联合组织的 AI 黑客松与社区活动。

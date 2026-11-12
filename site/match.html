@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>帮我找 AI 赛事 · AI 赛事雷达</title>
+<meta name="description" content="输入项目方向、技能、城市与截止窗口，按规则匹配 AI 赛事并给出命中理由。">
+<meta property="og:title" content="帮我找 AI 赛事 · AI 赛事雷达">
+<meta property="og:description" content="输入项目方向、技能、城市与截止窗口，按规则匹配 AI 赛事并给出命中理由。">
+<meta name="theme-color" content="#0b100d" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#f3f4ec" media="(prefers-color-scheme: light)">
+<meta name="color-scheme" content="dark light">
+<script>
+(function(){
+  try{
+    var q = new URLSearchParams(location.search).get('theme');
+    var t = q || localStorage.getItem('airr-theme');
+    if (t === 'light' || t === 'dark') document.documentElement.setAttribute('data-theme', t);
+  }catch(e){}
+})();
+</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://race.howfun.cn/#organization", "name": "AI 赛事雷达", "url": "https://race.howfun.cn/", "description": "每一场都经过人工核验：官方链接、报名截止、线上 / 线下，点开就能报名。", "knowsAbout": ["AI 赛事", "黑客松", "hackathon", "AI competition", "算法赛", "智能体"]}, {"@type": "WebSite", "@id": "https://race.howfun.cn/#website", "url": "https://race.howfun.cn/", "name": "AI 赛事雷达", "description": "每一场都经过人工核验：官方链接、报名截止、线上 / 线下，点开就能报名。", "inLanguage": "zh-CN", "publisher": {"@id": "https://race.howfun.cn/#organization"}, "potentialAction": {"@type": "SearchAction", "target": {"@type": "EntryPoint", "urlTemplate": "https://race.howfun.cn/explore.html?q={search_term_string}"}, "query-input": "required name=search_term_string"}}, {"@type": "Dataset", "name": "AI 赛事雷达公开数据", "description": "中国 AI 赛事与黑客松的核验清单，含状态、截止日、AI 分级与核验时间。", "url": "https://race.howfun.cn/api/events.json", "license": "https://creativecommons.org/licenses/by/4.0/", "creator": {"@id": "https://race.howfun.cn/#organization"}, "isAccessibleForFree": true}]}</script>
+<link rel="alternate" type="text/calendar" title="AI 赛事雷达 · 赛事日历" href="calendar.ics">
+<link rel="alternate" type="application/rss+xml" title="AI 赛事雷达 · 赛事 RSS" href="feed.xml">
+<link rel="alternate" type="text/plain" title="AI 赛事雷达 · llms.txt" href="llms.txt">
+<link rel="stylesheet" href="assets/style.css?v=20261112141003">
+</head>
+<body>
+<header class="site"><div class="wrap hrow">
+  <a class="brand" href="index.html"><span class="mark"></span><span class="bname">AI 赛事雷达</span><span class="ben">AI RACE RADAR</span></a>
+  <nav class="top"><a href="index.html">赛事</a><a href="explore.html">探索</a><a href="calendar.ics">日历</a><a href="submit.html">投稿</a></nav>
+  <button class="theme-toggle" id="theme-toggle" type="button" aria-label="切换明暗主题" aria-pressed="false" title="切换明暗主题"><span aria-hidden="true">◐</span></button>
+  <span class="live"><i></i><span class="lk">LIVE · 08:00</span></span>
+</div></header>
+<main class="wrap">
+<div class="crumbs"><a href="index.html">← 首页</a></div>
+<section class="match-hero">
+  <div class="kicker">MATCH / RULES, NOT MAGIC</div>
+  <h1 class="display-sm">帮我找赛事</h1>
+  <p class="sub">按方向、形式、城市和截止窗口做加权筛选；每条结果都给出命中理由。这是筛选器，不是录取预测。</p>
+  <form class="match-form" id="match-form">
+    <div class="match-field" style="grid-column:1/-1">
+      <label for="mq">项目方向 / 技能 / 关键词</label>
+      <input id="mq" placeholder="例如：智能体、RAG、Python、前端、具身">
+    </div>
+    <div class="match-field"><label for="mdir">方向</label><select id="mdir"><option value="all">全部方向</option><option value="agent">智能体</option><option value="llm">大模型</option><option value="embodied">具身/机器人</option><option value="aigc">AIGC/生成式</option><option value="multimodal">多模态/视觉</option><option value="algorithm">算法/数据</option><option value="compute">算力/芯片</option><option value="autonomous">自动驾驶/遥感</option><option value="vertical">行业应用</option><option value="open">开源/开放数据</option><option value="other">其他</option></select></div>
+    <div class="match-field"><label for="mmode">形式</label>
+      <select id="mmode"><option value="all">全部</option><option value="online">线上</option><option value="offline">线下</option><option value="hybrid">混合</option></select></div>
+    <div class="match-field"><label for="mcity">城市</label><select id="mcity"><option value="all">全部城市</option></select></div>
+    <div class="match-field"><label for="mwindow">截止窗口</label>
+      <select id="mwindow"><option value="0">不限</option><option value="7">7 天内</option><option value="30">30 天内</option><option value="90">90 天内</option></select></div>
+    <label class="match-check"><input type="checkbox" id="monly" checked> 只看还能报名</label>
+    <div class="match-actions"><button class="btn primary" type="submit">开始匹配 →</button>
+      <span class="section-note" style="margin:0">在浏览器本地计算，不上传任何内容。</span></div>
+  </form>
+</section>
+<div class="match-results" id="mresults"></div>
+<script>
+(function(){
+  var form = document.getElementById('match-form');
+  if (!form) return;
+  var results = document.getElementById('mresults');
+  var data = null;
+  var dirLabels = {"agent": "智能体", "llm": "大模型", "embodied": "具身/机器人", "aigc": "AIGC/生成式", "multimodal": "多模态/视觉", "algorithm": "算法/数据", "compute": "算力/芯片", "autonomous": "自动驾驶/遥感", "vertical": "行业应用", "open": "开源/开放数据", "other": "其他"};
+
+  function esc(s){ return String(s == null ? '' : s).replace(/[&<>"']/g, function(c){
+    return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]; }); }
+  function fmtDeadline(v){ return v ? v : '待确认'; }
+  function daysTo(v){
+    if (!v) return null;
+    var d = new Date(v + 'T00:00:00+08:00');
+    if (isNaN(d)) return null;
+    var now = new Date(); now.setHours(0,0,0,0);
+    return Math.round((d - now) / 86400000);
+  }
+  function score(rec, q, dir, mode, city, windowDays){
+    var reasons = [], s = 0;
+    var blob = [rec.title, (rec.tracks||[]).join(' '), rec.summary||'', rec.organizer||''].join(' ').toLowerCase();
+    if (dir && dir !== 'all' && (rec.directions||[]).indexOf(dir) !== -1) { s += 30; reasons.push('方向：' + (dirLabels[dir]||dir)); }
+    var tokens = (q||'').toLowerCase().split(/[\s,，、+]+/).filter(function(x){ return x.length >= 2; });
+    var hits = 0;
+    tokens.forEach(function(t){ if (blob.indexOf(t) !== -1) hits++; });
+    if (hits) { s += Math.min(24, hits * 8); reasons.push('关键词命中 ' + hits + ' 个'); }
+    if (mode && mode !== 'all' && rec.mode === mode) { s += 10; reasons.push('形式：' + mode); }
+    if (city && city !== 'all' && rec.city === city) { s += 10; reasons.push('城市：' + city); }
+    var d = daysTo(rec.deadline);
+    if (windowDays && d !== null && d >= 0 && d <= windowDays) { s += 15; reasons.push(d + ' 天内截止'); }
+    if (rec.status === 'open' || rec.status === 'closing') { s += 20; reasons.push('还能报名'); }
+    if (rec.ai_level === 'core') { s += 5; }
+    return {score:s, reasons:reasons};
+  }
+  function render(rows){
+    if (!results) return;
+    if (!rows.length) { results.innerHTML = '<div class="match-empty">没有匹配的赛事，换个方向或放宽截止窗口。</div>'; return; }
+    results.innerHTML = rows.map(function(x){
+      var rec = x.rec, sc = x.score;
+      return '<article class="match-card"><div><h3><a href="race/' + esc(rec.id) + '.html">' + esc(rec.title) + '</a></h3>' +
+        '<div class="mm">' + esc(rec.organizer || '主办方待确认') + ' · ' + esc(rec.mode || '待确认') +
+        (rec.city ? ' · ' + esc(rec.city) : '') + ' · 截止 ' + esc(fmtDeadline(rec.deadline)) + '</div>' +
+        '<div class="match-reasons">' + esc(sc.reasons.join(' · ') || '综合匹配') + '</div></div>' +
+        '<div class="match-score">' + sc.score + '<small>MATCH</small></div></article>';
+    }).join('');
+  }
+  function run(){
+    var q = (document.getElementById('mq')||{}).value || '';
+    var dir = (document.getElementById('mdir')||{}).value || 'all';
+    var mode = (document.getElementById('mmode')||{}).value || 'all';
+    var city = (document.getElementById('mcity')||{}).value || 'all';
+    var win = parseInt((document.getElementById('mwindow')||{}).value || '0', 10);
+    var only = document.getElementById('monly');
+    if (!data) return;
+    var rows = data.map(function(rec){ return {rec:rec, score:score(rec, q, dir, mode, city, win)}; })
+      .filter(function(x){
+        if (only && only.checked && x.rec.status === 'closed') return false;
+        if (!q && dir === 'all' && mode === 'all' && city === 'all' && !win) return true;
+        return x.score.score > 0;
+      })
+      .sort(function(a,b){ return b.score.score - a.score.score || (a.rec.deadline||'9999').localeCompare(b.rec.deadline||'9999'); })
+      .slice(0, 12);
+    render(rows);
+  }
+  fetch('data/match.json').then(function(r){ return r.json(); }).then(function(rows){
+    data = rows || [];
+    var mdir = document.getElementById('mdir');
+    if (mdir) {
+      var dirs = {};
+      data.forEach(function(r){ (r.directions||[]).forEach(function(k){ dirs[k]=1; }); });
+      Object.keys(dirs).forEach(function(k){
+        var o = document.createElement('option'); o.value = k; o.textContent = dirLabels[k] || k; mdir.appendChild(o);
+      });
+    }
+    var mcity = document.getElementById('mcity');
+    if (mcity) {
+      var cities = {};
+      data.forEach(function(r){ if (r.city) cities[r.city]=1; });
+      Object.keys(cities).sort().forEach(function(c){
+        var o = document.createElement('option'); o.value = c; o.textContent = c; mcity.appendChild(o);
+      });
+    }
+    run();
+  });
+  form.addEventListener('submit', function(ev){ ev.preventDefault(); run(); });
+})();
+</script>
+</main>
+<footer class="site"><div class="wrap">
+  <div class="fcols">
+    <div class="fcol">
+      <div class="fmark">AI 赛事雷达 / AI RACE RADAR</div>
+      <p>中国 AI 赛事与黑客松的核验清单。只在官方链接能打开、日期对得上时才收录；每天 08:00 重跑一次。</p>
+      <p class="fmeta">DATA UPDATED · 2026-11-12 14:10</p>
+    </div>
+    <div class="fcol"><div class="fhead">EXPLORE</div>
+      <a href="explore.html">探索全部</a>
+      <a href="organizers.html">主办方</a>
+      <a href="guides.html">指南</a>
+      <a href="match.html">帮我找赛事</a>
+    </div>
+    <div class="fcol"><div class="fhead">DATA</div>
+      <a href="api/events.json">api/events.json</a>
+      <a href="llms.txt">llms.txt</a>
+      <a href="llms-full.txt">llms-full.txt</a>
+      <a href="agent.json">agent.json</a>
+      <a href="sitemap.xml">sitemap.xml</a>
+    </div>
+    <div class="fcol"><div class="fhead">ABOUT</div>
+      <a href="about.html">方法与信源</a>
+      <a href="about.html#faq">常见问题</a>
+      <a href="submit.html">提交赛事 / 纠错</a>
+      <a href="calendar.ics">日历订阅</a>
+      <a href="feed.xml">RSS</a>
+    </div>
+  </div>
+  <div class="fine">
+    <span>© 2026 AI 赛事雷达</span>
+    <span>不收费 · 不代办报名 · 以主办方官方页面为准</span>
+    <span>CC BY 4.0</span>
+  </div>
+</div></footer>
+<script src="assets/app.js?v=20261112141003"></script>
+</body></html>

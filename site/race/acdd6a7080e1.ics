@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AI Race Radar//CN//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:AI 赛事雷达
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:acdd6a7080e1@ai-race-radar
+DTSTAMP:20261112T061004Z
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261028
+SUMMARY:Spatial Joy 2026 Rokid 全球开发大赛
+DESCRIPTION:主办方：Rokid 乐奇（灵伴科技）；报名截止：2
+ 027-01-28；奖金：主奖项金奖 ¥100\,000×3 / 银奖 ¥80\,000×6
+  / 铜奖 ¥50\,000×9；AR 游戏赛道金奖 ¥200\,000；行业命题
+ 赛道金奖 ¥200\,000×3；另有专项奖与 Token 支持（税前）
+ ；报名：https://spatialjoy.rokid.com/2026；收录：AI 赛事雷达
+ （2026-11-12T08:06:21 核验）
+URL:https://spatialjoy.rokid.com/2026
+END:VEVENT
+BEGIN:VEVENT
+UID:acdd6a7080e1-deadline@ai-race-radar
+DTSTAMP:20261112T061004Z
+DTSTART;VALUE=DATE:20270128
+DTEND;VALUE=DATE:20270129
+SUMMARY:⏰ 报名截止：Spatial Joy 2026 Rokid 全球开发大赛
+DESCRIPTION:报名：https://spatialjoy.rokid.com/2026
+URL:https://spatialjoy.rokid.com/2026
+END:VEVENT
+END:VCALENDAR

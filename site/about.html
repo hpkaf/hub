@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>方法与信源 · AI 赛事雷达</title>
+<meta name="description" content="AI 赛事雷达的核验标准、信源、数据接口与订阅方式。">
+<meta property="og:title" content="方法与信源 · AI 赛事雷达">
+<meta property="og:description" content="AI 赛事雷达的核验标准、信源、数据接口与订阅方式。">
+<meta name="theme-color" content="#0b100d" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#f3f4ec" media="(prefers-color-scheme: light)">
+<meta name="color-scheme" content="dark light">
+<script>
+(function(){
+  try{
+    var q = new URLSearchParams(location.search).get('theme');
+    var t = q || localStorage.getItem('airr-theme');
+    if (t === 'light' || t === 'dark') document.documentElement.setAttribute('data-theme', t);
+  }catch(e){}
+})();
+</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://race.howfun.cn/#organization", "name": "AI 赛事雷达", "url": "https://race.howfun.cn/", "description": "每一场都经过人工核验：官方链接、报名截止、线上 / 线下，点开就能报名。", "knowsAbout": ["AI 赛事", "黑客松", "hackathon", "AI competition", "算法赛", "智能体"]}, {"@type": "WebSite", "@id": "https://race.howfun.cn/#website", "url": "https://race.howfun.cn/", "name": "AI 赛事雷达", "description": "每一场都经过人工核验：官方链接、报名截止、线上 / 线下，点开就能报名。", "inLanguage": "zh-CN", "publisher": {"@id": "https://race.howfun.cn/#organization"}, "potentialAction": {"@type": "SearchAction", "target": {"@type": "EntryPoint", "urlTemplate": "https://race.howfun.cn/explore.html?q={search_term_string}"}, "query-input": "required name=search_term_string"}}, {"@type": "Dataset", "name": "AI 赛事雷达公开数据", "description": "中国 AI 赛事与黑客松的核验清单，含状态、截止日、AI 分级与核验时间。", "url": "https://race.howfun.cn/api/events.json", "license": "https://creativecommons.org/licenses/by/4.0/", "creator": {"@id": "https://race.howfun.cn/#organization"}, "isAccessibleForFree": true}]}</script>
+<link rel="alternate" type="text/calendar" title="AI 赛事雷达 · 赛事日历" href="calendar.ics">
+<link rel="alternate" type="application/rss+xml" title="AI 赛事雷达 · 赛事 RSS" href="feed.xml">
+<link rel="alternate" type="text/plain" title="AI 赛事雷达 · llms.txt" href="llms.txt">
+<link rel="stylesheet" href="assets/style.css?v=20261112141003">
+</head>
+<body>
+<header class="site"><div class="wrap hrow">
+  <a class="brand" href="index.html"><span class="mark"></span><span class="bname">AI 赛事雷达</span><span class="ben">AI RACE RADAR</span></a>
+  <nav class="top"><a href="index.html">赛事</a><a href="explore.html">探索</a><a href="calendar.ics">日历</a><a href="submit.html">投稿</a></nav>
+  <button class="theme-toggle" id="theme-toggle" type="button" aria-label="切换明暗主题" aria-pressed="false" title="切换明暗主题"><span aria-hidden="true">◐</span></button>
+  <span class="live"><i></i><span class="lk">LIVE · 08:00</span></span>
+</div></header>
+<main class="wrap">
+<div class="crumbs"><a href="index.html">← 返回首页</a></div>
+<article class="prose">
+<h1>方法与信源</h1>
+<p class="lead">AI 赛事雷达 只做一件事：把中国境内的 AI 赛事与黑客松整理成一份<strong>能点开、能报名、日期对得上</strong>的清单，并且每天复核一次。</p>
+
+<h2 id="verify"><span>01</span>我们怎么核验</h2>
+<ul>
+<li><strong>每条必须带官方链接</strong>：报名 / 详情页优先，链接实测返回 200/301 才算「已确认」；被反爬拦截（403/405/429）标注「待确认」，不会当成有效链接展示。</li>
+<li><strong>「已确认」只指链接可打开</strong>：HTTP 200 是链接核验，不代表赛事日期、奖金、资格与官方页完全一致；详情页会分别标注「链接核验时间」和「页面更新时间」，最终以主办方官方页为准。</li>
+<li><strong>标题与日期以官方页面为准</strong>：标题不改写、不夸张；报名截止、比赛时间来自官方页，缺失就写「待确认」，不猜。</li>
+<li><strong>只收 AI 相关</strong>：大模型、算法、数据、算力、智能体、AIGC、具身智能等赛道；非 AI 的综合赛事不收。</li>
+<li><strong>去重</strong>：同一赛事在多个渠道出现时按官方链接 + 标题指纹合并，只保留一条。</li>
+<li><strong>每天 08:00 重跑</strong>：重新核验链接、更新截止状态；过期赛事自动标记「已截止」，死链从列表中移除。</li>
+<li><strong>已结束赛事保留 90 天</strong>：结束 14 天内仍在首页（便于回看），14–90 天保留详情页与数据存档，超过 90 天下线；历史可从全量 JSON 检索。</li>
+</ul>
+
+<h2 id="sources"><span>02</span>信源</h2>
+<ul>
+<li>官方赛事平台：天池、讯飞开放平台、DataFountain、百度 AI Studio 等；</li>
+<li>黑客松平台与活动平台：DoraHacks、活动行、Luma 社区日历；</li>
+<li>主办方自有活动站：如知乎黑客松的 event 子域（带官方 JSON 活动数据，直接解析）；</li>
+<li>主办方官网与官方公众号（人工核验）；</li>
+<li>小红书 / 微信群 / 公众号私域信息：只进「线索队列」，拿到官方报名页并实测 200 后才收录；</li>
+<li>公开可访问的赛事聚合页，仅作线索，必须回到官方页确认后才收录。</li>
+</ul>
+<p>我们不使用「让大模型直接生成赛事信息」的方式，因为那样会产出大量打不开的链接——聚合的价值在于<strong>核验</strong>，不在于条数。</p>
+
+<h2 id="scope"><span>03</span>收录口径：泛赛事里的 AI 怎么算</h2>
+<p>很多黑客松主题是综合的（Web3、硬件、开源、消费），只有一部分赛道涉及 AI。我们按<strong>证据分级</strong>，不按标题一刀切：</p>
+<ul>
+<li><strong>AI 核心赛事</strong>：标题或主题本身是 AI（大模型、智能体、具身、算法、AIGC 等），整场按 AI 收录。</li>
+<li><strong>综合赛 · 含 AI 赛道</strong>：标题是泛主题，但官方报名页的赛道、题目或评审标准里明确有 AI 方向——收录，并在列表上标注「含 AI 赛道」，赛道字段只写 AI 相关部分。</li>
+<li><strong>AI 平台赛事</strong>：天池、讯飞、DataFountain、AI Studio 等平台上的比赛，平台场景本身就是 AI。</li>
+</ul>
+<p>判断只采信官方页面的赛道 / 题目 / 技术栈，不采信宣传语里的「AI 赋能」；拿不到赛道信息、又无法确认是 AI 的，宁可不收。</p>
+
+<h2 id="data"><span>04</span>数据接口</h2>
+<ul>
+<li><a href="api/events.json">api/events.json</a>：赛事 JSON（在架 + 近 90 天已结束，含字段说明、更新时间、AI 分级）</li>
+<li><a href="api/events.md">api/events.md</a>：同一份数据的 Markdown 版（给 LLM / Agent 省 token）</li>
+<li><a href="data/hot.json">data/hot.json</a>：首页「本周值得看」5 条（编辑精选，不是流量榜）</li>
+<li><a href="data/races.json">data/races.json</a>：全量核验数据（含已下线，供分析 / 存档）</li>
+<li><a href="calendar.ics">calendar.ics</a>：日历订阅（含报名截止提醒）</li>
+<li><a href="feed.xml">feed.xml</a>：RSS（给阅读器 / Agent）</li>
+<li><a href="llms.txt">llms.txt</a>：写给 AI 搜索 / 代理读取的站点说明</li>
+<li><a href="llms-full.txt">llms-full.txt</a>：完整版 AI reference（字段、核验语义、引用边界）</li>
+<li><a href="agent.json">agent.json</a> / <a href=".well-known/agent.json">.well-known/agent.json</a>：Agent 能力清单</li>
+<li><a href="sitemap.xml">sitemap.xml</a>：站点地图</li>
+</ul>
+<p>引用请带上「数据来自 AI 赛事雷达 · 核验时间」；数据许可：CC BY 4.0（署名）。</p>
+
+<h2 id="subscribe"><span>05</span>订阅与接入</h2>
+<p>按习惯选一个即可，所有方式都来自同一份每日核验数据：</p>
+<ul>
+<li><strong>日历订阅（推荐）</strong>：把 <a href="calendar.ics">calendar.ics</a> 加到 Apple 日历 / Outlook / Google 日历。Apple 可直接打开 <a href="webcal://race.howfun.cn/calendar.ics">webcal:// 链接</a>；Google 日历选「其他日历 → 通过网址添加」，粘贴 <code>https://race.howfun.cn/calendar.ics</code>；Outlook 选「添加日历 → 从 Web 订阅」。</li>
+<li><strong>单场加入</strong>：每场详情页有「Google 日历 / 下载 .ics」，适合只加一两场。</li>
+<li><strong>邮件摘要</strong>：邮件服务配置后开放；当前可先用日历订阅或 RSS。</li>
+<li><strong>Agent / RSS</strong>：<a href="api/events.json">api/events.json</a>（结构化数据）、<a href="feed.xml">feed.xml</a>（RSS）、<a href="llms.txt">llms.txt</a>（给 AI 的站点说明）。Agent 直接 GET JSON，按 <strong>status</strong> 过滤即可。</li>
+</ul>
+
+<h2 id="contribute"><span>06</span>提交赛事 / 纠错</h2>
+<p>发现遗漏或信息有误，欢迎在 <a href="submit.html">提交页面</a> 填官方链接与说明；我们核对官方页面后 24 小时内更新。主办方要求修正口径或下架，也走同一个入口。</p>
+
+<h2 id="disclaimer"><span>07</span>免责声明</h2>
+<p>本站仅做公开信息整理，不代收费用、不代办报名、不构成任何报名建议；所有赛事的资格、奖金与规则均以主办方官方页面为准。若主办方要求下架，请联系我们即刻处理。</p>
+
+<h2 id="faq"><span>08</span>常见问题</h2>
+<div class="faq"><details><summary>链接能打开，为什么不等于信息都核实过？</summary><p>「已确认可打开」只代表我们在核验时请求到了 200/301。赛事日期、奖金、参赛资格和报名状态仍可能变化，详情页会分别标注「链接核验时间」和「页面更新时间」，最终以主办方官方页面为准。</p></details><details><summary>为什么有的报名截止显示「待确认」？</summary><p>官方页面没有给出明确截止日，或页面是动态渲染、我们拿不到可靠字段。我们宁可写「待确认」，也不猜一个日期。</p></details><details><summary>为什么只收这些赛事？</summary><p>只收 AI 相关、且有公开可访问官方链接的赛事。非 AI 综合赛、私域扫码报名、只有截图没有官方页的线索不进公开列表；线索会留在内部队列，拿到官方页并实测 200 后再收录。</p></details><details><summary>已结束的赛事保留多久？</summary><p>结束后 14 天内仍在首页；14–90 天保留详情页与 API/存档；超过 90 天从站点下线，但仍保留在全量 JSON 与去重账本里。</p></details><details><summary>页面更新时间和主办方公告时间有什么区别？</summary><p>页面更新时间是本站构建/复核页面的时间，不是主办方发布或修改规则的时间。主办方可能在我们核验之后调整信息，报名前请再看一次官方页。</p></details><details><summary>数据可以转载或引用吗？</summary><p>可以，许可为 CC BY 4.0，请署名「AI 赛事雷达」并附核验时间；涉及具体赛事事实时，请优先引用主办方官方页面。</p></details><details><summary>主办方如何纠错、认领或要求下架？</summary><p>从任意详情页点「提交纠错」，或到提交页填写官方链接与要修改的字段；核对官方页后 24 小时内处理。主办方要求下架会即时处理。</p></details><details><summary>为什么没有报名人数、热度排名？</summary><p>我们没有站内报名系统，也没有可靠的全量报名数据；不展示无法核实的社交证明。</p></details></div>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "链接能打开，为什么不等于信息都核实过？", "acceptedAnswer": {"@type": "Answer", "text": "「已确认可打开」只代表我们在核验时请求到了 200/301。赛事日期、奖金、参赛资格和报名状态仍可能变化，详情页会分别标注「链接核验时间」和「页面更新时间」，最终以主办方官方页面为准。"}}, {"@type": "Question", "name": "为什么有的报名截止显示「待确认」？", "acceptedAnswer": {"@type": "Answer", "text": "官方页面没有给出明确截止日，或页面是动态渲染、我们拿不到可靠字段。我们宁可写「待确认」，也不猜一个日期。"}}, {"@type": "Question", "name": "为什么只收这些赛事？", "acceptedAnswer": {"@type": "Answer", "text": "只收 AI 相关、且有公开可访问官方链接的赛事。非 AI 综合赛、私域扫码报名、只有截图没有官方页的线索不进公开列表；线索会留在内部队列，拿到官方页并实测 200 后再收录。"}}, {"@type": "Question", "name": "已结束的赛事保留多久？", "acceptedAnswer": {"@type": "Answer", "text": "结束后 14 天内仍在首页；14–90 天保留详情页与 API/存档；超过 90 天从站点下线，但仍保留在全量 JSON 与去重账本里。"}}, {"@type": "Question", "name": "页面更新时间和主办方公告时间有什么区别？", "acceptedAnswer": {"@type": "Answer", "text": "页面更新时间是本站构建/复核页面的时间，不是主办方发布或修改规则的时间。主办方可能在我们核验之后调整信息，报名前请再看一次官方页。"}}, {"@type": "Question", "name": "数据可以转载或引用吗？", "acceptedAnswer": {"@type": "Answer", "text": "可以，许可为 CC BY 4.0，请署名「AI 赛事雷达」并附核验时间；涉及具体赛事事实时，请优先引用主办方官方页面。"}}, {"@type": "Question", "name": "主办方如何纠错、认领或要求下架？", "acceptedAnswer": {"@type": "Answer", "text": "从任意详情页点「提交纠错」，或到提交页填写官方链接与要修改的字段；核对官方页后 24 小时内处理。主办方要求下架会即时处理。"}}, {"@type": "Question", "name": "为什么没有报名人数、热度排名？", "acceptedAnswer": {"@type": "Answer", "text": "我们没有站内报名系统，也没有可靠的全量报名数据；不展示无法核实的社交证明。"}}]}</script>
+</article>
+</main>
+<footer class="site"><div class="wrap">
+  <div class="fcols">
+    <div class="fcol">
+      <div class="fmark">AI 赛事雷达 / AI RACE RADAR</div>
+      <p>中国 AI 赛事与黑客松的核验清单。只在官方链接能打开、日期对得上时才收录；每天 08:00 重跑一次。</p>
+      <p class="fmeta">DATA UPDATED · 2026-11-12 14:10</p>
+    </div>
+    <div class="fcol"><div class="fhead">EXPLORE</div>
+      <a href="explore.html">探索全部</a>
+      <a href="organizers.html">主办方</a>
+      <a href="guides.html">指南</a>
+      <a href="match.html">帮我找赛事</a>
+    </div>
+    <div class="fcol"><div class="fhead">DATA</div>
+      <a href="api/events.json">api/events.json</a>
+      <a href="llms.txt">llms.txt</a>
+      <a href="llms-full.txt">llms-full.txt</a>
+      <a href="agent.json">agent.json</a>
+      <a href="sitemap.xml">sitemap.xml</a>
+    </div>
+    <div class="fcol"><div class="fhead">ABOUT</div>
+      <a href="about.html">方法与信源</a>
+      <a href="about.html#faq">常见问题</a>
+      <a href="submit.html">提交赛事 / 纠错</a>
+      <a href="calendar.ics">日历订阅</a>
+      <a href="feed.xml">RSS</a>
+    </div>
+  </div>
+  <div class="fine">
+    <span>© 2026 AI 赛事雷达</span>
+    <span>不收费 · 不代办报名 · 以主办方官方页面为准</span>
+    <span>CC BY 4.0</span>
+  </div>
+</div></footer>
+<script src="assets/app.js?v=20261112141003"></script>
+</body></html>

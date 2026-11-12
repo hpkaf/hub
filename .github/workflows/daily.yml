@@ -1,0 +1,87 @@
+# AI 赛事雷达 · 每日自动更新
+#
+# 触发：每天 UTC 00:00（= 北京时间 08:00）
+# 流程：核验链接 → 生成静态站 → 提交去重账本 → 部署到 GitHub Pages
+#
+# 启用前需要在仓库 Settings → Pages 里把 Source 设为 "GitHub Actions"。
+name: daily-refresh
+
+env:
+  SITE_URL: ${{ vars.SITE_URL }}
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # 北京 08:00
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: daily-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 安装依赖
+        run: pip install -r requirements.txt
+
+      - name: 抓取平台源（天池 / 讯飞 / DataFountain / AI Studio / DoraHacks / 活动行）
+        run: |
+          python scripts/fetch_tianchi.py || echo "::warning::天池抓取失败，沿用旧候选"
+          python scripts/fetch_xfyun.py || echo "::warning::讯飞抓取失败，沿用旧候选"
+          python scripts/fetch_datafountain.py || echo "::warning::DataFountain 抓取失败，沿用旧候选"
+          python scripts/fetch_aistudio.py || echo "::warning::AI Studio 抓取失败，沿用旧候选"
+          python scripts/fetch_dora.py || echo "::warning::DoraHacks 抓取失败，沿用旧候选"
+          python scripts/fetch_hdx.py || echo "::warning::活动行抓取失败，沿用旧候选"
+
+      - name: 抓取官方活动站（知乎等自有活动页）
+        run: python scripts/fetch_event_sites.py
+
+      - name: 抓取扩展信源（魔搭活动 / 和鲸 / biendata）
+        run: python scripts/collect_sources.py
+
+      - name: 抓取 Luma 社区日历
+        run: python scripts/collect_luma.py
+
+      - name: 抓取线索源（联谱 / 湾区AI日历）
+        run: |
+          python scripts/collect_lianpu.py
+          python scripts/collect_wqai.py
+          python scripts/enrich_wechat_leads.py --limit 2
+
+      - name: 核验 + 去重 + 入库
+        run: python scripts/verify.py
+
+      - name: 生成站点
+        run: python scripts/build_site.py
+
+      - name: 提交去重账本与站点
+        run: |
+          git config user.name "ai-race-radar-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/races.db data/races.json site
+          if git diff --cached --quiet; then
+            echo "没有变化"
+          else
+            git commit -m "chore: daily refresh $(date -u +%F)"
+            git push
+          fi
+
+      - name: 上传 Pages 产物
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+      - name: 部署 GitHub Pages
+        uses: actions/deploy-pages@v4

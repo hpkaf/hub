@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AI Race Radar//CN//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:AI 赛事雷达
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:0e5440864541@ai-race-radar
+DTSTAMP:20261112T061004Z
+DTSTART;VALUE=DATE:20260828
+DTEND;VALUE=DATE:20261116
+SUMMARY:SMP 2026 大模型图网络决策挑战赛
+DESCRIPTION:主办方：中国中文信息学会社会媒体处理专委
+ 会（中国传媒大学、北京邮电大学承办）；报名截止：
+ 2026-09-30；奖金：总奖金¥55\,000（一等奖1名¥20\,000、二
+ 等奖2名各¥10\,000、三等奖3名各¥5\,000）；报名：http://s
+ mp2026.cips-smp.org/ji-shu-ping-ce；收录：AI 赛事雷达（2026-11-
+ 12T08:06:21 核验）
+URL:http://smp2026.cips-smp.org/ji-shu-ping-ce
+LOCATION:线上
+END:VEVENT
+BEGIN:VEVENT
+UID:0e5440864541-deadline@ai-race-radar
+DTSTAMP:20261112T061004Z
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
+SUMMARY:⏰ 报名截止：SMP 2026 大模型图网络决策挑战赛
+DESCRIPTION:报名：http://smp2026.cips-smp.org/ji-shu-ping-ce
+URL:http://smp2026.cips-smp.org/ji-shu-ping-ce
+END:VEVENT
+END:VCALENDAR

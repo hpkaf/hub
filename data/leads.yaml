@@ -1,0 +1,27 @@
+# 线索队列（不进公开站点）
+#
+# 来源：小红书、公众号、微信群、朋友圈等私域渠道，或者只拿到截图的事件。
+# 按「链接必须真能打开」的质量红线，这里只登记线索，不直接上站；
+# 等拿到官方报名/详情页并实测 200 后，再按 seeds.yaml 的字段契约加进公开数据。
+#
+# 状态说明：pending=待找官方链接 / verified=已核验待并入 seeds / rejected=信息不足或非赛事
+
+leads:
+  - title: "Ship it Sunday #015 · 回到未来的 3D 创作"
+    organizer: "AI Hacker House × Hi3D"
+    mode: offline
+    city: 上海
+    start_date: 2026-11-08
+    end_date: 2026-11-08
+    deadline: 2026-11-07          # 审核制报名，实际以主办方通知为准
+    prize: "¥20,000（第一名 ¥10,000 / 第二名 ¥5,000 / 第三名 ¥2,000 / 第四至六名各 ¥1,000）"
+    tracks: ["AI 3D 创作"]
+    status: verified
+    status_note: "2026-11-06 已按用户提供的 Luma 官方页 https://luma.com/gsdrc8e4 并入 seeds.yaml（Registration Closed，62 Going）；原记录：私域发布，报名为审核制；未找到公开的官方报名页（2026-11-06 18:05 复查：活动行搜 Hi3D/Ship it Sunday/AI Hacker House 均 0 条；联谱 lianpu.com 只有 Ship it Sunday #008 与 #013，无 #015，且其页面报名方式也是扫码；搜狗微信只有推文标题且正文被反爬；小红书笔记链接 302 登录墙）"
+    evidence: >-
+      小红书博主「树懒TV」笔记截图（2026-11-06 看到）：11 月 8 日（周日），上海漕河泾开发区公园·AI Hacker House，
+      6 小时开发 + 3 分钟展示，总奖金 2 万元，主题「回到未来的 3D 创作」；同场另有一周线上挑战（用 Hi3D 做模型晒作品 @树懒TV）。
+      公众号侧可搜到「Hi3d * AI Hacker House 一起玩转3D创作!」「Hi3D * AI Hacker House 评委阵容揭晓」等推文。
+    source_type: xiaohongshu + wechat
+    found_at: 2026-11-06
+    found_by: 用户提供

@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AI Race Radar//CN//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:AI 赛事雷达
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:bee00c2ad7ee@ai-race-radar
+DTSTAMP:20261112T061004Z
+DTSTART;VALUE=DATE:20260730
+DTEND;VALUE=DATE:20261116
+SUMMARY:2026-具身安全应用挑战赛
+DESCRIPTION:报名截止：2026-09-21；奖金：100\,000元；报名：h
+ ttps://tianchi.aliyun.com/competition/entrance/532507；收录：AI 赛
+ 事雷达（2026-11-12T08:06:21 核验）
+URL:https://tianchi.aliyun.com/competition/entrance/532507
+LOCATION:线上
+END:VEVENT
+BEGIN:VEVENT
+UID:bee00c2ad7ee-deadline@ai-race-radar
+DTSTAMP:20261112T061004Z
+DTSTART;VALUE=DATE:20260921
+DTEND;VALUE=DATE:20260922
+SUMMARY:⏰ 报名截止：2026-具身安全应用挑战赛
+DESCRIPTION:报名：https://tianchi.aliyun.com/competition/entrance/5325
+ 07
+URL:https://tianchi.aliyun.com/competition/entrance/532507
+END:VEVENT
+END:VCALENDAR

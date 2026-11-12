@@ -1,0 +1,17 @@
+HTTP/1.1 302 Found
+Server: nginx
+Date: Fri, 06 Nov 2026 07:41:38 GMT
+Content-Type: text/html; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: ABTEST=0|1793950898|v1; expires=Sun, 06-Dec-26 07:41:38 GMT; path=/
+P3P: CP="CURa ADMa DEVa PSAo PSDo OUR BUS UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR"
+Set-Cookie: SUID=A237A6DFC852A20B000000006AED84B2; expires=Thu, 01-Nov-2046 07:41:38 GMT; domain=weixin.sogou.com; path=/
+P3P: CP="CURa ADMa DEVa PSAo PSDo OUR BUS UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR"
+x_log_ext: ret=0&ret_exp=0&user_level=136
+Location: http://weixin.sogou.com/antispider/?from=%2Flink%3Furl%3Ddn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS-SFC2YKwMFXKc94mbVTMgN9OaxtLfWXoFqXa8Fplpd9c93fZTqfoBR8xT32hPDfrIuP1OkykDbIgTTmsKvFXG8GO_fZxjsXR596OHIZAfstx09Nqt0RlYTtCjYUGcA73c3R_3E-diN9Eh43jykRG0ug1fLHPHYl_-7nuCXtahA5cqg3ezIDT4VDuXLpdIyppArTn9jn6SGOnZZDRtUAgtDRtmyIGw2VAg..%26type%3D2%26query%3D%E9%BB%91%E5%AE%A2%E6%9D%BE%26token%3D1491F13DAF3AA8D10D0B5198BA993AA60E7333696AED8446
+Set-Cookie: black_passportid=1; domain=.sogou.com; path=/; expires=Thu, 01-Dec-1994 16:00:00 GMT
+Expires: Fri, 06 Nov 2026 07:41:38 GMT
+Cache-Control: max-age=0
+X-Frame-Options: allow-from sogou-inc.com
+

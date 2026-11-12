@@ -1,0 +1,85 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><title>Font Lab · 字体方向</title>
+<link rel="stylesheet" href="fonts/plexmono.css">
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#080b09;color:#e8ece2;font-family:-apple-system,"PingFang SC",system-ui,sans-serif}
+.wrap{max-width:1240px;margin:0 auto;padding:0 36px}
+header{border-bottom:1px solid #1e241d;padding:22px 0}
+.hrow{display:flex;justify-content:space-between;align-items:baseline;font-family:"IBM Plex Mono",Menlo,monospace;font-size:10px;letter-spacing:.2em;color:#7d8677;text-transform:uppercase}
+.hrow b{color:#c9f73f;letter-spacing:.14em}
+h1{font-family:"IBM Plex Mono",Menlo,monospace;font-size:22px;letter-spacing:.06em;margin:30px 0 8px;color:#f1f5ea}
+.intro{color:#8b9384;font-size:13px;line-height:1.9;max-width:760px;margin-bottom:10px}
+.intro b{color:#c9f73f;font-weight:500}
+.band{border-top:1px solid #1e241d;padding:26px 0 30px}
+.blabel{display:flex;gap:16px;align-items:baseline;font-family:"IBM Plex Mono",Menlo,monospace;font-size:10px;letter-spacing:.14em;color:#6f7869;text-transform:uppercase;margin-bottom:14px}
+.no{color:#c9f73f}
+.nm{color:#c8cfc0}
+.nm i{font-style:normal;color:#5f685a}
+.note{margin-left:auto;max-width:520px;text-align:right;letter-spacing:.02em;text-transform:none;color:#77806f;font-family:-apple-system,"PingFang SC",sans-serif;font-size:11.5px}
+h2{margin:0 0 10px;font-size:clamp(40px,5.2vw,68px);line-height:1.06;letter-spacing:-.02em;color:#f4f7ee}
+.bsub{color:#9aa392;font-size:15px;margin-bottom:16px}
+.sample{display:flex;align-items:baseline;gap:18px;border-top:1px solid #1e241d;border-bottom:1px solid #1e241d;padding:12px 0;font-size:16px}
+.s1{color:#eef2e6}
+.s2{font-family:-apple-system,"PingFang SC",sans-serif !important;font-weight:400 !important;font-size:11.5px;color:#7d8677;letter-spacing:.02em}
+.s3{margin-left:auto;color:#c9f73f;font-family:"IBM Plex Mono",Menlo,monospace !important;font-weight:400 !important;font-size:13px;white-space:nowrap}
+.mono-sec{border-top:1px solid #1e241d;padding:30px 0 40px}
+.mhead{font-family:"IBM Plex Mono",Menlo,monospace;font-size:10px;letter-spacing:.18em;color:#c9f73f;text-transform:uppercase;margin-bottom:6px}
+.mdesc{color:#8b9384;font-size:12.5px;margin-bottom:22px}
+.mrow{display:grid;grid-template-columns:230px 1fr;gap:26px;align-items:baseline;border-top:1px solid #1a201a;padding:14px 0}
+.mlabel b{display:block;font-family:"IBM Plex Mono",Menlo,monospace;font-size:11px;letter-spacing:.14em;color:#dfe6d6}
+.mlabel span{font-size:11px;color:#6f7869}
+.msample{font-size:14px;color:#aeb7a6;letter-spacing:.02em}
+.foot{border-top:1px solid #1e241d;padding:18px 0 40px;font-family:"IBM Plex Mono",Menlo,monospace;font-size:10px;letter-spacing:.16em;color:#5f685a;text-transform:uppercase;display:flex;justify-content:space-between}
+@media(max-width:800px){.note{display:none}.mrow{grid-template-columns:1fr}.sample{flex-wrap:wrap}}
+</style></head><body>
+<header><div class="wrap"><div class="hrow"><b>FONT LAB / 字体试验</b><span>AI RACE RADAR · RADAR ROOM THEME · 2026-11-06</span></div></div></header>
+<div class="wrap">
+<h1>同一套暗色雷达版式，只换字体</h1>
+<p class="intro">全部是本机已安装的字体（除 IBM Plex Mono 是 10 个自托管子集，共 <b>≈68KB</b>）。判断标准：<b>暗底大字号是否锐利</b>、<b>是否像「个人品牌」而不是模板站</b>、<b>跨设备能不能保持</b>。标题字号、颜色、间距完全一致，只有字体不同。</p>
+<section class="band">
+  <div class="blabel"><span class="no">01</span><span class="nm">当前 · 宋体 / <i>Songti SC Black / 宋体-简</i></span><span class="note">编辑感、克制的旧铅字味。缺点：Windows/安卓没有，跨设备会掉到别的宋体。</span></div>
+  <h2 style="font-family:'Songti SC','Noto Serif SC',serif;font-weight:900">中国 AI 赛事与黑客松</h2>
+  <div class="bsub" style="font-family:'Songti SC','Noto Serif SC',serif;font-weight:900">官方链接、报名截止、线上或线下 —— 每一场都核验过才收录</div>
+  <div class="sample" style="font-family:'Songti SC','Noto Serif SC',serif;font-weight:900"><span class="s1">天猫 AI 黑客松·高校挑战赛</span><span class="s2">天猫 / 线上 / 黑客松 · 高校 AI 应用</span><span class="s3">01 <small>天截止</small></span></div>
+</section><section class="band">
+  <div class="blabel"><span class="no">02</span><span class="nm">思源宋体 / <i>Source Han Serif CN Bold / 思源宋体</i></span><span class="note">更现代、更硬朗的宋体，屏显锐利度高于 Songti；开源可公开自托管，跨设备一致。</span></div>
+  <h2 style="font-family:'Source Han Serif CN','Songti SC','Noto Serif SC',serif;font-weight:700">中国 AI 赛事与黑客松</h2>
+  <div class="bsub" style="font-family:'Source Han Serif CN','Songti SC','Noto Serif SC',serif;font-weight:700">官方链接、报名截止、线上或线下 —— 每一场都核验过才收录</div>
+  <div class="sample" style="font-family:'Source Han Serif CN','Songti SC','Noto Serif SC',serif;font-weight:700"><span class="s1">天猫 AI 黑客松·高校挑战赛</span><span class="s2">天猫 / 线上 / 黑客松 · 高校 AI 应用</span><span class="s3">01 <small>天截止</small></span></div>
+</section><section class="band">
+  <div class="blabel"><span class="no">03</span><span class="nm">得意黑 / <i>Smiley Sans Oblique / 得意黑</i></span><span class="note">潮流斜体黑，海报感与运动感强；辨识度最高的一种「个人品牌」字体。</span></div>
+  <h2 style="font-family:'Smiley Sans Oblique','Smiley Sans','PingFang SC',sans-serif;font-weight:400">中国 AI 赛事与黑客松</h2>
+  <div class="bsub" style="font-family:'Smiley Sans Oblique','Smiley Sans','PingFang SC',sans-serif;font-weight:400">官方链接、报名截止、线上或线下 —— 每一场都核验过才收录</div>
+  <div class="sample" style="font-family:'Smiley Sans Oblique','Smiley Sans','PingFang SC',sans-serif;font-weight:400"><span class="s1">天猫 AI 黑客松·高校挑战赛</span><span class="s2">天猫 / 线上 / 黑客松 · 高校 AI 应用</span><span class="s3">01 <small>天截止</small></span></div>
+</section><section class="band">
+  <div class="blabel"><span class="no">04</span><span class="nm">思源黑体 / <i>Source Han Sans CN Heavy / 思源黑体</i></span><span class="note">硬朗几何黑体，仪表盘 / 工程感；最稳的科技叙事，不会出错但个性略弱。</span></div>
+  <h2 style="font-family:'Source Han Sans CN','PingFang SC',sans-serif;font-weight:900">中国 AI 赛事与黑客松</h2>
+  <div class="bsub" style="font-family:'Source Han Sans CN','PingFang SC',sans-serif;font-weight:900">官方链接、报名截止、线上或线下 —— 每一场都核验过才收录</div>
+  <div class="sample" style="font-family:'Source Han Sans CN','PingFang SC',sans-serif;font-weight:900"><span class="s1">天猫 AI 黑客松·高校挑战赛</span><span class="s2">天猫 / 线上 / 黑客松 · 高校 AI 应用</span><span class="s3">01 <small>天截止</small></span></div>
+</section><section class="band">
+  <div class="blabel"><span class="no">05</span><span class="nm">阿里普惠体 / <i>Alibaba PuHuiTi Heavy</i></span><span class="note">友好、圆润的商务科技感，像大厂发布会；适合「可信服务」而不是「酷」。</span></div>
+  <h2 style="font-family:'Alibaba PuHuiTi','PingFang SC',sans-serif;font-weight:800">中国 AI 赛事与黑客松</h2>
+  <div class="bsub" style="font-family:'Alibaba PuHuiTi','PingFang SC',sans-serif;font-weight:800">官方链接、报名截止、线上或线下 —— 每一场都核验过才收录</div>
+  <div class="sample" style="font-family:'Alibaba PuHuiTi','PingFang SC',sans-serif;font-weight:800"><span class="s1">天猫 AI 黑客松·高校挑战赛</span><span class="s2">天猫 / 线上 / 黑客松 · 高校 AI 应用</span><span class="s3">01 <small>天截止</small></span></div>
+</section><section class="band">
+  <div class="blabel"><span class="no">06</span><span class="nm">源泉圆体等宽 / <i>Gen Jyuu Gothic Monospace</i></span><span class="note">中日等宽圆体，标题与数据同一字体体系；极客 / 日系小众，长文可读性一般。</span></div>
+  <h2 style="font-family:'Gen Jyuu Gothic Monospace',monospace;font-weight:700">中国 AI 赛事与黑客松</h2>
+  <div class="bsub" style="font-family:'Gen Jyuu Gothic Monospace',monospace;font-weight:700">官方链接、报名截止、线上或线下 —— 每一场都核验过才收录</div>
+  <div class="sample" style="font-family:'Gen Jyuu Gothic Monospace',monospace;font-weight:700"><span class="s1">天猫 AI 黑客松·高校挑战赛</span><span class="s2">天猫 / 线上 / 黑客松 · 高校 AI 应用</span><span class="s3">01 <small>天截止</small></span></div>
+</section><section class="band">
+  <div class="blabel"><span class="no">07</span><span class="nm">微软雅黑（对照） / <i>Microsoft YaHei Bold</i></span><span class="note">Windows 访客的实际基准字体，放进来只为对照：你要多数人看到什么。</span></div>
+  <h2 style="font-family:'Microsoft YaHei','PingFang SC',sans-serif;font-weight:700">中国 AI 赛事与黑客松</h2>
+  <div class="bsub" style="font-family:'Microsoft YaHei','PingFang SC',sans-serif;font-weight:700">官方链接、报名截止、线上或线下 —— 每一场都核验过才收录</div>
+  <div class="sample" style="font-family:'Microsoft YaHei','PingFang SC',sans-serif;font-weight:700"><span class="s1">天猫 AI 黑客松·高校挑战赛</span><span class="s2">天猫 / 线上 / 黑客松 · 高校 AI 应用</span><span class="s3">01 <small>天截止</small></span></div>
+</section>
+<div class="mono-sec">
+  <div class="mhead">08 · 数据字体 / MONO</div>
+  <div class="mdesc">等宽字体决定「仪表盘感」。下面同一行数据在三种字体下的观感：</div>
+  <div class="mrow"><div class="mlabel"><b>MENLO</b><span>macOS 系统等宽（当前）</span></div>
+<div class="msample" style="font-family:Menlo, monospace">08:00 · 2026-11-06 · ¥120,000 · SIGNAL 001 · 01 天 · 还有 83 天截止</div></div><div class="mrow"><div class="mlabel"><b>IBM PLEX MONO</b><span>自托管 10 个 woff2 子集，约 68KB</span></div>
+<div class="msample" style="font-family:'IBM Plex Mono', Menlo, monospace">08:00 · 2026-11-06 · ¥120,000 · SIGNAL 001 · 01 天 · 还有 83 天截止</div></div><div class="mrow"><div class="mlabel"><b>GEN JYUU MONO</b><span>源泉圆体等宽（本机已装）</span></div>
+<div class="msample" style="font-family:'Gen Jyuu Gothic Monospace', monospace">08:00 · 2026-11-06 · ¥120,000 · SIGNAL 001 · 01 天 · 还有 83 天截止</div></div>
+</div>
+<div class="foot"><span>字体方向 · FONT DIRECTIONS</span><span>建议见对话 / 可自托管子集</span></div>
+</div>
+</body></html>

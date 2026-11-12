@@ -1,0 +1,369 @@
+[
+  {
+    "name": "华为",
+    "slug": "huawei",
+    "cities": [],
+    "website": "https://www.huawei.com",
+    "intro": "华为技术有限公司，主办昇腾、鲲鹏等 AI 与计算相关赛事。",
+    "events": [
+      "db0d1dfbf7f0",
+      "384ec6224bd6"
+    ]
+  },
+  {
+    "name": "支付宝",
+    "slug": "alipay",
+    "cities": [],
+    "website": "https://www.alipay.com",
+    "intro": "支付宝是蚂蚁集团旗下的数字支付与生活服务平台，主办 AI 付 PAYATHON、智能体涌现奖等赛事。",
+    "events": [
+      "c23a3e9cad51",
+      "0f21cf92282d"
+    ]
+  },
+  {
+    "name": "AI Hacker House × Hi3D",
+    "slug": "aihh-hi3d",
+    "cities": [
+      "上海"
+    ],
+    "website": "",
+    "intro": "AI Hacker House 与 Hi3D 联合组织的 AI 黑客松与社区活动。",
+    "events": [
+      "3d0e7fb3cd2f"
+    ]
+  },
+  {
+    "name": "Algorand",
+    "slug": "algorand",
+    "cities": [],
+    "website": "",
+    "intro": "已收录 1 场 AI 赛事（在架 1 / 往届 0），形式：线上；最近一场：AlgoBharat Regional Hackathons。",
+    "events": [
+      "5dabc3dc90a5"
+    ]
+  },
+  {
+    "name": "Binance",
+    "slug": "binance",
+    "cities": [],
+    "website": "",
+    "intro": "已收录 1 场 AI 赛事（在架 1 / 往届 0），形式：线上；最近一场：Beyond the Benchmark: The Binance Agentic AI Challenge。",
+    "events": [
+      "fb3f0698599e"
+    ]
+  },
+  {
+    "name": "QDay",
+    "slug": "qday",
+    "cities": [],
+    "website": "",
+    "intro": "已收录 1 场 AI 赛事（在架 1 / 往届 0），形式：线上；最近一场：Aevum Builder Challenge #1，报名截止 2026-11-16。",
+    "events": [
+      "878465bc4362"
+    ]
+  },
+  {
+    "name": "Rokid 乐奇（灵伴科技）",
+    "slug": "rokid",
+    "cities": [],
+    "website": "",
+    "intro": "已收录 1 场 AI 赛事（在架 1 / 往届 0），形式：线上+线下；最近一场：Spatial Joy 2026 Rokid 全球开发大赛，报名截止 2027-01-28。",
+    "events": [
+      "acdd6a7080e1"
+    ]
+  },
+  {
+    "name": "Telos Circle",
+    "slug": "telos-circle",
+    "cities": [],
+    "website": "",
+    "intro": "已收录 1 场 AI 赛事（在架 1 / 往届 0），形式：线上；最近一场：WAISS #1 - Wiener AI Software Stammtisch。",
+    "events": [
+      "2f56064d2684"
+    ]
+  },
+  {
+    "name": "Terminal 3",
+    "slug": "terminal-3",
+    "cities": [],
+    "website": "",
+    "intro": "已收录 1 场 AI 赛事（在架 1 / 往届 0），形式：线上；最近一场：Terminal 3 Build+Scale Agent Micro Grant。",
+    "events": [
+      "57507797734e"
+    ]
+  },
+  {
+    "name": "WaytoAGI × ACE-CON",
+    "slug": "waytoagi-ace-con",
+    "cities": [
+      "北京"
+    ],
+    "website": "",
+    "intro": "已收录 1 场 AI 赛事（在架 1 / 往届 0），形式：线上+线下；最近一场：首届AI × 音乐视觉黑客松，报名截止 2026-11-15。",
+    "events": [
+      "9d1e77a417ba"
+    ]
+  },
+  {
+    "name": "具亮计划",
+    "slug": "org-154c085a",
+    "cities": [],
+    "website": "",
+    "intro": "已收录 1 场 AI 赛事（在架 1 / 往届 0），形式：线上；最近一场：全新升级！第二届具亮计划·全球具身智能黑客松，报名截止 2026-11-19。",
+    "events": [
+      "625b5a71ebac"
+    ]
+  },
+  {
+    "name": "北京百度网讯科技有限公司",
+    "slug": "org-7edc0a13",
+    "cities": [],
+    "website": "",
+    "intro": "已收录 1 场 AI 赛事（在架 1 / 往届 0），形式：线上；最近一场：野生动物目标检测挑战赛。",
+    "events": [
+      "bcad4c1c92d9"
+    ]
+  },
+  {
+    "name": "华硕 A+ 青年",
+    "slug": "org-cca3eb0d",
+    "cities": [],
+    "website": "",
+    "intro": "已收录 1 场 AI 赛事（在架 1 / 往届 0），形式：线下；最近一场：华硕 A+ 青年 Creator Lab。",
+    "events": [
+      "ee8e836e4cee"
+    ]
+  },
+  {
+    "name": "地瓜机器人",
+    "slug": "org-e8dd4c52",
+    "cities": [],
+    "website": "",
+    "intro": "已收录 1 场 AI 赛事（在架 1 / 往届 0），形式：线上；最近一场：48H和真实世界碰一碰｜首届地瓜机器人黑客松，报名截止 2026-11-30。",
+    "events": [
+      "1fe2ff118454"
+    ]
+  },
+  {
+    "name": "天池（阿里云）+CSIG",
+    "slug": "csig",
+    "cities": [],
+    "website": "",
+    "intro": "已收录 1 场 AI 赛事（在架 1 / 往届 0），形式：线上；最近一场：复杂工业场景异常检测算法挑战赛。",
+    "events": [
+      "094f5bca46a6"
+    ]
+  },
+  {
+    "name": "天猫",
+    "slug": "org-65b866db",
+    "cities": [],
+    "website": "",
+    "intro": "已收录 1 场 AI 赛事（在架 1 / 往届 0），形式：线上；最近一场：天猫 AI 黑客松·高校挑战赛，报名截止 2026-11-07。",
+    "events": [
+      "312063dc7ec9"
+    ]
+  },
+  {
+    "name": "开放原子开源基金会",
+    "slug": "org-796f56c9",
+    "cities": [],
+    "website": "",
+    "intro": "已收录 1 场 AI 赛事（在架 1 / 往届 0），形式：线上+线下；最近一场：第四届开放原子大赛。",
+    "events": [
+      "1f4f5ff53ed4"
+    ]
+  },
+  {
+    "name": "开放原子开源基金会丨OpenLET 具身智能开源数据集社区",
+    "slug": "openlet",
+    "cities": [],
+    "website": "",
+    "intro": "已收录 1 场 AI 赛事（在架 1 / 往届 0），形式：线上；最近一场：OpenLET 具身智能挑战赛，报名截止 2026-12-31。",
+    "events": [
+      "cf5b09f6b87b"
+    ]
+  },
+  {
+    "name": "海南岛国际电影节组委会",
+    "slug": "org-318efd25",
+    "cities": [
+      "三亚"
+    ],
+    "website": "",
+    "intro": "已收录 1 场 AI 赛事（在架 1 / 往届 0），形式：线下；最近一场：第八届海南岛国际电影节·AI电影展影片征集，报名截止 2026-11-15。",
+    "events": [
+      "18d9e2649373"
+    ]
+  },
+  {
+    "name": "火山引擎",
+    "slug": "org-45549b51",
+    "cities": [],
+    "website": "",
+    "intro": "已收录 1 场 AI 赛事（在架 1 / 往届 0），形式：线上；最近一场：火山杯 Agent 创新大赛。",
+    "events": [
+      "bfd3aecdcbab"
+    ]
+  },
+  {
+    "name": "知乎",
+    "slug": "org-5e311c5e",
+    "cities": [],
+    "website": "",
+    "intro": "已收录 1 场 AI 赛事（在架 1 / 往届 0），形式：线上；最近一场：知乎黑客松 S3 湾区共创季，报名截止 2026-12-04。",
+    "events": [
+      "54230fde8632"
+    ]
+  },
+  {
+    "name": "科大讯飞、中国信息协会",
+    "slug": "org-fca4f576",
+    "cities": [],
+    "website": "",
+    "intro": "已收录 1 场 AI 赛事（在架 1 / 往届 0），形式：线上；最近一场：2026 iFLYTEK AI开发者大赛。",
+    "events": [
+      "f1a5e296d879"
+    ]
+  },
+  {
+    "name": "群核科技",
+    "slug": "org-6115305a",
+    "cities": [],
+    "website": "",
+    "intro": "已收录 1 场 AI 赛事（在架 1 / 往届 0），形式：线上；最近一场：群核科技Ahoolo 全球3D AI黑客松，报名截止 2026-11-19。",
+    "events": [
+      "3770f5a44e8f"
+    ]
+  },
+  {
+    "name": "蚂蚁集团",
+    "slug": "org-9b608c5b",
+    "cities": [],
+    "website": "",
+    "intro": "已收录 1 场 AI 赛事（在架 1 / 往届 0），形式：线上；最近一场：AFAC2026金融智能创新大赛。",
+    "events": [
+      "459842ff0003"
+    ]
+  },
+  {
+    "name": "词元星火科技有限公司",
+    "slug": "org-2949bfec",
+    "cities": [],
+    "website": "",
+    "intro": "已收录 1 场 AI 赛事（在架 1 / 往届 0），形式：线上；最近一场：Spark-X2.5端侧模型创新挑战赛，报名截止 2026-11-10。",
+    "events": [
+      "4ada71681515"
+    ]
+  },
+  {
+    "name": "阿里云+天池",
+    "slug": "org-b2235f73",
+    "cities": [],
+    "website": "",
+    "intro": "已收录 1 场 AI 赛事（在架 1 / 往届 0），形式：线上；最近一场：2026阿里云Data+AI工程师全球挑战赛。",
+    "events": [
+      "fe67b063dfb9"
+    ]
+  },
+  {
+    "name": "魔搭社区（ModelScope）",
+    "slug": "modelscope",
+    "cities": [],
+    "website": "",
+    "intro": "已收录 1 场 AI 赛事（在架 1 / 往届 0），形式：线上；最近一场：AI造游戏，人人都是游戏制作人｜AI+∞开发者创作大赛第三期，报名截止 2026-12-01。",
+    "events": [
+      "72fe5f5ee153"
+    ]
+  },
+  {
+    "name": "中国农业大学",
+    "slug": "cau",
+    "cities": [],
+    "website": "https://www.cau.edu.cn",
+    "intro": "中国农业大学是教育部直属高校，组织农业与 AI 交叉方向的赛事。",
+    "events": [
+      "c60e42bd1ffe",
+      "21454fa7efac",
+      "1712b226ef79",
+      "69ae8f54528a",
+      "babe69fb0ddb"
+    ]
+  },
+  {
+    "name": "科大讯飞股份有限公司",
+    "slug": "iflytek",
+    "cities": [],
+    "website": "https://www.iflytek.com",
+    "intro": "科大讯飞是智能语音与人工智能企业，主办讯飞 AI 开发者大赛系列。",
+    "events": [
+      "6b6403ff04d6",
+      "86c57475d2e5",
+      "6e599c31ba58",
+      "5b1041241f12"
+    ]
+  },
+  {
+    "name": "中国电子学会&睿创微纳",
+    "slug": "cie-raytron",
+    "cities": [],
+    "website": "https://www.cie.org.cn",
+    "intro": "中国电子学会与睿创微纳联合主办 AI 与红外/感知相关赛事。",
+    "events": [
+      "c4cc7b8c077f",
+      "19f3973c4ad3"
+    ]
+  },
+  {
+    "name": "声网",
+    "slug": "agora",
+    "cities": [],
+    "website": "https://www.shengwang.cn",
+    "intro": "声网（Agora）是实时音视频云服务商，主办 RTE/AI 相关开发赛事。",
+    "events": [
+      "10fea0fb7e83",
+      "9f5f60216c05"
+    ]
+  },
+  {
+    "name": "中国中文信息学会社会媒体处理专委会（中国传媒大学、北京邮电大学承办）",
+    "slug": "org-8b7c906d",
+    "cities": [],
+    "website": "",
+    "intro": "已收录 1 场 AI 赛事（在架 0 / 往届 1），形式：线上；最近一场：SMP 2026 大模型图网络决策挑战赛，报名截止 2026-09-30。",
+    "events": [
+      "0e5440864541"
+    ]
+  },
+  {
+    "name": "中国矿业大学",
+    "slug": "cumt",
+    "cities": [],
+    "website": "https://www.cumt.edu.cn",
+    "intro": "中国矿业大学是教育部直属高校，组织 AI 与矿业/安全交叉方向赛事。",
+    "events": [
+      "8541cb1e0341"
+    ]
+  },
+  {
+    "name": "中国科学技术大学认知智能全国重点实验室",
+    "slug": "ustc-cogai",
+    "cities": [],
+    "website": "https://www.ustc.edu.cn",
+    "intro": "中国科学技术大学认知智能全国重点实验室，研究方向覆盖认知智能与大模型。",
+    "events": [
+      "730f1f20c8ea"
+    ]
+  },
+  {
+    "name": "烟台睿创微纳技术股份有限公司",
+    "slug": "org-1772583e",
+    "cities": [],
+    "website": "",
+    "intro": "已收录 1 场 AI 赛事（在架 0 / 往届 1），形式：线上；最近一场：AI新睿人才“星探计划”。",
+    "events": [
+      "59a629172564"
+    ]
+  }
+]

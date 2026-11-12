@@ -1,0 +1,49 @@
+# AI 赛事雷达 (AI Race Radar)
+
+> 中国 AI 赛事与黑客松的核验清单：只收 AI 相关赛事，每条官方链接实测可打开（HTTP 200/301），
+> 每日 08:00（Asia/Shanghai）重新核验；提供日历订阅与公开 JSON。非 AI 综合赛事不收，
+> 综合赛里含明确 AI 赛道的会标注 ai_level=track。
+
+## 入口
+- 首页: https://race.howfun.cn/
+- 探索（方向/平台/级别/形式/状态）: https://race.howfun.cn/explore.html
+- 主办方索引: https://race.howfun.cn/organizers.html
+- 匹配: https://race.howfun.cn/match.html
+- 指南: https://race.howfun.cn/guides.html
+- 方法与 FAQ: https://race.howfun.cn/about.html
+- 提交赛事 / 纠错: https://race.howfun.cn/submit.html
+- 公开 JSON（在架 + 近 90 天已结束）: https://race.howfun.cn/api/events.json
+- 公开 Markdown: https://race.howfun.cn/api/events.md
+- 本周值得看（编辑精选，不是流量榜）: https://race.howfun.cn/data/hot.json
+- 全量核验数据: https://race.howfun.cn/data/races.json
+- 日历订阅（含报名截止提醒）: https://race.howfun.cn/calendar.ics
+- 日历 webcal（Apple 日历直接打开）: webcal://race.howfun.cn/calendar.ics
+- RSS: https://race.howfun.cn/feed.xml
+- Agent manifest: https://race.howfun.cn/agent.json
+- 站点地图: https://race.howfun.cn/sitemap.xml
+
+## 数据
+- 收录数量: 68 场（含近 90 天已结束，按 status 区分；真正可报名的用 status 过滤）
+- 页面更新时间: 2026-11-12 14:10
+- 更新节奏: 每天 08:00 重跑链接核验与状态
+- 字段: id, title, organizer, mode, city, start_date, end_date, deadline, prize, tracks,
+  summary, directions, url, status, ai_level, verified_at
+- 引用建议: 「数据来自 AI 赛事雷达，核验时间 YYYY-MM-DD」，报名与奖金以官方页面为准
+- 许可: CC BY 4.0（署名: AI 赛事雷达）
+
+## Agent 接入
+- 结构化数据: GET https://race.howfun.cn/api/events.json（顶层 count / updated / fields，events 数组）
+- 过滤建议: status in ("open","closing")；deadline 非空；ai_level 按需
+- 日历: https://race.howfun.cn/calendar.ics（订阅）或 webcal://race.howfun.cn/calendar.ics（Apple 日历）
+- RSS: https://race.howfun.cn/feed.xml
+- 单场: 详情页有「Google 日历 / 下载 .ics」；events[].url 是官方报名页
+- 写操作: 本站没有报名 / 写接口，报名请打开 events[].url
+
+## 核验规则（摘要）
+- 链接：实测 200/301 才展示；403/405/429 标"待确认"；死链移出列表
+- 截止日：来自官方页面，缺失写"待确认"，不猜测
+- 去重：官方链接 + 标题指纹合并
+- AI 分级：core（标题即 AI）/ track（泛赛事含 AI 赛道/方向）/ platform（AI 平台比赛）/ other（AI 相关综合）
+
+## 联系
+- 提交赛事 / 纠错 / 主办方校对：见 https://race.howfun.cn/about.html#contribute

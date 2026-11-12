@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>线上 vs 线下 AI 赛事：怎么选 · AI 赛事雷达</title>
+<meta name="description" content="用真实收录数据比较线上、线下、混合 AI 赛事的时间、成本与适配人群。">
+<meta property="og:title" content="线上 vs 线下 AI 赛事：怎么选 · AI 赛事雷达">
+<meta property="og:description" content="用真实收录数据比较线上、线下、混合 AI 赛事的时间、成本与适配人群。">
+<meta name="theme-color" content="#0b100d" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#f3f4ec" media="(prefers-color-scheme: light)">
+<meta name="color-scheme" content="dark light">
+<script>
+(function(){
+  try{
+    var q = new URLSearchParams(location.search).get('theme');
+    var t = q || localStorage.getItem('airr-theme');
+    if (t === 'light' || t === 'dark') document.documentElement.setAttribute('data-theme', t);
+  }catch(e){}
+})();
+</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://race.howfun.cn/#organization", "name": "AI 赛事雷达", "url": "https://race.howfun.cn/", "description": "每一场都经过人工核验：官方链接、报名截止、线上 / 线下，点开就能报名。", "knowsAbout": ["AI 赛事", "黑客松", "hackathon", "AI competition", "算法赛", "智能体"]}, {"@type": "WebSite", "@id": "https://race.howfun.cn/#website", "url": "https://race.howfun.cn/", "name": "AI 赛事雷达", "description": "每一场都经过人工核验：官方链接、报名截止、线上 / 线下，点开就能报名。", "inLanguage": "zh-CN", "publisher": {"@id": "https://race.howfun.cn/#organization"}, "potentialAction": {"@type": "SearchAction", "target": {"@type": "EntryPoint", "urlTemplate": "https://race.howfun.cn/explore.html?q={search_term_string}"}, "query-input": "required name=search_term_string"}}, {"@type": "Dataset", "name": "AI 赛事雷达公开数据", "description": "中国 AI 赛事与黑客松的核验清单，含状态、截止日、AI 分级与核验时间。", "url": "https://race.howfun.cn/api/events.json", "license": "https://creativecommons.org/licenses/by/4.0/", "creator": {"@id": "https://race.howfun.cn/#organization"}, "isAccessibleForFree": true}]}</script>
+<link rel="alternate" type="text/calendar" title="AI 赛事雷达 · 赛事日历" href="../calendar.ics">
+<link rel="alternate" type="application/rss+xml" title="AI 赛事雷达 · 赛事 RSS" href="../feed.xml">
+<link rel="alternate" type="text/plain" title="AI 赛事雷达 · llms.txt" href="../llms.txt">
+<link rel="stylesheet" href="../assets/style.css?v=20261112141003">
+</head>
+<body>
+<header class="site"><div class="wrap hrow">
+  <a class="brand" href="../index.html"><span class="mark"></span><span class="bname">AI 赛事雷达</span><span class="ben">AI RACE RADAR</span></a>
+  <nav class="top"><a href="../index.html">赛事</a><a href="../explore.html">探索</a><a href="../calendar.ics">日历</a><a href="../submit.html">投稿</a></nav>
+  <button class="theme-toggle" id="theme-toggle" type="button" aria-label="切换明暗主题" aria-pressed="false" title="切换明暗主题"><span aria-hidden="true">◐</span></button>
+  <span class="live"><i></i><span class="lk">LIVE · 08:00</span></span>
+</div></header>
+<main class="wrap">
+<div class="crumbs"><a href="../guides.html">← 指南</a></div>
+<article class="guide-article prose">
+
+<div class="guide-meta">GUIDE 03 · 数据视角</div>
+<h1>线上 vs 线下 AI 赛事：怎么选</h1>
+<p class="lead">同一场 AI 黑客松，线上和线下是两种完全不同的体验。用本站当前数据看：
+<strong>线上 54 场、线下 3 场、混合 4 场</strong>——线上是绝对主力。</p>
+
+<h2>一张表看清差别</h2>
+<table>
+<tr><th>维度</th><th>线上</th><th>线下</th></tr>
+<tr><td>时间成本</td><td>低，适合异步/跨城</td><td>高，通常 24–48 小时驻场</td></tr>
+<tr><td>组队</td><td>靠社群/私信，弱连接</td><td>现场碰撞，强连接</td></tr>
+<tr><td>评审反馈</td><td>多为录屏/仓库评审</td><td>现场路演，即时问答</td></tr>
+<tr><td>差旅/住宿</td><td>无</td><td>可能需要，先看主办方是否补贴</td></tr>
+<tr><td>适合谁</td><td>有全职工作/课业、想快速试水</td><td>想深度组队、拿现场资源/offer</td></tr>
+</table>
+
+<h2>怎么判断一场线下赛值不值得去</h2>
+<ol>
+<li>看奖金/资源是否覆盖差旅；没有补贴的异地赛，先算成本。</li>
+<li>看场地与日程：是否提供住宿、餐饮、设备；48 小时赛的「不能睡觉」不是荣誉。</li>
+<li>看评审与资源：是否有目标公司/投资人/社区在场。</li>
+<li>看资格：学生赛/高校赛/企业赛的限制。</li>
+</ol>
+
+<h2>线上赛怎么避免「交了没人看」</h2>
+<ul>
+<li>Demo 视频前 30 秒必须讲清「解决什么问题」；</li>
+<li>README 写运行方式、依赖、数据来源；</li>
+<li>仓库保持可复现，别把密钥/隐私数据提交上去；</li>
+<li>按赛事要求提交，不要只发一个网盘链接。</li>
+</ul>
+
+<h2>按形式筛赛事</h2>
+<p><a href="../explore.html?mode=online">只看线上</a> ·
+<a href="../explore.html?mode=offline">只看线下</a> ·
+<a href="../explore.html?mode=hybrid">只看混合</a></p>
+<p>线下城市当前覆盖：三亚、上海、北京。城市样本还少，我们不会为了筛选项硬凑城市页。</p>
+
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "线上 vs 线下 AI 赛事：怎么选", "description": "用真实收录数据比较线上、线下、混合 AI 赛事的时间、成本与适配人群。", "dateModified": "2026-11-12", "inLanguage": "zh-CN", "author": {"@type": "Organization", "name": "AI 赛事雷达"}, "publisher": {"@type": "Organization", "name": "AI 赛事雷达"}}</script>
+</article>
+</main>
+<footer class="site"><div class="wrap">
+  <div class="fcols">
+    <div class="fcol">
+      <div class="fmark">AI 赛事雷达 / AI RACE RADAR</div>
+      <p>中国 AI 赛事与黑客松的核验清单。只在官方链接能打开、日期对得上时才收录；每天 08:00 重跑一次。</p>
+      <p class="fmeta">DATA UPDATED · 2026-11-12 14:10</p>
+    </div>
+    <div class="fcol"><div class="fhead">EXPLORE</div>
+      <a href="../explore.html">探索全部</a>
+      <a href="../organizers.html">主办方</a>
+      <a href="../guides.html">指南</a>
+      <a href="../match.html">帮我找赛事</a>
+    </div>
+    <div class="fcol"><div class="fhead">DATA</div>
+      <a href="../api/events.json">api/events.json</a>
+      <a href="../llms.txt">llms.txt</a>
+      <a href="../llms-full.txt">llms-full.txt</a>
+      <a href="../agent.json">agent.json</a>
+      <a href="../sitemap.xml">sitemap.xml</a>
+    </div>
+    <div class="fcol"><div class="fhead">ABOUT</div>
+      <a href="../about.html">方法与信源</a>
+      <a href="../about.html#faq">常见问题</a>
+      <a href="../submit.html">提交赛事 / 纠错</a>
+      <a href="../calendar.ics">日历订阅</a>
+      <a href="../feed.xml">RSS</a>
+    </div>
+  </div>
+  <div class="fine">
+    <span>© 2026 AI 赛事雷达</span>
+    <span>不收费 · 不代办报名 · 以主办方官方页面为准</span>
+    <span>CC BY 4.0</span>
+  </div>
+</div></footer>
+<script src="../assets/app.js?v=20261112141003"></script>
+</body></html>

@@ -1,0 +1,71 @@
+{
+  "name": "AI 赛事雷达",
+  "description": "中国 AI 赛事与黑客松的核验清单；只提供只读数据，不代办报名。",
+  "url": "https://race.howfun.cn/",
+  "version": "1.0",
+  "capabilities": [
+    {
+      "name": "event_search",
+      "description": "搜索在架与近 90 天 AI 赛事",
+      "endpoint": "https://race.howfun.cn/api/events.json"
+    },
+    {
+      "name": "event_markdown",
+      "description": "同一份数据的 Markdown 列表",
+      "endpoint": "https://race.howfun.cn/api/events.md"
+    },
+    {
+      "name": "hot",
+      "description": "首页本周值得看（编辑精选，不是流量榜）",
+      "endpoint": "https://race.howfun.cn/data/hot.json"
+    },
+    {
+      "name": "calendar",
+      "description": "iCalendar 订阅，含报名截止提醒",
+      "endpoint": "https://race.howfun.cn/calendar.ics"
+    },
+    {
+      "name": "rss",
+      "description": "RSS 2.0 订阅",
+      "endpoint": "https://race.howfun.cn/feed.xml"
+    },
+    {
+      "name": "explore",
+      "description": "按方向/平台/级别/形式/状态筛选",
+      "endpoint": "https://race.howfun.cn/explore.html"
+    },
+    {
+      "name": "organizers",
+      "description": "主办方实体页索引",
+      "endpoint": "https://race.howfun.cn/organizers.html"
+    },
+    {
+      "name": "guides",
+      "description": "选赛/参赛指南",
+      "endpoint": "https://race.howfun.cn/guides.html"
+    },
+    {
+      "name": "match",
+      "description": "按项目方向做规则匹配（浏览器本地）",
+      "endpoint": "https://race.howfun.cn/match.html"
+    },
+    {
+      "name": "llms_full",
+      "description": "完整 AI reference",
+      "endpoint": "https://race.howfun.cn/llms-full.txt"
+    },
+    {
+      "name": "dataset",
+      "description": "全量核验数据（含已下线）",
+      "endpoint": "https://race.howfun.cn/data/races.json"
+    }
+  ],
+  "authentication": {
+    "type": "none"
+  },
+  "limits": {
+    "rate": "数据每天 08:00（Asia/Shanghai）更新一次，建议 1–6 小时轮询"
+  },
+  "contact": "见 https://race.howfun.cn/submit.html",
+  "citation": "AI 赛事雷达，报名与奖金以主办方官方页为准；许可 CC BY 4.0"
+}

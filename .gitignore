@@ -1,0 +1,22 @@
+# 本地依赖（脚本启动时通过 PYTHONPATH 注入）
+.pylibs/
+.env
+.cache/
+
+__pycache__/
+*.pyc
+.DS_Store
+
+# 运行时产物（不含站点，站点要提交以便直接托管）
+data/digest_preview.html
+data/run.log
+data/serve.log
+data/backups/
+data/subscribers.txt
+data/test-*.log
+deploy/python-path.txt
+
+# 注意：data/races.db 刻意提交到仓库 —— 它是去重账本（first_seen），
+# 丢失会让所有赛事在第二天全部变成"新收录"。
+deploy/cloudflared.exe
+data/cloudflared-*.log

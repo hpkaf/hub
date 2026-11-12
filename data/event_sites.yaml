@@ -1,0 +1,15 @@
+# 平台自有活动站
+#
+# 有一类赛事不在天池 / 讯飞 / DataFountain / AI Studio / DoraHacks / 活动行上架，
+# 只在主办方自己的活动站发布（如 event.zhihu.com 子域），靠平台 API 抓不到。
+# 这里逐个登记，用对应适配器解析，产出 data/candidates_events.json。
+#
+# 新增一个站点：加一段配置即可（kind 见 scripts/fetch_event_sites.py 的 ADAPTERS，
+# 目前支持 zhihu_event；别的活动站按同样的字段契约写适配器）。
+
+sites:
+  - name: 知乎黑客松
+    kind: zhihu_event          # 知乎活动站：官方 JSON 在 <landing>/api/content
+    landing: https://hackathon-s3.event.zhihu.com/
+    api: https://hackathon-s3.event.zhihu.com/api/content
+    organizer: 知乎

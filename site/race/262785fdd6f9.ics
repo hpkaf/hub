@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AI Race Radar//CN//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:AI 赛事雷达
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:262785fdd6f9@ai-race-radar
+DTSTAMP:20261112T061004Z
+DTSTART;VALUE=DATE:20250811
+DTEND;VALUE=DATE:20340831
+SUMMARY:东莞市2025年工业AI应用创新挑战“百景大赛”
+DESCRIPTION:奖金：20万奖金池＋荣誉证书＋成果推广支持
+ ；报名：https://www.heywhale.com/landing/baijingdasai；收录：AI 
+ 赛事雷达（2026-11-12T08:06:21 核验）
+URL:https://www.heywhale.com/landing/baijingdasai
+END:VEVENT
+END:VCALENDAR

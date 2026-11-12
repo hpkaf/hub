@@ -1,0 +1,317 @@
+{
+  "725adabcf597": {
+    "summary": "2026 iFLYTEK AI开发者大赛-讯飞开放平台",
+    "source": "https://challenge.xfyun.cn/topic/info?type=HSI-SubID",
+    "fetched_at": "2026-11-08T23:02:27"
+  },
+  "6b6403ff04d6": {
+    "summary": "2026 iFLYTEK AI开发者大赛-讯飞开放平台",
+    "source": "https://challenge.xfyun.cn/topic/info?type=TM-DIA-Skill",
+    "fetched_at": "2026-11-08T23:02:27"
+  },
+  "86c57475d2e5": {
+    "summary": "2026 iFLYTEK AI开发者大赛-讯飞开放平台",
+    "source": "https://challenge.xfyun.cn/topic/info?type=SLA-Skill",
+    "fetched_at": "2026-11-08T23:02:28"
+  },
+  "6e599c31ba58": {
+    "summary": "2026 iFLYTEK AI开发者大赛-讯飞开放平台",
+    "source": "https://challenge.xfyun.cn/topic/info?type=OCAS-skill",
+    "fetched_at": "2026-11-08T23:02:28"
+  },
+  "730f1f20c8ea": {
+    "summary": "2026 iFLYTEK AI开发者大赛-讯飞开放平台",
+    "source": "https://challenge.xfyun.cn/topic/info?type=CP-TCG",
+    "fetched_at": "2026-11-08T23:02:29"
+  },
+  "10fea0fb7e83": {
+    "summary": "2026 iFLYTEK AI开发者大赛-讯飞开放平台",
+    "source": "https://challenge.xfyun.cn/topic/info?type=SourceSTC",
+    "fetched_at": "2026-11-08T23:02:29"
+  },
+  "8541cb1e0341": {
+    "summary": "2026 iFLYTEK AI开发者大赛-讯飞开放平台",
+    "source": "https://challenge.xfyun.cn/topic/info?type=lane-detection-challenge",
+    "fetched_at": "2026-11-08T23:02:29"
+  },
+  "486b593b87a1": {
+    "summary": "天池大数据竞赛,是由阿里巴巴集团主办,面向全球科研工作者的高端算法竞赛。通过开放海量数据和分布式计算资源,大赛让所有参与者有机会运用其设计的算法解决各类社会问题或业务问题。欢迎来大家来天池参与天池大数据竞赛,进行真实业务场景演练,参与天池大赛还有机会获得百万奖金池。",
+    "source": "https://tianchi.aliyun.com/competition/entrance/532506",
+    "fetched_at": "2026-11-08T23:02:30"
+  },
+  "bee00c2ad7ee": {
+    "summary": "天池大数据竞赛,是由阿里巴巴集团主办,面向全球科研工作者的高端算法竞赛。通过开放海量数据和分布式计算资源,大赛让所有参与者有机会运用其设计的算法解决各类社会问题或业务问题。欢迎来大家来天池参与天池大数据竞赛,进行真实业务场景演练,参与天池大赛还有机会获得百万奖金池。",
+    "source": "https://tianchi.aliyun.com/competition/entrance/532507",
+    "fetched_at": "2026-11-08T23:02:31"
+  },
+  "5b1041241f12": {
+    "summary": "2026 iFLYTEK AI开发者大赛-讯飞开放平台",
+    "source": "https://challenge.xfyun.cn/topic/info?type=ShrimpAIBench",
+    "fetched_at": "2026-11-08T23:02:31"
+  },
+  "9f5f60216c05": {
+    "summary": "2026 iFLYTEK AI开发者大赛-讯飞开放平台",
+    "source": "https://challenge.xfyun.cn/topic/info?type=VoiceFixer",
+    "fetched_at": "2026-11-08T23:02:32"
+  },
+  "c60e42bd1ffe": {
+    "summary": "2026 iFLYTEK AI开发者大赛-讯飞开放平台",
+    "source": "https://challenge.xfyun.cn/topic/info?type=UAVCornDet",
+    "fetched_at": "2026-11-08T23:02:32"
+  },
+  "21454fa7efac": {
+    "summary": "2026 iFLYTEK AI开发者大赛-讯飞开放平台",
+    "source": "https://challenge.xfyun.cn/topic/info?type=FPVSMAC",
+    "fetched_at": "2026-11-08T23:02:33"
+  },
+  "1712b226ef79": {
+    "summary": "2026 iFLYTEK AI开发者大赛-讯飞开放平台",
+    "source": "https://challenge.xfyun.cn/topic/info?type=BerryColorGrade",
+    "fetched_at": "2026-11-08T23:02:33"
+  },
+  "69ae8f54528a": {
+    "summary": "2026 iFLYTEK AI开发者大赛-讯飞开放平台",
+    "source": "https://challenge.xfyun.cn/topic/info?type=CornWeedDet",
+    "fetched_at": "2026-11-08T23:02:33"
+  },
+  "babe69fb0ddb": {
+    "summary": "2026 iFLYTEK AI开发者大赛-讯飞开放平台",
+    "source": "https://challenge.xfyun.cn/topic/info?type=GrapeFlowerSeg",
+    "fetched_at": "2026-11-08T23:02:34"
+  },
+  "0e5440864541": {
+    "summary": "SMP 2026 大模型图网络决策挑战赛 一、赛事简介 第十四届全国社会媒体处理大会（SMP 2026）将于 2026 年 11 月 12 日至 15 日在北京召开。本届大会的主题是“大模型驱动人机共生”",
+    "source": "http://smp2026.cips-smp.org/ji-shu-ping-ce",
+    "fetched_at": "2026-11-08T23:02:35"
+  },
+  "e020b4265bb8": {
+    "summary": "天池大数据竞赛,是由阿里巴巴集团主办,面向全球科研工作者的高端算法竞赛。通过开放海量数据和分布式计算资源,大赛让所有参与者有机会运用其设计的算法解决各类社会问题或业务问题。欢迎来大家来天池参与天池大数据竞赛,进行真实业务场景演练,参与天池大赛还有机会获得百万奖金池。",
+    "source": "https://tianchi.aliyun.com/competition/entrance/532508",
+    "fetched_at": "2026-11-08T23:02:36"
+  },
+  "c38d97feee96": {
+    "summary": "天池大数据竞赛,是由阿里巴巴集团主办,面向全球科研工作者的高端算法竞赛。通过开放海量数据和分布式计算资源,大赛让所有参与者有机会运用其设计的算法解决各类社会问题或业务问题。欢迎来大家来天池参与天池大数据竞赛,进行真实业务场景演练,参与天池大赛还有机会获得百万奖金池。",
+    "source": "https://tianchi.aliyun.com/competition/entrance/532514",
+    "fetched_at": "2026-11-08T23:02:37"
+  },
+  "3d0e7fb3cd2f": {
+    "summary": "Ship it Sunday 是 AI Hacker House 在周日举办的 AI 黑客松。每月办一次，一次一整天。我们希望连接志同道合的 AI builders，为大家提供一个心无旁骛的创造场域。 Ship it Sunday 在过去已经举办14期，累计 500+ builders，ship 出 300+…",
+    "source": "https://luma.com/gsdrc8e4",
+    "fetched_at": "2026-11-08T23:02:40"
+  },
+  "4ada71681515": {
+    "summary": "2026 iFLYTEK AI开发者大赛-讯飞开放平台",
+    "source": "https://challenge.xfyun.cn/topic/info?type=Spark-X25",
+    "fetched_at": "2026-11-08T23:02:41"
+  },
+  "18d9e2649373": {
+    "summary": "第八届海南岛国际电影节·AI电影展全球征片通道开启，LibTV 为荣誉冠名合作方及官方指定作品征集平台。",
+    "source": "https://www.liblib.tv/hiiff-aifilmseason",
+    "fetched_at": "2026-11-08T23:02:42"
+  },
+  "878465bc4362": {
+    "summary": "# Introduction Aevum Builder Challenge #1 is a free, online hackathon for developers worldwide. Builders are challenged to ship practical stablecoin payment related applications on the Aevum testnet...",
+    "source": "https://dorahacks.io/hackathon/qday",
+    "fetched_at": "2026-11-08T23:02:46"
+  },
+  "c6d27accef22": {
+    "summary": "天池大数据竞赛,是由阿里巴巴集团主办,面向全球科研工作者的高端算法竞赛。通过开放海量数据和分布式计算资源,大赛让所有参与者有机会运用其设计的算法解决各类社会问题或业务问题。欢迎来大家来天池参与天池大数据竞赛,进行真实业务场景演练,参与天池大赛还有机会获得百万奖金池。",
+    "source": "https://tianchi.aliyun.com/competition/entrance/532536",
+    "fetched_at": "2026-11-08T23:02:48"
+  },
+  "29042d3c2565": {
+    "summary": "天池大数据竞赛,是由阿里巴巴集团主办,面向全球科研工作者的高端算法竞赛。通过开放海量数据和分布式计算资源,大赛让所有参与者有机会运用其设计的算法解决各类社会问题或业务问题。欢迎来大家来天池参与天池大数据竞赛,进行真实业务场景演练,参与天池大赛还有机会获得百万奖金池。",
+    "source": "https://tianchi.aliyun.com/competition/entrance/532532",
+    "fetched_at": "2026-11-08T23:02:50"
+  },
+  "54230fde8632": {
+    "summary": "知乎，中文互联网高质量的问答社区和创作者聚集的原创内容平台，于 2011 年 1 月正式上线，以「让人们更好的分享知识、经验和见解，找到自己的解答」为品牌使命。知乎凭借认真、专业、友善的社区氛围、独特的产品机制以及结构化和易获得的优质内容，聚集了中文互联网科技、商业、影视、时尚、文化等领域最具创造力的人群，已成为综合性、全品类、在诸多领域具有关键影响力的知识分享社区和创作者聚集的原创内容平台，建立起了以社区驱动的内容变现商业模式。",
+    "source": "https://www.zhihu.com/hackathon/register?activity_code=zhihu_hackathon_2026_p3",
+    "fetched_at": "2026-11-08T23:02:51"
+  },
+  "cf5b09f6b87b": {
+    "summary": "天池大数据竞赛,是由阿里巴巴集团主办,面向全球科研工作者的高端算法竞赛。通过开放海量数据和分布式计算资源,大赛让所有参与者有机会运用其设计的算法解决各类社会问题或业务问题。欢迎来大家来天池参与天池大数据竞赛,进行真实业务场景演练,参与天池大赛还有机会获得百万奖金池。",
+    "source": "https://tianchi.aliyun.com/competition/entrance/532515",
+    "fetched_at": "2026-11-08T23:02:52"
+  },
+  "c2e042442ff6": {
+    "summary": "天池大数据竞赛,是由阿里巴巴集团主办,面向全球科研工作者的高端算法竞赛。通过开放海量数据和分布式计算资源,大赛让所有参与者有机会运用其设计的算法解决各类社会问题或业务问题。欢迎来大家来天池参与天池大数据竞赛,进行真实业务场景演练,参与天池大赛还有机会获得百万奖金池。",
+    "source": "https://tianchi.aliyun.com/competition/entrance/532510",
+    "fetched_at": "2026-11-08T23:02:52"
+  },
+  "f6ae42027999": {
+    "summary": "2.5W奖金池｜10小时小白友好 AI 黑客松@上海,活动时间,预约报名,活动地址,活动详情,活动嘉宾,主办方等",
+    "source": "https://www.huodongxing.com/event/5860088194200",
+    "fetched_at": "2026-11-08T23:02:55"
+  },
+  "cbca4a1eae45": {
+    "summary": "基于上海新能源汽车海量数据，打造数据共享、共赢生态的数据开放平台，实现数据加工、处理和分析应用的在线分析，深挖新能源汽车资源，释放数据价值。",
+    "source": "https://labs.shevdc.com/xgame-2025",
+    "fetched_at": "2026-11-08T23:02:58"
+  },
+  "f1a5e296d879": {
+    "summary": "2026 iFLYTEK AI开发者大赛-讯飞开放平台",
+    "source": "https://challenge.xfyun.cn/competition",
+    "fetched_at": "2026-11-08T23:02:59"
+  },
+  "4519d308a943": {
+    "summary": "天池大数据竞赛,是由阿里巴巴集团主办,面向全球科研工作者的高端算法竞赛。通过开放海量数据和分布式计算资源,大赛让所有参与者有机会运用其设计的算法解决各类社会问题或业务问题。欢迎来大家来天池参与天池大数据竞赛,进行真实业务场景演练,参与天池大赛还有机会获得百万奖金池。",
+    "source": "https://tianchi.aliyun.com/competition/entrance/41",
+    "fetched_at": "2026-11-08T23:03:00"
+  },
+  "51f61f4f129e": {
+    "summary": "天池大数据竞赛,是由阿里巴巴集团主办,面向全球科研工作者的高端算法竞赛。通过开放海量数据和分布式计算资源,大赛让所有参与者有机会运用其设计的算法解决各类社会问题或业务问题。欢迎来大家来天池参与天池大数据竞赛,进行真实业务场景演练,参与天池大赛还有机会获得百万奖金池。",
+    "source": "https://tianchi.aliyun.com/competition/entrance/35",
+    "fetched_at": "2026-11-08T23:03:01"
+  },
+  "e7dffd72a861": {
+    "summary": "天池大数据竞赛,是由阿里巴巴集团主办,面向全球科研工作者的高端算法竞赛。通过开放海量数据和分布式计算资源,大赛让所有参与者有机会运用其设计的算法解决各类社会问题或业务问题。欢迎来大家来天池参与天池大数据竞赛,进行真实业务场景演练,参与天池大赛还有机会获得百万奖金池。",
+    "source": "https://tianchi.aliyun.com/competition/entrance/36",
+    "fetched_at": "2026-11-08T23:03:01"
+  },
+  "db0d1dfbf7f0": {
+    "summary": "华为云大赛平台，是华为公司面向全球开发者的创新大赛，致力于为想要改变世界的开发者们提供一个实践创新的梦想平台，鼓励更多开发者基于华为平台和能力进行产品与方案的创新，并通过技术服务、市场资源共享等，让开发者的创想获得实践",
+    "source": "https://developer.huaweicloud.com/competition/information/1300000267",
+    "fetched_at": "2026-11-08T23:03:03"
+  },
+  "fe67b063dfb9": {
+    "summary": "2026阿里云Data+AI工程师全球大奖赛，是由阿里云主办、NVIDIA协办，阿里云大数据AI平台联合天池平台共同承办的高规格、工业级Data+AI融合创新赛事。大赛主题为“寻找AI全能王”，面向全球高校学生、企业开发者及科研团队开展。",
+    "source": "https://tianchi.aliyun.com/specials/promotion/ai2026",
+    "fetched_at": "2026-11-08T23:03:04"
+  },
+  "06505b8a12e2": {
+    "summary": "24小时极限开发“AI黑客松助力OPC创业”,活动时间,预约报名,活动地址,活动详情,活动嘉宾,主办方等",
+    "source": "https://www.huodongxing.com/event/8855896848300",
+    "fetched_at": "2026-11-08T23:03:04"
+  },
+  "459842ff0003": {
+    "summary": "天池大数据竞赛,是由阿里巴巴集团主办,面向全球科研工作者的高端算法竞赛。通过开放海量数据和分布式计算资源,大赛让所有参与者有机会运用其设计的算法解决各类社会问题或业务问题。欢迎来大家来天池参与天池大数据竞赛,进行真实业务场景演练,参与天池大赛还有机会获得百万奖金池。",
+    "source": "https://tianchi.aliyun.com/competition/entrance/532489",
+    "fetched_at": "2026-11-08T23:03:05"
+  },
+  "59a629172564": {
+    "summary": "DataFountain（简称DF平台）是国内领先的数据科学竞赛创新平台之一，提供数据竞赛/AI算法大赛、数据集、项目实训、在线编程等服务。",
+    "source": "https://www.datafountain.cn/competitions/1169",
+    "fetched_at": "2026-11-08T23:03:07"
+  },
+  "5dabc3dc90a5": {
+    "summary": "# Empowering Builders Through Algorand-Powered Hackathons AlgoBharat Regional Hackathon Sponsorship Program is designed to enable Web3 communities, colleges, developers and builders across India to...",
+    "source": "https://dorahacks.io/hackathon/algobharat-regional-hack",
+    "fetched_at": "2026-11-08T23:03:07"
+  },
+  "fb3f0698599e": {
+    "summary": "The best online hackathon infrastructure. Contribute to crypto/Web3, Quantum Computing, AI, Space Tech, and other frontier tech through hackathons with DoraHacks.",
+    "source": "https://dorahacks.io/hackathon/binance",
+    "fetched_at": "2026-11-08T23:03:08"
+  },
+  "77a3d31aa971": {
+    "summary": "NO LONGER ACTIVE -This Hackathon is no longer active. The **MDBA Youth Hackathon** is a premier initiative by the Maryland Blockchain Association and the Blockchain Legal Institute designed to...",
+    "source": "https://dorahacks.io/hackathon/mdba-youth",
+    "fetched_at": "2026-11-08T23:03:09"
+  },
+  "ea6b6bc9088d": {
+    "summary": "MICCAI2026 Challenge: Generalized Analysis of Vessels in Eye Edition 2 (GAVE2)｜CV",
+    "source": "https://aistudio.baidu.com/competition/detail/1463/0/introduction",
+    "fetched_at": "2026-11-08T23:03:09"
+  },
+  "2f56064d2684": {
+    "summary": "WAISS (Wiener AI Software Stammtisch) is a cozy get-together, planned monthly, for everyone who builds, codes & experiments with AI. We'll kick things off with…",
+    "source": "https://luma.com/ba5jlhla",
+    "fetched_at": "2026-11-08T23:03:12"
+  },
+  "c4cc7b8c077f": {
+    "summary": "DataFountain（简称DF平台）是国内领先的数据科学竞赛创新平台之一，提供数据竞赛/AI算法大赛、数据集、项目实训、在线编程等服务。",
+    "source": "https://www.datafountain.cn/competitions/1166",
+    "fetched_at": "2026-11-08T23:03:13"
+  },
+  "262785fdd6f9": {
+    "summary": "和鲸社区是数据科学开源社区，帮助数据人才在交流中享受学习，在实践中快速成长。众多数据科学从业者及爱好者在这里分享开源代码、复现实战案例、参与数据竞赛、记录成长历程。",
+    "source": "https://www.heywhale.com/landing/baijingdasai",
+    "fetched_at": "2026-11-08T23:03:13"
+  },
+  "f0227a006b6d": {
+    "summary": "天池大数据竞赛,是由阿里巴巴集团主办,面向全球科研工作者的高端算法竞赛。通过开放海量数据和分布式计算资源,大赛让所有参与者有机会运用其设计的算法解决各类社会问题或业务问题。欢迎来大家来天池参与天池大数据竞赛,进行真实业务场景演练,参与天池大赛还有机会获得百万奖金池。",
+    "source": "https://tianchi.aliyun.com/competition/entrance/532460",
+    "fetched_at": "2026-11-08T23:03:16"
+  },
+  "3ce0a15efc1c": {
+    "summary": "光年AI黑客松：如何做一个卖货的智能体,活动时间,预约报名,活动地址,活动详情,活动嘉宾,主办方等",
+    "source": "https://www.huodongxing.com/event/5840452724500",
+    "fetched_at": "2026-11-08T23:03:16"
+  },
+  "b69b25c898ba": {
+    "summary": "光年AI黑客松：如何做一个卖货的智能体（跨境版）,活动时间,预约报名,活动地址,活动详情,活动嘉宾,主办方等",
+    "source": "https://www.huodongxing.com/event/2840597803511",
+    "fetched_at": "2026-11-08T23:03:17"
+  },
+  "19f3973c4ad3": {
+    "summary": "DataFountain（简称DF平台）是国内领先的数据科学竞赛创新平台之一，提供数据竞赛/AI算法大赛、数据集、项目实训、在线编程等服务。",
+    "source": "https://www.datafountain.cn/competitions/1165",
+    "fetched_at": "2026-11-08T23:03:18"
+  },
+  "ee8e836e4cee": {
+    "summary": "华硕 A+ 青年 Creator Lab 正式开启报名！这是一场专为年轻人打造的 48 小时 AI 创作实验，旨在通过 AI 技术让创造变得触手可及，将灵感转化为现实。 无论你是技术玩家，还是来自设计、商科、传媒、法律、医学等不同专业的学生，都可以参与其中。你可以带着成熟的 De",
+    "source": "https://events.waytoagi.com/events/%E5%8D%8E%E7%A1%95-a-%E9%9D%92%E5%B9%B4-creator-lab-e_c2f243437e",
+    "fetched_at": "2026-11-08T23:03:20"
+  },
+  "094f5bca46a6": {
+    "summary": "天池大数据竞赛,是由阿里巴巴集团主办,面向全球科研工作者的高端算法竞赛。通过开放海量数据和分布式计算资源,大赛让所有参与者有机会运用其设计的算法解决各类社会问题或业务问题。欢迎来大家来天池参与天池大数据竞赛,进行真实业务场景演练,参与天池大赛还有机会获得百万奖金池。",
+    "source": "https://tianchi.aliyun.com/competition/entrance/532482",
+    "fetched_at": "2026-11-08T23:03:20"
+  },
+  "703c20bbcbd4": {
+    "summary": "DataFountain（简称DF平台）是国内领先的数据科学竞赛创新平台之一，提供数据竞赛/AI算法大赛、数据集、项目实训、在线编程等服务。",
+    "source": "https://www.datafountain.cn/competitions/1163",
+    "fetched_at": "2026-11-08T23:03:21"
+  },
+  "384ec6224bd6": {
+    "summary": "天工计划·鸿蒙智能体开发者激励（下称“计划”或“天工计划”）是由华为发起的开发者支持项目，旨在鼓励开发者参与AI生态创新，推动鸿蒙AI生态的建设和繁荣发展。",
+    "source": "https://developer.huawei.com/consumer/cn/activity/incentive/ai",
+    "fetched_at": "2026-11-08T23:03:21"
+  },
+  "194279c7f4f3": {
+    "summary": "开物黑客松-高校场(福州站),活动时间,预约报名,活动地址,活动详情,活动嘉宾,主办方等",
+    "source": "https://www.huodongxing.com/event/9883938191800",
+    "fetched_at": "2026-11-08T23:03:22"
+  },
+  "f88694f334b4": {
+    "summary": "中国软件杯——基于文心大模型和飞桨的智能四足机器狗消防侦察和救援系统开发赛，将引导参赛团队基于飞桨与四足仿生机器人，结合多模态大模型，打造融技术、产业和竞技于一体的高水平赛事。｜CV与多模态大模型",
+    "source": "https://aistudio.baidu.com/competition/detail/1490/0/introduction",
+    "fetched_at": "2026-11-08T23:03:22"
+  },
+  "936661a1f359": {
+    "summary": "中国软件杯——基于文心大模型和飞桨的智能四足机器狗消防侦察和救援系统开发赛，将引导参赛团队基于飞桨与四足仿生机器人，结合多模态大模型，打造融技术、产业和竞技于一体的高水平赛事。｜CV与多模态大模型",
+    "source": "https://aistudio.baidu.com/competition/detail/1468/0/introduction",
+    "fetched_at": "2026-11-08T23:03:23"
+  },
+  "99a4d951c4b4": {
+    "summary": "探索AI黑客松 × 非视觉拼搭无障碍体验工坊,活动时间,预约报名,活动地址,活动详情,活动嘉宾,主办方等",
+    "source": "https://www.huodongxing.com/event/6802129395500",
+    "fetched_at": "2026-11-08T23:03:24"
+  },
+  "505cb0a5af4f": {
+    "summary": "晋阳星途·青少年AI黑客松,活动时间,预约报名,活动地址,活动详情,活动嘉宾,主办方等",
+    "source": "https://www.huodongxing.com/event/1866531327000",
+    "fetched_at": "2026-11-08T23:03:24"
+  },
+  "60c4ebefaca4": {
+    "summary": "百度商业AI技术创新大赛（简称CTI），首届创办于2023年，是一项面向全社会开放，高等院校、科研单位、互联网企业等人员均可参与的全国性技术创新大赛，旨在探索商业前沿技术，挖掘和培育优秀的人才。2026年大赛升级为极客夏令营形式，通过报名邀请制，最终招募100支热衷AI技术、有热情有创新的人才入营，共同与百度及英伟达技术大咖交流学习。在夏令营中，各团队将聚焦“生成式推荐广告排序推理性能优化”。｜生成式推荐、推理",
+    "source": "https://aistudio.baidu.com/competition/detail/1461/0/introduction",
+    "fetched_at": "2026-11-08T23:03:25"
+  },
+  "1f4f5ff53ed4": {
+    "summary": "开放原子大赛旨在联合开源组织、企事业单位、高等院校、科研院所、行业组织、投融资机构等多方资源，充分发挥产业链生态上下游的协同能力，基于开源共享、共建共治的原则共同举办。我们将搭建面向全球开源领域的前沿技术竞争、优秀人才选拔创新成果展示、商业转化引导和对接交流合作平台，广泛传播开源文化、普及开源知识、推广开源项目、提升开源技能，为推进全球开源生态繁荣和可持续发展提供动力。",
+    "source": "https://competition.openatom.tech/",
+    "fetched_at": "2026-11-08T23:03:27"
+  },
+  "bfd733f35e1f": {
+    "summary": "DataFountain（简称DF平台）是国内领先的数据科学竞赛创新平台之一，提供数据竞赛/AI算法大赛、数据集、项目实训、在线编程等服务。",
+    "source": "https://www.datafountain.cn/competitions/1164",
+    "fetched_at": "2026-11-08T23:03:28"
+  },
+  "bcad4c1c92d9": {
+    "summary": "使用飞桨深度学习框架，在官方给定的数据集上，训练一个神经网络模型，使其能够具备三类野生动物的目标检测能力。｜CV、目标检测",
+    "source": "https://aistudio.baidu.com/competition/detail/1407/0/introduction",
+    "fetched_at": "2026-11-08T23:03:28"
+  }
+}

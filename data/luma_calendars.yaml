@@ -1,0 +1,43 @@
+# Luma 日历信源（https://luma.com/<slug>）
+#
+# 用法：脚本优先用 api_id 拉 ICS（https://api.lu.ma/ics/get?entity=calendar&id=...），
+# ICS 是官方导出的日历文件，比解析页面 HTML 稳，且一次能拿到该社区全部活动。
+# slug 用于兜底：没有 api_id 时先抓页面解析出 api_id。
+# 维护：每季度把新发现的 AI / 黑客松社区日历加进来（带 api_id 最省事）。
+calendars:
+  - slug: AIHH-SH
+    api_id: cal-NGFO3AKr7y0Zoqu
+    name: AI Hacker House
+    city: 上海
+    ai: true
+    note: 筹办 Ship it Sunday 系列黑客松（11 月 8 日 #015 已收录）
+  - slug: waytoagi
+    api_id: cal-toDtL3cttGzGAw4
+    name: WaytoAGI Community
+    city: 线上
+    ai: true
+    note: 国内 AI 学习社区，偶尔有线上活动/比赛
+  - slug: sparklab
+    api_id: cal-xrGDZWt3HDFPLvX
+    name: Spark Lab
+    city: 上海
+    ai: true
+    note: AI Hacker House 驻地团队的活动日历
+  - slug: botlearn-ai
+    api_id: cal-WuhWoqo6bUtOJ9H
+    name: BotLearn（智能体社区）
+    city: 线上
+    ai: true
+    note: 办过「智能体进化大赛 · 龙虾进化大赛 2.0」
+  - slug: Telos.Circle
+    api_id: cal-WuMON1VN2K0hpEY
+    name: Telos Circle
+    city: 线上
+    ai: true
+    note: 办过 HACK_002 24h AI Hackathon
+  - slug: MonadFoundationAPAC
+    api_id: cal-mhaFUwyhCGkNrnk
+    name: Monad Foundation APAC
+    city: 线上
+    ai: false
+    note: 在华办 Monad Blitz 系列（偏 Web3，只收标题带 AI/黑客松的）
