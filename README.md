@@ -32,7 +32,9 @@
 
 ## 当前快照（2026-11-08）
 
-- 首页 **44 场**（在架 + 近 14 天结束）；全量 **77 条 / 77 条活链**；详情页/存档 **67 个**
+- 首页 **43 场**（在架 + 近 14 天结束）；全量 **79 条 / 79 条活链**；详情页/存档 **68 个**
+- 公网：**https://race.howfun.cn/**（GitHub Pages，CNAME → `hpkaf.github.io`）
+- 日历：**https://race.howfun.cn/calendar.ics**
 - 新增页面：`/explore.html`（方向/平台/级别/形式/状态 + 往届 Tab）、`/organizers.html` + 35 个主办方页、`/guides.html` + 3 篇指南、`/match.html`（本地规则匹配）
 - 热点模块：首屏右栏「本周值得看」5 条，按截止日 + 奖金/主办方可解释排序；Explore 新增 3/7/14 天内截止筛选。**不是流量热度榜。**
 - 产物：`site/`（index / explore / organizers / match / guides / race / organizer / guides + `calendar.ics` + `feed.xml` + `sitemap.xml` + `llms.txt` + `llms-full.txt` + `agent.json` + `api/events.json` + `api/events.md` + `data/races.json` + `data/hot.json`）

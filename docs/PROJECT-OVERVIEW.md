@@ -34,7 +34,7 @@
 
 | 形态 | 入口 | 说明 |
 |---|---|---|
-| 网站 | `/`、`/explore.html`、`/organizers.html`、`/guides.html`、`/match.html`、`/race/<id>.html`、`/about.html`、`/submit.html` | 44 条在架 + 67 个详情/存档 + 35 个主办方页 + 3 篇指南；探索页支持方向/平台/级别/形式/状态 + 往届 + 3/7/14 天截止；首屏右栏「本周值得看」 |
+| 网站 | `/`、`/explore.html`、`/organizers.html`、`/guides.html`、`/match.html`、`/race/<id>.html`、`/about.html`、`/submit.html` | 43 条在架 + 68 个详情/存档 + 35 个主办方页 + 3 篇指南；探索页支持方向/平台/级别/形式/状态 + 往届 + 3/7/14 天截止；首屏右栏「本周值得看」；公网 https://race.howfun.cn/ |
 | 日历订阅 | `/calendar.ics` | 每条赛事一个 VEVENT，另加报名截止提醒事件；详情页可单场加 Google 日历 / 下载 `.ics` |
 | 邮件摘要 | `send_digest.py` | 每日「新收录 + 3 天内截止」，SMTP/Resend；邮件附 `calendar.ics` |
 | 公开数据 | `/api/events.json`、`/api/events.md`、`/data/races.json`、`/feed.xml` | 带字段说明、更新时间、许可（CC BY 4.0）；Markdown 给 LLM，RSS 给阅读器 |
@@ -161,7 +161,7 @@ DoraHacks 活动行
 ## 9. 当前数据快照（2026-11-08）
 
 > 以下为 2026-11-08 19:50 的快照（79 条 / 45 首页 / 70 详情）。23:26 全量流水线后为
-> **77 条 / 44 首页 / 67 详情 / 35 个可见主办方页**（MDBA Youth Blockchain Hackathon 从 DoraHacks 信源消失；另 1 条在 11/09 凌晨跨过 90 天窗口自动归档）。
+> **79 条 / 43 首页 / 68 详情 / 35 个可见主办方页**（截至 2026-11-12；公网 https://race.howfun.cn/）。
 
 | 指标 | 数值 |
 |---|---|
@@ -308,5 +308,5 @@ ai-race-radar/
 - 部署手册：[`windows-24x7.md`](windows-24x7.md)
 - 一致性核对与代码修复记录：[`consistency-report.md`](consistency-report.md)
 - Agent / RSS / 日历接入：[`agent-integration.md`](agent-integration.md)
-- 与本文的已知差异：运行后全量记录为 77 条（一条 DoraHacks 赛事从信源消失并按时效规则清理）；
+- 与本文的已知差异：运行后全量记录为 79 条（一条 DoraHacks 赛事从信源消失并按时效规则清理）；
   原 `run_daily.sh` 漏掉的 6 个平台采集器已补齐
