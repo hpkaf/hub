@@ -7,7 +7,7 @@
 name: daily-refresh
 
 env:
-  SITE_URL: ${{ vars.SITE_URL }}
+  SITE_URL: ${{ vars.SITE_URL || 'https://race.howfun.cn' }}
 
 on:
   schedule:
