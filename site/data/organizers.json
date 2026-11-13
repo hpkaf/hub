@@ -74,16 +74,6 @@
     ]
   },
   {
-    "name": "Telos Circle",
-    "slug": "telos-circle",
-    "cities": [],
-    "website": "",
-    "intro": "已收录 1 场 AI 赛事（在架 1 / 往届 0），形式：线上；最近一场：WAISS #1 - Wiener AI Software Stammtisch。",
-    "events": [
-      "2f56064d2684"
-    ]
-  },
-  {
     "name": "Terminal 3",
     "slug": "terminal-3",
     "cities": [],
@@ -103,6 +93,18 @@
     "intro": "已收录 1 场 AI 赛事（在架 1 / 往届 0），形式：线上+线下；最近一场：首届AI × 音乐视觉黑客松，报名截止 2026-11-15。",
     "events": [
       "9d1e77a417ba"
+    ]
+  },
+  {
+    "name": "亚马逊云科技 User Group",
+    "slug": "user-group",
+    "cities": [
+      "浦东"
+    ],
+    "website": "",
+    "intro": "已收录 1 场 AI 赛事（在架 1 / 往届 0），形式：线下；最近一场：What If Lab｜万一实验室——AI 硬件创意黑客松。",
+    "events": [
+      "efb09823937c"
     ]
   },
   {
