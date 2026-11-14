@@ -5,7 +5,7 @@
     <link>https://race.howfun.cn/</link>
     <description>每一场都经过人工核验：官方链接、报名截止、线上 / 线下，点开就能报名。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 13 Nov 2026 04:30:58 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 04:26:19 +0000</lastBuildDate>
     <item>
       <title>第八届海南岛国际电影节·AI电影展影片征集</title>
       <link>https://race.howfun.cn/race/18d9e2649373.html</link>
@@ -40,6 +40,13 @@
       <guid isPermaLink="false">3770f5a44e8f</guid>
       <pubDate>Fri, 06 Nov 2026 15:50:27 +0800</pubDate>
       <description>即将截止 · 群核科技 · 截止 2026-11-19 · https://modelscope.cn/events/386/%E6%AF%94%E8%B5%9B%E4%BB%8B%E7%BB%8D</description>
+    </item>
+    <item>
+      <title>Agent Arena Competition: Evidence Mining</title>
+      <link>https://race.howfun.cn/race/17ce50173bb1.html</link>
+      <guid isPermaLink="false">17ce50173bb1</guid>
+      <pubDate>Sat, 14 Nov 2026 04:26:19 +0800</pubDate>
+      <description>报名中 · Gensyn · 截止 2026-11-23 · https://dorahacks.io/hackathon/delphi-agent-competition2</description>
     </item>
     <item>
       <title>2026 Qoder 高校创造力大赛</title>
@@ -187,13 +194,6 @@
       <guid isPermaLink="false">5dabc3dc90a5</guid>
       <pubDate>Fri, 06 Nov 2026 15:50:27 +0800</pubDate>
       <description>Empowering Builders Through Algorand-Powered Hackathons AlgoBharat Regional Hackathon Sponsorship Program is designed to enable Web3 communities, colleges, developers and builders across India to... · 报名中 · Algorand · 截止待确认 · https://dorahacks.io/hackathon/algobharat-regional-hack</description>
-    </item>
-    <item>
-      <title>Beyond the Benchmark: The Binance Agentic AI Challenge</title>
-      <link>https://race.howfun.cn/race/fb3f0698599e.html</link>
-      <guid isPermaLink="false">fb3f0698599e</guid>
-      <pubDate>Fri, 06 Nov 2026 15:50:27 +0800</pubDate>
-      <description>报名中 · Binance · 截止待确认 · https://dorahacks.io/hackathon/binance</description>
     </item>
     <item>
       <title>Terminal 3 Build+Scale Agent Micro Grant</title>
@@ -446,6 +446,13 @@
       <guid isPermaLink="false">59a629172564</guid>
       <pubDate>Fri, 06 Nov 2026 15:50:27 +0800</pubDate>
       <description>已截止 · 烟台睿创微纳技术股份有限公司 · 截止待确认 · https://www.datafountain.cn/competitions/1169</description>
+    </item>
+    <item>
+      <title>Beyond the Benchmark: The Binance Agentic AI Challenge</title>
+      <link>https://race.howfun.cn/race/fb3f0698599e.html</link>
+      <guid isPermaLink="false">fb3f0698599e</guid>
+      <pubDate>Fri, 06 Nov 2026 15:50:27 +0800</pubDate>
+      <description>已截止 · Binance · 截止待确认 · https://dorahacks.io/hackathon/binance</description>
     </item>
     <item>
       <title>MICCAI2026 Challenge: GAVE2</title>

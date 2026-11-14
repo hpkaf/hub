@@ -7,20 +7,20 @@ X-WR-CALNAME:AI 赛事雷达
 X-WR-TIMEZONE:Asia/Shanghai
 BEGIN:VEVENT
 UID:6b6403ff04d6@ai-race-radar
-DTSTAMP:20261113T043058Z
+DTSTAMP:20261114T042619Z
 DTSTART;VALUE=DATE:20260609
 DTEND;VALUE=DATE:20261025
 SUMMARY:人才匹配与发展智能辅助Skill开发挑战赛
 DESCRIPTION:主办方：科大讯飞股份有限公司；报名截止：2
  026-08-27；奖金：1.23万元；报名：https://challenge.xfyun.cn/to
- pic/info?type=TM-DIA-Skill；收录：AI 赛事雷达（2026-11-13T04:30
- :58 核验）
+ pic/info?type=TM-DIA-Skill；收录：AI 赛事雷达（2026-11-14T04:26
+ :19 核验）
 URL:https://challenge.xfyun.cn/topic/info?type=TM-DIA-Skill
 LOCATION:线上
 END:VEVENT
 BEGIN:VEVENT
 UID:6b6403ff04d6-deadline@ai-race-radar
-DTSTAMP:20261113T043058Z
+DTSTAMP:20261114T042619Z
 DTSTART;VALUE=DATE:20260827
 DTEND;VALUE=DATE:20260828
 SUMMARY:⏰ 报名截止：人才匹配与发展智能辅助Skill开发

@@ -23,8 +23,8 @@
 - 站点地图: https://race.howfun.cn/sitemap.xml
 
 ## 数据
-- 收录数量: 68 场（含近 90 天已结束，按 status 区分；真正可报名的用 status 过滤）
-- 页面更新时间: 2026-11-13 04:30
+- 收录数量: 69 场（含近 90 天已结束，按 status 区分；真正可报名的用 status 过滤）
+- 页面更新时间: 2026-11-14 04:26
 - 更新节奏: 每天 08:00 重跑链接核验与状态
 - 字段: id, title, organizer, mode, city, start_date, end_date, deadline, prize, tracks,
   summary, directions, url, status, ai_level, verified_at

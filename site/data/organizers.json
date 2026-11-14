@@ -54,6 +54,16 @@
     ]
   },
   {
+    "name": "Gensyn",
+    "slug": "gensyn",
+    "cities": [],
+    "website": "",
+    "intro": "已收录 1 场 AI 赛事（在架 1 / 往届 0），形式：线上；最近一场：Agent Arena Competition: Evidence Mining，报名截止 2026-11-23。",
+    "events": [
+      "17ce50173bb1"
+    ]
+  },
+  {
     "name": "QDay",
     "slug": "qday",
     "cities": [],

@@ -102,6 +102,23 @@
     "summary": ""
   },
   {
+    "id": "17ce50173bb1",
+    "title": "Agent Arena Competition: Evidence Mining",
+    "organizer": "Gensyn",
+    "mode": "online",
+    "city": null,
+    "status": "open",
+    "deadline": "2026-11-23",
+    "ai_level": "core",
+    "tracks": [
+      "Evidence Mining Agents"
+    ],
+    "directions": [
+      "agent"
+    ],
+    "summary": ""
+  },
+  {
     "id": "c6d27accef22",
     "title": "2026 Qoder 高校创造力大赛",
     "organizer": null,
@@ -486,22 +503,6 @@
       "agent"
     ],
     "summary": "Empowering Builders Through Algorand-Powered Hackathons AlgoBharat Regional Hackathon Sponsorship Program is designed to enable Web3 communities, colleges, developers and builders across India to..."
-  },
-  {
-    "id": "fb3f0698599e",
-    "title": "Beyond the Benchmark: The Binance Agentic AI Challenge",
-    "organizer": "Binance",
-    "mode": "online",
-    "city": null,
-    "status": "open",
-    "deadline": null,
-    "ai_level": "core",
-    "tracks": [],
-    "directions": [
-      "agent",
-      "llm"
-    ],
-    "summary": ""
   },
   {
     "id": "57507797734e",
@@ -1166,6 +1167,22 @@
     "directions": [
       "multimodal",
       "algorithm"
+    ],
+    "summary": ""
+  },
+  {
+    "id": "fb3f0698599e",
+    "title": "Beyond the Benchmark: The Binance Agentic AI Challenge",
+    "organizer": "Binance",
+    "mode": "online",
+    "city": null,
+    "status": "closed",
+    "deadline": null,
+    "ai_level": "core",
+    "tracks": [],
+    "directions": [
+      "agent",
+      "llm"
     ],
     "summary": ""
   },
