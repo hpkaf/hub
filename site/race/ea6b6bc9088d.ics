@@ -7,13 +7,13 @@ X-WR-CALNAME:AI 赛事雷达
 X-WR-TIMEZONE:Asia/Shanghai
 BEGIN:VEVENT
 UID:ea6b6bc9088d@ai-race-radar
-DTSTAMP:20261114T042619Z
+DTSTAMP:20261115T040858Z
 DTSTART;VALUE=DATE:20260520
 DTEND;VALUE=DATE:20261002
 SUMMARY:MICCAI2026 Challenge: GAVE2
 DESCRIPTION:奖金：1000 USD；报名：https://aistudio.baidu.com/compe
  tition/detail/1463/0/introduction；收录：AI 赛事雷达（2026-11-1
- 4T04:26:19 核验）
+ 5T04:08:58 核验）
 URL:https://aistudio.baidu.com/competition/detail/1463/0/introduction
 LOCATION:线上
 END:VEVENT

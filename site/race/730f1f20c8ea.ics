@@ -7,20 +7,20 @@ X-WR-CALNAME:AI 赛事雷达
 X-WR-TIMEZONE:Asia/Shanghai
 BEGIN:VEVENT
 UID:730f1f20c8ea@ai-race-radar
-DTSTAMP:20261114T042619Z
+DTSTAMP:20261115T040858Z
 DTSTART;VALUE=DATE:20260609
 DTEND;VALUE=DATE:20261025
 SUMMARY:编程竞赛测试用例生成挑战赛 赛季2
 DESCRIPTION:主办方：中国科学技术大学认知智能全国重点
  实验室；报名截止：2026-08-27；奖金：1万元；报名：http
  s://challenge.xfyun.cn/topic/info?type=CP-TCG；收录：AI 赛事雷达
- （2026-11-14T04:26:19 核验）
+ （2026-11-15T04:08:58 核验）
 URL:https://challenge.xfyun.cn/topic/info?type=CP-TCG
 LOCATION:线上
 END:VEVENT
 BEGIN:VEVENT
 UID:730f1f20c8ea-deadline@ai-race-radar
-DTSTAMP:20261114T042619Z
+DTSTAMP:20261115T040858Z
 DTSTART;VALUE=DATE:20260827
 DTEND;VALUE=DATE:20260828
 SUMMARY:⏰ 报名截止：编程竞赛测试用例生成挑战赛 赛季

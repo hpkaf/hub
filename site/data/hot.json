@@ -6,10 +6,10 @@
     "mode": "offline",
     "city": "三亚",
     "deadline": "2026-11-15",
-    "days": 1,
-    "when": "明天截止",
+    "days": 0,
+    "when": "今天截止",
     "prize": "10万元现金激励（每项年度之选 1 万元税前）+官方证书+电影节展映",
-    "reason": "明天截止 · 10万元现金激励（每项年度之选 1 万元税前）+官方证书+电影节展映 · 海南岛国际电影节组委会",
+    "reason": "今天截止 · 10万元现金激励（每项年度之选 1 万元税前）+官方证书+电影节展映 · 海南岛国际电影节组委会",
     "url": "https://www.liblib.tv/hiiff-aifilmseason"
   },
   {
@@ -19,10 +19,10 @@
     "mode": "hybrid",
     "city": "北京",
     "deadline": "2026-11-15",
-    "days": 1,
-    "when": "明天截止",
+    "days": 0,
+    "when": "今天截止",
     "prize": "赛事奖金+官方证书+华为电脑/AirPods 等实物奖品+剪映 Hub 积分与流量曝光",
-    "reason": "明天截止 · 赛事奖金+官方证书+华为电脑/AirPods 等实物奖品+剪映 Hub 积分与流量曝光 · WaytoAGI × ACE-CON",
+    "reason": "今天截止 · 赛事奖金+官方证书+华为电脑/AirPods 等实物奖品+剪映 Hub 积分与流量曝光 · WaytoAGI × ACE-CON",
     "url": "https://resonance.waytoagi.com/"
   },
   {
@@ -32,10 +32,10 @@
     "mode": "online",
     "city": null,
     "deadline": "2026-11-16",
-    "days": 2,
-    "when": "2 天后截止",
+    "days": 1,
+    "when": "明天截止",
     "prize": "1500 USD",
-    "reason": "2 天后截止 · 1500 USD · QDay",
+    "reason": "明天截止 · 1500 USD · QDay",
     "url": "https://dorahacks.io/hackathon/qday"
   },
   {
@@ -45,10 +45,10 @@
     "mode": "online",
     "city": null,
     "deadline": "2026-11-19",
-    "days": 5,
-    "when": "5 天后截止",
+    "days": 4,
+    "when": "4 天后截止",
     "prize": "100万奖金池+礼品",
-    "reason": "5 天后截止 · 100万奖金池+礼品 · 具亮计划",
+    "reason": "4 天后截止 · 100万奖金池+礼品 · 具亮计划",
     "url": "https://modelscope.cn/events/393/%E6%AF%94%E8%B5%9B%E4%BB%8B%E7%BB%8D"
   },
   {
@@ -58,10 +58,10 @@
     "mode": "online",
     "city": null,
     "deadline": "2026-11-19",
-    "days": 5,
-    "when": "5 天后截止",
+    "days": 4,
+    "when": "4 天后截止",
     "prize": "¥32万元奖金池",
-    "reason": "5 天后截止 · ¥32万元奖金池 · 群核科技",
+    "reason": "4 天后截止 · ¥32万元奖金池 · 群核科技",
     "url": "https://modelscope.cn/events/386/%E6%AF%94%E8%B5%9B%E4%BB%8B%E7%BB%8D"
   }
 ]

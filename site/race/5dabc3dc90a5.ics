@@ -7,13 +7,13 @@ X-WR-CALNAME:AI 赛事雷达
 X-WR-TIMEZONE:Asia/Shanghai
 BEGIN:VEVENT
 UID:5dabc3dc90a5@ai-race-radar
-DTSTAMP:20261114T042619Z
+DTSTAMP:20261115T040858Z
 DTSTART;VALUE=DATE:20260319
 DTEND;VALUE=DATE:20270101
 SUMMARY:AlgoBharat Regional Hackathons
 DESCRIPTION:主办方：Algorand；报名：https://dorahacks.io/hackatho
- n/algobharat-regional-hack；收录：AI 赛事雷达（2026-11-14T04:26
- :19 核验）
+ n/algobharat-regional-hack；收录：AI 赛事雷达（2026-11-15T04:08
+ :58 核验）
 URL:https://dorahacks.io/hackathon/algobharat-regional-hack
 LOCATION:线上
 END:VEVENT

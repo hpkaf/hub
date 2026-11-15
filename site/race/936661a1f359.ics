@@ -7,14 +7,14 @@ X-WR-CALNAME:AI 赛事雷达
 X-WR-TIMEZONE:Asia/Shanghai
 BEGIN:VEVENT
 UID:936661a1f359@ai-race-radar
-DTSTAMP:20261114T042619Z
+DTSTAMP:20261115T040858Z
 DTSTART;VALUE=DATE:20260326
 DTEND;VALUE=DATE:20260901
 SUMMARY:挑战赛B榜-2026中国软件杯大学生软件设计大赛—
  —文心小汪赛道
 DESCRIPTION:奖金：榜单国赛；报名：https://aistudio.baidu.com/c
  ompetition/detail/1468/0/introduction；收录：AI 赛事雷达（2026-
- 11-14T04:26:19 核验）
+ 11-15T04:08:58 核验）
 URL:https://aistudio.baidu.com/competition/detail/1468/0/introduction
 LOCATION:线上
 END:VEVENT

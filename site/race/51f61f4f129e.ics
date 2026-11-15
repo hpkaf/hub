@@ -7,12 +7,12 @@ X-WR-CALNAME:AI 赛事雷达
 X-WR-TIMEZONE:Asia/Shanghai
 BEGIN:VEVENT
 UID:51f61f4f129e@ai-race-radar
-DTSTAMP:20261114T042619Z
+DTSTAMP:20261115T040858Z
 DTSTART;VALUE=DATE:20260501
 DTEND;VALUE=DATE:20270101
 SUMMARY:2026CCKS系列赛
 DESCRIPTION:报名：https://tianchi.aliyun.com/competition/entrance/35
- ；收录：AI 赛事雷达（2026-11-14T04:26:19 核验）
+ ；收录：AI 赛事雷达（2026-11-15T04:08:58 核验）
 URL:https://tianchi.aliyun.com/competition/entrance/35
 LOCATION:线上
 END:VEVENT

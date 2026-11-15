@@ -7,20 +7,20 @@ X-WR-CALNAME:AI 赛事雷达
 X-WR-TIMEZONE:Asia/Shanghai
 BEGIN:VEVENT
 UID:8541cb1e0341@ai-race-radar
-DTSTAMP:20261114T042619Z
+DTSTAMP:20261115T040858Z
 DTSTART;VALUE=DATE:20260819
 DTEND;VALUE=DATE:20261025
 SUMMARY:恶劣场景下的车道线检测挑战赛
 DESCRIPTION:主办方：中国矿业大学；报名截止：2026-09-18；
  奖金：1万元；报名：https://challenge.xfyun.cn/topic/info?type=l
- ane-detection-challenge；收录：AI 赛事雷达（2026-11-14T04:26:19
+ ane-detection-challenge；收录：AI 赛事雷达（2026-11-15T04:08:58
   核验）
 URL:https://challenge.xfyun.cn/topic/info?type=lane-detection-challenge
 LOCATION:线上
 END:VEVENT
 BEGIN:VEVENT
 UID:8541cb1e0341-deadline@ai-race-radar
-DTSTAMP:20261114T042619Z
+DTSTAMP:20261115T040858Z
 DTSTART;VALUE=DATE:20260918
 DTEND;VALUE=DATE:20260919
 SUMMARY:⏰ 报名截止：恶劣场景下的车道线检测挑战赛
