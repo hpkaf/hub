@@ -1,44 +1,5 @@
 [
   {
-    "id": "18d9e2649373",
-    "title": "第八届海南岛国际电影节·AI电影展影片征集",
-    "organizer": "海南岛国际电影节组委会",
-    "mode": "offline",
-    "city": "三亚",
-    "status": "closing",
-    "deadline": "2026-11-15",
-    "ai_level": "core",
-    "tracks": [
-      "AI电影级长片",
-      "AI精品剧集",
-      "AI电影级短片",
-      "AI实验影像"
-    ],
-    "directions": [
-      "other"
-    ],
-    "summary": "第八届海南岛国际电影节·AI电影展全球征片通道开启，LibTV 为荣誉冠名合作方及官方指定作品征集平台。"
-  },
-  {
-    "id": "9d1e77a417ba",
-    "title": "首届AI × 音乐视觉黑客松",
-    "organizer": "WaytoAGI × ACE-CON",
-    "mode": "hybrid",
-    "city": "北京",
-    "status": "closing",
-    "deadline": "2026-11-15",
-    "ai_level": "core",
-    "tracks": [
-      "共振场（乐队 Live 创作）",
-      "回声场（自由视觉创作）",
-      "AI 音乐视觉"
-    ],
-    "directions": [
-      "other"
-    ],
-    "summary": ""
-  },
-  {
     "id": "878465bc4362",
     "title": "Aevum Builder Challenge #1",
     "organizer": "QDay",
@@ -107,7 +68,7 @@
     "organizer": "Gensyn",
     "mode": "online",
     "city": null,
-    "status": "open",
+    "status": "closing",
     "deadline": "2026-11-23",
     "ai_level": "core",
     "tracks": [
@@ -853,42 +814,6 @@
     "summary": ""
   },
   {
-    "id": "486b593b87a1",
-    "title": "2026-具身仿真合成挑战赛",
-    "organizer": null,
-    "mode": "online",
-    "city": null,
-    "status": "closed",
-    "deadline": "2026-09-21",
-    "ai_level": "core",
-    "tracks": [
-      "AI大模型赛"
-    ],
-    "directions": [
-      "llm",
-      "embodied"
-    ],
-    "summary": ""
-  },
-  {
-    "id": "bee00c2ad7ee",
-    "title": "2026-具身安全应用挑战赛",
-    "organizer": null,
-    "mode": "online",
-    "city": null,
-    "status": "closed",
-    "deadline": "2026-09-21",
-    "ai_level": "core",
-    "tracks": [
-      "AI大模型赛"
-    ],
-    "directions": [
-      "llm",
-      "embodied"
-    ],
-    "summary": ""
-  },
-  {
     "id": "5b1041241f12",
     "title": "基于星评测Agent的养虾Skills横评挑战赛",
     "organizer": "科大讯飞股份有限公司",
@@ -1149,6 +1074,45 @@
     ],
     "directions": [
       "agent"
+    ],
+    "summary": ""
+  },
+  {
+    "id": "18d9e2649373",
+    "title": "第八届海南岛国际电影节·AI电影展影片征集",
+    "organizer": "海南岛国际电影节组委会",
+    "mode": "offline",
+    "city": "三亚",
+    "status": "closed",
+    "deadline": "2026-11-15",
+    "ai_level": "core",
+    "tracks": [
+      "AI电影级长片",
+      "AI精品剧集",
+      "AI电影级短片",
+      "AI实验影像"
+    ],
+    "directions": [
+      "other"
+    ],
+    "summary": "第八届海南岛国际电影节·AI电影展全球征片通道开启，LibTV 为荣誉冠名合作方及官方指定作品征集平台。"
+  },
+  {
+    "id": "9d1e77a417ba",
+    "title": "首届AI × 音乐视觉黑客松",
+    "organizer": "WaytoAGI × ACE-CON",
+    "mode": "hybrid",
+    "city": "北京",
+    "status": "closed",
+    "deadline": "2026-11-15",
+    "ai_level": "core",
+    "tracks": [
+      "共振场（乐队 Live 创作）",
+      "回声场（自由视觉创作）",
+      "AI 音乐视觉"
+    ],
+    "directions": [
+      "other"
     ],
     "summary": ""
   },

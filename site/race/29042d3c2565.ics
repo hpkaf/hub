@@ -7,20 +7,20 @@ X-WR-CALNAME:AI 赛事雷达
 X-WR-TIMEZONE:Asia/Shanghai
 BEGIN:VEVENT
 UID:29042d3c2565@ai-race-radar
-DTSTAMP:20261115T040858Z
+DTSTAMP:20261116T040925Z
 DTSTART;VALUE=DATE:20261021
 DTEND;VALUE=DATE:20261202
 SUMMARY:征集赛15-智析云荐——基于百炼的智能新闻推荐
  系统挑战赛
 DESCRIPTION:报名截止：2026-12-01；报名：https://tianchi.aliyun.c
- om/competition/entrance/532532；收录：AI 赛事雷达（2026-11-15T0
- 4:08:58 核验）
+ om/competition/entrance/532532；收录：AI 赛事雷达（2026-11-16T0
+ 4:09:25 核验）
 URL:https://tianchi.aliyun.com/competition/entrance/532532
 LOCATION:线上
 END:VEVENT
 BEGIN:VEVENT
 UID:29042d3c2565-deadline@ai-race-radar
-DTSTAMP:20261115T040858Z
+DTSTAMP:20261116T040925Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:⏰ 报名截止：征集赛15-智析云荐——基于百炼的
