@@ -2,7 +2,7 @@
 
 > 一句话：把中国境内**还能报名**的 AI 赛事与黑客松，做成一份每天核验、点开就能报名的清单，并同时以**网站 / 日历订阅 / 邮件摘要 / 公开 JSON** 四种形态对外。
 
-版本：V1.0 · 数据快照 2026-11-08 · 技术栈：Python 标准库 + 原生 HTML/CSS/JS，无框架、无数据库服务
+版本：V1.0 · 数据快照 2026-11-16 · 技术栈：Python 标准库 + 原生 HTML/CSS/JS，无框架、无数据库服务
 
 ---
 
@@ -34,8 +34,8 @@
 
 | 形态 | 入口 | 说明 |
 |---|---|---|
-| 网站 | `/`、`/explore.html`、`/organizers.html`、`/guides.html`、`/match.html`、`/race/<id>.html`、`/about.html`、`/submit.html` | 43 条在架 + 68 个详情/存档 + 35 个主办方页 + 3 篇指南；探索页支持方向/平台/级别/形式/状态 + 往届 + 3/7/14 天截止；首屏右栏「本周值得看」；公网 https://race.howfun.cn/ |
-| 日历订阅 | `/calendar.ics` | 每条赛事一个 VEVENT，另加报名截止提醒事件；详情页可单场加 Google 日历 / 下载 `.ics` |
+| 网站 | `/`、`/explore.html`、`/organizers.html`、`/guides.html`、`/match.html`、`/calendar.html`、`/race/<id>.html`、`/about.html`、`/submit.html` | 45 条在架 + 68 个详情/存档 + 37 个主办方页 + 3 篇指南；探索页支持方向/平台/级别/形式/状态 + 往届 + 3/7/14 天截止；首屏右栏「本周值得看」；公网 https://race.howfun.cn/ |
+| 日历订阅 | `/calendar.html` → `/calendar.ics` | 一键订阅中心（Apple / Outlook / Google / 邮箱入口）；每条赛事一个 VEVENT，另加报名截止提醒事件；详情页可单场加 Google 日历 / 下载 `.ics` |
 | 邮件摘要 | `send_digest.py` | 每日「新收录 + 3 天内截止」，SMTP/Resend；邮件附 `calendar.ics` |
 | 公开数据 | `/api/events.json`、`/api/events.md`、`/data/races.json`、`/feed.xml` | 带字段说明、更新时间、许可（CC BY 4.0）；Markdown 给 LLM，RSS 给阅读器 |
 | 给 AI/检索 | `/llms.txt`、`/llms-full.txt`、`/agent.json`、`/sitemap.xml`、`/robots.txt` | 站点自述、完整 reference、Agent 能力清单、全量 URL |
@@ -158,22 +158,22 @@ DoraHacks 活动行
 
 ---
 
-## 9. 当前数据快照（2026-11-08）
+## 9. 当前数据快照（2026-11-16）
 
-> 以下为 2026-11-08 19:50 的快照（79 条 / 45 首页 / 70 详情）。23:26 全量流水线后为
-> **79 条 / 43 首页 / 68 详情 / 35 个可见主办方页**（截至 2026-11-12；公网 https://race.howfun.cn/）。
+> **78 条 / 45 首页 / 68 详情 / 37 个主办方页**（截至 2026-11-16 13:15 北京时间；公网 https://race.howfun.cn/）。
+> 公网 API 与本地一致，count=68，updated=2026-11-16T05:19:32Z。
 
 | 指标 | 数值 |
 |---|---|
-| 全量记录 / 活链 | 79 条 / **79 条全部核验 200** |
-| 首页在架 | 45 场（线上 30、在报名/即将截止 28） |
-| 详情页 + 存档 | 70 个 |
-| 覆盖主办方 | 全量 43 家（首页可见 28 家） |
-| AI 分级 | core 42 / platform 24 / track 7 / other 6 |
-| 状态分布 | open 24 / closing 4 / upcoming 2 / unknown 11 / closed 38 |
-| 形式 | 线上 57 / 线下 11 / 线上+线下 4 / 未知 7 |
+| 全量记录 / 活链 | 78 条 / **78 条全部核验 200** |
+| 首页在架 | 45 场（线上 29、在报名/即将截止 25） |
+| 详情页 + 存档 | 68 个 |
+| 覆盖主办方 | 全量 37 家（本地）/ 36 家（公网） |
+| AI 分级（API） | core 34 / platform 22 / track 6 / other 6 |
+| 状态分布（API） | open 21 / closing 4 / upcoming 2 / unknown 11 / closed 30 |
+| 形式（API） | 线上 53 / 线下 4 / 线上+线下 4 / 未知 7 |
 | 信源 | 11 个自动/半自动信源 + 人工种子 |
-| 截止日待确认 | 在架清单中约 11 条（历史存档里 41 条无截止日，多为已结束的平台赛） |
+| 截止日待确认 | API 中 32 条无截止日（历史存档 41 条，多为已结束的平台赛） |
 | 线索队列 | 公众号 20（待补 16）、联谱 14、湾区 6 |
 
 ---
@@ -186,7 +186,7 @@ DoraHacks 活动行
 - `/race/<id>.html` 详情：赛程、奖金、赛道、官方报名按钮、VERIFICATION 核验侧栏（链接状态 / 核验时间 / 依据）
 - `/about.html` 方法与信源：核验标准、信源分层、收录口径、数据接口、保留期、免责声明
 - `/submit.html` 投稿/纠错：填完生成邮件或复制内容（配 `SUBMIT_EMAIL`）
-- `/calendar.ics` 日历订阅
+- `/calendar.html` 日历订阅中心：Apple / Outlook / Google 入口 + 邮箱收链接 + `.ics` fallback；底层 `/calendar.ics`
 
 **机器接口**
 
@@ -207,7 +207,7 @@ DoraHacks 活动行
 
 1. **本机手动**：`./setup.sh` → `SKIP_DIGEST=1 ./run_daily.sh` → `./serve.sh`
 2. **24×7 常驻（家用电脑）**：cron / launchd / systemd 每天 08:00 跑流水线 + `serve.sh` 常驻 + 备份 `races.db`，完整步骤见 [`INSTALL.md`](../INSTALL.md)
-3. **GitHub Actions + Pages**：`.github/workflows/daily.yml` 已内置（每日 08:00、提交回仓库、部署 Pages），适合放公网
+3. **本机唯一数据源 + GitHub Pages**（当前采用）：本机 08:00 流水线 commit/push，`.github/workflows/pages.yml` 只负责部署；`daily-refresh-manual.yml` 仅保留手动触发，避免和本机抢数据
 
 ---
 
@@ -308,5 +308,6 @@ ai-race-radar/
 - 部署手册：[`windows-24x7.md`](windows-24x7.md)
 - 一致性核对与代码修复记录：[`consistency-report.md`](consistency-report.md)
 - Agent / RSS / 日历接入：[`agent-integration.md`](agent-integration.md)
-- 与本文的已知差异：运行后全量记录为 79 条（一条 DoraHacks 赛事从信源消失并按时效规则清理）；
+- 当前运行模式：本机是唯一数据源；08:00 流水线结束后 commit/push，GitHub Pages 仅负责部署
+- 与本文的已知差异：运行后全量记录为 78 条（历史 DoraHacks 赛事从信源消失并按时效规则清理）；
   原 `run_daily.sh` 漏掉的 6 个平台采集器已补齐

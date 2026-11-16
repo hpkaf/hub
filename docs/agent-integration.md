@@ -9,7 +9,8 @@
 | `/api/events.json` | JSON | Agent / 脚本；在架 + 近 90 天记录，含字段说明 |
 | `/api/events.md` | Markdown | 给 LLM 的省 token 版本 |
 | `/data/hot.json` | JSON | 首页「本周值得看」5 条；含 `days`、`when`、`reason`，不是流量榜 |
-| `/calendar.ics` | iCalendar | Apple 日历 / Outlook / Google 日历订阅 |
+| `/calendar.html` | HTML | 人类一键订阅（Apple / Outlook / Google / 邮箱） |
+| `/calendar.ics` | iCalendar | 底层日历 feed，Apple / Outlook / Google 订阅 |
 | `/feed.xml` | RSS 2.0 | 阅读器、Agent 轮询 |
 | `/llms.txt` / `/llms-full.txt` | 纯文本 | 站点说明 / 完整 reference（字段、核验语义、引用边界） |
 | `/agent.json` / `/.well-known/agent.json` | JSON | Agent 能力清单（只读，无鉴权） |
@@ -86,14 +87,15 @@ curl -s http://192.168.1.3:8080/api/events.json \
 
 ## 放进日历
 
-- **订阅全部**：`http://192.168.1.3:8080/calendar.ics`；Apple 日历可直接打开
-  `webcal://192.168.1.3:8080/calendar.ics`；Google 日历「其他日历 → 通过网址添加」。
+- **订阅全部**：`https://race.howfun.cn/calendar.ics`；Apple 日历可直接打开
+  `webcal://race.howfun.cn/calendar.ics`；Google 日历「其他日历 → 通过网址添加」。
+- **一键入口**：`https://race.howfun.cn/calendar.html`，含 Apple / Outlook / Google 按钮和邮箱收链接。
 - **只加一场**：详情页「Google 日历」按钮，或下载同目录的 `<id>.ics`。
 - **邮件**：`send_digest.py` 发出的摘要邮件附带 `ai-race-radar.ics`，收件人可直接导入。
 
 ## 给 Agent 的提示词示例
 
-> 读取 `http://192.168.1.3:8080/api/events.json`，筛出 `status` 为 `open` 或 `closing`
+> 读取 `https://race.howfun.cn/api/events.json`，筛出 `status` 为 `open` 或 `closing`
 > 且 `deadline` 非空的 AI 赛事，按截止日排序；对每条给出标题、截止日、官方链接，
 > 并把这些赛事加入我的日历。不要编造 `url`，报名前以官方页面为准。
 

@@ -30,19 +30,19 @@
 
 ---
 
-## 当前快照（2026-11-08）
+## 当前快照（2026-11-16）
 
-- 首页 **43 场**（在架 + 近 14 天结束）；全量 **79 条 / 79 条活链**；详情页/存档 **68 个**
+- 首页 **45 场**（在架 + 近 14 天结束）；全量 **78 条 / 78 条活链**；详情页/存档 **68 个**
 - 公网：**https://race.howfun.cn/**（GitHub Pages，CNAME → `hpkaf.github.io`）
-- 日历：**https://race.howfun.cn/calendar.ics**
-- 新增页面：`/explore.html`（方向/平台/级别/形式/状态 + 往届 Tab）、`/organizers.html` + 35 个主办方页、`/guides.html` + 3 篇指南、`/match.html`（本地规则匹配）
+- 日历：**https://race.howfun.cn/calendar.html**（一键订阅中心）；底层 feed **https://race.howfun.cn/calendar.ics**
+- 新增页面：`/explore.html`（方向/平台/级别/形式/状态 + 往届 Tab）、`/organizers.html` + 37 个主办方页、`/guides.html` + 3 篇指南、`/match.html`（本地规则匹配）、`/calendar.html`（Apple / Outlook / Google / 邮箱入口）
 - 热点模块：首屏右栏「本周值得看」5 条，按截止日 + 奖金/主办方可解释排序；Explore 新增 3/7/14 天内截止筛选。**不是流量热度榜。**
-- 产物：`site/`（index / explore / organizers / match / guides / race / organizer / guides + `calendar.ics` + `feed.xml` + `sitemap.xml` + `llms.txt` + `llms-full.txt` + `agent.json` + `api/events.json` + `api/events.md` + `data/races.json` + `data/hot.json`）
+- 产物：`site/`（index / explore / organizers / match / guides / calendar / race / organizer / guides + `calendar.ics` + `feed.xml` + `sitemap.xml` + `llms.txt` + `llms-full.txt` + `agent.json` + `api/events.json` + `api/events.md` + `data/races.json` + `data/hot.json`）
 - 视觉：**Radar Room**——纸白/近黑双主题、荧光绿信号色、宋体大标题、等宽数据；默认跟随系统明暗，右上角 ◐ 切换
 - 投稿：站内 `submit.html` 表单（无后端，走邮件 / 复制），支持从详情页带 `id/title/url` 预填纠错
 - 信源：8 个平台 JSON API + 官方活动站/列表（知乎、魔搭、biendata）+ Luma 社区日历 ICS（6 本）+ 和鲸 API + 人工核验种子，实测记录见 [docs/sources.md](docs/sources.md)
 - 机器入口：`api/events.json`、`api/events.md`、`data/hot.json`、`feed.xml`、`llms.txt`、`llms-full.txt`、`agent.json`、`calendar.ics`
-- 截图：`docs/img/index-desktop.png`（浅色）、`docs/img/index-dark.png`（深色）、`docs/img/explore.png`、`docs/img/organizers.png`、`docs/img/match.png`、`docs/img/guide.png`、`docs/img/detail.png`、`docs/img/submit.png`
+- 截图：`docs/img/index-desktop.png`（浅色）、`docs/img/index-dark.png`（深色）、`docs/img/explore.png`、`docs/img/organizers.png`、`docs/img/match.png`、`docs/img/guide.png`、`docs/img/detail.png`、`docs/img/calendar.png`、`docs/img/submit.png`
 - 本地预览：`python3 scripts/serve_site.py --port 8080 --directory site`（`.ics` 会返回 `text/calendar`）
 
 > 2026-11-09 本轮构建：77 条活链 / 67 个详情页（MDBA Youth Blockchain Hackathon 从 DoraHacks 信源消失；另 1 条在 11/09 凌晨跨过 90 天窗口自动归档）。
@@ -102,7 +102,7 @@ ai-race-radar/
 │                            #   + api/events.json + api/events.md + sitemap.xml + data/hot.json
 ├── deploy/                  # Windows 24×7：计划任务、静态服务、备份
 ├── run_daily.sh             # 一条命令跑完整流水线
-└── .github/workflows/daily.yml  # 每天 08:00 自动核验 + 部署
+└── .github/workflows/pages.yml  # 本机 daily push 后自动部署；daily-refresh-manual.yml 仅供手动补跑
 ```
 
 ---
@@ -272,13 +272,15 @@ GitHub Actions 里把它设成仓库变量即可；同时建议开启 Issue 模�
 
 ## 部署（零成本起步）
 
-### 方案 A：GitHub Pages（推荐，和自动更新天然配套）
+### 方案 A：本机唯一数据源 + GitHub Pages（当前采用）
 
-1. 建仓库并 push 本项目；
-2. Settings → Pages → Source 选 **GitHub Actions**；
-3. 启用 `.github/workflows/daily.yml`：每天 UTC 00:00 自动核验 + 部署；
-4. 自定义域名（可选）：Pages → Custom domain 填域名，DNS 加 CNAME 记录；
-5. 设置仓库变量 `SITE_URL=https://你的域名`，让 sitemap / `.ics` / 邮件里的链接用正式域名（本地构建默认占位域名）。
+1. 本机 `AI Race Radar - Daily` 每天 08:00（北京时间）抓取 → 核验 → 建站 → 发邮件 → commit/push；
+2. push 触发 `.github/workflows/pages.yml`，只负责把 `site/` 发布到 Pages；
+3. `daily-refresh-manual.yml` 只保留手动 `workflow_dispatch`，不再定时跑，避免和本机抢数据；
+4. Settings → Pages → Source 选 **GitHub Actions**；自定义域名填 `race.howfun.cn`，DNS 加 CNAME 到 `hpkaf.github.io`；
+5. 仓库变量 `SITE_URL=https://race.howfun.cn`，让 sitemap / `.ics` / 邮件链接用正式域名。
+
+本机时间固定为北京时间；`site_ui.py`、`build_site.py`、`common.py` 的构建/数据时间都按 UTC+8 写入。Git 同步逻辑在 `deploy/run_daily.ps1` 末尾，失败只记录日志，不会影响当天站点。
 
 ### 方案 B：Cloudflare Pages
 
@@ -303,7 +305,7 @@ python3 scripts/send_digest.py --days 2
 
 - `--dry-run` 只写 `data/digest_preview.html`，不发信；先看样式再接 SMTP。
 - Gmail 发信可换 `smtp.gmail.com:587`（STARTTLS）+ 应用专用密码；Resend / SendGrid 免费额度也可用。
-- 邮件正文会附一份 `ai-race-radar.ics`，收件人可直接导入日历；站点「关于」页的订阅入口由 `SUBSCRIBE_URL`（表单）或 `SUBSCRIBE_EMAIL`（mailto）控制。
+- 邮件正文会附一份 `ai-race-radar.ics`，收件人可直接导入日历；站点「日历」页提供 Apple / Outlook / Google / 邮箱入口，底层仍是 `/calendar.ics`。
 
 ---
 
@@ -311,7 +313,7 @@ python3 scripts/send_digest.py --days 2
 
 - [x] 本地流水线：核验 → 去重 → SQLite → 静态站 → `.ics`
 - [x] 每日邮件摘要（新收录 + 即将截止）
-- [x] GitHub Actions 定时核验与部署
+- [x] 本机 08:00 定时核验，push 后 GitHub Pages 自动部署
 - [x] sitemap.xml / robots.txt（便于搜索引擎收录）
 - [x] 抓取自动化：天池 / 讯飞 / DataFountain / AI Studio / DoraHacks / 活动行 的采集器（已接入 `run_daily.sh` 与 Windows 包装器）
 - [ ] 报名截止的 `.ics` 提前提醒（VALARM，截止前 3 天）

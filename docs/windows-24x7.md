@@ -160,3 +160,22 @@ powercfg /change monitor-timeout-ac 15   # 显示器可以睡，主机别睡
 - 防火墙规则限定 `LocalSubnet`，不对公网开放；
 - 如需公网访问，优先 Cloudflare Tunnel / Tailscale，不要直接做端口映射；
 - `.env` 含 SMTP 授权码，不要提交到仓库（`.gitignore` 已忽略）。
+
+---
+
+## 9. 本机唯一数据源 + GitHub Pages
+
+当前公网 `https://race.howfun.cn/` 由 GitHub Pages 托管，但数据只从这台 Windows 机器产生：
+
+1. 每天 08:00，`AI Race Radar - Daily` 运行 `deploy\run_daily.ps1`：抓取 → 核验 → 建站 → 邮件；
+2. 脚本末尾把 `site/`、`data/races.json`、`data/races.db` 等变化 `git add/commit`；
+3. 先 `git fetch`，只有远端不是本地祖先时才 `git merge -s ours origin/main`（保留本机树）；
+4. `git push origin HEAD:main` 触发 `.github/workflows/pages.yml`，只部署 `site/`；
+5. GitHub 上的 `daily-refresh-manual.yml` 只保留手动 `workflow_dispatch`，不再定时跑。
+
+注意：
+
+- Git 路径优先 `D:\comfyui安装\Git\cmd\git.exe`，SSH key 是 `C:\Users\Administrator\.ssh\id_ed25519_ai_race`；SYSTEM 账户对二者有读权限；
+- push 失败只写日志、不阻断当天站点；下一次 08:00 会重试；
+- 构建时间统一用北京时间（UTC+8），公网页脚不再出现 UTC 04:09 这类偏差；
+- 日历订阅入口是 `https://race.howfun.cn/calendar.html`，底层 feed 仍是 `/calendar.ics`。
