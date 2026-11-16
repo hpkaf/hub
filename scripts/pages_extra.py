@@ -11,8 +11,8 @@ import urllib.parse
 
 import common
 import taxonomy
-from site_ui import (ASSET_V, LEVEL_LABEL, SITE_DESC, SITE_NAME, SRC_LABEL, esc,
-                     fmt_date, foot, head, itemlist_jsonld, render_row)
+from site_ui import (ASSET_V, LEVEL_LABEL, SITE_DESC, SITE_NAME, SITE_URL, SRC_LABEL,
+                     WEBCAL_URL, esc, fmt_date, foot, head, itemlist_jsonld, render_row)
 
 
 def _json_script(data) -> str:
@@ -264,7 +264,7 @@ def render_explore(records: list[dict]) -> str:
   <p class="sub">不必翻完整个列表：先按方向、平台或级别收窄，再看截止日和报名入口。每条仍保留核验侧栏与官方来源。</p>
   <div class="cta hero-cta">
     <a class="btn primary" href="match.html">用项目方向匹配</a>
-    <a class="btn ghost" href="calendar.ics">订阅日历</a>
+    <a class="btn ghost" href="calendar.html">订阅日历</a>
   </div>
 </section>
 
@@ -549,3 +549,170 @@ def render_guide(guide: dict) -> str:
 {ld}
 </article>
 """ + foot(depth=1)
+
+
+CALENDAR_JS = r"""
+(function(){
+  var calUrl = __CAL_URL__;
+  var webcalUrl = __WEBCAL_URL__;
+  var copied = document.getElementById('cal-copied');
+
+  function flash(text){
+    if (!copied) return;
+    copied.textContent = text;
+    window.setTimeout(function(){ copied.textContent = ''; }, 5000);
+  }
+
+  function copyText(text){
+    if (navigator.clipboard && window.isSecureContext) {
+      return navigator.clipboard.writeText(text);
+    }
+    return new Promise(function(resolve, reject){
+      var ta = document.createElement('textarea');
+      ta.value = text;
+      ta.setAttribute('readonly', '');
+      ta.style.position = 'fixed';
+      ta.style.top = '-1000px';
+      document.body.appendChild(ta);
+      ta.select();
+      var ok = false;
+      try { ok = document.execCommand('copy'); } catch (e) { ok = false; }
+      document.body.removeChild(ta);
+      ok ? resolve() : reject(new Error('copy failed'));
+    });
+  }
+
+  document.querySelectorAll('[data-copy]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var text = btn.getAttribute('data-copy');
+      copyText(text).then(function(){
+        flash(btn.getAttribute('data-copy-label') || '已复制订阅链接，粘贴到日历即可');
+      }).catch(function(){
+        flash('复制失败，请手动选中上面的链接');
+      });
+    });
+  });
+
+  var form = document.getElementById('cal-email-form');
+  if (!form) return;
+  form.addEventListener('submit', function(ev){
+    ev.preventDefault();
+    var input = document.getElementById('cal-email');
+    var status = document.getElementById('cal-status');
+    var email = (input.value || '').trim();
+    if (!email || email.indexOf('@') < 1) {
+      status.textContent = '请输入有效的邮箱地址。';
+      input.focus();
+      return;
+    }
+    var subject = 'AI 赛事雷达 · 日历订阅链接';
+    var body = '这是 AI 赛事雷达的日历订阅地址：\n\n' + calUrl
+      + '\n\nApple / iPhone 可直接打开：\n' + webcalUrl
+      + '\n\n打开后确认订阅即可，之后每天自动更新。\n\n—— AI 赛事雷达';
+    window.location.href = 'mailto:' + encodeURIComponent(email)
+      + '?subject=' + encodeURIComponent(subject)
+      + '&body=' + encodeURIComponent(body);
+    status.textContent = '已打开邮件客户端；发送后即可在邮箱里点链接订阅。';
+  });
+})();
+"""
+
+
+def render_calendar() -> str:
+    cal = f"{SITE_URL}/calendar.ics"
+    webcal = WEBCAL_URL
+    outlook = ("https://outlook.office.com/owa/?path=%2Fcalendar%2Faction%2Fcompose"
+               "&rru=addsubscription&url=" + urllib.parse.quote(webcal, safe="")
+               + "&name=" + urllib.parse.quote("AI 赛事雷达"))
+    google = "https://calendar.google.com/calendar/r/settings/addbyurl"
+    js = (CALENDAR_JS
+          .replace("__CAL_URL__", json.dumps(cal, ensure_ascii=False))
+          .replace("__WEBCAL_URL__", json.dumps(webcal, ensure_ascii=False)))
+    return head(
+        f"订阅 AI 赛事日历 · {SITE_NAME}",
+        "把 AI 赛事雷达加进 Apple 日历、Outlook 或 Google 日历；一次订阅，每天自动更新。",
+        page="calendar",
+    ) + f"""
+<div class="crumbs"><a href="index.html">← 首页</a><span>/</span><span>日历订阅</span></div>
+<section class="calendar-hero">
+  <div class="cal-kicker">CALENDAR / LIVE FEED</div>
+  <h1>把赛事日历<br>直接加进你常用的日历</h1>
+  <p class="sub">一次订阅，之后每天 08:00 自动更新；不用每次下载 .ics 再导入。下面按你用的日历选一个。</p>
+  <div class="cal-urlbar">
+    <code id="cal-url">{esc(cal)}</code>
+    <button class="btn primary" type="button" data-copy="{esc(cal)}">复制订阅链接</button>
+  </div>
+  <p class="cal-hint" id="cal-copied" role="status" aria-live="polite"></p>
+</section>
+
+<div class="cal-grid">
+  <article class="cal-card">
+    <div class="cal-badge">01 / APPLE</div>
+    <div class="cal-card-head"><span class="cal-logo">iOS</span><h2>Apple 日历 / iPhone</h2></div>
+    <p>点一下会打开系统日历，确认“订阅”即可；之后自动刷新，不需要再下载。</p>
+    <a class="btn primary" href="{esc(webcal)}">在 Apple 日历中订阅 ↗</a>
+    <p class="cal-note">没有自动打开？设置 → 日历 → 账户 → 添加账户 → 其他 → 添加已订阅的日历，粘贴上面的链接。</p>
+  </article>
+
+  <article class="cal-card">
+    <div class="cal-badge">02 / OUTLOOK</div>
+    <div class="cal-card-head"><span class="cal-logo">OUT</span><h2>Outlook</h2></div>
+    <p>打开 Outlook 网页版并进入“添加日历 → 从 Web 订阅”，订阅地址已经带好。</p>
+    <a class="btn primary" href="{esc(outlook)}" target="_blank" rel="noopener">在 Outlook 中订阅 ↗</a>
+    <p class="cal-note">桌面版：日历 → 添加日历 → 从 Web 订阅；粘贴上面的链接。</p>
+  </article>
+
+  <article class="cal-card">
+    <div class="cal-badge">03 / GOOGLE</div>
+    <div class="cal-card-head"><span class="cal-logo">G</span><h2>Google 日历</h2></div>
+    <p>Google 不支持链接预填。点下面按钮会复制链接并打开“从网址添加”，粘贴一次即可。</p>
+    <a class="btn ghost" href="{esc(google)}" target="_blank" rel="noopener"
+       data-copy="{esc(cal)}" data-copy-label="已复制；在 Google 日历里粘贴链接">复制并打开 Google 日历 ↗</a>
+    <p class="cal-note">其他日历 → 通过网址添加 → 粘贴 → 添加日历。</p>
+  </article>
+</div>
+
+<section class="cal-section">
+  <div class="cal-section-head"><h2>或者，把链接发到邮箱</h2><span class="mono">EMAIL</span></div>
+  <div class="cal-email">
+    <div>
+      <p>输入你的邮箱，会打开你常用的邮件客户端，把订阅链接发给你自己；在手机邮箱里点开就能订阅。</p>
+      <p class="cal-note">本站不保存邮箱，也不代发邮件。想要每天的新赛事摘要，请用 <a href="about.html#subscribe">邮件订阅</a>。</p>
+    </div>
+    <form id="cal-email-form" class="cal-email-form">
+      <label for="cal-email">你的邮箱</label>
+      <div class="cal-email-row">
+        <input id="cal-email" name="email" type="email" inputmode="email" autocomplete="email"
+               placeholder="you@example.com" required>
+        <button class="btn primary" type="submit">把链接发给我</button>
+      </div>
+      <p class="cal-status" id="cal-status" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+
+<section class="cal-section cal-why">
+  <div class="cal-section-head"><h2>订阅后会发生什么</h2><span class="mono">HOW IT WORKS</span></div>
+  <div class="cal-why-grid">
+    <div><b>01 / 自动同步</b><p>日历服务会定期拉取同一个地址；本站每天 08:00 重建，新增赛事和截止日会自动出现。</p></div>
+    <div><b>02 / 只放有日期的</b><p>没有可靠比赛日期的赛事不会伪造日程；报名截止日会单独生成提醒。</p></div>
+    <div><b>03 / 随时退订</b><p>在日历里删除这个订阅即可，不会影响其他日程，也不需要本站账号。</p></div>
+  </div>
+</section>
+
+<section class="cal-section">
+  <div class="cal-fallback">
+    <div>
+      <h2>不想用日历？</h2>
+      <p>下载 .ics 单次导入，或订阅 RSS / 每日邮件。</p>
+    </div>
+    <div class="cal-fallback-links">
+      <a class="btn ghost" href="calendar.ics">下载 .ics</a>
+      <a class="btn ghost" href="feed.xml">RSS</a>
+      <a class="btn ghost" href="about.html#subscribe">每日邮件</a>
+    </div>
+  </div>
+  <p class="cal-footer-note">订阅源：{esc(cal)} · 更新：每天 08:00（北京时间）· 数据许可 CC BY 4.0</p>
+</section>
+<script>{js}</script>
+""" + foot()

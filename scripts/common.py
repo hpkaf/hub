@@ -445,7 +445,9 @@ def dedupe(records: list[dict]) -> list[dict]:
 
 
 def now_iso() -> str:
-    return dt.datetime.now().strftime("%Y-%m-%dT%H:%M:%S")
+    # 数据时间统一按北京时间记录；服务器/CI 的本地时区不参与。
+    bj = dt.timezone(dt.timedelta(hours=8), "Asia/Shanghai")
+    return dt.datetime.now(bj).strftime("%Y-%m-%dT%H:%M:%S")
 
 
 def ensure_dirs() -> None:

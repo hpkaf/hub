@@ -1,22 +1,8 @@
 # AI 赛事雷达 · 赛事清单
 
-> 更新：2026-11-12 14:10（构建时间，Asia/Shanghai）
+> 更新：2026-11-16 13:11（构建时间，Asia/Shanghai）
 > 共 68 条（在架 + 近 90 天）；报名/奖金以主办方官方页为准。
 > JSON: https://race.howfun.cn/api/events.json · 许可: CC BY 4.0
-
-## 第八届海南岛国际电影节·AI电影展影片征集
-- 状态: 即将截止 | AI: core
-- 形式: 线下 · 三亚
-- 截止: 2026-11-15 | 比赛: 2026-10-21 → ?
-- 奖金: 10万元现金激励（每项年度之选 1 万元税前）+官方证书+电影节展映
-- 报名: https://www.liblib.tv/hiiff-aifilmseason
-
-## 首届AI × 音乐视觉黑客松
-- 状态: 即将截止 | AI: core
-- 形式: 线上+线下 · 北京
-- 截止: 2026-11-15 | 比赛: 2026-11-02 → 2026-11-21
-- 奖金: 赛事奖金+官方证书+华为电脑/AirPods 等实物奖品+剪映 Hub 积分与流量曝光
-- 报名: https://resonance.waytoagi.com/
 
 ## Aevum Builder Challenge #1
 - 状态: 即将截止 | AI: track
@@ -38,6 +24,13 @@
 - 截止: 2026-11-19 | 比赛: ? → ?
 - 奖金: ¥32万元奖金池
 - 报名: https://modelscope.cn/events/386/%E6%AF%94%E8%B5%9B%E4%BB%8B%E7%BB%8D
+
+## Agent Arena Competition: Evidence Mining
+- 状态: 即将截止 | AI: core
+- 形式: 线上
+- 截止: 2026-11-23 | 比赛: 2026-11-13 → 2026-12-11
+- 奖金: 7250 USD
+- 报名: https://dorahacks.io/hackathon/delphi-agent-competition2
 
 ## 2026 Qoder 高校创造力大赛
 - 状态: 报名中 | AI: platform
@@ -104,7 +97,7 @@
 ## 2023年第二届粤港澳大湾区（黄埔）国际算法算例大赛
 - 状态: 待确认 | AI: other
 - 形式: 待确认
-- 截止: 待确认 | 比赛: ? → 2026-11-12
+- 截止: 待确认 | 比赛: ? → 2026-11-16
 - 奖金: ￥10,000,000
 - 报名: https://www.heywhale.com/u/heywhale_comp
 
@@ -181,12 +174,6 @@
 - 截止: 2026-03-19 | 比赛: 2026-03-19 → 2026-12-31
 - 报名: https://dorahacks.io/hackathon/algobharat-regional-hack
 
-## Beyond the Benchmark: The Binance Agentic AI Challenge
-- 状态: 报名中 | AI: core
-- 形式: 线上
-- 截止: 2026-09-06 | 比赛: 2026-09-06 → 2026-11-13
-- 报名: https://dorahacks.io/hackathon/binance
-
 ## Terminal 3 Build+Scale Agent Micro Grant
 - 状态: 报名中 | AI: core
 - 形式: 线上
@@ -200,6 +187,12 @@
 - 截止: 2026-11-11 | 比赛: 2026-11-11 → ?
 - 报名: https://luma.com/ba5jlhla
 
+## What If Lab｜万一实验室——AI 硬件创意黑客松
+- 状态: 即将开始 | AI: core
+- 形式: 线下 · 浦东
+- 截止: 2026-11-21 | 比赛: 2026-11-21 → 2026-11-21
+- 报名: https://www.huodongxing.com/event/1886960427411
+
 ## 东莞市2025年工业AI应用创新挑战“百景大赛”
 - 状态: 报名中 | AI: core
 - 形式: 待确认
@@ -210,14 +203,14 @@
 ## 中国气象服务协会首届青年AI气象应用创意作品征集与交流主题活动
 - 状态: 待确认 | AI: core
 - 形式: 待确认
-- 截止: 待确认 | 比赛: ? → 2026-11-12
+- 截止: 待确认 | 比赛: ? → 2026-11-16
 - 奖金: ￥2,000,000+国家级平台项目+名企和事业单位实习及入职机会+创意后续转化
 - 报名: http://activity.chinamsa.org/youthCreate/home
 
 ## 人工智能气象预报大模型示范计划（AIM-FDP）
 - 状态: 待确认 | AI: core
 - 形式: 待确认
-- 截止: 待确认 | 比赛: ? → 2026-11-12
+- 截止: 待确认 | 比赛: ? → 2026-11-16
 - 奖金: 国家气象部门合作机会
 - 报名: http://aimfdp.nmc.cn/
 
@@ -314,20 +307,6 @@
 - 截止: 2026-09-18 | 比赛: 2026-08-19 → 2026-10-24
 - 奖金: 1万元
 - 报名: https://challenge.xfyun.cn/topic/info?type=lane-detection-challenge
-
-## 2026-具身仿真合成挑战赛
-- 状态: 已截止 | AI: core
-- 形式: 线上
-- 截止: 2026-09-21 | 比赛: 2026-07-30 → 2026-11-15
-- 奖金: 100,000元
-- 报名: https://tianchi.aliyun.com/competition/entrance/532506
-
-## 2026-具身安全应用挑战赛
-- 状态: 已截止 | AI: core
-- 形式: 线上
-- 截止: 2026-09-21 | 比赛: 2026-07-30 → 2026-11-15
-- 奖金: 100,000元
-- 报名: https://tianchi.aliyun.com/competition/entrance/532507
 
 ## 基于星评测Agent的养虾Skills横评挑战赛
 - 状态: 已截止 | AI: core
@@ -427,12 +406,32 @@
 - 奖金: 1000万智能体发展奖金总奖池
 - 报名: https://modelscope.cn/events/375/%E6%AF%94%E8%B5%9B%E4%BB%8B%E7%BB%8D
 
+## 第八届海南岛国际电影节·AI电影展影片征集
+- 状态: 已截止 | AI: core
+- 形式: 线下 · 三亚
+- 截止: 2026-11-15 | 比赛: 2026-10-21 → ?
+- 奖金: 10万元现金激励（每项年度之选 1 万元税前）+官方证书+电影节展映
+- 报名: https://www.liblib.tv/hiiff-aifilmseason
+
+## 首届AI × 音乐视觉黑客松
+- 状态: 已截止 | AI: core
+- 形式: 线上+线下 · 北京
+- 截止: 2026-11-15 | 比赛: 2026-11-02 → 2026-11-21
+- 奖金: 赛事奖金+官方证书+华为电脑/AirPods 等实物奖品+剪映 Hub 积分与流量曝光
+- 报名: https://resonance.waytoagi.com/
+
 ## AI新睿人才“星探计划”
 - 状态: 已截止 | AI: core
 - 形式: 线上
 - 截止: 2026-04-07 | 比赛: 2026-04-07 → 2026-08-31
 - 奖金: 90,000元
 - 报名: https://www.datafountain.cn/competitions/1169
+
+## Beyond the Benchmark: The Binance Agentic AI Challenge
+- 状态: 已截止 | AI: core
+- 形式: 线上
+- 截止: 2026-09-06 | 比赛: 2026-09-06 → 2026-11-13
+- 报名: https://dorahacks.io/hackathon/binance
 
 ## MICCAI2026 Challenge: GAVE2
 - 状态: 已截止 | AI: core

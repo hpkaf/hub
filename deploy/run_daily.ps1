@@ -209,4 +209,64 @@ try {
 } catch {
     Write-Log ("读取 races.json 失败：{0}" -f $_.Exception.Message) 'WARN'
 }
+# ---- 方案 A：本机是唯一数据源；提交后 push，GitHub Pages 由 pages.yml 部署 ----
+$Git = $null
+foreach ($candidate in @(
+    'D:\comfyui安装\Git\cmd\git.exe',
+    'C:\Program Files\Git\cmd\git.exe',
+    (Get-Command git -ErrorAction SilentlyContinue | Select-Object -ExpandProperty Source -ErrorAction SilentlyContinue)
+)) {
+    if ($candidate -and (Test-Path $candidate)) { $Git = $candidate; break }
+}
+if (-not $Git) {
+    Write-Log '找不到 git.exe，跳过 commit/push；本站仍在本机更新，但公网不会同步' 'ERROR'
+} else {
+    $GitRoot = Split-Path (Split-Path $Git -Parent) -Parent
+    $Ssh = (Join-Path $GitRoot 'usr\bin\ssh.exe') -replace '\\', '/'
+    if (-not (Test-Path $Ssh)) { $Ssh = 'C:/Windows/System32/OpenSSH/ssh.exe' }
+    $key = 'C:/Users/Administrator/.ssh/id_ed25519_ai_race'
+    $sshCmd = '"{0}" -i "{1}" -o IdentitiesOnly=yes -o StrictHostKeyChecking=accept-new' -f $Ssh, $key
+    $gitArgs = @(
+        '-c', 'user.name=ai-race-radar-bot',
+        '-c', 'user.email=bot@users.noreply.github.com',
+        '-c', ('core.sshCommand=' + $sshCmd)
+    )
+    $env:GIT_TERMINAL_PROMPT = '0'
+    $branch = (& $Git rev-parse --abbrev-ref HEAD 2>$null | Select-Object -First 1)
+    if (-not $branch -or $branch -eq 'HEAD') { $branch = 'main' }
+    $branch = ([string]$branch).Trim()
+
+    try {
+        Write-Log ("==> git add/commit (branch={0})" -f $branch)
+        & $Git @gitArgs add -A 2>&1 | Out-File -FilePath $Log -Append -Encoding utf8
+        $changes = & $Git status --porcelain 2>$null
+        if (-not $changes) {
+            Write-Log '没有文件变化，跳过 commit/push'
+        } else {
+            $msg = 'chore: daily refresh ' + (Get-Date -Format 'yyyy-MM-dd')
+            & $Git @gitArgs commit -m $msg 2>&1 | Out-File -FilePath $Log -Append -Encoding utf8
+            if ($LASTEXITCODE -ne 0) { throw ("git commit exit {0}" -f $LASTEXITCODE) }
+
+            Write-Log '==> git fetch/merge/push'
+            & $Git fetch origin $branch 2>&1 | Out-File -FilePath $Log -Append -Encoding utf8
+            $local = ([string](& $Git rev-parse HEAD 2>$null)).Trim()
+            $remote = ([string](& $Git rev-parse ("origin/" + $branch) 2>$null)).Trim()
+            if ($remote -and $local -ne $remote) {
+                Write-Log '远端有新提交，先合并；数据文件冲突时保留本机版本'
+                & $Git @gitArgs pull --no-rebase --no-edit -X ours origin $branch 2>&1 |
+                    Out-File -FilePath $Log -Append -Encoding utf8
+            }
+            $pushOut = & $Git @gitArgs push origin ("HEAD:" + $branch) 2>&1
+            $pushOut | Out-File -FilePath $Log -Append -Encoding utf8
+            if ($LASTEXITCODE -eq 0) {
+                Write-Log '已推送到 GitHub，Pages 将自动部署'
+            } else {
+                Write-Log ("git push 失败（exit {0}），下次运行会重试" -f $LASTEXITCODE) 'ERROR'
+            }
+        }
+    } catch {
+        Write-Log ("git 同步失败：{0}" -f $_.Exception.Message) 'ERROR'
+    }
+}
+
 Write-Log '================ done ================'

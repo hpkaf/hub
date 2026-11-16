@@ -66,7 +66,7 @@ def build(records: list[dict], index_records: list[dict]) -> list[dict]:
 <p><strong>为什么只有这些赛事？</strong> 只收 AI 相关、且有公开可访问官方链接的赛事；私域扫码、只有截图的线索不进公开列表。</p>
 <p><strong>截止日为什么有「待确认」？</strong> 官方页没写清楚，或页面动态渲染拿不到可靠字段；我们不猜日期。</p>
 <p><strong>往届在哪里？</strong> 探索页切到「往届」，或在详情页查看 90 天内存档。</p>
-<p><strong>怎么订阅？</strong> 用 <a href="../calendar.ics">calendar.ics</a> 加到手机/电脑日历，或看 <a href="../about.html#subscribe">订阅与接入</a>。</p>
+<p><strong>怎么订阅？</strong> 打开 <a href="../calendar.html">日历订阅页</a>，按你的日历点一下即可；也可看 <a href="../about.html#subscribe">订阅与接入</a>。</p>
 """
 
     g2 = f"""
@@ -110,7 +110,7 @@ def build(records: list[dict], index_records: list[dict]) -> list[dict]:
 </ul>
 
 <h2>5. 去哪里找下一场</h2>
-<p>用 <a href="../explore.html">探索页</a> 按方向/形式/截止筛，或订阅 <a href="../calendar.ics">日历</a>。
+<p>用 <a href="../explore.html">探索页</a> 按方向/形式/截止筛，或打开 <a href="../calendar.html">日历订阅页</a>。
 本站只做信息整理，报名与资格以主办方官方页为准。</p>
 """
 

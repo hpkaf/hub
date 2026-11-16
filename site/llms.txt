@@ -16,6 +16,7 @@
 - 公开 Markdown: https://race.howfun.cn/api/events.md
 - 本周值得看（编辑精选，不是流量榜）: https://race.howfun.cn/data/hot.json
 - 全量核验数据: https://race.howfun.cn/data/races.json
+- 日历订阅页（Apple / Outlook / Google 一键入口）: https://race.howfun.cn/calendar.html
 - 日历订阅（含报名截止提醒）: https://race.howfun.cn/calendar.ics
 - 日历 webcal（Apple 日历直接打开）: webcal://race.howfun.cn/calendar.ics
 - RSS: https://race.howfun.cn/feed.xml
@@ -24,7 +25,7 @@
 
 ## 数据
 - 收录数量: 68 场（含近 90 天已结束，按 status 区分；真正可报名的用 status 过滤）
-- 页面更新时间: 2026-11-12 14:10
+- 页面更新时间: 2026-11-16 13:11
 - 更新节奏: 每天 08:00 重跑链接核验与状态
 - 字段: id, title, organizer, mode, city, start_date, end_date, deadline, prize, tracks,
   summary, directions, url, status, ai_level, verified_at

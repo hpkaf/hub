@@ -23,6 +23,7 @@ from site_ui import (SITE, SITE_DESC, SITE_NAME, foot, head, render_about,  # no
                      render_detail, render_index, render_submit)
 
 RACES_PATH = os.path.join(common.DATA_DIR, "races.json")
+BEIJING = dt.timezone(dt.timedelta(hours=8), "Asia/Shanghai")
 
 # ---------------------------------------------------------------- ICS
 def ics_escape(text: str) -> str:
@@ -142,6 +143,7 @@ def build_sitemap(records: list[dict], orgs: list[dict], guides: list[dict]) -> 
         (f"{base}/organizers.html", "0.8", "weekly"),
         (f"{base}/match.html", "0.7", "weekly"),
         (f"{base}/guides.html", "0.7", "weekly"),
+        (f"{base}/calendar.html", "0.8", "daily"),
         (f"{base}/about.html", "0.6", "monthly"),
         (f"{base}/submit.html", "0.5", "monthly"),
     ]
@@ -282,7 +284,7 @@ def build_rss(records: list[dict]) -> None:
 def build_llms(records: list[dict]) -> None:
     base = site_base()
     webcal = base.replace("https://", "webcal://", 1).replace("http://", "webcal://", 1) + "/calendar.ics"
-    updated = dt.datetime.now().strftime("%Y-%m-%d %H:%M")
+    updated = dt.datetime.now(BEIJING).strftime("%Y-%m-%d %H:%M")
     llms = f"""# {SITE_NAME} (AI Race Radar)
 
 > 中国 AI 赛事与黑客松的核验清单：只收 AI 相关赛事，每条官方链接实测可打开（HTTP 200/301），
@@ -301,6 +303,7 @@ def build_llms(records: list[dict]) -> None:
 - 公开 Markdown: {base}/api/events.md
 - 本周值得看（编辑精选，不是流量榜）: {base}/data/hot.json
 - 全量核验数据: {base}/data/races.json
+- 日历订阅页（Apple / Outlook / Google 一键入口）: {base}/calendar.html
 - 日历订阅（含报名截止提醒）: {base}/calendar.ics
 - 日历 webcal（Apple 日历直接打开）: {webcal}
 - RSS: {base}/feed.xml
@@ -349,6 +352,7 @@ def build_agent_manifest() -> None:
             {"name": "event_markdown", "description": "同一份数据的 Markdown 列表", "endpoint": base + "/api/events.md"},
             {"name": "hot", "description": "首页本周值得看（编辑精选，不是流量榜）", "endpoint": base + "/data/hot.json"},
             {"name": "calendar", "description": "iCalendar 订阅，含报名截止提醒", "endpoint": base + "/calendar.ics"},
+            {"name": "calendar_page", "description": "Apple / Outlook / Google 日历一键订阅入口", "endpoint": base + "/calendar.html"},
             {"name": "rss", "description": "RSS 2.0 订阅", "endpoint": base + "/feed.xml"},
             {"name": "explore", "description": "按方向/平台/级别/形式/状态筛选", "endpoint": base + "/explore.html"},
             {"name": "organizers", "description": "主办方实体页索引", "endpoint": base + "/organizers.html"},
@@ -370,7 +374,7 @@ def build_agent_manifest() -> None:
 
 def build_llms_full(records: list[dict]) -> None:
     base = site_base()
-    updated = dt.datetime.now().strftime("%Y-%m-%d %H:%M")
+    updated = dt.datetime.now(BEIJING).strftime("%Y-%m-%d %H:%M")
     fields = """- id: 站内 ID（详情页文件名）
 - title / organizer: 官方标题 / 主办方
 - mode: online | offline | hybrid
@@ -403,7 +407,7 @@ def build_llms_full(records: list[dict]) -> None:
 - Markdown: {base}/api/events.md
 - 本周值得看: {base}/data/hot.json（编辑精选，不是流量榜）
 - 全量: {base}/data/races.json（含 90 天外存档）
-- 日历: {base}/calendar.ics；webcal: {base.replace('https://', 'webcal://', 1).replace('http://', 'webcal://', 1)}/calendar.ics
+- 日历: {base}/calendar.html（一键订阅入口）；feed: {base}/calendar.ics；webcal: {base.replace('https://', 'webcal://', 1).replace('http://', 'webcal://', 1)}/calendar.ics
 - RSS: {base}/feed.xml
 - Agent manifest: {base}/agent.json
 
@@ -444,7 +448,7 @@ def build_events_md(records: list[dict]) -> None:
     lines = [
         "# AI 赛事雷达 · 赛事清单",
         "",
-        f"> 更新：{dt.datetime.now().strftime('%Y-%m-%d %H:%M')}（构建时间，Asia/Shanghai）",
+        f"> 更新：{dt.datetime.now(BEIJING).strftime('%Y-%m-%d %H:%M')}（构建时间，Asia/Shanghai）",
         f"> 共 {len(records)} 条（在架 + 近 90 天）；报名/奖金以主办方官方页为准。",
         f"> JSON: {base}/api/events.json · 许可: CC BY 4.0",
         "",
@@ -591,6 +595,8 @@ def main() -> int:
         fh.write(pages_extra.render_match(records))
     with open(os.path.join(SITE, "guides.html"), "w", encoding="utf-8") as fh:
         fh.write(pages_extra.render_guides_index())
+    with open(os.path.join(SITE, "calendar.html"), "w", encoding="utf-8") as fh:
+        fh.write(pages_extra.render_calendar())
     with open(os.path.join(SITE, "about.html"), "w", encoding="utf-8") as fh:
         fh.write(render_about())
     with open(os.path.join(SITE, "submit.html"), "w", encoding="utf-8") as fh:

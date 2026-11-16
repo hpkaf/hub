@@ -23,8 +23,11 @@ SITE_URL = os.environ.get("SITE_URL", "https://ai-race-radar.example.com").rstri
 WEBCAL_URL = SITE_URL.replace("https://", "webcal://", 1).replace("http://", "webcal://", 1) + "/calendar.ics"
 SUBSCRIBE_URL = os.environ.get("SUBSCRIBE_URL", "").strip()
 SUBSCRIBE_EMAIL = os.environ.get("SUBSCRIBE_EMAIL", "").strip()
-UPDATED = dt.datetime.now().strftime("%Y-%m-%d %H:%M")
-ASSET_V = dt.datetime.now().strftime("%Y%m%d%H%M%S")
+# 站点面向中国大陆用户，构建时间统一按北京时间展示；
+# GitHub Actions 的 runner 是 UTC，不能再用裸 datetime.now()。
+BEIJING = dt.timezone(dt.timedelta(hours=8), "Asia/Shanghai")
+UPDATED = dt.datetime.now(BEIJING).strftime("%Y-%m-%d %H:%M")
+ASSET_V = dt.datetime.now(BEIJING).strftime("%Y%m%d%H%M%S")
 
 # 在样式表之前决定明暗，避免刷新时闪一下
 THEME_BOOT = """<script>
@@ -321,7 +324,7 @@ def subscribe_html() -> str:
 def head(title: str, desc: str, depth: int = 0, page: str = "") -> str:
     prefix = "../" * depth
     nav = [("index.html", "赛事", "index"), ("explore.html", "探索", "explore"),
-           ("calendar.ics", "日历", ""), ("submit.html", "投稿", "submit")]
+           ("calendar.html", "日历", "calendar"), ("submit.html", "投稿", "submit")]
     links = "".join(
         '<a href="{0}{1}"{2}>{3}</a>'.format(
             prefix, href, ' class="on"' if key and key == page else "", label)
@@ -382,7 +385,7 @@ def foot(depth: int = 0) -> str:
       <a href="{prefix}about.html">方法与信源</a>
       <a href="{prefix}about.html#faq">常见问题</a>
       <a href="{prefix}submit.html">提交赛事 / 纠错</a>
-      <a href="{prefix}calendar.ics">日历订阅</a>
+      <a href="{prefix}calendar.html">日历订阅</a>
       <a href="{prefix}feed.xml">RSS</a>
     </div>
   </div>
@@ -518,7 +521,7 @@ def render_index(records: list[dict], hot: dict | None = None) -> str:
     <div class="cta hero-cta">
       <a class="btn primary" href="#list">浏览在架赛事</a>
       <a class="btn ghost" href="match.html">帮我找赛事</a>
-      <a class="btn ghost" href="calendar.ics">订阅日历</a>
+      <a class="btn ghost" href="calendar.html">订阅日历</a>
     </div>
   </div>
   {hero_panel}
@@ -737,7 +740,7 @@ def render_detail(rec: dict) -> str:
     <a class="btn primary" href="{esc(rec.get('url'))}" target="_blank" rel="noopener nofollow">{cta_label} ↗</a>
     {cal_buttons}
   </div>
-  <div class="cta-note">或 <a href="../calendar.ics">订阅全部赛事日历</a>（加入手机 / 电脑日历后自动同步）</div>
+  <div class="cta-note">或 <a href="../calendar.html">订阅全部赛事日历</a>（加入手机 / 电脑日历后自动同步）</div>
   <div class="race-body">
     <dl class="kv">{kv_html}</dl>
     <aside class="verify">
@@ -846,7 +849,7 @@ ABOUT_BODY = """
 <li><a href="api/events.md">api/events.md</a>：同一份数据的 Markdown 版（给 LLM / Agent 省 token）</li>
 <li><a href="data/hot.json">data/hot.json</a>：首页「本周值得看」5 条（编辑精选，不是流量榜）</li>
 <li><a href="data/races.json">data/races.json</a>：全量核验数据（含已下线，供分析 / 存档）</li>
-<li><a href="calendar.ics">calendar.ics</a>：日历订阅（含报名截止提醒）</li>
+<li><a href="calendar.html">calendar.html</a>：日历订阅（一键加入 Apple / Outlook / Google，含报名截止提醒）</li>
 <li><a href="feed.xml">feed.xml</a>：RSS（给阅读器 / Agent）</li>
 <li><a href="llms.txt">llms.txt</a>：写给 AI 搜索 / 代理读取的站点说明</li>
 <li><a href="llms-full.txt">llms-full.txt</a>：完整版 AI reference（字段、核验语义、引用边界）</li>
@@ -858,7 +861,7 @@ ABOUT_BODY = """
 <h2 id="subscribe"><span>05</span>订阅与接入</h2>
 <p>按习惯选一个即可，所有方式都来自同一份每日核验数据：</p>
 <ul>
-<li><strong>日历订阅（推荐）</strong>：把 <a href="calendar.ics">calendar.ics</a> 加到 Apple 日历 / Outlook / Google 日历。Apple 可直接打开 <a href="{webcal}">webcal:// 链接</a>；Google 日历选「其他日历 → 通过网址添加」，粘贴 <code>{site_url}/calendar.ics</code>；Outlook 选「添加日历 → 从 Web 订阅」。</li>
+<li><strong>日历订阅（推荐）</strong>：打开 <a href="calendar.html">订阅页面</a>，按你的日历点一下即可；不用先下载 .ics 再导入。Apple / iPhone 可直接打开 <a href="{webcal}">webcal:// 链接</a>；Google 日历需要复制链接后粘贴一次；Outlook 可一键打开订阅。</li>
 <li><strong>单场加入</strong>：每场详情页有「Google 日历 / 下载 .ics」，适合只加一两场。</li>
 <li><strong>邮件摘要</strong>：{subscribe}</li>
 <li><strong>Agent / RSS</strong>：<a href="api/events.json">api/events.json</a>（结构化数据）、<a href="feed.xml">feed.xml</a>（RSS）、<a href="llms.txt">llms.txt</a>（给 AI 的站点说明）。Agent 直接 GET JSON，按 <strong>status</strong> 过滤即可。</li>

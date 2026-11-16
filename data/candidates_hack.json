@@ -300,23 +300,6 @@
     "notes": "入口=mobile-ua；搜狗文章跳转链未能还原真实 mp.weixin 地址（no-article-url，反爬）；url 为搜索页链接；微信文章发布日=2023-05-08；摘要：原帖地址:https://twitter.com/FinanceYF5/status/1655283124237131776【 旧金山最大规模AI黑客松LabL"
   },
   {
-    "title": "Mozilla Otari Hackathon - Devs Wilding Online!",
-    "organizer": "Mozilla",
-    "mode": "online",
-    "city": null,
-    "start_date": "2026-10-28",
-    "end_date": "2026-11-12",
-    "deadline": null,
-    "prize": "1200 USD",
-    "tracks": [
-      "Build on Otari!"
-    ],
-    "url": "https://dorahacks.io/hackathon/mozilla-devs-wilding",
-    "source": "dorahacks",
-    "source_url": "https://dorahacks.io/hackathon",
-    "notes": "DoraHacks API: tags=open source ai,llm gateway,open source,ai,llm,online; ecosystem=Open weight models,open source,llm gateway"
-  },
-  {
     "title": "Aevum Builder Challenge #1",
     "organizer": "QDay",
     "mode": "online",
@@ -339,6 +322,23 @@
     "source": "dorahacks",
     "source_url": "https://dorahacks.io/hackathon",
     "notes": "DoraHacks API: tags=AI,Stablecoin,Payments,Post-Quantum; ecosystem=Solidity,Foundry"
+  },
+  {
+    "title": "Agent Arena Competition: Evidence Mining",
+    "organizer": "Gensyn",
+    "mode": "online",
+    "city": null,
+    "start_date": "2026-11-13",
+    "end_date": "2026-12-11",
+    "deadline": "2026-11-23",
+    "prize": "7250 USD",
+    "tracks": [
+      "Evidence Mining Agents"
+    ],
+    "url": "https://dorahacks.io/hackathon/delphi-agent-competition2",
+    "source": "dorahacks",
+    "source_url": "https://dorahacks.io/hackathon",
+    "notes": "DoraHacks API: tags=AI Agents,Prediction Markets,Blockchain,forecasting; ecosystem=Delphi,Gensyn"
   },
   {
     "title": "dreamDEX Perps Builder Bounty",
@@ -376,21 +376,6 @@
     "notes": "DoraHacks API: tags=ai,governance,trust,security,privacy,enterprise,agent,agentic; ecosystem=Rust,WASM,Javascript"
   },
   {
-    "title": "Beyond the Benchmark: The Binance Agentic AI Challenge",
-    "organizer": "Binance",
-    "mode": "online",
-    "city": null,
-    "start_date": "2026-09-06",
-    "end_date": "2026-11-13",
-    "deadline": null,
-    "prize": null,
-    "tracks": [],
-    "url": "https://dorahacks.io/hackathon/binance",
-    "source": "dorahacks",
-    "source_url": "https://dorahacks.io/hackathon",
-    "notes": "DoraHacks API: tags=AI Agent,Live Trading,Trading Strategies,Real World Assets,Onchain Finance; ecosystem=OpenAI,Anthropic,Llama,LangChain,Python"
-  },
-  {
     "title": "AlgoBharat Regional Hackathons",
     "organizer": "Algorand",
     "mode": "online",
@@ -408,6 +393,23 @@
     "source": "dorahacks",
     "source_url": "https://dorahacks.io/hackathon",
     "notes": "DoraHacks API: tags=Algorand,Web3,Blockchain,Crypto,ai,agentic commerce,x402,payments; ecosystem=Algorand"
+  },
+  {
+    "title": "HackOnVibe November 2026: Build a Product That Spreads",
+    "organizer": "HackOnVibe_com",
+    "mode": "online",
+    "city": null,
+    "start_date": "2026-11-13",
+    "end_date": "2026-11-16",
+    "deadline": null,
+    "prize": "100 USD",
+    "tracks": [
+      "All Builds"
+    ],
+    "url": "https://dorahacks.io/hackathon/hack-on-vibe-2026-11",
+    "source": "dorahacks",
+    "source_url": "https://dorahacks.io/hackathon",
+    "notes": "DoraHacks API: tags=AI; ecosystem=GitHub"
   },
   {
     "title": "Hackathon 2026 Challenge",
@@ -429,21 +431,38 @@
     "notes": "DoraHacks API: tags=Smart City,Renewable Energy,Traffic Management,Urban Planning,Public Health,IoT (Internet of Things),AI & Machine Learning; ecosystem=IBM Watsonx,AWS Greengrass,Azure IoT Edge,Google Maps Platform,NVIDIA Metropolis"
   },
   {
-    "title": "HackOnVibe November 2026: Build a Product That Spreads",
-    "organizer": "HackOnVibe_com",
+    "title": "Beyond the Benchmark: The Binance Agentic AI Challenge",
+    "organizer": "Binance",
     "mode": "online",
     "city": null,
-    "start_date": "2026-11-13",
-    "end_date": "2026-11-16",
+    "start_date": "2026-09-06",
+    "end_date": "2026-11-13",
     "deadline": null,
-    "prize": "100 USD",
-    "tracks": [
-      "All Builds"
-    ],
-    "url": "https://dorahacks.io/hackathon/hack-on-vibe-2026-11",
+    "prize": null,
+    "tracks": [],
+    "url": "https://dorahacks.io/hackathon/binance",
     "source": "dorahacks",
     "source_url": "https://dorahacks.io/hackathon",
-    "notes": "DoraHacks API: tags=AI; ecosystem=GitHub"
+    "notes": "DoraHacks API: tags=AI Agent,Live Trading,Trading Strategies,Real World Assets,Onchain Finance; ecosystem=OpenAI,Anthropic,Llama,LangChain,Python"
+  },
+  {
+    "title": "What If Lab｜万一实验室——AI 硬件创意黑客松",
+    "organizer": "亚马逊云科技 User Group",
+    "mode": "offline",
+    "city": "浦东",
+    "start_date": "2026-11-21",
+    "end_date": "2026-11-21",
+    "deadline": null,
+    "prize": null,
+    "tracks": [
+      "AI硬件",
+      "黑客松",
+      "Agent"
+    ],
+    "url": "https://www.huodongxing.com/event/1886960427411",
+    "source": "huodongxing",
+    "source_url": "https://www.huodongxing.com/search?qs=AI%E9%BB%91%E5%AE%A2%E6%9D%BE",
+    "notes": "活动行详情内嵌 ativityJson; 标签=AI硬件,黑客松,Agent; 地址=上海前滩中心; 状态=1"
   },
   {
     "title": "河南青少年AI黑客松实战营",
@@ -522,25 +541,6 @@
     "notes": "活动行详情内嵌 ativityJson; 标签=青少年AI教育,AI黑客松,编程实战; 地址=报名后可查看详细地址; 状态=4"
   },
   {
-    "title": "2.5W奖金池｜10小时小白友好 AI 黑客松@上海",
-    "organizer": "HackQuest",
-    "mode": "offline",
-    "city": "浦东",
-    "start_date": "2026-05-23",
-    "end_date": "2026-05-23",
-    "deadline": null,
-    "prize": null,
-    "tracks": [
-      "AI黑客松",
-      "Bittensor子网",
-      "激励机制设计"
-    ],
-    "url": "https://www.huodongxing.com/event/5860088194200",
-    "source": "huodongxing",
-    "source_url": "https://www.huodongxing.com/search?qs=AI%E9%BB%91%E5%AE%A2%E6%9D%BE",
-    "notes": "活动行详情内嵌 ativityJson; 标签=AI黑客松,Bittensor子网,激励机制设计; 地址=报名后可查看详细地址; 状态=4"
-  },
-  {
     "title": "光年AI黑客松：如何做一个卖货的智能体",
     "organizer": "光年AI",
     "mode": "offline",
@@ -580,6 +580,25 @@
     "notes": "活动行详情内嵌 ativityJson; 标签=AI智能体,跨境电商,增长黑客; 地址=具体地址待定(报名成功后将统一通知); 状态=4"
   },
   {
+    "title": "2.5W奖金池｜10小时小白友好 AI 黑客松@上海",
+    "organizer": "HackQuest",
+    "mode": "offline",
+    "city": "浦东",
+    "start_date": "2026-05-23",
+    "end_date": "2026-05-23",
+    "deadline": null,
+    "prize": null,
+    "tracks": [
+      "AI黑客松",
+      "Bittensor子网",
+      "激励机制设计"
+    ],
+    "url": "https://www.huodongxing.com/event/5860088194200",
+    "source": "huodongxing",
+    "source_url": "https://www.huodongxing.com/search?qs=AI%E9%BB%91%E5%AE%A2%E6%9D%BE",
+    "notes": "活动行详情内嵌 ativityJson; 标签=AI黑客松,Bittensor子网,激励机制设计; 地址=报名后可查看详细地址; 状态=4"
+  },
+  {
     "title": "探索AI黑客松 × 非视觉拼搭无障碍体验工坊",
     "organizer": "派誉文化科技",
     "mode": "offline",
@@ -616,24 +635,5 @@
     "source": "huodongxing",
     "source_url": "https://www.huodongxing.com/search?qs=AI%E9%BB%91%E5%AE%A2%E6%9D%BE",
     "notes": "活动行详情内嵌 ativityJson; 标签=青少年AI教育,AI黑客松,编程实战; 地址=报名后可查看详细地址; 状态=4"
-  },
-  {
-    "title": "探索具身智能的未来：2025 Seeed Embodied AI 黑客松-深圳站",
-    "organizer": "柴火创客空间",
-    "mode": "offline",
-    "city": "深圳",
-    "start_date": "2025-03-08",
-    "end_date": "2025-03-09",
-    "deadline": null,
-    "prize": null,
-    "tracks": [
-      "具身智能",
-      "机器人",
-      "LeRobot"
-    ],
-    "url": "https://www.huodongxing.com/event/3794515077200",
-    "source": "huodongxing",
-    "source_url": "https://www.huodongxing.com/search?qs=AI%E9%BB%91%E5%AE%A2%E6%9D%BE",
-    "notes": "活动行详情内嵌 ativityJson; 标签=具身智能,机器人,LeRobot; 地址=万科云城设计公社B区柴火创客空间; 状态=4"
   }
 ]

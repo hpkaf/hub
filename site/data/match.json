@@ -1,44 +1,5 @@
 [
   {
-    "id": "18d9e2649373",
-    "title": "第八届海南岛国际电影节·AI电影展影片征集",
-    "organizer": "海南岛国际电影节组委会",
-    "mode": "offline",
-    "city": "三亚",
-    "status": "closing",
-    "deadline": "2026-11-15",
-    "ai_level": "core",
-    "tracks": [
-      "AI电影级长片",
-      "AI精品剧集",
-      "AI电影级短片",
-      "AI实验影像"
-    ],
-    "directions": [
-      "other"
-    ],
-    "summary": "第八届海南岛国际电影节·AI电影展全球征片通道开启，LibTV 为荣誉冠名合作方及官方指定作品征集平台。"
-  },
-  {
-    "id": "9d1e77a417ba",
-    "title": "首届AI × 音乐视觉黑客松",
-    "organizer": "WaytoAGI × ACE-CON",
-    "mode": "hybrid",
-    "city": "北京",
-    "status": "closing",
-    "deadline": "2026-11-15",
-    "ai_level": "core",
-    "tracks": [
-      "共振场（乐队 Live 创作）",
-      "回声场（自由视觉创作）",
-      "AI 音乐视觉"
-    ],
-    "directions": [
-      "other"
-    ],
-    "summary": ""
-  },
-  {
     "id": "878465bc4362",
     "title": "Aevum Builder Challenge #1",
     "organizer": "QDay",
@@ -98,6 +59,23 @@
     ],
     "directions": [
       "aigc"
+    ],
+    "summary": ""
+  },
+  {
+    "id": "17ce50173bb1",
+    "title": "Agent Arena Competition: Evidence Mining",
+    "organizer": "Gensyn",
+    "mode": "online",
+    "city": null,
+    "status": "closing",
+    "deadline": "2026-11-23",
+    "ai_level": "core",
+    "tracks": [
+      "Evidence Mining Agents"
+    ],
+    "directions": [
+      "agent"
     ],
     "summary": ""
   },
@@ -488,22 +466,6 @@
     "summary": "Empowering Builders Through Algorand-Powered Hackathons AlgoBharat Regional Hackathon Sponsorship Program is designed to enable Web3 communities, colleges, developers and builders across India to..."
   },
   {
-    "id": "fb3f0698599e",
-    "title": "Beyond the Benchmark: The Binance Agentic AI Challenge",
-    "organizer": "Binance",
-    "mode": "online",
-    "city": null,
-    "status": "open",
-    "deadline": null,
-    "ai_level": "core",
-    "tracks": [],
-    "directions": [
-      "agent",
-      "llm"
-    ],
-    "summary": ""
-  },
-  {
     "id": "57507797734e",
     "title": "Terminal 3 Build+Scale Agent Micro Grant",
     "organizer": "Terminal 3",
@@ -534,6 +496,25 @@
       "other"
     ],
     "summary": "WAISS (Wiener AI Software Stammtisch) is a cozy get-together, planned monthly, for everyone who builds, codes & experiments with AI. We'll kick things off with…"
+  },
+  {
+    "id": "efb09823937c",
+    "title": "What If Lab｜万一实验室——AI 硬件创意黑客松",
+    "organizer": "亚马逊云科技 User Group",
+    "mode": "offline",
+    "city": "浦东",
+    "status": "upcoming",
+    "deadline": null,
+    "ai_level": "core",
+    "tracks": [
+      "AI硬件",
+      "黑客松",
+      "Agent"
+    ],
+    "directions": [
+      "agent"
+    ],
+    "summary": ""
   },
   {
     "id": "262785fdd6f9",
@@ -848,42 +829,6 @@
     "summary": ""
   },
   {
-    "id": "486b593b87a1",
-    "title": "2026-具身仿真合成挑战赛",
-    "organizer": null,
-    "mode": "online",
-    "city": null,
-    "status": "closed",
-    "deadline": "2026-09-21",
-    "ai_level": "core",
-    "tracks": [
-      "AI大模型赛"
-    ],
-    "directions": [
-      "llm",
-      "embodied"
-    ],
-    "summary": ""
-  },
-  {
-    "id": "bee00c2ad7ee",
-    "title": "2026-具身安全应用挑战赛",
-    "organizer": null,
-    "mode": "online",
-    "city": null,
-    "status": "closed",
-    "deadline": "2026-09-21",
-    "ai_level": "core",
-    "tracks": [
-      "AI大模型赛"
-    ],
-    "directions": [
-      "llm",
-      "embodied"
-    ],
-    "summary": ""
-  },
-  {
     "id": "5b1041241f12",
     "title": "基于星评测Agent的养虾Skills横评挑战赛",
     "organizer": "科大讯飞股份有限公司",
@@ -1148,6 +1093,45 @@
     "summary": ""
   },
   {
+    "id": "18d9e2649373",
+    "title": "第八届海南岛国际电影节·AI电影展影片征集",
+    "organizer": "海南岛国际电影节组委会",
+    "mode": "offline",
+    "city": "三亚",
+    "status": "closed",
+    "deadline": "2026-11-15",
+    "ai_level": "core",
+    "tracks": [
+      "AI电影级长片",
+      "AI精品剧集",
+      "AI电影级短片",
+      "AI实验影像"
+    ],
+    "directions": [
+      "other"
+    ],
+    "summary": "第八届海南岛国际电影节·AI电影展全球征片通道开启，LibTV 为荣誉冠名合作方及官方指定作品征集平台。"
+  },
+  {
+    "id": "9d1e77a417ba",
+    "title": "首届AI × 音乐视觉黑客松",
+    "organizer": "WaytoAGI × ACE-CON",
+    "mode": "hybrid",
+    "city": "北京",
+    "status": "closed",
+    "deadline": "2026-11-15",
+    "ai_level": "core",
+    "tracks": [
+      "共振场（乐队 Live 创作）",
+      "回声场（自由视觉创作）",
+      "AI 音乐视觉"
+    ],
+    "directions": [
+      "other"
+    ],
+    "summary": ""
+  },
+  {
     "id": "59a629172564",
     "title": "AI新睿人才“星探计划”",
     "organizer": "烟台睿创微纳技术股份有限公司",
@@ -1162,6 +1146,22 @@
     "directions": [
       "multimodal",
       "algorithm"
+    ],
+    "summary": ""
+  },
+  {
+    "id": "fb3f0698599e",
+    "title": "Beyond the Benchmark: The Binance Agentic AI Challenge",
+    "organizer": "Binance",
+    "mode": "online",
+    "city": null,
+    "status": "closed",
+    "deadline": null,
+    "ai_level": "core",
+    "tracks": [],
+    "directions": [
+      "agent",
+      "llm"
     ],
     "summary": ""
   },

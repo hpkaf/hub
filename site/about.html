@@ -23,12 +23,12 @@
 <link rel="alternate" type="text/calendar" title="AI 赛事雷达 · 赛事日历" href="calendar.ics">
 <link rel="alternate" type="application/rss+xml" title="AI 赛事雷达 · 赛事 RSS" href="feed.xml">
 <link rel="alternate" type="text/plain" title="AI 赛事雷达 · llms.txt" href="llms.txt">
-<link rel="stylesheet" href="assets/style.css?v=20261112141003">
+<link rel="stylesheet" href="assets/style.css?v=20261116131136">
 </head>
 <body>
 <header class="site"><div class="wrap hrow">
   <a class="brand" href="index.html"><span class="mark"></span><span class="bname">AI 赛事雷达</span><span class="ben">AI RACE RADAR</span></a>
-  <nav class="top"><a href="index.html">赛事</a><a href="explore.html">探索</a><a href="calendar.ics">日历</a><a href="submit.html">投稿</a></nav>
+  <nav class="top"><a href="index.html">赛事</a><a href="explore.html">探索</a><a href="calendar.html">日历</a><a href="submit.html">投稿</a></nav>
   <button class="theme-toggle" id="theme-toggle" type="button" aria-label="切换明暗主题" aria-pressed="false" title="切换明暗主题"><span aria-hidden="true">◐</span></button>
   <span class="live"><i></i><span class="lk">LIVE · 08:00</span></span>
 </div></header>
@@ -75,7 +75,7 @@
 <li><a href="api/events.md">api/events.md</a>：同一份数据的 Markdown 版（给 LLM / Agent 省 token）</li>
 <li><a href="data/hot.json">data/hot.json</a>：首页「本周值得看」5 条（编辑精选，不是流量榜）</li>
 <li><a href="data/races.json">data/races.json</a>：全量核验数据（含已下线，供分析 / 存档）</li>
-<li><a href="calendar.ics">calendar.ics</a>：日历订阅（含报名截止提醒）</li>
+<li><a href="calendar.html">calendar.html</a>：日历订阅（一键加入 Apple / Outlook / Google，含报名截止提醒）</li>
 <li><a href="feed.xml">feed.xml</a>：RSS（给阅读器 / Agent）</li>
 <li><a href="llms.txt">llms.txt</a>：写给 AI 搜索 / 代理读取的站点说明</li>
 <li><a href="llms-full.txt">llms-full.txt</a>：完整版 AI reference（字段、核验语义、引用边界）</li>
@@ -87,7 +87,7 @@
 <h2 id="subscribe"><span>05</span>订阅与接入</h2>
 <p>按习惯选一个即可，所有方式都来自同一份每日核验数据：</p>
 <ul>
-<li><strong>日历订阅（推荐）</strong>：把 <a href="calendar.ics">calendar.ics</a> 加到 Apple 日历 / Outlook / Google 日历。Apple 可直接打开 <a href="webcal://race.howfun.cn/calendar.ics">webcal:// 链接</a>；Google 日历选「其他日历 → 通过网址添加」，粘贴 <code>https://race.howfun.cn/calendar.ics</code>；Outlook 选「添加日历 → 从 Web 订阅」。</li>
+<li><strong>日历订阅（推荐）</strong>：打开 <a href="calendar.html">订阅页面</a>，按你的日历点一下即可；不用先下载 .ics 再导入。Apple / iPhone 可直接打开 <a href="webcal://race.howfun.cn/calendar.ics">webcal:// 链接</a>；Google 日历需要复制链接后粘贴一次；Outlook 可一键打开订阅。</li>
 <li><strong>单场加入</strong>：每场详情页有「Google 日历 / 下载 .ics」，适合只加一两场。</li>
 <li><strong>邮件摘要</strong>：邮件服务配置后开放；当前可先用日历订阅或 RSS。</li>
 <li><strong>Agent / RSS</strong>：<a href="api/events.json">api/events.json</a>（结构化数据）、<a href="feed.xml">feed.xml</a>（RSS）、<a href="llms.txt">llms.txt</a>（给 AI 的站点说明）。Agent 直接 GET JSON，按 <strong>status</strong> 过滤即可。</li>
@@ -109,7 +109,7 @@
     <div class="fcol">
       <div class="fmark">AI 赛事雷达 / AI RACE RADAR</div>
       <p>中国 AI 赛事与黑客松的核验清单。只在官方链接能打开、日期对得上时才收录；每天 08:00 重跑一次。</p>
-      <p class="fmeta">DATA UPDATED · 2026-11-12 14:10</p>
+      <p class="fmeta">DATA UPDATED · 2026-11-16 13:11</p>
     </div>
     <div class="fcol"><div class="fhead">EXPLORE</div>
       <a href="explore.html">探索全部</a>
@@ -128,7 +128,7 @@
       <a href="about.html">方法与信源</a>
       <a href="about.html#faq">常见问题</a>
       <a href="submit.html">提交赛事 / 纠错</a>
-      <a href="calendar.ics">日历订阅</a>
+      <a href="calendar.html">日历订阅</a>
       <a href="feed.xml">RSS</a>
     </div>
   </div>
@@ -138,5 +138,5 @@
     <span>CC BY 4.0</span>
   </div>
 </div></footer>
-<script src="assets/app.js?v=20261112141003"></script>
+<script src="assets/app.js?v=20261116131136"></script>
 </body></html>

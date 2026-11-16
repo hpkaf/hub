@@ -178,5 +178,25 @@
     "status": "pending",
     "status_note": "联谱聚合页；需找到主办方官方报名页后再决定是否收录",
     "first_seen": "2026-11-12T08:04:51"
+  },
+  {
+    "title": "文脉新生 · 锦衣黑客松 第一届",
+    "city": "北京",
+    "url": "https://lianpu.com/event/wen-mai-xin-sheng-jin-yi-hei-ke-song-di-yi-jie",
+    "source": "lianpu",
+    "source_url": "https://lianpu.com/topics/beijing-ai",
+    "status": "pending",
+    "status_note": "联谱聚合页；需找到主办方官方报名页后再决定是否收录",
+    "first_seen": "2026-11-13T08:05:42"
+  },
+  {
+    "title": "What If Lab｜ 万一实验室 — AI 硬件创意黑客松",
+    "city": "上海",
+    "url": "https://lianpu.com/event/what-if-lab-wan-yi-shi-yan-shi-ai-ying-jian-chuang-yi-hei-ke",
+    "source": "lianpu",
+    "source_url": "https://lianpu.com/topics/shanghai-ai",
+    "status": "pending",
+    "status_note": "联谱聚合页；需找到主办方官方报名页后再决定是否收录",
+    "first_seen": "2026-11-14T08:04:40"
   }
 ]

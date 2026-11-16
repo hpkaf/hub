@@ -1,17 +1,14 @@
-# AI 赛事雷达 · 每日自动更新
+# AI 赛事雷达 · 手动兜底更新
 #
-# 触发：每天 UTC 00:00（= 北京时间 08:00）
-# 流程：核验链接 → 生成静态站 → 提交去重账本 → 部署到 GitHub Pages
-#
-# 启用前需要在仓库 Settings → Pages 里把 Source 设为 "GitHub Actions"。
-name: daily-refresh
+# 方案 A：本机 Windows 计划任务每天 08:00 抓取、核验、生成并 push；
+# GitHub Pages 由 pages.yml 在 push 后部署。本 workflow 仅保留手动触发，
+# 用于本机长期离线时的临时兜底，不再按 schedule 自动运行。
+name: daily-refresh-manual
 
 env:
   SITE_URL: ${{ vars.SITE_URL || 'https://race.howfun.cn' }}
 
 on:
-  schedule:
-    - cron: "0 0 * * *"   # 北京 08:00
   workflow_dispatch:
 
 permissions:

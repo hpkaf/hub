@@ -145,7 +145,7 @@ def render_html(new_items: list, closing_items: list, records: list, days: int) 
 
   <div style="border-top:1px solid #e6e5df;margin-top:26px;padding-top:14px">
     <a href="{site}" style="color:#0d9488;font-size:13px;text-decoration:none">打开完整列表 →</a> &nbsp;·&nbsp;
-    <a href="{site}calendar.ics" style="color:#0d9488;font-size:13px;text-decoration:none">日历订阅 →</a>
+    <a href="{site}calendar.html" style="color:#0d9488;font-size:13px;text-decoration:none">一键订阅日历 →</a>
   </div>
   <div style="margin-top:10px;font-size:12px;color:#6f6f68">📎 附件 <b>ai-race-radar.ics</b> 可一次性导入日历（含报名截止提醒）</div>
   {BOOTSTRAP}

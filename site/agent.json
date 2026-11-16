@@ -25,6 +25,11 @@
       "endpoint": "https://race.howfun.cn/calendar.ics"
     },
     {
+      "name": "calendar_page",
+      "description": "Apple / Outlook / Google 日历一键订阅入口",
+      "endpoint": "https://race.howfun.cn/calendar.html"
+    },
+    {
       "name": "rss",
       "description": "RSS 2.0 订阅",
       "endpoint": "https://race.howfun.cn/feed.xml"

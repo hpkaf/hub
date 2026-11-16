@@ -2,7 +2,7 @@
   "site": "AI 赛事雷达",
   "homepage": "https://race.howfun.cn/",
   "description": "每一场都经过人工核验：官方链接、报名截止、线上 / 线下，点开就能报名。 含近 90 天已结束赛事（status=closed），供检索与存档。",
-  "updated": "2026-11-12T06:10:04Z",
+  "updated": "2026-11-16T05:11:36Z",
   "cadence": "daily 08:00 Asia/Shanghai",
   "count": 68,
   "license": "CC BY 4.0 (attribution: AI 赛事雷达)",
@@ -31,69 +31,6 @@
     "last_seen": "本雷达最近一次见到该赛事的时间"
   },
   "events": [
-    {
-      "id": "18d9e2649373",
-      "title": "第八届海南岛国际电影节·AI电影展影片征集",
-      "organizer": "海南岛国际电影节组委会",
-      "mode": "offline",
-      "city": "三亚",
-      "start_date": "2026-10-21",
-      "end_date": null,
-      "deadline": "2026-11-15",
-      "prize": "10万元现金激励（每项年度之选 1 万元税前）+官方证书+电影节展映",
-      "tracks": [
-        "AI电影级长片",
-        "AI精品剧集",
-        "AI电影级短片",
-        "AI实验影像"
-      ],
-      "summary": "第八届海南岛国际电影节·AI电影展全球征片通道开启，LibTV 为荣誉冠名合作方及官方指定作品征集平台。",
-      "directions": [
-        "other"
-      ],
-      "url": "https://www.liblib.tv/hiiff-aifilmseason",
-      "source": "curated",
-      "sources": [
-        "curated"
-      ],
-      "status": "closing",
-      "ai_level": "core",
-      "verified_at": "2026-11-12T08:06:21",
-      "verify_code": 200,
-      "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-12T08:06:21"
-    },
-    {
-      "id": "9d1e77a417ba",
-      "title": "首届AI × 音乐视觉黑客松",
-      "organizer": "WaytoAGI × ACE-CON",
-      "mode": "hybrid",
-      "city": "北京",
-      "start_date": "2026-11-02",
-      "end_date": "2026-11-21",
-      "deadline": "2026-11-15",
-      "prize": "赛事奖金+官方证书+华为电脑/AirPods 等实物奖品+剪映 Hub 积分与流量曝光",
-      "tracks": [
-        "共振场（乐队 Live 创作）",
-        "回声场（自由视觉创作）",
-        "AI 音乐视觉"
-      ],
-      "summary": "",
-      "directions": [
-        "other"
-      ],
-      "url": "https://resonance.waytoagi.com/",
-      "source": "curated",
-      "sources": [
-        "curated"
-      ],
-      "status": "closing",
-      "ai_level": "core",
-      "verified_at": "2026-11-12T08:06:21",
-      "verify_code": 200,
-      "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-12T08:06:21"
-    },
     {
       "id": "878465bc4362",
       "title": "Aevum Builder Challenge #1",
@@ -125,10 +62,10 @@
       ],
       "status": "closing",
       "ai_level": "track",
-      "verified_at": "2026-11-12T08:06:21",
+      "verified_at": "2026-11-16T13:11:36",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-12T08:06:21"
+      "last_seen": "2026-11-16T13:11:36"
     },
     {
       "id": "625b5a71ebac",
@@ -157,10 +94,10 @@
       ],
       "status": "closing",
       "ai_level": "core",
-      "verified_at": "2026-11-12T08:06:21",
+      "verified_at": "2026-11-16T13:11:36",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-12T08:06:21"
+      "last_seen": "2026-11-16T13:11:36"
     },
     {
       "id": "3770f5a44e8f",
@@ -188,10 +125,39 @@
       ],
       "status": "closing",
       "ai_level": "core",
-      "verified_at": "2026-11-12T08:06:21",
+      "verified_at": "2026-11-16T13:11:36",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-12T08:06:21"
+      "last_seen": "2026-11-16T13:11:36"
+    },
+    {
+      "id": "17ce50173bb1",
+      "title": "Agent Arena Competition: Evidence Mining",
+      "organizer": "Gensyn",
+      "mode": "online",
+      "city": null,
+      "start_date": "2026-11-13",
+      "end_date": "2026-12-11",
+      "deadline": "2026-11-23",
+      "prize": "7250 USD",
+      "tracks": [
+        "Evidence Mining Agents"
+      ],
+      "summary": "",
+      "directions": [
+        "agent"
+      ],
+      "url": "https://dorahacks.io/hackathon/delphi-agent-competition2",
+      "source": "dorahacks",
+      "sources": [
+        "dorahacks"
+      ],
+      "status": "closing",
+      "ai_level": "core",
+      "verified_at": "2026-11-16T13:11:36",
+      "verify_code": 200,
+      "first_seen": "2026-11-14T08:05:56",
+      "last_seen": "2026-11-16T13:11:36"
     },
     {
       "id": "c6d27accef22",
@@ -219,10 +185,10 @@
       ],
       "status": "open",
       "ai_level": "platform",
-      "verified_at": "2026-11-12T08:06:21",
+      "verified_at": "2026-11-16T13:11:36",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-12T08:06:21"
+      "last_seen": "2026-11-16T13:11:36"
     },
     {
       "id": "1fe2ff118454",
@@ -250,10 +216,10 @@
       ],
       "status": "open",
       "ai_level": "core",
-      "verified_at": "2026-11-12T08:06:21",
+      "verified_at": "2026-11-16T13:11:36",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-12T08:06:21"
+      "last_seen": "2026-11-16T13:11:36"
     },
     {
       "id": "72fe5f5ee153",
@@ -281,10 +247,10 @@
       ],
       "status": "open",
       "ai_level": "core",
-      "verified_at": "2026-11-12T08:06:21",
+      "verified_at": "2026-11-16T13:11:36",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-12T08:06:21"
+      "last_seen": "2026-11-16T13:11:36"
     },
     {
       "id": "29042d3c2565",
@@ -315,10 +281,10 @@
       ],
       "status": "open",
       "ai_level": "platform",
-      "verified_at": "2026-11-12T08:06:21",
+      "verified_at": "2026-11-16T13:11:36",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-12T08:06:21"
+      "last_seen": "2026-11-16T13:11:36"
     },
     {
       "id": "c23a3e9cad51",
@@ -345,10 +311,10 @@
       ],
       "status": "open",
       "ai_level": "core",
-      "verified_at": "2026-11-12T08:06:21",
+      "verified_at": "2026-11-16T13:11:36",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-12T08:06:21"
+      "last_seen": "2026-11-16T13:11:36"
     },
     {
       "id": "54230fde8632",
@@ -376,10 +342,10 @@
       ],
       "status": "open",
       "ai_level": "track",
-      "verified_at": "2026-11-12T08:06:21",
+      "verified_at": "2026-11-16T13:11:36",
       "verify_code": 200,
       "first_seen": "2026-11-06T17:04:00",
-      "last_seen": "2026-11-12T08:06:21"
+      "last_seen": "2026-11-16T13:11:36"
     },
     {
       "id": "cf5b09f6b87b",
@@ -408,10 +374,10 @@
       ],
       "status": "open",
       "ai_level": "core",
-      "verified_at": "2026-11-12T08:06:21",
+      "verified_at": "2026-11-16T13:11:36",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-12T08:06:21"
+      "last_seen": "2026-11-16T13:11:36"
     },
     {
       "id": "c2e042442ff6",
@@ -439,10 +405,10 @@
       ],
       "status": "open",
       "ai_level": "core",
-      "verified_at": "2026-11-12T08:06:21",
+      "verified_at": "2026-11-16T13:11:36",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-12T08:06:21"
+      "last_seen": "2026-11-16T13:11:36"
     },
     {
       "id": "acdd6a7080e1",
@@ -470,10 +436,10 @@
       ],
       "status": "open",
       "ai_level": "track",
-      "verified_at": "2026-11-12T08:06:21",
+      "verified_at": "2026-11-16T13:11:36",
       "verify_code": 200,
       "first_seen": "2026-11-06T17:39:23",
-      "last_seen": "2026-11-12T08:06:21"
+      "last_seen": "2026-11-16T13:11:36"
     },
     {
       "id": "95ebc2bd22c1",
@@ -482,7 +448,7 @@
       "mode": null,
       "city": null,
       "start_date": null,
-      "end_date": "2026-11-12",
+      "end_date": "2026-11-16",
       "deadline": null,
       "prize": "￥10,000,000",
       "tracks": [],
@@ -497,10 +463,10 @@
       ],
       "status": "unknown",
       "ai_level": "other",
-      "verified_at": "2026-11-12T08:06:21",
+      "verified_at": "2026-11-16T13:11:36",
       "verify_code": 200,
       "first_seen": "2026-11-06T17:53:05",
-      "last_seen": "2026-11-12T08:06:21"
+      "last_seen": "2026-11-16T13:11:36"
     },
     {
       "id": "cbca4a1eae45",
@@ -525,10 +491,10 @@
       ],
       "status": "open",
       "ai_level": "other",
-      "verified_at": "2026-11-12T08:06:21",
+      "verified_at": "2026-11-16T13:11:36",
       "verify_code": 200,
       "first_seen": "2026-11-06T17:53:05",
-      "last_seen": "2026-11-12T08:06:21"
+      "last_seen": "2026-11-16T13:11:36"
     },
     {
       "id": "c8e2acd7a03e",
@@ -553,10 +519,10 @@
       ],
       "status": "open",
       "ai_level": "core",
-      "verified_at": "2026-11-12T08:06:21",
+      "verified_at": "2026-11-16T13:11:36",
       "verify_code": 200,
       "first_seen": "2026-11-06T17:53:05",
-      "last_seen": "2026-11-12T08:06:21"
+      "last_seen": "2026-11-16T13:11:36"
     },
     {
       "id": "f1a5e296d879",
@@ -584,10 +550,10 @@
       ],
       "status": "unknown",
       "ai_level": "core",
-      "verified_at": "2026-11-12T08:06:21",
+      "verified_at": "2026-11-16T13:11:36",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-12T08:06:21"
+      "last_seen": "2026-11-16T13:11:36"
     },
     {
       "id": "4519d308a943",
@@ -614,10 +580,10 @@
       ],
       "status": "open",
       "ai_level": "core",
-      "verified_at": "2026-11-12T08:06:21",
+      "verified_at": "2026-11-16T13:11:36",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-12T08:06:21"
+      "last_seen": "2026-11-16T13:11:36"
     },
     {
       "id": "51f61f4f129e",
@@ -645,10 +611,10 @@
       ],
       "status": "open",
       "ai_level": "platform",
-      "verified_at": "2026-11-12T08:06:21",
+      "verified_at": "2026-11-16T13:11:36",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-12T08:06:21"
+      "last_seen": "2026-11-16T13:11:36"
     },
     {
       "id": "e7dffd72a861",
@@ -674,10 +640,10 @@
       ],
       "status": "open",
       "ai_level": "platform",
-      "verified_at": "2026-11-12T08:06:21",
+      "verified_at": "2026-11-16T13:11:36",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-12T08:06:21"
+      "last_seen": "2026-11-16T13:11:36"
     },
     {
       "id": "04ea79cafa53",
@@ -701,10 +667,10 @@
       ],
       "status": "open",
       "ai_level": "other",
-      "verified_at": "2026-11-12T08:06:21",
+      "verified_at": "2026-11-16T13:11:36",
       "verify_code": 200,
       "first_seen": "2026-11-06T17:53:05",
-      "last_seen": "2026-11-12T08:06:21"
+      "last_seen": "2026-11-16T13:11:36"
     },
     {
       "id": "db0d1dfbf7f0",
@@ -732,10 +698,10 @@
       ],
       "status": "unknown",
       "ai_level": "core",
-      "verified_at": "2026-11-12T08:06:21",
+      "verified_at": "2026-11-16T13:11:36",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-12T08:06:21"
+      "last_seen": "2026-11-16T13:11:36"
     },
     {
       "id": "fe67b063dfb9",
@@ -763,10 +729,10 @@
       ],
       "status": "unknown",
       "ai_level": "core",
-      "verified_at": "2026-11-12T08:06:21",
+      "verified_at": "2026-11-16T13:11:36",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-12T08:06:21"
+      "last_seen": "2026-11-16T13:11:36"
     },
     {
       "id": "459842ff0003",
@@ -795,10 +761,10 @@
       ],
       "status": "unknown",
       "ai_level": "other",
-      "verified_at": "2026-11-12T08:06:21",
+      "verified_at": "2026-11-16T13:11:36",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-12T08:06:21"
+      "last_seen": "2026-11-16T13:11:36"
     },
     {
       "id": "5dabc3dc90a5",
@@ -826,38 +792,10 @@
       ],
       "status": "open",
       "ai_level": "track",
-      "verified_at": "2026-11-12T08:06:21",
+      "verified_at": "2026-11-16T13:11:36",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-12T08:06:21"
-    },
-    {
-      "id": "fb3f0698599e",
-      "title": "Beyond the Benchmark: The Binance Agentic AI Challenge",
-      "organizer": "Binance",
-      "mode": "online",
-      "city": null,
-      "start_date": "2026-09-06",
-      "end_date": "2026-11-13",
-      "deadline": null,
-      "prize": null,
-      "tracks": [],
-      "summary": "",
-      "directions": [
-        "agent",
-        "llm"
-      ],
-      "url": "https://dorahacks.io/hackathon/binance",
-      "source": "dorahacks",
-      "sources": [
-        "dorahacks"
-      ],
-      "status": "open",
-      "ai_level": "core",
-      "verified_at": "2026-11-12T08:06:21",
-      "verify_code": 200,
-      "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-12T08:06:21"
+      "last_seen": "2026-11-16T13:11:36"
     },
     {
       "id": "57507797734e",
@@ -883,10 +821,10 @@
       ],
       "status": "open",
       "ai_level": "core",
-      "verified_at": "2026-11-12T08:06:21",
+      "verified_at": "2026-11-16T13:11:36",
       "verify_code": 200,
       "first_seen": "2026-11-12T08:06:21",
-      "last_seen": "2026-11-12T08:06:21"
+      "last_seen": "2026-11-16T13:11:36"
     },
     {
       "id": "2f56064d2684",
@@ -910,10 +848,41 @@
       ],
       "status": "open",
       "ai_level": "core",
-      "verified_at": "2026-11-12T08:06:21",
+      "verified_at": "2026-11-16T13:11:36",
       "verify_code": 200,
       "first_seen": "2026-11-08T19:50:09",
-      "last_seen": "2026-11-12T08:06:21"
+      "last_seen": "2026-11-16T13:11:36"
+    },
+    {
+      "id": "efb09823937c",
+      "title": "What If Lab｜万一实验室——AI 硬件创意黑客松",
+      "organizer": "亚马逊云科技 User Group",
+      "mode": "offline",
+      "city": "浦东",
+      "start_date": "2026-11-21",
+      "end_date": "2026-11-21",
+      "deadline": null,
+      "prize": null,
+      "tracks": [
+        "AI硬件",
+        "黑客松",
+        "Agent"
+      ],
+      "summary": "",
+      "directions": [
+        "agent"
+      ],
+      "url": "https://www.huodongxing.com/event/1886960427411",
+      "source": "huodongxing",
+      "sources": [
+        "huodongxing"
+      ],
+      "status": "upcoming",
+      "ai_level": "core",
+      "verified_at": "2026-11-16T13:11:36",
+      "verify_code": 200,
+      "first_seen": "2026-11-13T08:06:48",
+      "last_seen": "2026-11-16T13:11:36"
     },
     {
       "id": "262785fdd6f9",
@@ -937,10 +906,10 @@
       ],
       "status": "open",
       "ai_level": "core",
-      "verified_at": "2026-11-12T08:06:21",
+      "verified_at": "2026-11-16T13:11:36",
       "verify_code": 200,
       "first_seen": "2026-11-06T17:53:05",
-      "last_seen": "2026-11-12T08:06:21"
+      "last_seen": "2026-11-16T13:11:36"
     },
     {
       "id": "05ce2b5f7d65",
@@ -949,7 +918,7 @@
       "mode": null,
       "city": null,
       "start_date": null,
-      "end_date": "2026-11-12",
+      "end_date": "2026-11-16",
       "deadline": null,
       "prize": "￥2,000,000+国家级平台项目+名企和事业单位实习及入职机会+创意后续转化",
       "tracks": [],
@@ -964,10 +933,10 @@
       ],
       "status": "unknown",
       "ai_level": "core",
-      "verified_at": "2026-11-12T08:06:21",
+      "verified_at": "2026-11-16T13:11:36",
       "verify_code": 200,
       "first_seen": "2026-11-06T17:53:05",
-      "last_seen": "2026-11-12T08:06:21"
+      "last_seen": "2026-11-16T13:11:36"
     },
     {
       "id": "5602055a7732",
@@ -976,7 +945,7 @@
       "mode": null,
       "city": null,
       "start_date": null,
-      "end_date": "2026-11-12",
+      "end_date": "2026-11-16",
       "deadline": null,
       "prize": "国家气象部门合作机会",
       "tracks": [],
@@ -992,10 +961,10 @@
       ],
       "status": "unknown",
       "ai_level": "core",
-      "verified_at": "2026-11-12T08:06:21",
+      "verified_at": "2026-11-16T13:11:36",
       "verify_code": 200,
       "first_seen": "2026-11-06T17:53:05",
-      "last_seen": "2026-11-12T08:06:21"
+      "last_seen": "2026-11-16T13:11:36"
     },
     {
       "id": "f0227a006b6d",
@@ -1023,10 +992,10 @@
       ],
       "status": "open",
       "ai_level": "platform",
-      "verified_at": "2026-11-12T08:06:21",
+      "verified_at": "2026-11-16T13:11:36",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-12T08:06:21"
+      "last_seen": "2026-11-16T13:11:36"
     },
     {
       "id": "ee8e836e4cee",
@@ -1054,10 +1023,10 @@
       ],
       "status": "upcoming",
       "ai_level": "track",
-      "verified_at": "2026-11-12T08:06:21",
+      "verified_at": "2026-11-16T13:11:36",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-12T08:06:21"
+      "last_seen": "2026-11-16T13:11:36"
     },
     {
       "id": "094f5bca46a6",
@@ -1085,10 +1054,10 @@
       ],
       "status": "unknown",
       "ai_level": "other",
-      "verified_at": "2026-11-12T08:06:21",
+      "verified_at": "2026-11-16T13:11:36",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-12T08:06:21"
+      "last_seen": "2026-11-16T13:11:36"
     },
     {
       "id": "384ec6224bd6",
@@ -1115,10 +1084,10 @@
       ],
       "status": "unknown",
       "ai_level": "core",
-      "verified_at": "2026-11-12T08:06:21",
+      "verified_at": "2026-11-16T13:11:36",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-12T08:06:21"
+      "last_seen": "2026-11-16T13:11:36"
     },
     {
       "id": "bfd3aecdcbab",
@@ -1145,10 +1114,10 @@
       ],
       "status": "unknown",
       "ai_level": "core",
-      "verified_at": "2026-11-12T08:06:21",
+      "verified_at": "2026-11-16T13:11:36",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-12T08:06:21"
+      "last_seen": "2026-11-16T13:11:36"
     },
     {
       "id": "1f4f5ff53ed4",
@@ -1177,10 +1146,10 @@
       ],
       "status": "unknown",
       "ai_level": "other",
-      "verified_at": "2026-11-12T08:06:21",
+      "verified_at": "2026-11-16T13:11:36",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-12T08:06:21"
+      "last_seen": "2026-11-16T13:11:36"
     },
     {
       "id": "bcad4c1c92d9",
@@ -1209,10 +1178,10 @@
       ],
       "status": "open",
       "ai_level": "platform",
-      "verified_at": "2026-11-12T08:06:21",
+      "verified_at": "2026-11-16T13:11:36",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-12T08:06:21"
+      "last_seen": "2026-11-16T13:11:36"
     },
     {
       "id": "844cce87824f",
@@ -1242,10 +1211,10 @@
       ],
       "status": "closed",
       "ai_level": "platform",
-      "verified_at": "2026-11-12T08:06:21",
+      "verified_at": "2026-11-16T13:11:36",
       "verify_code": 200,
       "first_seen": "2026-11-10T08:05:51",
-      "last_seen": "2026-11-12T08:06:21"
+      "last_seen": "2026-11-16T13:11:36"
     },
     {
       "id": "6b6403ff04d6",
@@ -1272,10 +1241,10 @@
       ],
       "status": "closed",
       "ai_level": "platform",
-      "verified_at": "2026-11-12T08:06:21",
+      "verified_at": "2026-11-16T13:11:36",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-12T08:06:21"
+      "last_seen": "2026-11-16T13:11:36"
     },
     {
       "id": "86c57475d2e5",
@@ -1302,10 +1271,10 @@
       ],
       "status": "closed",
       "ai_level": "platform",
-      "verified_at": "2026-11-12T08:06:21",
+      "verified_at": "2026-11-16T13:11:36",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-12T08:06:21"
+      "last_seen": "2026-11-16T13:11:36"
     },
     {
       "id": "6e599c31ba58",
@@ -1332,10 +1301,10 @@
       ],
       "status": "closed",
       "ai_level": "platform",
-      "verified_at": "2026-11-12T08:06:21",
+      "verified_at": "2026-11-16T13:11:36",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-12T08:06:21"
+      "last_seen": "2026-11-16T13:11:36"
     },
     {
       "id": "730f1f20c8ea",
@@ -1363,10 +1332,10 @@
       ],
       "status": "closed",
       "ai_level": "platform",
-      "verified_at": "2026-11-12T08:06:21",
+      "verified_at": "2026-11-16T13:11:36",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-12T08:06:21"
+      "last_seen": "2026-11-16T13:11:36"
     },
     {
       "id": "10fea0fb7e83",
@@ -1394,10 +1363,10 @@
       ],
       "status": "closed",
       "ai_level": "platform",
-      "verified_at": "2026-11-12T08:06:21",
+      "verified_at": "2026-11-16T13:11:36",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-12T08:06:21"
+      "last_seen": "2026-11-16T13:11:36"
     },
     {
       "id": "8541cb1e0341",
@@ -1426,70 +1395,10 @@
       ],
       "status": "closed",
       "ai_level": "platform",
-      "verified_at": "2026-11-12T08:06:21",
+      "verified_at": "2026-11-16T13:11:36",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-12T08:06:21"
-    },
-    {
-      "id": "486b593b87a1",
-      "title": "2026-具身仿真合成挑战赛",
-      "organizer": null,
-      "mode": "online",
-      "city": null,
-      "start_date": "2026-07-30",
-      "end_date": "2026-11-15",
-      "deadline": "2026-09-21",
-      "prize": "100,000元",
-      "tracks": [
-        "AI大模型赛"
-      ],
-      "summary": "",
-      "directions": [
-        "llm",
-        "embodied"
-      ],
-      "url": "https://tianchi.aliyun.com/competition/entrance/532506",
-      "source": "tianchi",
-      "sources": [
-        "tianchi"
-      ],
-      "status": "closed",
-      "ai_level": "core",
-      "verified_at": "2026-11-12T08:06:21",
-      "verify_code": 200,
-      "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-12T08:06:21"
-    },
-    {
-      "id": "bee00c2ad7ee",
-      "title": "2026-具身安全应用挑战赛",
-      "organizer": null,
-      "mode": "online",
-      "city": null,
-      "start_date": "2026-07-30",
-      "end_date": "2026-11-15",
-      "deadline": "2026-09-21",
-      "prize": "100,000元",
-      "tracks": [
-        "AI大模型赛"
-      ],
-      "summary": "",
-      "directions": [
-        "llm",
-        "embodied"
-      ],
-      "url": "https://tianchi.aliyun.com/competition/entrance/532507",
-      "source": "tianchi",
-      "sources": [
-        "tianchi"
-      ],
-      "status": "closed",
-      "ai_level": "core",
-      "verified_at": "2026-11-12T08:06:21",
-      "verify_code": 200,
-      "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-12T08:06:21"
+      "last_seen": "2026-11-16T13:11:36"
     },
     {
       "id": "5b1041241f12",
@@ -1518,10 +1427,10 @@
       ],
       "status": "closed",
       "ai_level": "core",
-      "verified_at": "2026-11-12T08:06:21",
+      "verified_at": "2026-11-16T13:11:36",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-12T08:06:21"
+      "last_seen": "2026-11-16T13:11:36"
     },
     {
       "id": "9f5f60216c05",
@@ -1549,10 +1458,10 @@
       ],
       "status": "closed",
       "ai_level": "platform",
-      "verified_at": "2026-11-12T08:06:21",
+      "verified_at": "2026-11-16T13:11:36",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-12T08:06:21"
+      "last_seen": "2026-11-16T13:11:36"
     },
     {
       "id": "c60e42bd1ffe",
@@ -1581,10 +1490,10 @@
       ],
       "status": "closed",
       "ai_level": "platform",
-      "verified_at": "2026-11-12T08:06:21",
+      "verified_at": "2026-11-16T13:11:36",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-12T08:06:21"
+      "last_seen": "2026-11-16T13:11:36"
     },
     {
       "id": "21454fa7efac",
@@ -1612,10 +1521,10 @@
       ],
       "status": "closed",
       "ai_level": "platform",
-      "verified_at": "2026-11-12T08:06:21",
+      "verified_at": "2026-11-16T13:11:36",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-12T08:06:21"
+      "last_seen": "2026-11-16T13:11:36"
     },
     {
       "id": "1712b226ef79",
@@ -1643,10 +1552,10 @@
       ],
       "status": "closed",
       "ai_level": "platform",
-      "verified_at": "2026-11-12T08:06:21",
+      "verified_at": "2026-11-16T13:11:36",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-12T08:06:21"
+      "last_seen": "2026-11-16T13:11:36"
     },
     {
       "id": "69ae8f54528a",
@@ -1674,10 +1583,10 @@
       ],
       "status": "closed",
       "ai_level": "platform",
-      "verified_at": "2026-11-12T08:06:21",
+      "verified_at": "2026-11-16T13:11:36",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-12T08:06:21"
+      "last_seen": "2026-11-16T13:11:36"
     },
     {
       "id": "babe69fb0ddb",
@@ -1705,10 +1614,10 @@
       ],
       "status": "closed",
       "ai_level": "platform",
-      "verified_at": "2026-11-12T08:06:21",
+      "verified_at": "2026-11-16T13:11:36",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-12T08:06:21"
+      "last_seen": "2026-11-16T13:11:36"
     },
     {
       "id": "0e5440864541",
@@ -1737,10 +1646,10 @@
       ],
       "status": "closed",
       "ai_level": "core",
-      "verified_at": "2026-11-12T08:06:21",
+      "verified_at": "2026-11-16T13:11:36",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-12T08:06:21"
+      "last_seen": "2026-11-16T13:11:36"
     },
     {
       "id": "e020b4265bb8",
@@ -1767,10 +1676,10 @@
       ],
       "status": "closed",
       "ai_level": "core",
-      "verified_at": "2026-11-12T08:06:21",
+      "verified_at": "2026-11-16T13:11:36",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-12T08:06:21"
+      "last_seen": "2026-11-16T13:11:36"
     },
     {
       "id": "c38d97feee96",
@@ -1799,10 +1708,10 @@
       ],
       "status": "closed",
       "ai_level": "core",
-      "verified_at": "2026-11-12T08:06:21",
+      "verified_at": "2026-11-16T13:11:36",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-12T08:06:21"
+      "last_seen": "2026-11-16T13:11:36"
     },
     {
       "id": "3d0e7fb3cd2f",
@@ -1828,10 +1737,10 @@
       ],
       "status": "closed",
       "ai_level": "track",
-      "verified_at": "2026-11-12T08:06:21",
+      "verified_at": "2026-11-16T13:11:36",
       "verify_code": 200,
       "first_seen": "2026-11-06T18:34:04",
-      "last_seen": "2026-11-12T08:06:21"
+      "last_seen": "2026-11-16T13:11:36"
     },
     {
       "id": "312063dc7ec9",
@@ -1854,14 +1763,14 @@
       "url": "https://modelscope.cn/events/383/%E5%86%B3%E8%B5%9B%E8%B7%AF%E6%BC%94%E6%8A%A5%E5%90%8D",
       "source": "curated",
       "sources": [
-        "modelscope"
+        "curated"
       ],
       "status": "closed",
       "ai_level": "core",
-      "verified_at": "2026-11-12T08:06:21",
+      "verified_at": "2026-11-16T13:11:36",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-12T08:06:21"
+      "last_seen": "2026-11-16T13:11:36"
     },
     {
       "id": "4ada71681515",
@@ -1888,10 +1797,10 @@
       ],
       "status": "closed",
       "ai_level": "platform",
-      "verified_at": "2026-11-12T08:06:21",
+      "verified_at": "2026-11-16T13:11:36",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-12T08:06:21"
+      "last_seen": "2026-11-16T13:11:36"
     },
     {
       "id": "0f21cf92282d",
@@ -1918,10 +1827,73 @@
       ],
       "status": "closed",
       "ai_level": "core",
-      "verified_at": "2026-11-12T08:06:21",
+      "verified_at": "2026-11-16T13:11:36",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-12T08:06:21"
+      "last_seen": "2026-11-16T13:11:36"
+    },
+    {
+      "id": "18d9e2649373",
+      "title": "第八届海南岛国际电影节·AI电影展影片征集",
+      "organizer": "海南岛国际电影节组委会",
+      "mode": "offline",
+      "city": "三亚",
+      "start_date": "2026-10-21",
+      "end_date": null,
+      "deadline": "2026-11-15",
+      "prize": "10万元现金激励（每项年度之选 1 万元税前）+官方证书+电影节展映",
+      "tracks": [
+        "AI电影级长片",
+        "AI精品剧集",
+        "AI电影级短片",
+        "AI实验影像"
+      ],
+      "summary": "第八届海南岛国际电影节·AI电影展全球征片通道开启，LibTV 为荣誉冠名合作方及官方指定作品征集平台。",
+      "directions": [
+        "other"
+      ],
+      "url": "https://www.liblib.tv/hiiff-aifilmseason",
+      "source": "curated",
+      "sources": [
+        "curated"
+      ],
+      "status": "closed",
+      "ai_level": "core",
+      "verified_at": "2026-11-16T13:11:36",
+      "verify_code": 200,
+      "first_seen": "2026-11-06T15:50:27",
+      "last_seen": "2026-11-16T13:11:36"
+    },
+    {
+      "id": "9d1e77a417ba",
+      "title": "首届AI × 音乐视觉黑客松",
+      "organizer": "WaytoAGI × ACE-CON",
+      "mode": "hybrid",
+      "city": "北京",
+      "start_date": "2026-11-02",
+      "end_date": "2026-11-21",
+      "deadline": "2026-11-15",
+      "prize": "赛事奖金+官方证书+华为电脑/AirPods 等实物奖品+剪映 Hub 积分与流量曝光",
+      "tracks": [
+        "共振场（乐队 Live 创作）",
+        "回声场（自由视觉创作）",
+        "AI 音乐视觉"
+      ],
+      "summary": "",
+      "directions": [
+        "other"
+      ],
+      "url": "https://resonance.waytoagi.com/",
+      "source": "curated",
+      "sources": [
+        "curated"
+      ],
+      "status": "closed",
+      "ai_level": "core",
+      "verified_at": "2026-11-16T13:11:36",
+      "verify_code": 200,
+      "first_seen": "2026-11-06T15:50:27",
+      "last_seen": "2026-11-16T13:11:36"
     },
     {
       "id": "59a629172564",
@@ -1948,10 +1920,38 @@
       ],
       "status": "closed",
       "ai_level": "core",
-      "verified_at": "2026-11-12T08:06:21",
+      "verified_at": "2026-11-16T13:11:36",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-12T08:06:21"
+      "last_seen": "2026-11-16T13:11:36"
+    },
+    {
+      "id": "fb3f0698599e",
+      "title": "Beyond the Benchmark: The Binance Agentic AI Challenge",
+      "organizer": "Binance",
+      "mode": "online",
+      "city": null,
+      "start_date": "2026-09-06",
+      "end_date": "2026-11-13",
+      "deadline": null,
+      "prize": null,
+      "tracks": [],
+      "summary": "",
+      "directions": [
+        "agent",
+        "llm"
+      ],
+      "url": "https://dorahacks.io/hackathon/binance",
+      "source": "dorahacks",
+      "sources": [
+        "dorahacks"
+      ],
+      "status": "closed",
+      "ai_level": "core",
+      "verified_at": "2026-11-16T13:11:36",
+      "verify_code": 200,
+      "first_seen": "2026-11-06T15:50:27",
+      "last_seen": "2026-11-16T13:11:36"
     },
     {
       "id": "ea6b6bc9088d",
@@ -1977,10 +1977,10 @@
       ],
       "status": "closed",
       "ai_level": "core",
-      "verified_at": "2026-11-12T08:06:21",
+      "verified_at": "2026-11-16T13:11:36",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-12T08:06:21"
+      "last_seen": "2026-11-16T13:11:36"
     },
     {
       "id": "c4cc7b8c077f",
@@ -2007,10 +2007,10 @@
       ],
       "status": "closed",
       "ai_level": "platform",
-      "verified_at": "2026-11-12T08:06:21",
+      "verified_at": "2026-11-16T13:11:36",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-12T08:06:21"
+      "last_seen": "2026-11-16T13:11:36"
     },
     {
       "id": "19f3973c4ad3",
@@ -2038,10 +2038,10 @@
       ],
       "status": "closed",
       "ai_level": "core",
-      "verified_at": "2026-11-12T08:06:21",
+      "verified_at": "2026-11-16T13:11:36",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-12T08:06:21"
+      "last_seen": "2026-11-16T13:11:36"
     },
     {
       "id": "936661a1f359",
@@ -2069,10 +2069,10 @@
       ],
       "status": "closed",
       "ai_level": "platform",
-      "verified_at": "2026-11-12T08:06:21",
+      "verified_at": "2026-11-16T13:11:36",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-12T08:06:21"
+      "last_seen": "2026-11-16T13:11:36"
     },
     {
       "id": "60c4ebefaca4",
@@ -2101,10 +2101,10 @@
       ],
       "status": "closed",
       "ai_level": "core",
-      "verified_at": "2026-11-12T08:06:21",
+      "verified_at": "2026-11-16T13:11:36",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-12T08:06:21"
+      "last_seen": "2026-11-16T13:11:36"
     }
   ]
 }

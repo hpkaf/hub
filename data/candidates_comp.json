@@ -134,7 +134,7 @@
     "url": "https://aistudio.baidu.com/competition/detail/728/0/introduction",
     "source": "aistudio",
     "source_url": "https://aistudio.baidu.com/competition",
-    "notes": "飞桨AI Studio · 进行中 · 参赛 4584 人"
+    "notes": "飞桨AI Studio · 进行中 · 参赛 4585 人"
   },
   {
     "title": "千言数据集：中学语文阅读理解",
@@ -168,7 +168,7 @@
     "url": "https://aistudio.baidu.com/competition/detail/550/0/introduction",
     "source": "aistudio",
     "source_url": "https://aistudio.baidu.com/competition",
-    "notes": "飞桨AI Studio · 进行中 · 参赛 176 人"
+    "notes": "飞桨AI Studio · 进行中 · 参赛 177 人"
   },
   {
     "title": "野生动物目标检测挑战赛",
@@ -186,7 +186,7 @@
     "url": "https://aistudio.baidu.com/competition/detail/1407/0/introduction",
     "source": "aistudio",
     "source_url": "https://aistudio.baidu.com/competition",
-    "notes": "飞桨AI Studio · 进行中 · 参赛 351 人"
+    "notes": "飞桨AI Studio · 进行中 · 参赛 352 人"
   },
   {
     "title": "多模态感知融合增强的具身自主抓取任务挑战",
@@ -290,41 +290,7 @@
     "url": "https://tianchi.aliyun.com/competition/entrance/532512",
     "source": "tianchi",
     "source_url": "https://tianchi.aliyun.com/competition/gameList/activeList",
-    "notes": "天池 · AI大模型赛 · 544 支队伍"
-  },
-  {
-    "title": "2026-具身仿真合成挑战赛",
-    "organizer": null,
-    "mode": null,
-    "city": null,
-    "start_date": "2026-07-30",
-    "end_date": "2026-11-15",
-    "deadline": "2026-09-21",
-    "prize": "100,000元",
-    "tracks": [
-      "AI大模型赛"
-    ],
-    "url": "https://tianchi.aliyun.com/competition/entrance/532506",
-    "source": "tianchi",
-    "source_url": "https://tianchi.aliyun.com/competition/gameList/activeList",
-    "notes": "天池 · AI大模型赛 · 254 支队伍"
-  },
-  {
-    "title": "2026-具身安全应用挑战赛",
-    "organizer": null,
-    "mode": null,
-    "city": null,
-    "start_date": "2026-07-30",
-    "end_date": "2026-11-15",
-    "deadline": "2026-09-21",
-    "prize": "100,000元",
-    "tracks": [
-      "AI大模型赛"
-    ],
-    "url": "https://tianchi.aliyun.com/competition/entrance/532507",
-    "source": "tianchi",
-    "source_url": "https://tianchi.aliyun.com/competition/gameList/activeList",
-    "notes": "天池 · AI大模型赛 · 204 支队伍"
+    "notes": "天池 · AI大模型赛 · 552 支队伍"
   },
   {
     "title": "2026-跨本体具身认知极限联合挑战赛",
@@ -359,7 +325,7 @@
     "url": "https://tianchi.aliyun.com/competition/entrance/532514",
     "source": "tianchi",
     "source_url": "https://tianchi.aliyun.com/competition/gameList/activeList",
-    "notes": "天池 · AI大模型赛 · 1854 支队伍"
+    "notes": "天池 · AI大模型赛 · 1856 支队伍"
   },
   {
     "title": "2026 Qoder 高校创造力大赛",
@@ -377,7 +343,7 @@
     "url": "https://tianchi.aliyun.com/competition/entrance/532536",
     "source": "tianchi",
     "source_url": "https://tianchi.aliyun.com/competition/gameList/activeList",
-    "notes": "天池 · AI大模型赛 · 3247 支队伍"
+    "notes": "天池 · AI大模型赛 · 4954 支队伍"
   },
   {
     "title": "2026-具身极限挑战赛",
@@ -412,7 +378,7 @@
     "url": "https://tianchi.aliyun.com/competition/entrance/532421",
     "source": "tianchi",
     "source_url": "https://tianchi.aliyun.com/competition/gameList/activeList",
-    "notes": "天池 · 日常学习赛 · 1068 支队伍"
+    "notes": "天池 · 日常学习赛 · 1082 支队伍"
   },
   {
     "title": "征集赛15-智析云荐——基于百炼的智能新闻推荐系统挑战赛",
@@ -432,7 +398,7 @@
     "url": "https://tianchi.aliyun.com/competition/entrance/532532",
     "source": "tianchi",
     "source_url": "https://tianchi.aliyun.com/competition/gameList/activeList",
-    "notes": "天池 · AI大模型赛 · 24 支队伍"
+    "notes": "天池 · AI大模型赛 · 28 支队伍"
   },
   {
     "title": "余震预测技术国际大赛",
@@ -469,7 +435,7 @@
     "url": "https://tianchi.aliyun.com/competition/entrance/532510",
     "source": "tianchi",
     "source_url": "https://tianchi.aliyun.com/competition/gameList/activeList",
-    "notes": "天池 · AI大模型赛 · 2450 支队伍"
+    "notes": "天池 · AI大模型赛 · 2544 支队伍"
   },
   {
     "title": "2026CCKS系列赛",
@@ -524,7 +490,7 @@
     "url": "https://tianchi.aliyun.com/competition/entrance/532515",
     "source": "tianchi",
     "source_url": "https://tianchi.aliyun.com/competition/gameList/activeList",
-    "notes": "天池 · 工程开发赛 · 216 支队伍"
+    "notes": "天池 · 工程开发赛 · 227 支队伍"
   },
   {
     "title": "资金流入流出预测-挑战Baseline",
@@ -541,7 +507,7 @@
     "url": "https://tianchi.aliyun.com/competition/entrance/231573",
     "source": "tianchi",
     "source_url": "https://tianchi.aliyun.com/competition/gameList/activeList",
-    "notes": "天池 · 日常学习赛 · 16097 支队伍"
+    "notes": "天池 · 日常学习赛 · 16112 支队伍"
   },
   {
     "title": "【打榜赛】CCL25-Eval 任务2：第三届汉语框架语义解析评测",
@@ -916,7 +882,7 @@
     "url": "https://challenge.xfyun.cn/topic/info?type=Train-subscriber-addition2025",
     "source": "xfyun",
     "source_url": "https://challenge.xfyun.cn/competition",
-    "notes": "讯飞AI开发者大赛 · 练习赛 · 参赛团队 154"
+    "notes": "讯飞AI开发者大赛 · 练习赛 · 参赛团队 155"
   },
   {
     "title": "脑PET图像分析和疾病预测练手赛",

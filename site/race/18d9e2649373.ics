@@ -7,21 +7,21 @@ X-WR-CALNAME:AI 赛事雷达
 X-WR-TIMEZONE:Asia/Shanghai
 BEGIN:VEVENT
 UID:18d9e2649373@ai-race-radar
-DTSTAMP:20261112T061004Z
+DTSTAMP:20261116T051136Z
 DTSTART;VALUE=DATE:20261021
 DTEND;VALUE=DATE:20261022
 SUMMARY:第八届海南岛国际电影节·AI电影展影片征集
 DESCRIPTION:主办方：海南岛国际电影节组委会；报名截止
  ：2026-11-15；奖金：10万元现金激励（每项年度之选 1 万
  元税前）+官方证书+电影节展映；报名：https://www.liblib.
- tv/hiiff-aifilmseason；收录：AI 赛事雷达（2026-11-12T08:06:21 
+ tv/hiiff-aifilmseason；收录：AI 赛事雷达（2026-11-16T13:11:36 
  核验）
 URL:https://www.liblib.tv/hiiff-aifilmseason
 LOCATION:三亚
 END:VEVENT
 BEGIN:VEVENT
 UID:18d9e2649373-deadline@ai-race-radar
-DTSTAMP:20261112T061004Z
+DTSTAMP:20261116T051136Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:⏰ 报名截止：第八届海南岛国际电影节·AI电影展
