@@ -251,8 +251,13 @@ if (-not $Git) {
             & $Git fetch origin $branch 2>&1 | Out-File -FilePath $Log -Append -Encoding utf8
             $local = ([string](& $Git rev-parse HEAD 2>$null)).Trim()
             $remote = ([string](& $Git rev-parse ("origin/" + $branch) 2>$null)).Trim()
-            if ($remote -and $local -ne $remote) {
-                Write-Log '远端有新提交；本机是唯一数据源，保留本机整棵树并记录远端历史'
+            $remoteIsAncestor = $false
+            if ($remote -and $local) {
+                & $Git merge-base --is-ancestor $remote $local 2>$null
+                $remoteIsAncestor = ($LASTEXITCODE -eq 0)
+            }
+            if ($remote -and -not $remoteIsAncestor) {
+                Write-Log '远端有分叉提交；本机是唯一数据源，保留本机整棵树并记录远端历史'
                 & $Git @gitArgs merge -s ours ("origin/" + $branch) -m 'chore: local canonical sync' 2>&1 |
                     Out-File -FilePath $Log -Append -Encoding utf8
                 if ($LASTEXITCODE -ne 0) { throw ("git merge exit {0}" -f $LASTEXITCODE) }
