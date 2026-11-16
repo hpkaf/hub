@@ -252,9 +252,10 @@ if (-not $Git) {
             $local = ([string](& $Git rev-parse HEAD 2>$null)).Trim()
             $remote = ([string](& $Git rev-parse ("origin/" + $branch) 2>$null)).Trim()
             if ($remote -and $local -ne $remote) {
-                Write-Log '远端有新提交，先合并；数据文件冲突时保留本机版本'
-                & $Git @gitArgs pull --no-rebase --no-edit -X ours origin $branch 2>&1 |
+                Write-Log '远端有新提交；本机是唯一数据源，保留本机整棵树并记录远端历史'
+                & $Git @gitArgs merge -s ours ("origin/" + $branch) -m 'chore: local canonical sync' 2>&1 |
                     Out-File -FilePath $Log -Append -Encoding utf8
+                if ($LASTEXITCODE -ne 0) { throw ("git merge exit {0}" -f $LASTEXITCODE) }
             }
             $pushOut = & $Git @gitArgs push origin ("HEAD:" + $branch) 2>&1
             $pushOut | Out-File -FilePath $Log -Append -Encoding utf8

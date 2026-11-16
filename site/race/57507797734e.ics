@@ -7,13 +7,13 @@ X-WR-CALNAME:AI 赛事雷达
 X-WR-TIMEZONE:Asia/Shanghai
 BEGIN:VEVENT
 UID:57507797734e@ai-race-radar
-DTSTAMP:20261116T051136Z
+DTSTAMP:20261116T051522Z
 DTSTART;VALUE=DATE:20261110
 DTEND;VALUE=DATE:20261225
 SUMMARY:Terminal 3 Build+Scale Agent Micro Grant
 DESCRIPTION:主办方：Terminal 3；奖金：1800 USD；报名：https:/
  /dorahacks.io/hackathon/t3-build-scale-grant；收录：AI 赛事雷达
- （2026-11-16T13:11:36 核验）
+ （2026-11-16T13:15:22 核验）
 URL:https://dorahacks.io/hackathon/t3-build-scale-grant
 LOCATION:线上
 END:VEVENT

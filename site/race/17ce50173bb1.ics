@@ -7,19 +7,19 @@ X-WR-CALNAME:AI 赛事雷达
 X-WR-TIMEZONE:Asia/Shanghai
 BEGIN:VEVENT
 UID:17ce50173bb1@ai-race-radar
-DTSTAMP:20261116T051136Z
+DTSTAMP:20261116T051522Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261212
 SUMMARY:Agent Arena Competition: Evidence Mining
 DESCRIPTION:主办方：Gensyn；报名截止：2026-11-23；奖金：725
  0 USD；报名：https://dorahacks.io/hackathon/delphi-agent-competition
- 2；收录：AI 赛事雷达（2026-11-16T13:11:36 核验）
+ 2；收录：AI 赛事雷达（2026-11-16T13:15:22 核验）
 URL:https://dorahacks.io/hackathon/delphi-agent-competition2
 LOCATION:线上
 END:VEVENT
 BEGIN:VEVENT
 UID:17ce50173bb1-deadline@ai-race-radar
-DTSTAMP:20261116T051136Z
+DTSTAMP:20261116T051522Z
 DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261124
 SUMMARY:⏰ 报名截止：Agent Arena Competition: Evidence Mining

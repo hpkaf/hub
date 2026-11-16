@@ -1,6 +1,6 @@
 # AI 赛事雷达 · 赛事清单
 
-> 更新：2026-11-16 13:11（构建时间，Asia/Shanghai）
+> 更新：2026-11-16 13:15（构建时间，Asia/Shanghai）
 > 共 68 条（在架 + 近 90 天）；报名/奖金以主办方官方页为准。
 > JSON: https://race.howfun.cn/api/events.json · 许可: CC BY 4.0
 

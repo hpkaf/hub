@@ -7,20 +7,20 @@ X-WR-CALNAME:AI 赛事雷达
 X-WR-TIMEZONE:Asia/Shanghai
 BEGIN:VEVENT
 UID:1712b226ef79@ai-race-radar
-DTSTAMP:20261116T051136Z
+DTSTAMP:20261116T051522Z
 DTSTART;VALUE=DATE:20260904
 DTEND;VALUE=DATE:20261025
 SUMMARY:果粒着色阶段智能分级挑战赛
 DESCRIPTION:主办方：中国农业大学；报名截止：2026-09-28；
  奖金：1万元；报名：https://challenge.xfyun.cn/topic/info?type=B
- erryColorGrade；收录：AI 赛事雷达（2026-11-16T13:11:36 核验
+ erryColorGrade；收录：AI 赛事雷达（2026-11-16T13:15:22 核验
  ）
 URL:https://challenge.xfyun.cn/topic/info?type=BerryColorGrade
 LOCATION:线上
 END:VEVENT
 BEGIN:VEVENT
 UID:1712b226ef79-deadline@ai-race-radar
-DTSTAMP:20261116T051136Z
+DTSTAMP:20261116T051522Z
 DTSTART;VALUE=DATE:20260928
 DTEND;VALUE=DATE:20260929
 SUMMARY:⏰ 报名截止：果粒着色阶段智能分级挑战赛
