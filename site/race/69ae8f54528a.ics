@@ -7,19 +7,19 @@ X-WR-CALNAME:AI 赛事雷达
 X-WR-TIMEZONE:Asia/Shanghai
 BEGIN:VEVENT
 UID:69ae8f54528a@ai-race-radar
-DTSTAMP:20261116T051522Z
+DTSTAMP:20261116T051932Z
 DTSTART;VALUE=DATE:20260904
 DTEND;VALUE=DATE:20261025
 SUMMARY:玉米出苗期杂草目标检测挑战赛
 DESCRIPTION:主办方：中国农业大学；报名截止：2026-09-28；
  奖金：1万元；报名：https://challenge.xfyun.cn/topic/info?type=C
- ornWeedDet；收录：AI 赛事雷达（2026-11-16T13:15:22 核验）
+ ornWeedDet；收录：AI 赛事雷达（2026-11-16T13:19:32 核验）
 URL:https://challenge.xfyun.cn/topic/info?type=CornWeedDet
 LOCATION:线上
 END:VEVENT
 BEGIN:VEVENT
 UID:69ae8f54528a-deadline@ai-race-radar
-DTSTAMP:20261116T051522Z
+DTSTAMP:20261116T051932Z
 DTSTART;VALUE=DATE:20260928
 DTEND;VALUE=DATE:20260929
 SUMMARY:⏰ 报名截止：玉米出苗期杂草目标检测挑战赛
