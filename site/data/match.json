@@ -1,29 +1,5 @@
 [
   {
-    "id": "878465bc4362",
-    "title": "Aevum Builder Challenge #1",
-    "organizer": "QDay",
-    "mode": "online",
-    "city": null,
-    "status": "closing",
-    "deadline": "2026-11-16",
-    "ai_level": "track",
-    "tracks": [
-      "Invoice Payments",
-      "Payroll and Vesting",
-      "Crowdfunding",
-      "Confirmation of Payee",
-      "Decentralized Payments",
-      "Digital Ownership",
-      "Native AI Assistants",
-      "Open Innovation"
-    ],
-    "directions": [
-      "other"
-    ],
-    "summary": "Introduction Aevum Builder Challenge 1 is a free, online hackathon for developers worldwide. Builders are challenged to ship practical stablecoin payment related applications on the Aevum testnet..."
-  },
-  {
     "id": "625b5a71ebac",
     "title": "全新升级！第二届具亮计划·全球具身智能黑客松",
     "organizer": "具亮计划",
@@ -582,6 +558,26 @@
     "summary": ""
   },
   {
+    "id": "0294c79e5e6b",
+    "title": "免费试玩｜AI PLAY 72H 游戏&互动剧创作黑客松观众招募中",
+    "organizer": "LinkLike活动专家",
+    "mode": "offline",
+    "city": "杭州",
+    "status": "upcoming",
+    "deadline": null,
+    "ai_level": "core",
+    "tracks": [
+      "PLAY",
+      "72H",
+      "游戏互动剧",
+      "创作黑客松"
+    ],
+    "directions": [
+      "other"
+    ],
+    "summary": ""
+  },
+  {
     "id": "ee8e836e4cee",
     "title": "华硕 A+ 青年 Creator Lab",
     "organizer": "华硕 A+ 青年",
@@ -1002,26 +998,6 @@
     "summary": ""
   },
   {
-    "id": "c38d97feee96",
-    "title": "蚂蚁灵波具身大模型挑战赛",
-    "organizer": null,
-    "mode": "online",
-    "city": null,
-    "status": "closed",
-    "deadline": "2026-10-26",
-    "ai_level": "core",
-    "tracks": [
-      "机器人",
-      "计算机视觉‌"
-    ],
-    "directions": [
-      "llm",
-      "embodied",
-      "multimodal"
-    ],
-    "summary": ""
-  },
-  {
     "id": "3d0e7fb3cd2f",
     "title": "回到未来的 3D 创作｜Ship it Sunday #015",
     "organizer": "AI Hacker House × Hi3D",
@@ -1130,6 +1106,30 @@
       "other"
     ],
     "summary": ""
+  },
+  {
+    "id": "878465bc4362",
+    "title": "Aevum Builder Challenge #1",
+    "organizer": "QDay",
+    "mode": "online",
+    "city": null,
+    "status": "closed",
+    "deadline": "2026-11-16",
+    "ai_level": "track",
+    "tracks": [
+      "Invoice Payments",
+      "Payroll and Vesting",
+      "Crowdfunding",
+      "Confirmation of Payee",
+      "Decentralized Payments",
+      "Digital Ownership",
+      "Native AI Assistants",
+      "Open Innovation"
+    ],
+    "directions": [
+      "other"
+    ],
+    "summary": "Introduction Aevum Builder Challenge 1 is a free, online hackathon for developers worldwide. Builders are challenged to ship practical stablecoin payment related applications on the Aevum testnet..."
   },
   {
     "id": "59a629172564",

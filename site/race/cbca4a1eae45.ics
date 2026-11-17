@@ -7,12 +7,12 @@ X-WR-CALNAME:AI 赛事雷达
 X-WR-TIMEZONE:Asia/Shanghai
 BEGIN:VEVENT
 UID:cbca4a1eae45@ai-race-radar
-DTSTAMP:20261116T051932Z
+DTSTAMP:20261117T000549Z
 DTSTART;VALUE=DATE:20250820
 DTEND;VALUE=DATE:20340831
 SUMMARY:2025 X-GAME上海智能新能源汽车大数据竞赛
 DESCRIPTION:奖金：¥ 128\,000 + 荣誉证书；报名：https://labs.s
- hevdc.com/xgame-2025；收录：AI 赛事雷达（2026-11-16T13:19:32 
+ hevdc.com/xgame-2025；收录：AI 赛事雷达（2026-11-17T08:05:48 
  核验）
 URL:https://labs.shevdc.com/xgame-2025
 END:VEVENT

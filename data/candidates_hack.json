@@ -341,24 +341,6 @@
     "notes": "DoraHacks API: tags=AI Agents,Prediction Markets,Blockchain,forecasting; ecosystem=Delphi,Gensyn"
   },
   {
-    "title": "dreamDEX Perps Builder Bounty",
-    "organizer": "Somnia Network",
-    "mode": "online",
-    "city": null,
-    "start_date": "2026-10-19",
-    "end_date": "2026-11-15",
-    "deadline": null,
-    "prize": "3000 USD",
-    "tracks": [
-      "Feedback",
-      "MVP"
-    ],
-    "url": "https://dorahacks.io/hackathon/dreamdex-perps-bounty",
-    "source": "dorahacks",
-    "source_url": "https://dorahacks.io/hackathon",
-    "notes": "DoraHacks API: tags=Perps,Trading Bots,AI Agents,DeFi,Trader Tools,Testnet,Somnia,dreamDEX; ecosystem=dreamDEX,Somnia,Perps,Markets SDK,dreamBot Builder"
-  },
-  {
     "title": "Terminal 3 Build+Scale Agent Micro Grant",
     "organizer": "Terminal 3",
     "mode": "online",
@@ -393,23 +375,6 @@
     "source": "dorahacks",
     "source_url": "https://dorahacks.io/hackathon",
     "notes": "DoraHacks API: tags=Algorand,Web3,Blockchain,Crypto,ai,agentic commerce,x402,payments; ecosystem=Algorand"
-  },
-  {
-    "title": "HackOnVibe November 2026: Build a Product That Spreads",
-    "organizer": "HackOnVibe_com",
-    "mode": "online",
-    "city": null,
-    "start_date": "2026-11-13",
-    "end_date": "2026-11-16",
-    "deadline": null,
-    "prize": "100 USD",
-    "tracks": [
-      "All Builds"
-    ],
-    "url": "https://dorahacks.io/hackathon/hack-on-vibe-2026-11",
-    "source": "dorahacks",
-    "source_url": "https://dorahacks.io/hackathon",
-    "notes": "DoraHacks API: tags=AI; ecosystem=GitHub"
   },
   {
     "title": "Hackathon 2026 Challenge",
@@ -463,6 +428,26 @@
     "source": "huodongxing",
     "source_url": "https://www.huodongxing.com/search?qs=AI%E9%BB%91%E5%AE%A2%E6%9D%BE",
     "notes": "活动行详情内嵌 ativityJson; 标签=AI硬件,黑客松,Agent; 地址=上海前滩中心; 状态=1"
+  },
+  {
+    "title": "免费试玩｜AI PLAY 72H 游戏&互动剧创作黑客松观众招募中",
+    "organizer": "LinkLike活动专家",
+    "mode": "offline",
+    "city": "杭州",
+    "start_date": "2026-11-27",
+    "end_date": "2026-11-29",
+    "deadline": null,
+    "prize": null,
+    "tracks": [
+      "PLAY",
+      "72H",
+      "游戏互动剧",
+      "创作黑客松"
+    ],
+    "url": "https://www.huodongxing.com/event/9887549891000",
+    "source": "huodongxing",
+    "source_url": "https://www.huodongxing.com/search?qs=AI%E9%BB%91%E5%AE%A2%E6%9D%BE",
+    "notes": "活动行详情内嵌 ativityJson; 标签=PLAY,72H,游戏互动剧,创作黑客松; 地址=西投·云城犀谷; 状态=1"
   },
   {
     "title": "河南青少年AI黑客松实战营",
@@ -541,6 +526,25 @@
     "notes": "活动行详情内嵌 ativityJson; 标签=青少年AI教育,AI黑客松,编程实战; 地址=报名后可查看详细地址; 状态=4"
   },
   {
+    "title": "2.5W奖金池｜10小时小白友好 AI 黑客松@上海",
+    "organizer": "HackQuest",
+    "mode": "offline",
+    "city": "浦东",
+    "start_date": "2026-05-23",
+    "end_date": "2026-05-23",
+    "deadline": null,
+    "prize": null,
+    "tracks": [
+      "AI黑客松",
+      "Bittensor子网",
+      "激励机制设计"
+    ],
+    "url": "https://www.huodongxing.com/event/5860088194200",
+    "source": "huodongxing",
+    "source_url": "https://www.huodongxing.com/search?qs=AI%E9%BB%91%E5%AE%A2%E6%9D%BE",
+    "notes": "活动行详情内嵌 ativityJson; 标签=AI黑客松,Bittensor子网,激励机制设计; 地址=报名后可查看详细地址; 状态=4"
+  },
+  {
     "title": "光年AI黑客松：如何做一个卖货的智能体",
     "organizer": "光年AI",
     "mode": "offline",
@@ -580,25 +584,6 @@
     "notes": "活动行详情内嵌 ativityJson; 标签=AI智能体,跨境电商,增长黑客; 地址=具体地址待定(报名成功后将统一通知); 状态=4"
   },
   {
-    "title": "2.5W奖金池｜10小时小白友好 AI 黑客松@上海",
-    "organizer": "HackQuest",
-    "mode": "offline",
-    "city": "浦东",
-    "start_date": "2026-05-23",
-    "end_date": "2026-05-23",
-    "deadline": null,
-    "prize": null,
-    "tracks": [
-      "AI黑客松",
-      "Bittensor子网",
-      "激励机制设计"
-    ],
-    "url": "https://www.huodongxing.com/event/5860088194200",
-    "source": "huodongxing",
-    "source_url": "https://www.huodongxing.com/search?qs=AI%E9%BB%91%E5%AE%A2%E6%9D%BE",
-    "notes": "活动行详情内嵌 ativityJson; 标签=AI黑客松,Bittensor子网,激励机制设计; 地址=报名后可查看详细地址; 状态=4"
-  },
-  {
     "title": "探索AI黑客松 × 非视觉拼搭无障碍体验工坊",
     "organizer": "派誉文化科技",
     "mode": "offline",
@@ -616,24 +601,5 @@
     "source": "huodongxing",
     "source_url": "https://www.huodongxing.com/search?qs=AI%E9%BB%91%E5%AE%A2%E6%9D%BE",
     "notes": "活动行详情内嵌 ativityJson; 标签=人工智能,无障碍科技,社会创新; 地址=报名后可查看详细地址; 状态=4"
-  },
-  {
-    "title": "西安青少年·AI黑客松·一日实战营（2日2场）",
-    "organizer": "AI黄埔学院",
-    "mode": "offline",
-    "city": "西安",
-    "start_date": "2026-07-25",
-    "end_date": "2026-07-26",
-    "deadline": null,
-    "prize": null,
-    "tracks": [
-      "青少年AI教育",
-      "AI黑客松",
-      "编程实战"
-    ],
-    "url": "https://www.huodongxing.com/event/9869867388500",
-    "source": "huodongxing",
-    "source_url": "https://www.huodongxing.com/search?qs=AI%E9%BB%91%E5%AE%A2%E6%9D%BE",
-    "notes": "活动行详情内嵌 ativityJson; 标签=青少年AI教育,AI黑客松,编程实战; 地址=报名后可查看详细地址; 状态=4"
   }
 ]

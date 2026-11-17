@@ -7,20 +7,20 @@ X-WR-CALNAME:AI 赛事雷达
 X-WR-TIMEZONE:Asia/Shanghai
 BEGIN:VEVENT
 UID:4ada71681515@ai-race-radar
-DTSTAMP:20261116T051932Z
+DTSTAMP:20261117T000549Z
 DTSTART;VALUE=DATE:20260911
 DTEND;VALUE=DATE:20261111
 SUMMARY:Spark-X2.5端侧模型创新挑战赛
 DESCRIPTION:主办方：词元星火科技有限公司；报名截止：2
  026-11-10；奖金：10万元；报名：https://challenge.xfyun.cn/topi
- c/info?type=Spark-X25；收录：AI 赛事雷达（2026-11-16T13:19:32 
+ c/info?type=Spark-X25；收录：AI 赛事雷达（2026-11-17T08:05:48 
  核验）
 URL:https://challenge.xfyun.cn/topic/info?type=Spark-X25
 LOCATION:线上
 END:VEVENT
 BEGIN:VEVENT
 UID:4ada71681515-deadline@ai-race-radar
-DTSTAMP:20261116T051932Z
+DTSTAMP:20261117T000549Z
 DTSTART;VALUE=DATE:20261110
 DTEND;VALUE=DATE:20261111
 SUMMARY:⏰ 报名截止：Spark-X2.5端侧模型创新挑战赛

@@ -7,13 +7,13 @@ X-WR-CALNAME:AI 赛事雷达
 X-WR-TIMEZONE:Asia/Shanghai
 BEGIN:VEVENT
 UID:bcad4c1c92d9@ai-race-radar
-DTSTAMP:20261116T051932Z
+DTSTAMP:20261117T000549Z
 DTSTART;VALUE=DATE:20251014
 DTEND;VALUE=DATE:20270101
 SUMMARY:野生动物目标检测挑战赛
 DESCRIPTION:主办方：北京百度网讯科技有限公司；奖金：
  神秘礼品；报名：https://aistudio.baidu.com/competition/detail/14
- 07/0/introduction；收录：AI 赛事雷达（2026-11-16T13:19:32 核
+ 07/0/introduction；收录：AI 赛事雷达（2026-11-17T08:05:48 核
  验）
 URL:https://aistudio.baidu.com/competition/detail/1407/0/introduction
 LOCATION:线上

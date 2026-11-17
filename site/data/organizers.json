@@ -64,6 +64,18 @@
     ]
   },
   {
+    "name": "LinkLike活动专家",
+    "slug": "linklike",
+    "cities": [
+      "杭州"
+    ],
+    "website": "",
+    "intro": "已收录 1 场 AI 赛事（在架 1 / 往届 0），形式：线下；最近一场：免费试玩｜AI PLAY 72H 游戏&互动剧创作黑客松观众招募中。",
+    "events": [
+      "0294c79e5e6b"
+    ]
+  },
+  {
     "name": "QDay",
     "slug": "qday",
     "cities": [],
