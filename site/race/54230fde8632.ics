@@ -7,21 +7,21 @@ X-WR-CALNAME:AI 赛事雷达
 X-WR-TIMEZONE:Asia/Shanghai
 BEGIN:VEVENT
 UID:54230fde8632@ai-race-radar
-DTSTAMP:20261117T000549Z
+DTSTAMP:20261118T000554Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261220
 SUMMARY:知乎黑客松 S3 湾区共创季
 DESCRIPTION:主办方：知乎；报名截止：2026-12-04；奖金：总
  奖金池 ¥120\,000（一等奖 ¥30\,000）；报名：https://www.zhi
  hu.com/hackathon/register?activity_code=zhihu_hackathon_2026_p3；收录
- ：AI 赛事雷达（2026-11-17T08:05:48 核验）
+ ：AI 赛事雷达（2026-11-18T08:05:53 核验）
 URL:https://www.zhihu.com/hackathon/register?activity_code=zhihu_hackatho
  n_2026_p3
 LOCATION:线上
 END:VEVENT
 BEGIN:VEVENT
 UID:54230fde8632-deadline@ai-race-radar
-DTSTAMP:20261117T000549Z
+DTSTAMP:20261118T000554Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:⏰ 报名截止：知乎黑客松 S3 湾区共创季

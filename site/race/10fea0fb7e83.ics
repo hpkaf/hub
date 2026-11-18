@@ -7,19 +7,19 @@ X-WR-CALNAME:AI 赛事雷达
 X-WR-TIMEZONE:Asia/Shanghai
 BEGIN:VEVENT
 UID:10fea0fb7e83@ai-race-radar
-DTSTAMP:20261117T000549Z
+DTSTAMP:20261118T000554Z
 DTSTART;VALUE=DATE:20260819
 DTEND;VALUE=DATE:20261025
 SUMMARY:声纹迷雾复杂场景说话人确认挑战赛
 DESCRIPTION:主办方：声网；报名截止：2026-09-17；奖金：1
  万元；报名：https://challenge.xfyun.cn/topic/info?type=SourceSTC
- ；收录：AI 赛事雷达（2026-11-17T08:05:48 核验）
+ ；收录：AI 赛事雷达（2026-11-18T08:05:53 核验）
 URL:https://challenge.xfyun.cn/topic/info?type=SourceSTC
 LOCATION:线上
 END:VEVENT
 BEGIN:VEVENT
 UID:10fea0fb7e83-deadline@ai-race-radar
-DTSTAMP:20261117T000549Z
+DTSTAMP:20261118T000554Z
 DTSTART;VALUE=DATE:20260917
 DTEND;VALUE=DATE:20260918
 SUMMARY:⏰ 报名截止：声纹迷雾复杂场景说话人确认挑战

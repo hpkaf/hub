@@ -76,6 +76,18 @@
     ]
   },
   {
+    "name": "ModelHub AI创客松",
+    "slug": "modelhub-ai",
+    "cities": [
+      "深圳"
+    ],
+    "website": "",
+    "intro": "已收录 1 场 AI 赛事（在架 1 / 往届 0），形式：线下；最近一场：GO WEST. SCALE UP. 「2027 AI 出海创新交流」。",
+    "events": [
+      "bcd4b4ade563"
+    ]
+  },
+  {
     "name": "QDay",
     "slug": "qday",
     "cities": [],

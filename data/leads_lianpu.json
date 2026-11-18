@@ -198,5 +198,15 @@
     "status": "pending",
     "status_note": "联谱聚合页；需找到主办方官方报名页后再决定是否收录",
     "first_seen": "2026-11-14T08:04:40"
+  },
+  {
+    "title": "AI PLAY 72H 游戏互动剧黑客松",
+    "city": "杭州",
+    "url": "https://lianpu.com/event/ai-play-72h-game-interactive-drama-hackathon",
+    "source": "lianpu",
+    "source_url": "https://lianpu.com/topics/hangzhou-ai",
+    "status": "pending",
+    "status_note": "联谱聚合页；需找到主办方官方报名页后再决定是否收录",
+    "first_seen": "2026-11-18T08:04:51"
   }
 ]

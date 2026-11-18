@@ -450,6 +450,25 @@
     "notes": "活动行详情内嵌 ativityJson; 标签=PLAY,72H,游戏互动剧,创作黑客松; 地址=西投·云城犀谷; 状态=1"
   },
   {
+    "title": "GO WEST. SCALE UP. 「2027 AI 出海创新交流」",
+    "organizer": "ModelHub AI创客松",
+    "mode": "offline",
+    "city": "深圳",
+    "start_date": "2026-12-01",
+    "end_date": "2026-12-01",
+    "deadline": null,
+    "prize": null,
+    "tracks": [
+      "AI出海",
+      "海外市场拓展",
+      "Infra"
+    ],
+    "url": "https://www.huodongxing.com/event/5887680202100",
+    "source": "huodongxing",
+    "source_url": "https://www.huodongxing.com/search?qs=AI%E9%BB%91%E5%AE%A2%E6%9D%BE",
+    "notes": "活动行详情内嵌 ativityJson; 标签=AI出海,海外市场拓展,Infra; 地址=西丽; 状态=1"
+  },
+  {
     "title": "河南青少年AI黑客松实战营",
     "organizer": "AI黄埔学院",
     "mode": "offline",
@@ -582,24 +601,5 @@
     "source": "huodongxing",
     "source_url": "https://www.huodongxing.com/search?qs=AI%E9%BB%91%E5%AE%A2%E6%9D%BE",
     "notes": "活动行详情内嵌 ativityJson; 标签=AI智能体,跨境电商,增长黑客; 地址=具体地址待定(报名成功后将统一通知); 状态=4"
-  },
-  {
-    "title": "探索AI黑客松 × 非视觉拼搭无障碍体验工坊",
-    "organizer": "派誉文化科技",
-    "mode": "offline",
-    "city": "静安",
-    "start_date": "2025-05-10",
-    "end_date": "2025-05-10",
-    "deadline": null,
-    "prize": null,
-    "tracks": [
-      "人工智能",
-      "无障碍科技",
-      "社会创新"
-    ],
-    "url": "https://www.huodongxing.com/event/6802129395500",
-    "source": "huodongxing",
-    "source_url": "https://www.huodongxing.com/search?qs=AI%E9%BB%91%E5%AE%A2%E6%9D%BE",
-    "notes": "活动行详情内嵌 ativityJson; 标签=人工智能,无障碍科技,社会创新; 地址=报名后可查看详细地址; 状态=4"
   }
 ]

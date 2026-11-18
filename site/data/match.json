@@ -442,6 +442,25 @@
     "summary": "Empowering Builders Through Algorand-Powered Hackathons AlgoBharat Regional Hackathon Sponsorship Program is designed to enable Web3 communities, colleges, developers and builders across India to..."
   },
   {
+    "id": "bcd4b4ade563",
+    "title": "GO WEST. SCALE UP. 「2027 AI 出海创新交流」",
+    "organizer": "ModelHub AI创客松",
+    "mode": "offline",
+    "city": "深圳",
+    "status": "upcoming",
+    "deadline": null,
+    "ai_level": "core",
+    "tracks": [
+      "AI出海",
+      "海外市场拓展",
+      "Infra"
+    ],
+    "directions": [
+      "other"
+    ],
+    "summary": ""
+  },
+  {
     "id": "57507797734e",
     "title": "Terminal 3 Build+Scale Agent Micro Grant",
     "organizer": "Terminal 3",
@@ -690,27 +709,6 @@
       "compute"
     ],
     "summary": "使用飞桨深度学习框架，在官方给定的数据集上，训练一个神经网络模型，使其能够具备三类野生动物的目标检测能力。｜CV、目标检测"
-  },
-  {
-    "id": "844cce87824f",
-    "title": "面向生物医学全文的特定患者表型概念识别任务-赛后评测",
-    "organizer": null,
-    "mode": "online",
-    "city": null,
-    "status": "closed",
-    "deadline": "2026-08-19",
-    "ai_level": "platform",
-    "tracks": [
-      "‌医疗健康",
-      "自然语言处理",
-      "大语言模型"
-    ],
-    "directions": [
-      "llm",
-      "multimodal",
-      "vertical"
-    ],
-    "summary": ""
   },
   {
     "id": "6b6403ff04d6",
