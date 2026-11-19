@@ -7,12 +7,12 @@ X-WR-CALNAME:AI 赛事雷达
 X-WR-TIMEZONE:Asia/Shanghai
 BEGIN:VEVENT
 UID:fb3f0698599e@ai-race-radar
-DTSTAMP:20261118T000554Z
+DTSTAMP:20261119T000548Z
 DTSTART;VALUE=DATE:20260906
 DTEND;VALUE=DATE:20261114
 SUMMARY:Beyond the Benchmark: The Binance Agentic AI Challenge
 DESCRIPTION:主办方：Binance；报名：https://dorahacks.io/hackathon
- /binance；收录：AI 赛事雷达（2026-11-18T08:05:53 核验）
+ /binance；收录：AI 赛事雷达（2026-11-19T08:05:48 核验）
 URL:https://dorahacks.io/hackathon/binance
 LOCATION:线上
 END:VEVENT

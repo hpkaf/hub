@@ -411,6 +411,25 @@
     "notes": "DoraHacks API: tags=AI Agent,Live Trading,Trading Strategies,Real World Assets,Onchain Finance; ecosystem=OpenAI,Anthropic,Llama,LangChain,Python"
   },
   {
+    "title": "奥林匹斯青少年AI黑客松训练营",
+    "organizer": "小威鸽",
+    "mode": "offline",
+    "city": "徐汇",
+    "start_date": "2026-11-21",
+    "end_date": "2026-11-21",
+    "deadline": null,
+    "prize": null,
+    "tracks": [
+      "青少年AI",
+      "黑客松",
+      "AIGC创作"
+    ],
+    "url": "https://www.huodongxing.com/event/7887844421000",
+    "source": "huodongxing",
+    "source_url": "https://www.huodongxing.com/search?qs=AI%E9%BB%91%E5%AE%A2%E6%9D%BE",
+    "notes": "活动行详情内嵌 ativityJson; 标签=青少年AI,黑客松,AIGC创作; 地址=报名后可查看详细地址; 状态=1"
+  },
+  {
     "title": "What If Lab｜万一实验室——AI 硬件创意黑客松",
     "organizer": "亚马逊云科技 User Group",
     "mode": "offline",
@@ -448,6 +467,26 @@
     "source": "huodongxing",
     "source_url": "https://www.huodongxing.com/search?qs=AI%E9%BB%91%E5%AE%A2%E6%9D%BE",
     "notes": "活动行详情内嵌 ativityJson; 标签=PLAY,72H,游戏互动剧,创作黑客松; 地址=西投·云城犀谷; 状态=1"
+  },
+  {
+    "title": "11 月 28 日，深圳见！MoonBit 1.0 重磅发布 meetup 暨黑客松季度决赛预告",
+    "organizer": "粤港澳大湾区数字经济研究院（福田）",
+    "mode": "offline",
+    "city": "深圳",
+    "start_date": "2026-11-28",
+    "end_date": "2026-11-28",
+    "deadline": null,
+    "prize": null,
+    "tracks": [
+      "MoonBit",
+      "1",
+      "0版本发布",
+      "开发者Meetup"
+    ],
+    "url": "https://www.huodongxing.com/event/4887574320800",
+    "source": "huodongxing",
+    "source_url": "https://www.huodongxing.com/search?qs=AI%E9%BB%91%E5%AE%A2%E6%9D%BE",
+    "notes": "活动行详情内嵌 ativityJson; 标签=MoonBit,1,0版本发布,开发者Meetup; 地址=莞深(河套)创新中心福田保税区达升物流大厦5层; 状态=1"
   },
   {
     "title": "GO WEST. SCALE UP. 「2027 AI 出海创新交流」",
@@ -545,61 +584,22 @@
     "notes": "活动行详情内嵌 ativityJson; 标签=青少年AI教育,AI黑客松,编程实战; 地址=报名后可查看详细地址; 状态=4"
   },
   {
-    "title": "2.5W奖金池｜10小时小白友好 AI 黑客松@上海",
-    "organizer": "HackQuest",
+    "title": "探索AI黑客松 × 非视觉拼搭无障碍体验工坊",
+    "organizer": "派誉文化科技",
     "mode": "offline",
-    "city": "浦东",
-    "start_date": "2026-05-23",
-    "end_date": "2026-05-23",
+    "city": "静安",
+    "start_date": "2025-05-10",
+    "end_date": "2025-05-10",
     "deadline": null,
     "prize": null,
     "tracks": [
-      "AI黑客松",
-      "Bittensor子网",
-      "激励机制设计"
+      "人工智能",
+      "无障碍科技",
+      "社会创新"
     ],
-    "url": "https://www.huodongxing.com/event/5860088194200",
+    "url": "https://www.huodongxing.com/event/6802129395500",
     "source": "huodongxing",
     "source_url": "https://www.huodongxing.com/search?qs=AI%E9%BB%91%E5%AE%A2%E6%9D%BE",
-    "notes": "活动行详情内嵌 ativityJson; 标签=AI黑客松,Bittensor子网,激励机制设计; 地址=报名后可查看详细地址; 状态=4"
-  },
-  {
-    "title": "光年AI黑客松：如何做一个卖货的智能体",
-    "organizer": "光年AI",
-    "mode": "offline",
-    "city": "杭州",
-    "start_date": "2026-01-10",
-    "end_date": "2026-01-10",
-    "deadline": null,
-    "prize": null,
-    "tracks": [
-      "AI智能体",
-      "电商卖货",
-      "黑客松",
-      "AI增长"
-    ],
-    "url": "https://www.huodongxing.com/event/5840452724500",
-    "source": "huodongxing",
-    "source_url": "https://www.huodongxing.com/search?qs=AI%E9%BB%91%E5%AE%A2%E6%9D%BE",
-    "notes": "活动行详情内嵌 ativityJson; 标签=AI智能体,电商卖货,黑客松,AI增长; 地址=具体地址待定(报名成功后客服将加您统一通知); 状态=4"
-  },
-  {
-    "title": "光年AI黑客松：如何做一个卖货的智能体（跨境版）",
-    "organizer": "光年AI",
-    "mode": "offline",
-    "city": "深圳",
-    "start_date": "2026-01-17",
-    "end_date": "2026-01-17",
-    "deadline": null,
-    "prize": null,
-    "tracks": [
-      "AI智能体",
-      "跨境电商",
-      "增长黑客"
-    ],
-    "url": "https://www.huodongxing.com/event/2840597803511",
-    "source": "huodongxing",
-    "source_url": "https://www.huodongxing.com/search?qs=AI%E9%BB%91%E5%AE%A2%E6%9D%BE",
-    "notes": "活动行详情内嵌 ativityJson; 标签=AI智能体,跨境电商,增长黑客; 地址=具体地址待定(报名成功后将统一通知); 状态=4"
+    "notes": "活动行详情内嵌 ativityJson; 标签=人工智能,无障碍科技,社会创新; 地址=报名后可查看详细地址; 状态=4"
   }
 ]

@@ -7,14 +7,14 @@ X-WR-CALNAME:AI 赛事雷达
 X-WR-TIMEZONE:Asia/Shanghai
 BEGIN:VEVENT
 UID:60c4ebefaca4@ai-race-radar
-DTSTAMP:20261118T000554Z
+DTSTAMP:20261119T000548Z
 DTSTART;VALUE=DATE:20260506
 DTEND;VALUE=DATE:20260901
 SUMMARY:百度商业AI技术创新大赛-生成式推荐广告排序推
  理性能优化
 DESCRIPTION:奖金：￥19W (含NV-DGX-Spark)；报名：https://aistudio
  .baidu.com/competition/detail/1461/0/introduction；收录：AI 赛事
- 雷达（2026-11-18T08:05:53 核验）
+ 雷达（2026-11-19T08:05:48 核验）
 URL:https://aistudio.baidu.com/competition/detail/1461/0/introduction
 LOCATION:线上
 END:VEVENT
