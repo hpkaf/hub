@@ -1,44 +1,5 @@
 [
   {
-    "id": "625b5a71ebac",
-    "title": "全新升级！第二届具亮计划·全球具身智能黑客松",
-    "organizer": "具亮计划",
-    "mode": "online",
-    "city": null,
-    "status": "closing",
-    "deadline": "2026-11-19",
-    "ai_level": "core",
-    "tracks": [
-      "具身智能",
-      "LLM 算法竞赛"
-    ],
-    "directions": [
-      "llm",
-      "embodied",
-      "algorithm"
-    ],
-    "summary": ""
-  },
-  {
-    "id": "3770f5a44e8f",
-    "title": "群核科技Ahoolo 全球3D AI黑客松",
-    "organizer": "群核科技",
-    "mode": "online",
-    "city": null,
-    "status": "closing",
-    "deadline": "2026-11-19",
-    "ai_level": "core",
-    "tracks": [
-      "黑客松",
-      "3D AI",
-      "3D 生成模型 Aholo Lux3D"
-    ],
-    "directions": [
-      "aigc"
-    ],
-    "summary": ""
-  },
-  {
     "id": "17ce50173bb1",
     "title": "Agent Arena Competition: Evidence Mining",
     "organizer": "Gensyn",
@@ -653,6 +614,25 @@
     "summary": "天工计划·鸿蒙智能体开发者激励（下称“计划”或“天工计划”）是由华为发起的开发者支持项目，旨在鼓励开发者参与AI生态创新，推动鸿蒙AI生态的建设和繁荣发展。"
   },
   {
+    "id": "7461baf67a94",
+    "title": "深圳第四届湾区青年戏剧季·AI戏剧共创营·戏剧季黑客松",
+    "organizer": "图灵造物",
+    "mode": "offline",
+    "city": "深圳",
+    "status": "open",
+    "deadline": null,
+    "ai_level": "core",
+    "tracks": [
+      "AI戏剧共创",
+      "AIGC",
+      "黑客松"
+    ],
+    "directions": [
+      "aigc"
+    ],
+    "summary": ""
+  },
+  {
     "id": "bfd3aecdcbab",
     "title": "火山杯 Agent 创新大赛",
     "organizer": "火山引擎",
@@ -1128,6 +1108,45 @@
       "other"
     ],
     "summary": "Introduction Aevum Builder Challenge 1 is a free, online hackathon for developers worldwide. Builders are challenged to ship practical stablecoin payment related applications on the Aevum testnet..."
+  },
+  {
+    "id": "625b5a71ebac",
+    "title": "全新升级！第二届具亮计划·全球具身智能黑客松",
+    "organizer": "具亮计划",
+    "mode": "online",
+    "city": null,
+    "status": "closed",
+    "deadline": "2026-11-19",
+    "ai_level": "core",
+    "tracks": [
+      "具身智能",
+      "LLM 算法竞赛"
+    ],
+    "directions": [
+      "llm",
+      "embodied",
+      "algorithm"
+    ],
+    "summary": ""
+  },
+  {
+    "id": "3770f5a44e8f",
+    "title": "群核科技Ahoolo 全球3D AI黑客松",
+    "organizer": "群核科技",
+    "mode": "online",
+    "city": null,
+    "status": "closed",
+    "deadline": "2026-11-19",
+    "ai_level": "core",
+    "tracks": [
+      "黑客松",
+      "3D AI",
+      "3D 生成模型 Aholo Lux3D"
+    ],
+    "directions": [
+      "aigc"
+    ],
+    "summary": ""
   },
   {
     "id": "59a629172564",

@@ -7,20 +7,20 @@ X-WR-CALNAME:AI 赛事雷达
 X-WR-TIMEZONE:Asia/Shanghai
 BEGIN:VEVENT
 UID:86c57475d2e5@ai-race-radar
-DTSTAMP:20261119T000548Z
+DTSTAMP:20261120T000559Z
 DTSTART;VALUE=DATE:20260623
 DTEND;VALUE=DATE:20261025
 SUMMARY:智慧生活助理Skill开发挑战赛
 DESCRIPTION:主办方：科大讯飞股份有限公司；报名截止：2
  026-08-27；奖金：1.23万元；报名：https://challenge.xfyun.cn/to
- pic/info?type=SLA-Skill；收录：AI 赛事雷达（2026-11-19T08:05:48
+ pic/info?type=SLA-Skill；收录：AI 赛事雷达（2026-11-20T08:05:59
   核验）
 URL:https://challenge.xfyun.cn/topic/info?type=SLA-Skill
 LOCATION:线上
 END:VEVENT
 BEGIN:VEVENT
 UID:86c57475d2e5-deadline@ai-race-radar
-DTSTAMP:20261119T000548Z
+DTSTAMP:20261120T000559Z
 DTSTART;VALUE=DATE:20260827
 DTEND;VALUE=DATE:20260828
 SUMMARY:⏰ 报名截止：智慧生活助理Skill开发挑战赛

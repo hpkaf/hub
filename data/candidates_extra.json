@@ -102,7 +102,7 @@
     "notes": "魔搭活动页（进行中）：本届黑客松，我们不设命题。只需你使用3D生成模型Aholo Lux3D，完成一份3D AI作品或Demo。",
     "registration_closed": false,
     "id": "e3d18ccf5bdb",
-    "status": "closing"
+    "status": "closed"
   },
   {
     "title": "2026全国大数据与计算智能挑战赛",
@@ -205,7 +205,7 @@
     "mode": null,
     "city": null,
     "start_date": null,
-    "end_date": "2026-11-19",
+    "end_date": "2026-11-20",
     "deadline": null,
     "prize": "￥10,000,000",
     "tracks": [],
@@ -224,7 +224,7 @@
     "mode": null,
     "city": null,
     "start_date": null,
-    "end_date": "2026-11-19",
+    "end_date": "2026-11-20",
     "deadline": null,
     "prize": "￥2,000,000+国家级平台项目+名企和事业单位实习及入职机会+创意后续转化",
     "tracks": [],
@@ -243,7 +243,7 @@
     "mode": null,
     "city": null,
     "start_date": null,
-    "end_date": "2026-11-19",
+    "end_date": "2026-11-20",
     "deadline": null,
     "prize": "国家气象部门合作机会",
     "tracks": [],

@@ -469,6 +469,25 @@
     "notes": "活动行详情内嵌 ativityJson; 标签=PLAY,72H,游戏互动剧,创作黑客松; 地址=西投·云城犀谷; 状态=1"
   },
   {
+    "title": "深圳第四届湾区青年戏剧季·AI戏剧共创营·戏剧季黑客松",
+    "organizer": "图灵造物",
+    "mode": "offline",
+    "city": "深圳",
+    "start_date": "2026-11-19",
+    "end_date": "2026-12-29",
+    "deadline": null,
+    "prize": null,
+    "tracks": [
+      "AI戏剧共创",
+      "AIGC",
+      "黑客松"
+    ],
+    "url": "https://www.huodongxing.com/event/6887876169600",
+    "source": "huodongxing",
+    "source_url": "https://www.huodongxing.com/search?qs=AI%E9%BB%91%E5%AE%A2%E6%9D%BE",
+    "notes": "活动行详情内嵌 ativityJson; 标签=AI戏剧共创,AIGC,黑客松; 地址=光明区马术中心·骑士之家; 状态=1"
+  },
+  {
     "title": "11 月 28 日，深圳见！MoonBit 1.0 重磅发布 meetup 暨黑客松季度决赛预告",
     "organizer": "粤港澳大湾区数字经济研究院（福田）",
     "mode": "offline",
@@ -582,24 +601,5 @@
     "source": "huodongxing",
     "source_url": "https://www.huodongxing.com/search?qs=AI%E9%BB%91%E5%AE%A2%E6%9D%BE",
     "notes": "活动行详情内嵌 ativityJson; 标签=青少年AI教育,AI黑客松,编程实战; 地址=报名后可查看详细地址; 状态=4"
-  },
-  {
-    "title": "探索AI黑客松 × 非视觉拼搭无障碍体验工坊",
-    "organizer": "派誉文化科技",
-    "mode": "offline",
-    "city": "静安",
-    "start_date": "2025-05-10",
-    "end_date": "2025-05-10",
-    "deadline": null,
-    "prize": null,
-    "tracks": [
-      "人工智能",
-      "无障碍科技",
-      "社会创新"
-    ],
-    "url": "https://www.huodongxing.com/event/6802129395500",
-    "source": "huodongxing",
-    "source_url": "https://www.huodongxing.com/search?qs=AI%E9%BB%91%E5%AE%A2%E6%9D%BE",
-    "notes": "活动行详情内嵌 ativityJson; 标签=人工智能,无障碍科技,社会创新; 地址=报名后可查看详细地址; 状态=4"
   }
 ]

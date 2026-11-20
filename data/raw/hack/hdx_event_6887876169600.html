@@ -1,0 +1,2121 @@
+<!DOCTYPE html>
+<style>
+   
+    .posi-fixed-top-wrap .feature-head-bottom-left .nav-list .nav-item {
+        margin-left: 55px !important;
+    }
+    .posi-fixed-top-wrap {display: none;}
+    .login-modal.modal{
+        position: relative;
+        font-size: 14px;
+        background: #fff;
+        bottom: initial;
+        
+    }
+    .login-modal{
+        display: none;
+    }
+    .modal-open .login-modal.modal{
+        overflow: initial;
+    }
+    .login-modal .modal-dialog{
+        padding: 0;
+    }
+    .login-modal .modal-header .close{
+        height: 40px;
+        width: 40px;
+        position: absolute;
+        top: 0;
+        right: -50px;
+        background: #FFFFFF;
+        border-radius: 50%;
+        font-size: 29px;
+        color: #666;
+        font-weight: initial;
+    }
+    .login-modal .modal-body{
+        text-align: center;
+        padding: 40px;
+    }
+    .login-modal .modal-footer{
+        padding: 20px 0;
+        background: #F8F8F8;
+        
+    }
+    .login-modal .modal-header{
+        padding: 20px 70px 0 40px;
+        text-align: right;
+    }
+    .login-modal .login-phone{
+        position: absolute;
+        right: 0;
+        top: 0;
+        cursor: pointer;
+    }
+    .login-modal-botton{
+        padding: 6px 15px;
+        background: rgba(3, 179, 73, .1);
+        display: inline-block;
+    }
+    .login-modal .login-modal-tip{
+        text-align: center;
+    }
+    .login-modal .login-modal-title{
+        font-size: 20px;
+        color: #333333;
+    }
+    .login-modal .login-modal-link{
+        color: #03B349;
+        cursor: pointer;
+    }
+    .impowerBox .qrcode{
+        width: 200px;
+    }
+    .code-botton-box .tooltip.top .tooltip-arrow{
+        display: none;
+    }
+    .sign-bd .login-form .qrcode_login_wrapper .qr_wrapper{
+        width: 116px;
+        height: 116px;
+        overflow: hidden;
+        position: relative;
+        margin: 0 auto;
+    }
+    .sign-bd .login-form .qrcode_login_wrapper .qr_wrapper .mask_box{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        line-height: 116px;
+        display:none;
+		background-color: rgba(255,255,255,0.9)
+    }
+	.sign-bd .login-form .qrcode_login_wrapper .qr_wrapper #qrCodeWrapper img{
+		width:100%;
+		height:100%;
+	}
+    .qrcode_login_wrapper .qr_wrapper .mask_box .qrcode_status_desc{
+		font-size:16px;
+		font-family: PingFangSC-Regular;
+        height: 32px;
+		line-height:32px;
+        cursor:pointer;
+		color: #000;
+		margin-top: 20px;
+    }
+	.qrcode_login_wrapper .qr_wrapper .mask_box .reloadBtn{
+		font-family: PingFangSC-Regular;
+        width: 100px;
+        margin: 0px auto 10px;
+        height: 32px;
+		line-height:32px;
+        cursor:pointer;
+		background: #06b249;
+		color: #fff;
+		font-size: 14px;
+    }
+    .hdx-feature-head-bottom-new .feature-head-bottom-right .punlish-activity{
+        width: auto !important;
+        padding: 0 18px;
+    }
+
+ 
+</style>
+<html lang="en" xmlns:wb="http://open.weibo.com/wb" class="huodongxing">
+	<head>
+		<title>深圳第四届湾区青年戏剧季&#183;AI戏剧共创营&#183;戏剧季黑客松 预约报名-图灵造物活动-活动行</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="Pragma" content="no-cache" />
+		<meta name="viewport" content="width=960, initial-scale=1.0" />
+		<meta name="distribution" content="global" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+        <!-- Set render engine for 360 browser -->
+  		<meta name="renderer" content="webkit">
+		<meta name="author" content="活动行" />
+		<meta name="publisher" content="活动行" />
+		<meta name="rating" content="general" />
+		<meta name="copyright" content="&copy; 2012 京ICP备12026130号" />
+		<meta name="webcrawlers" content="all" />
+		<meta name="company" content="北京艾科创意信息技术有限公司" />
+		<meta name="subject" content="找活动，办活动，上活动行" />
+		<meta name="abstract" content="领先的活动报名及电子票务平台" />
+		<meta name="sina-page-nonceid" content="2535KbV86db3d955Ef56KVU95485n88g88gxfF059J589iy8e7585d6v" />
+		    <meta name="description" content="深圳第四届湾区青年戏剧季&#183;AI戏剧共创营&#183;戏剧季黑客松,活动时间,预约报名,活动地址,活动详情,活动嘉宾,主办方等" />
+		    <meta name="keywords" content="AIGC,黑客松,线下活动,预约报名,免费票券,AI戏剧共创,深圳第四届湾区青年戏剧季&#183;AI戏剧共创营&#183;戏剧季黑客松,图灵造物" />
+		    <meta property="og:description" content="深圳第四届湾区青年戏剧季&#183;AI戏剧共创营&#183;戏剧季黑客松,活动时间,预约报名,活动地址,活动详情,活动嘉宾,主办方等" />
+		    <meta property="og:title" content="深圳第四届湾区青年戏剧季&#183;AI戏剧共创营&#183;戏剧季黑客松" />
+		    <meta property="og:type" content="website" />
+		    <meta property="og:site_name" content="活动行" />
+		    <meta property="og:image" content="https://wimg.huodongxing.com/logo/202611/6887876169600/756165809281847_v2.jpg@!wmlogo" />
+        
+    <link href="https://cdn.huodongxing.com/Content/v2.0/dist/css/hdx.min.css?v=v6.11.4" rel="stylesheet" type="text/css" />
+
+		
+        <meta name="robots" content="all" />
+        <meta name="spiders" content="all" />
+
+	    <link rel="SHORTCUT ICON" href="https://cdn.huodongxing.com/Content/img/favicon.ico"/>
+        <link href="https://cdn.huodongxing.com/Content/v3.0/dist/css/hdx-main-feature.css" rel="stylesheet" type="text/css" />
+        <link href="https://cdn.huodongxing.com/Content/v2.0/dist/css/hdx_common.css" rel="stylesheet" type="text/css" />
+        <link href="https://cdn.huodongxing.com/Content/v2.0/dist/css/new-home-replenish.css" rel="stylesheet" type="text/css" />
+        <link href="https://cdn.huodongxing.com/Content/v2.0/plugin/swiper/3.4.2/dist/css/swiper.min.css" rel="stylesheet">
+        <script src="https://cdn.huodongxing.com/Content/v2.0/plugin/jquery/v2.2.4/jquery.min.js" type="text/javascript"></script>
+        <script src="https://cdn.huodongxing.com/Content/v2.0/plugin/swiper/3.4.2/dist/js/swiper.jquery.min.js"></script>   
+        <script src="https://cdn.huodongxing.com/Content/v3.0/dist/lib/layui/layui.js" type="text/javascript"></script>
+        
+        <script src="https://cdn.huodongxing.com/Content/v3.0/dist/js/hdx-main-feature.js" type="text/javascript"></script>
+        
+        <script type="text/javascript" src="https://cdn.huodongxing.com/Content/js/qrcode.min.js"></script>
+	    
+        <link rel="stylesheet" href="https://cdn.huodongxing.com/Content/element-plus-2.9.5/index.css" />
+        <link rel="stylesheet" href="https://cdn.huodongxing.com/Content/v2.0/hdx-admin/css/common.css" />
+        <script src="https://cdn.huodongxing.com/Content/v2.0/dist/js/vue.global.js"></script>
+        <script src="https://cdn.huodongxing.com/Content/v2.0/hdx-details/element-plus/zh-cn.js"></script>
+        <script src="https://cdn.huodongxing.com/Content/v2.0/hdx-details/element-plus/en.js"></script>
+        <script src="https://cdn.huodongxing.com/Content/element-plus-2.9.5/element-plus.js"></script>
+        <script src="https://cdn.huodongxing.com/Content/element-plus-2.9.5/icons-vue.js"></script>
+        <script src="https://cdn.huodongxing.com/Content/vue-i18n/vue-i18n.js"></script>
+
+		
+    <script type='x-template' id='tpContent'>
+        <!-- iframe 转换video 控制播放 -->
+        <h5 style="--scrollbar-thumb: color-mix(in oklab, #262626 30%, transparent); --scrollbar-thumb-hover: color-mix(in oklab, #262626 55%, transparent); --scrollbar-thumb-active: color-mix(in oklab, #262626 55%, transparent); scrollbar-width: auto; scrollbar-color: auto; box-sizing: border-box; margin-block: 24px 12px; color: #262626; font-size: 17px; font-weight: 600; line-height: 1.5; font-family: 'DM Sans', 'Noto Sans SC', 'PingFang SC', sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: #f6f3ef; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;"><a href="https://turingark.mxgent.cn/#/" target="_blank" rel="noopener">赛事报名地址</a></h5>
+<h5 style="--scrollbar-thumb: color-mix(in oklab, #262626 30%, transparent); --scrollbar-thumb-hover: color-mix(in oklab, #262626 55%, transparent); --scrollbar-thumb-active: color-mix(in oklab, #262626 55%, transparent); scrollbar-width: auto; scrollbar-color: auto; box-sizing: border-box; margin-block: 24px 12px; color: #262626; font-size: 17px; font-weight: 600; line-height: 1.5; font-family: 'DM Sans', 'Noto Sans SC', 'PingFang SC', sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: #f6f3ef; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">适合人群</h5>
+<p style="--scrollbar-thumb: color-mix(in oklab, #262626 30%, transparent); --scrollbar-thumb-hover: color-mix(in oklab, #262626 55%, transparent); --scrollbar-thumb-active: color-mix(in oklab, #262626 55%, transparent); scrollbar-width: auto; scrollbar-color: auto; box-sizing: border-box; line-height: 1.75; text-wrap: pretty; margin: 0px; margin-block: 12px; color: #262626; font-family: 'DM Sans', 'Noto Sans SC', 'PingFang SC', sans-serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space-collapse: collapse; background-color: #f6f3ef; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">AI创作爱好者、戏剧爱好者、高校学生、文艺社团及数字创意从业者。</p>
+<h5 style="--scrollbar-thumb: color-mix(in oklab, #262626 30%, transparent); --scrollbar-thumb-hover: color-mix(in oklab, #262626 55%, transparent); --scrollbar-thumb-active: color-mix(in oklab, #262626 55%, transparent); scrollbar-width: auto; scrollbar-color: auto; box-sizing: border-box; margin-block: 24px 12px; color: #262626; font-size: 17px; font-weight: 600; line-height: 1.5; font-family: 'DM Sans', 'Noto Sans SC', 'PingFang SC', sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: #f6f3ef; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">活动信息</h5>
+<ul style="--scrollbar-thumb: color-mix(in oklab, #262626 30%, transparent); --scrollbar-thumb-hover: color-mix(in oklab, #262626 55%, transparent); --scrollbar-thumb-active: color-mix(in oklab, #262626 55%, transparent); scrollbar-width: auto; scrollbar-color: auto; box-sizing: border-box; margin-block: 12px; color: #262626; font-family: 'DM Sans', 'Noto Sans SC', 'PingFang SC', sans-serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: #f6f3ef; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">
+<li style="--scrollbar-thumb: color-mix(in oklab, #262626 30%, transparent); --scrollbar-thumb-hover: color-mix(in oklab, #262626 55%, transparent); --scrollbar-thumb-active: color-mix(in oklab, #262626 55%, transparent); scrollbar-width: auto; scrollbar-color: auto; box-sizing: border-box;">活动时间：2026年11月21日&mdash;29日</li>
+<li style="--scrollbar-thumb: color-mix(in oklab, #262626 30%, transparent); --scrollbar-thumb-hover: color-mix(in oklab, #262626 55%, transparent); --scrollbar-thumb-active: color-mix(in oklab, #262626 55%, transparent); scrollbar-width: auto; scrollbar-color: auto; box-sizing: border-box;">赛程信息：
+<ul style="--scrollbar-thumb: color-mix(in oklab, #262626 30%, transparent); --scrollbar-thumb-hover: color-mix(in oklab, #262626 55%, transparent); --scrollbar-thumb-active: color-mix(in oklab, #262626 55%, transparent); scrollbar-width: auto; scrollbar-color: auto; box-sizing: border-box; margin-block: 12px;">
+<li style="--scrollbar-thumb: color-mix(in oklab, #262626 30%, transparent); --scrollbar-thumb-hover: color-mix(in oklab, #262626 55%, transparent); --scrollbar-thumb-active: color-mix(in oklab, #262626 55%, transparent); scrollbar-width: auto; scrollbar-color: auto; box-sizing: border-box;">11月21日：线下活动开启暨报名开启｜光明马术中心骑士之家</li>
+<li style="--scrollbar-thumb: color-mix(in oklab, #262626 30%, transparent); --scrollbar-thumb-hover: color-mix(in oklab, #262626 55%, transparent); --scrollbar-thumb-active: color-mix(in oklab, #262626 55%, transparent); scrollbar-width: auto; scrollbar-color: auto; box-sizing: border-box;">11月26日：初赛结赛｜线上竞赛</li>
+<li style="--scrollbar-thumb: color-mix(in oklab, #262626 30%, transparent); --scrollbar-thumb-hover: color-mix(in oklab, #262626 55%, transparent); --scrollbar-thumb-active: color-mix(in oklab, #262626 55%, transparent); scrollbar-width: auto; scrollbar-color: auto; box-sizing: border-box;">11月29日：决赛暨demo日｜福田区车公庙联泰大厦26楼</li>
+</ul>
+</li>
+<li style="--scrollbar-thumb: color-mix(in oklab, #262626 30%, transparent); --scrollbar-thumb-hover: color-mix(in oklab, #262626 55%, transparent); --scrollbar-thumb-active: color-mix(in oklab, #262626 55%, transparent); scrollbar-width: auto; scrollbar-color: auto; box-sizing: border-box;">参赛方式：个人或团队报名，自备电脑及AI工具</li>
+<li style="--scrollbar-thumb: color-mix(in oklab, #262626 30%, transparent); --scrollbar-thumb-hover: color-mix(in oklab, #262626 55%, transparent); --scrollbar-thumb-active: color-mix(in oklab, #262626 55%, transparent); scrollbar-width: auto; scrollbar-color: auto; box-sizing: border-box;">创作安排：现场启动，离场后可继续创作</li>
+</ul>
+<p><img class="editor-img" style="max-width: 100%; height: auto;"  src="http://cdn.huodongxing.com/file/ue/20261118/1159D70F60E93F910ACE40022DA23B8B5B/30586166859052605.jpg"  alt="合作伙伴招募中.jpeg"></p>
+        
+    </script>
+    <script type='x-template' id='tpSubContent'>
+    </script>
+
+      
+		<script type="text/javascript">
+            const { createApp, onMounted, onBeforeMount, onUnmounted, ref, reactive, computed, getCurrentInstance, nextTick, defineExpose, watch } = Vue
+            const { ElMessage, ElLoading, ElMessageBox } = ElementPlus
+			var uvOptions = {};
+			var _atrk_opts = { atrk_acct: "GgKTe1aoiI00WL", domain: "huodongxing.com", dynamic: true };
+
+			function validateEmail(email) {
+				if (email == null || $.trim(email) == "") return false;
+				var pattern = /^([A-Za-z0-9]+)(([A-Za-z0-9]+)|(_+)|(\-+)|(\.+)|(\++))*@((\w+\-+)|(\w+\.))*\w{1,63}\.[a-zA-Z]{2,6}$/i;
+				return pattern.test($.trim(email));
+			}
+			function validatePhone(phone) {
+				if (phone == null || $.trim(phone) == "") return false;
+                var pattern = /(^((0[1,2]{1}\d{1}-?\d{8})|(0[3-9]{1}\d{2}-?\d{7,8}))$)|(^(0|86|17951)?(13[0-9]|14[0145678]|15[0-9]|16[256789]|17[0-9]|18[0-9]|19[0-9])[0-9]{8}$)/;
+                
+                
+				return pattern.test($.trim(phone));
+			}
+
+            function setCookie(name, value, minutes) {
+		        var exp = new Date();
+		        exp.setTime(exp.getTime() + minutes * 60 * 1000);
+		        document.cookie = name + "=" + escape(value) + ";expires=" + exp.toGMTString();
+		    }
+
+		    function getCookie(c_name) {
+		        if (document.cookie.length > 0) {
+		            c_start = document.cookie.indexOf(c_name + "=")
+		            if (c_start != -1) {
+		                c_start = c_start + c_name.length + 1
+		                c_end = document.cookie.indexOf(";", c_start)
+		                if (c_end == -1) c_end = document.cookie.length
+		                return unescape(document.cookie.substring(c_start, c_end))
+		            }
+		        }
+		        return "";
+		    }
+
+			Date.prototype.format = function (format) { //author: meizz
+				var o = {
+					"M+": this.getMonth() + 1, //month
+					"d+": this.getDate(),    //day
+					"h+": this.getHours(),   //hour
+					"m+": this.getMinutes(), //minute
+					"s+": this.getSeconds(), //second
+					"q+": Math.floor((this.getMonth() + 3) / 3),  //quarter
+					"S": this.getMilliseconds() //millisecond
+				}
+				if (/(y+)/.test(format)) format = format.replace(RegExp.$1, (this.getFullYear() + "").substr(4 - RegExp.$1.length));
+				for (var k in o) if (new RegExp("(" + k + ")").test(format))
+					format = format.replace(RegExp.$1, RegExp.$1.length == 1 ? o[k] : ("00" + o[k]).substr(("" + o[k]).length));
+				return format;
+			}
+            var _hmt = _hmt || [];
+		</script>
+
+        <!-- 1. 引入 GA4 脚本 (异步加载) -->
+        <script async defer src="https://www.googletagmanager.com/gtag/js?id=G-NP3FDFJPV7"></script>
+        <script async src="https://cdn.huodongxing.com/Content/v2.0/hdx-home/js/utils.js"></script>
+        <script>window.hdxDebug=window.hdxDebug||{enable:function(){},disable:function(){},reset:function(){},addUser:function(){},removeUser:function(){},isEnabled:function(){return!1},getUsers:function(){return[]},log:function(){},info:function(){},warn:function(){},error:function(){},debug:function(){},group:function(){},groupCollapsed:function(){},groupEnd:function(){},table:function(){},time:function(){},timeEnd:function(){},trace:function(){},dir:function(){},count:function(){},assert:function(){}}</script>
+        <script src="https://cdn.huodongxing.com/Content/v2.0/hdx-details/js/hdx-debug.js"></script>
+        <script>
+            // 初始化 dataLayer
+            function google_analytics_script(){
+                // 我们在 C# 端构建一个配置对象，然后序列化为 JSON，这样更安全且易读
+                var gaConfig = {
+                    // 默认关闭自动发送页面浏览，因为我们可能需要根据条件添加自定义参数
+                    'send_page_view': false 
+                };
+                googleAnalyticsGA4(gaConfig);
+            }
+        </script>
+        <script>
+		
+		    var mUserState = {"UserId":"","Name":"","Logo":"","Phone":"","Email":"","IsWeixin":false,"LastLoginDate":"","VipRank":0,"OpenIdWeixin":"","IdentityExpired":"","VipExpDate":"","OnlineVipType":-1,"OnlineVipExpDate":"","AuthType":-1,"IsMemberVip":false};
+	    </script>
+        <style>
+            .tab-hidden{display: none;}
+        </style>
+	</head>
+	<body>
+        <section class="hdx-feature-wrap">
+          <header style="display: none;" class="hdx-feature-head">
+            <div class="header-content flex">
+                <div class="header-content-left flex-content">
+                <div class="header-content-left-show"><span class="point-icon icon"></span><span class="header-content-left-show-info">网站导航</span>
+                  <div class="header-content-left-hide flex">
+                    <div class="header-content-left-hide-item">
+                      <h4 class="header-item-title"><span class="icon-hot icon"></span>热门站点</h4>
+                      <ul class="flex header-item-list">
+                        <li><a href="https://www.huodongxing.com?s=true">全国站</a></li>
+                        <li><a href="https://bj.huodongxing.com">北京站</a></li>
+                        <li><a href="https://sh.huodongxing.com">上海站</a></li>
+                        <li><a href="https://gz.huodongxing.com">广州站</a></li>
+                        <li><a href="https://sz.huodongxing.com">深圳站</a></li>
+                        <li><a href="https://hz.huodongxing.com">杭州站</a></li>
+                        <li><a href="https://wh.huodongxing.com">武汉站</a></li>
+                        <li><a href="https://cd.huodongxing.com">成都站</a></li>
+                        <li><a href="https://cs.huodongxing.com">长沙站</a></li>
+                      </ul>
+                    </div>
+                    <div class="header-content-left-hide-itema">
+                      <h4 class="header-item-title"><span class="icon-good-select icon"></span>精选推荐</h4>
+                      <ul class="flex header-item-list">
+                        <li><a href="https://www.huodongxing.com">首页</a></li>
+                        <li><a href="https://www.huodongxing.com/channel?c=行业">行业</a></li>
+                        <li><a href="https://www.huodongxing.com/channel?c=生活">生活</a></li>
+                        <li><a href="https://www.huodongxing.com/channel?c=学习">学习</a></li>
+                      </ul>
+                      <ul class="flex header-item-list">
+                        <li><a href="https://www.huodongxing.com/events">找活动</a></li>
+                        <li><a href="https://www.huodongxing.com/zhubanfang">找主办方</a></li>
+                        <li><a href="https://www.huodongxing.com/topic">专题精选</a></li>
+                        <li><a href="https://www.huodongxing.com/ranklist">人气榜</a></li>
+                        <li><a href="https://www.huodongxing.com/app">下载App</a></li>
+                      </ul>
+                    </div>
+                    <div class="header-content-left-hide-itemb">
+                      <h4 class="header-item-title"><span class="icon-good-more icon"></span>更多服务</h4>
+                      <ul class="flex header-item-list">
+                        <li><a href="https://bbx.huodongxing.com/venue">找场地</a></li>
+                        <li><a href="https://bbx.huodongxing.com/bbx">活动百宝箱</a></li>
+                        <li><a href="https://www.huodongxing.com/console/home">主办方管理中心</a></li>
+                        <li><a href="https://www.huodongxing.com/price">主办方vip</a></li>
+                        <li><a href="https://www.huodongxing.com/guanjia">活动行管家</a></li>
+                        <li><a href="http://www.huodongxing.com/mice">大会解决方案</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+              <ul class="header-nav flex"> 
+                          
+                <li class="flex"><a class="focus-hdx-a flex"><span class="icon focus-hdx-icon"></span>关注活动行<div class="hover-pic-focus"></div></a><span class="right-line">|</span></li>
+                <li class="flex"><a class="wechat-hdx-a flex"><span class="icon wechat-hdx-icon"></span>小程序
+                    <div class="hover-pic-wechat"></div></a><span class="right-line">|</span>
+                </li>
+                <li class="flex"><a href="https://shimo.im/docs/WkginHleIT4SOc7q/" target="_blank">帮助中心</a></li>
+              </ul>
+            </div>
+          </header>
+          <div class="fill-header"></div>
+          <section class="hdx-feature-head-bottom-new hdx-feature-head">
+            <div class="new-header-content header-content">
+              <div class="feature-head-bottom-left flex">
+                <a href="https://www.huodongxing.com"><img class="head-logo" src="https://cdn.huodongxing.com/Content/v3.0/img/hdx/hdx-main-feature/hdx-logo-green.png"></a>
+                
+                <div class="city-select" style="display:">
+                  <p class="city-info flex">全国<span class="icon icon-down"></span></p>
+                  <div class="select-down-div">
+                    <div class="select-down-div-item flex city-present-item">
+                        <span class="city-type">当前定位城市:</span>
+                       <div class="city-present"><a></a></div>
+                    </div>
+                    <div class="select-down-div-item flex"><span class="city-type">热门城市:</span>
+                        <div class="city-list">
+                            <a href="https://www.huodongxing.com?s=true">全国</a>
+                            <a href="https://bj.huodongxing.com">北京</a>
+                            <a href="https://sh.huodongxing.com">上海</a>
+                            <a href="https://gz.huodongxing.com">广州</a>
+                            <a href="https://sz.huodongxing.com">深圳</a>
+                            <a href="https://hz.huodongxing.com">杭州</a>
+                            <a href="https://wh.huodongxing.com">武汉</a>
+                            <a href="https://cd.huodongxing.com">成都</a>
+                            <a href="https://www.huodongxing.com/events?city=长沙" target="">长沙</a>
+                            <a href="https://www.huodongxing.com/events?city=南京" target="">南京</a>
+                            <a href="https://www.huodongxing.com/events?city=重庆" target="">重庆</a>
+                            <a href="https://www.huodongxing.com/events?city=苏州" target="">苏州</a>
+                        </div>
+                    </div>
+                    <div class="select-down-div-item flex"><span class="city-type">其它城市:</span>
+                        <div class="city-list">
+                            <a href="https://www.huodongxing.com/events?city=西安" target="">西安</a>
+                            <a href="https://www.huodongxing.com/events?city=郑州" target="">郑州</a>
+                            <a href="https://www.huodongxing.com/events?city=厦门" target="">厦门</a>
+                            <a href="https://www.huodongxing.com/events?city=天津" target="">天津</a>
+                            <a href="https://www.huodongxing.com/events?city=宁波" target="">宁波</a>
+                            <a href="https://www.huodongxing.com/events?city=青岛" target="">青岛</a>
+                            <a href="https://www.huodongxing.com/events?city=东莞" target="">东莞</a>
+                            <a href="https://www.huodongxing.com/events?city=佛山" target="">佛山</a>
+                            <a href="https://www.huodongxing.com/events?city=济南" target="">济南</a>
+                            <a href="https://www.huodongxing.com/events?city=珠海" target="">珠海</a>
+                            <a href="https://www.huodongxing.com/events?city=合肥" target="">合肥</a>
+                            <a href="https://www.huodongxing.com/events?city=福州" target="">福州</a>
+                            <a href="https://www.huodongxing.com/events?city=石家庄" target="">石家庄</a>
+                            <a href="https://www.huodongxing.com/events?city=昆明" target="">昆明</a>
+                            <a href="https://www.huodongxing.com/changecity" target="">查找更多城市 > </a>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <div>        
+                    <div class="search-div-wrap flex">
+                        <div class="warp_new_title ">
+                            <a class="nav-item-a" href="https://www.huodongxing.com" data-i18n-text="Home">
+                                首页
+                            </a>
+                        </div>
+                        <div class="warp_new_title ">
+                            <a class="nav-item-a" href="https://www.huodongxing.com/events" data-i18n-text="Categories">
+                                分类
+                            </a>
+                        </div>
+                        <div class="warp_new_title new-down-div-warps ">
+                            <a class="nav-item-a new-down-div-warps-a" href="javascript:void(0);" style="display:none">
+                                解决方案
+                            </a>
+                            <div class="new-down-divs new-down-div-black">
+                                    <div class="new-down-div-within">
+                                        <div class="new-down-warp-mian">
+                                            <div class="new-down-warp-mian-all">
+                                                <div class="new-down-warp-title">场景方案</div>
+                                                
+                                                <a href="/virtual-events/conferences" target="_blank">
+                                                    <div class="new-down-warp-left flex-center">
+                                                        <div class="new-down-img-div"><img class="new-down-img" src="https://cdn.huodongxing.com/Content/v2.0/img/new-pc/new_card_2x.png" alt=""></div>
+                                                        <div class="flex-center">
+                                                            <div class="flex-center-title">线上峰会/研讨会</div>
+                                                            <div class="flex-centers">从宣传推广、名单收集、直播互动、线下拍摄/导播、数据分析等一站式直播解决方案</div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                                <a href="/enterprise" target="_blank">
+                                                    <div class="new-down-warp-left flex-center">
+                                                        <div class="new-down-img-div"><img style="height: 18px;width: 18px;" class="new-down-img" src="https://cdn.huodongxing.com/Content/v2.0/img/new-pc/new_card_116x.png" alt=""></div>
+                                                        <div class="flex-center">
+                                                            <div class="flex-center-title">活动行企业版</div>
+                                                            <div class="flex-centers">专为对品牌、数据安全要求较高的企业/商会协会/会展公司等打造的活动管理系统</div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                                
+                                            </div>
+                                            <div class="new-down-warp-mian-all">
+                                                <div style="height: 17px;" class="new-down-warp-title">   </div>
+                                                <a href="/virtual-events/exhibitions" target="_blank">
+                                                    <div  class="new-down-warp-left flex-center">
+                                                        <div class="new-down-img-div"><img class="new-down-img" src="https://cdn.huodongxing.com/Content/v2.0/img/new-pc/new_card_4x.png" alt=""></div>
+                                                        <div class="flex-center">
+                                                            <div class="flex-center-title">数字云展厅</div>
+                                                            <div class="flex-centers">定制图文音视频展厅/元宇宙展厅，独立的展商详情页、商机收集等</div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                                <a href="/private" target="_blank">
+                                                    <div class="new-down-warp-left flex-center">
+                                                        <div class="new-down-img-div"><img class="new-down-img" src="https://cdn.huodongxing.com/Content/v2.0/img/new-pc/new_card_6x.png" alt=""></div>
+                                                        <div class="flex-center">
+                                                            <div class="flex-center-title">私有化部署</div>
+                                                            <div class="flex-centers">快速私有化部署企业私有活动管理解决方案，支持阿里云、腾讯云、AWS等</div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="new-down-warp-mian-all">
+                                               
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>                                     
+                        </div>
+                </div>
+              </div>
+              <div class="feature-head-bottom-right flex">
+                
+                
+                
+                
+                <div class="search-box flex">
+                    <input class="js-search-input" data-i18n-placeholder="SearchKey" type="text" placeholder="输入搜索关键词" value="" />
+                    <a class="search-link">
+                        <img alt="" src="https://cdn.huodongxing.com/Content/v3.0/img/hdx/hdx-main-feature/search-green.png" />
+                    </a>
+                </div>
+                <a class="el-button el-button--primary is-round" href="javascript:window.location.href='../createv3';" data-i18n-text="CreateEvent">
+                    免费创建
+                </a>
+                <ul class="header-nav flex">
+                    <li class="flex header-nav-item">
+                        <a target="_blank" class="header-nav-item-link mobile-code-a flex" href="/app">
+                            <span class="header-ico hdx-app"></span>
+                            <span data-i18n-text="DownloadApp">下载APP</span>
+                            
+                        </a>
+                        <span class="right-line"></span>   
+                    </li>
+                    <li class="flex header-nav-item">
+                        <a target="_blank" class="header-nav-item-link mobile-code-a flex"  href="/management">
+                            <span class="header-ico business-cooperation"></span>
+                            <span data-i18n-text="Business">业务合作</span>
+                        </a>
+                        <span class="right-line"></span>   
+                    </li>
+                    <li class="flex header-nav-item"><a class="header-nav-item-link flex" href="https://www.huodongxing.com/console/home" target="_blank">
+                        <span class="header-ico org-center"></span>
+                        <span data-i18n-text="OrganizerCenter">主办方中心</span> 
+                    </a><span class="right-line"></span></li>   
+                    <li class="header-menu-box flex me-hd header-nav-item">
+                        <span class="header-ico person"></span>
+                            <a class="register header-nav-item-link" href="https://www.huodongxing.com/register?returnUrl=%2fevent%2f6887876169600" data-i18n-text="SignUp">注册</a>
+                            <span class="split-line">/</span>
+                            <a class="login header-nav-item-link" href="https://www.huodongxing.com/login?returnUrl=%2fevent%2f6887876169600" data-i18n-text="LogIn">登录</a>
+                      
+                    </li>                                      
+                </ul>
+                
+                
+                
+                
+                
+                
+              </div>
+            </div>
+          </section>
+          <section class="hdx-feature-nav-wrap">
+            
+            
+          </section>
+         
+          
+          <script type="text/javascript">
+                
+              $('.backTopMenu').hide()
+              $(document).ready(function() {
+                  $(window).scroll(function() {   
+                      if ($(document).scrollTop() >= 500){
+                          $('.backTopMenu').show()
+                      } else {
+                          $('.backTopMenu').hide()
+                      }
+                  });
+              });
+              $('.new-feature-head-bottom-right .search-link').on('click', function () {
+                  search('.new-feature-head-bottom-right');
+              });
+              $('.search-box .search-link').on('click', function () {
+                  search('.search-box');
+              });
+              $('.search-box .js-search-input').keydown(function(e){
+                    if(e.keyCode==13){
+                        search('.search-box');
+                    }
+               });
+              $('.posi-fixed-top-wrap .search-link').on('click', function () {
+                  search('.posi-fixed-top-wrap');
+              });
+
+              function search(area) {
+                  var keyword = $.trim($(area + ' .js-search-input').val());
+                  var show = 'list';
+                  var cityHtml = $.trim($('.hdx-feature-head-bottom-new .feature-head-bottom-left .city-select').find('p.city-info').html());
+                  var city = cityHtml.substring(0, cityHtml.indexOf('<span'));
+
+                  var url = 'https://www.huodongxing.com/search';
+                  url += '?ps=12&pi=0';
+                  url += '&list=' + show;
+                  if (keyword != null && keyword != '') url += '&qs=' + keyword;
+                  if (city != null && city != '') url += '&city=' + city;
+                  url += "&st=1,4"
+                  window.location = url;
+              }
+
+              $('.hdx-feature-head-bottom-new .city-select').find('a').on('click', function () {
+                  if ('全国北京上海广州深圳杭州武汉成都长沙'.indexOf($(this).html()) > -1)
+                      $('.hdx-feature-head-bottom-new .city-select').find('p.city-info').html($(this).html() + '<span class="icon icon-down"></span>');
+              });
+
+              $(document).keyup(function (event) {
+                  if (event.keyCode == 13) {
+                      var keyword = $.trim($('.new-feature-head-bottom-right .js-search-input').val());
+                      var keywordfixed = $.trim($('.posi-fixed-top-wrap .js-search-input').val());
+                      if ($('.hdx-feature-head-bottom-new').css('opacity') == '1') {
+                          if (keyword == null || keyword == '') return;
+                          $('.new-feature-head-bottom-right .search-link').trigger('click');
+                      } else {
+                          if (keywordfixed == null || keywordfixed == '') return;
+                          $('.posi-fixed-top-wrap .search-link').trigger('click');
+                      }
+                  }
+              });
+
+              $(window).scroll(function () {
+                  var navwrap = $('.hdx-feature-nav-wrap').offset().top;
+                  var navheight = $('.hdx-feature-nav-wrap').height();
+                  var scrollTop = $(document).scrollTop();
+                  if (navwrap + navheight <= scrollTop) {                 
+                    $('.hdx-feature-head-bottom-new').addClass('fixed')  
+                    $('.fill-header').show()                
+                  } else {
+                    $('.hdx-feature-head-bottom-new').removeClass('fixed')        
+                    $('.fill-header').hide()  
+                  }
+              });
+          </script>
+        <section class="right-position-advice-wrap js-sticky-position">
+          <div class="advice-div">
+            <div class="advice-div-show"><span class="icon-advice-new icon-new"></span></div>
+            
+          </div><a class="feedback-div" data-target="#home_feedback_layer" data-toggle="modal">
+            <div class="feedback-div-show"><span class="icon-feedback-new icon-new"></span></div>
+            <div class="feedback-div-hover">意见反馈</div></a>
+          <div class="top-div js-top-div">
+            <div class="top-div-show"><span class="icon-top-new icon-new"></span></div>
+            <div class="top-div-hover">回到顶部</div>
+          </div>
+        </section>
+		    <!-- Layout = "~/Views/Shared/V2.0/_NewPublic4V2.cshtml"; -->
+
+
+
+
+<script type="text/javascript" src="https://cdn.huodongxing.com/Content/v2.0/js/i18n/jquery.i18n.properties.js"></script>
+<script src="https://cdn.huodongxing.com/Content/v2.0/hdx-details/js-i18n/i18n.properties.js"></script>
+<script type="text/javascript">
+
+    
+	
+    var eventTicketsJson = [{"SN":1,"IsDefault":false,"Status":0,"Price":0.0,"Currency":null,"Title":"免费票","Logo":null,"Description":"","DescriptionEn":"","Desc":"","SysCouponDesc":"","SysCouponDescEn":"","Quantity":0,"SoldNumber":0,"BookNumber":0,"BookStart":null,"BookEnd":null,"QuantityUnit":1,"MinOrder":1,"MaxOrder":1,"CreateDate":null,"UpdateDate":null,"NeedApply":null,"AutoApply":0,"EffectiveDate":null,"ExpiredDate":null,"WeekDayRepeat":null,"Group":null,"Coupon":null,"CouponId":0,"IsHide":false,"MembersType":0,"WebView":true,"Enabled":true,"BookPeriodStr":null,"EffectPeriodStr":null,"StatusStr":"报名中","OrderNums":[1],"IsSeriesTicket":false,"DisPrice":0.0,"PriceStr":"免费","SrcPriceStr":null,"Discount":null,"Token":null}]  || [];
+    var formItemsJson = null;
+	var eventModelId = 6887876169600;
+    var eventShowDT = false;
+    var eventShowRS = false;
+    var eventReqCT = 0;
+    
+    
+    var eventCouponCanUse = false;
+    
+    var payNeedApplyTicketsJson = [];
+    var quantityText = '500';
+    var regWebTokenName = "wt_3af2c713fe1ae26";
+    var regWebTokenValue = "12FD97BB8F65C0FBE190F78D316698F69FF5F10328EFF52D0F5EDE625425ECA635CA186479629E0B23";
+    var ViewBag = {
+        widget: false,
+        reqpt: "False",
+        qdstr: "",
+        tdstr: "",
+        coupon: "",
+        IsFollowCreator: "False" === 'True',
+    }
+    var RegError = ""
+    var RegSuccess = ""
+    if(RegSuccess.toString() === 'True' && 'False'.toString() === 'True') {
+        var ActivityTicketSN = null
+    }
+
+    var ativityJson = {"Id":6887876169600,"Type":0,"Featureds":[9,28],"Title":"深圳第四届湾区青年戏剧季·AI戏剧共创营·戏剧季黑客松","Logo":"202611/6887876169600/326165809289001.jpg","LogoV2":"202611/6887876169600/756165809281847_v2.jpg","LogoV2Small":"202611/6887876169600/756165809281847_v2small.jpg","Start":"\/Date(1795050000000)\/","End":"\/Date(1798538400000)\/","StartShort":"11/19 09:00","EndShort":"12/29 18:00","City":"深圳","Address":"光明区马术中心·骑士之家","Location":null,"Category":0,"Tag":"AI戏剧共创,AIGC,黑客松","MaxInstance":500,"InstanceNumber":0,"Status":1,"IsPrivate":false,"Organizers":[601479791841],"ActivityTickets":[{"SN":1,"Status":0,"Price":0,"Currency":null,"Title":"免费票","Logo":null,"Description":"","DescriptionEn":"","Desc":"","SysCouponDesc":"","SysCouponDescEn":"","Quantity":0,"SoldNumber":0,"BookNumber":0,"BookStart":null,"BookEnd":null,"QuantityUnit":1,"MinOrder":1,"MaxOrder":1,"NeedApply":null,"AutoApply":0,"EffectiveDate":null,"ExpiredDate":null,"WeekDayRepeat":null,"Group":null,"CouponId":0,"IsHide":false,"MembersType":0,"Enabled":true,"BookPeriodStr":null,"EffectPeriodStr":null,"StatusStr":"报名中","OrderNums":[1],"IsSeriesTicket":false,"DisPrice":0,"PriceStr":"免费","SrcPriceStr":null,"Discount":null,"Token":null}],"Setting":{"IsAdmin":false,"IsPrivate":false,"ShowRegisterStatus":false,"RemindNotes":null,"Summary":"当戏剧遇见人工智能，让想象成为作品。邀请青年创作者与市民共同参与，通过AI影像创作、互动应用开发与角色海报体验，感受科技与艺术融合的魅力。","Layout":null,"RequireParticipant":false,"ShowMembers":true,"Province":"广东","HdxTags":null,"RefundType":"0","RefundContact":null,"RefundPrinciple":null,"ApplyReject":0,"IsOnlyWeixin":false,"ReqCoupon":null,"RWMsg":null,"AdBlock":false,"RequireContact":0,"TicketValidRule":null,"RankRemark":null,"CourseAssistantWechat":null,"PlaybackMemberSN":null,"PromoteCopywriting":null,"PromoteQrCode":null,"PrivacyAgreement":null,"PrivacyAgreementUrl":null,"ContactOrg":true,"ContactOrgPhone":"18829233746","ContactOrgEmail":"doupao@clonebot.ai","ContactOrgQrCode":"/logo/202611/6887876169600/186165868791267.jpg","ContactOrgDescription":null,"ShowAddressAfterRegister":false,"OrgInvoicing":0,"BrandLogo":null,"PcBanner":null,"MobileBanner":null,"ThemeColor":null,"BgColor":null,"AgentInvoiceRate":0,"RealnameRegistration":false,"RealnameRegistrationInstanceNumber":0,"AcceleratedReview":false},"IsFree":true,"Follows":6,"VisitNumber":59,"Token":null,"CreateDate":"\/Date(1795000834000)\/","UpdateDate":"\/Date(1795091953000)\/","Mode":"","AddrRemark":null,"ActivityGuests":null,"AcquiringMode":-1,"IsOwnerMchReady":false,"ExConfig":null,"IsHomeH5":false,"IsTicketH5":false}
+    var requireParticipant = false; // 是否开启了一次多张票，需填写每个参加人的报名信息
+    var scenario = 0; 
+</script>
+
+<link rel="stylesheet" href="https://cdn.huodongxing.com/Content/v2.0/dist/css/swiper/swiper-bundle.min.css">
+
+<link rel="stylesheet" href="https://cdn.huodongxing.com/Content/v2.0/hdx-details/css/hdx-details.css?v=v6.11.4"" />
+<link rel="stylesheet" href="https://cdn.huodongxing.com/Content/v-calendar/style.css">
+
+<script src="https://cdn.huodongxing.com/Content/v-calendar/popper.min.js"></script>
+<script>let PopperCore = Popper; </script>
+<script src="https://cdn.huodongxing.com/Content/v-calendar/v-calendar.umd.min.js?1"></script>
+
+<script type="text/javascript" src="https://cdn.huodongxing.com/Content/v2.0/hdx-details/js/utils.js?v=v6.11.4"></script>
+<script src="https://cdn.huodongxing.com/Content/axiso/axios.min.js"></script>
+<script type="text/javascript" src="https://cdn.huodongxing.com/Content/v2.0/hdx-details/js/request.js?v=v6.11.4"></script>
+<script type="text/javascript" src="https://cdn.huodongxing.com/Content/v2.0/hdx-details/js/apis.js?v=v6.11.4"></script>
+    <script type="text/javascript" src="https://cdn.huodongxing.com/Content/v2.0/hdx-details/venue/js/apis.js?v=v6.11.4"></script>
+<script src="https://cdn.huodongxing.com/Content/v2.0/hdx-details/vue-i18n/hdx-details-language.js?v=v6.11.4"></script>
+<script src="https://cdn.huodongxing.com/Content/v2.0/dist/js/swiper/swiper-bundle.min.js"></script>
+<script type="text/javascript" src="https://cdn.huodongxing.com/Content/v2.0/mobile/dist/js/util/browser.js"></script>  
+<script type="text/javascript" src="https://cdn.huodongxing.com/Content/js/accupass.statistics.js"></script>
+<script type="text/javascript">
+  var currentUser = {"Account":"1706165792927","Brief":"图灵造物，是一个诞生于大湾区的原生黑客松竞赛平台，目前正在自办与协办黑客松赛事！","Logo":"user/202611/1901/1706165792927/526165827519732.jpg","LogoLargeV1":null,"Nick":"图灵造物黑客松竞赛平台","RealName":"132****0940","Email":"doupao@clonebot.ai","EmailActivated":null,"Phone":"13247610940","PhoneActivated":"\/Date(1794999720000)\/","Sex":0,"Birthday":null,"Status":1,"LastLogin":"\/Date(1794999720000)\/","Token":null,"IsLogin":false,"Balance":0.00,"Name":"132****0940","NameNick":"图灵造物黑客松竞赛平台","VipRank":null,"IsVip":false,"IsOnlineVip":false,"IsAgent":false,"IsMeidaLibVip":false,"IdentityType":null,"IsIdentity":false};
+  var OrganizerList = [{"Id":601479791841,"Name":"图灵造物","Logo":"202306/1706165792927/946165804788894.jpg","LogoSmall":"202306/1706165792927/946165804788894.jpg","Subdomain":null,"SubdomainUrl":"","Homepage":null,"Description":"诞生于大湾区的黑客松竞赛平台，目前正在积极自办和协办各类黑客松赛事！","ExpiredDate":"\/Date(1889695213000)\/","Status":1,"Follows":0,"Events":0,"PrivateEvents":1,"Comments":0,"AllEvents":1,"Dismiss":null,"DismissType":0,"OrgType":null,"OrgAttribute":0,"WxAppletminiQrdcodePath":"202611/601479791841/applet_org.png","TagPages":null}];
+  var vipRank = currentUser != null && currentUser.IsVip ? currentUser.VipRank.Value : 0;
+  
+  var act = {"Id":6887876169600,"Type":0,"Featureds":[9,28],"Title":"深圳第四届湾区青年戏剧季·AI戏剧共创营·戏剧季黑客松","Logo":"202611/6887876169600/326165809289001.jpg","LogoV2":"202611/6887876169600/756165809281847_v2.jpg","LogoV2Small":"202611/6887876169600/756165809281847_v2small.jpg","Start":"\/Date(1795050000000)\/","End":"\/Date(1798538400000)\/","StartShort":"11/19 09:00","EndShort":"12/29 18:00","City":"深圳","Address":"光明区马术中心·骑士之家","Location":null,"Category":0,"Tag":"AI戏剧共创,AIGC,黑客松","MaxInstance":500,"InstanceNumber":0,"Status":1,"IsPrivate":false,"Organizers":[601479791841],"ActivityTickets":[{"SN":1,"Status":0,"Price":0,"Currency":null,"Title":"免费票","Logo":null,"Description":"","DescriptionEn":"","Desc":"","SysCouponDesc":"","SysCouponDescEn":"","Quantity":0,"SoldNumber":0,"BookNumber":0,"BookStart":null,"BookEnd":null,"QuantityUnit":1,"MinOrder":1,"MaxOrder":1,"NeedApply":null,"AutoApply":0,"EffectiveDate":null,"ExpiredDate":null,"WeekDayRepeat":null,"Group":null,"CouponId":0,"IsHide":false,"MembersType":0,"Enabled":true,"BookPeriodStr":null,"EffectPeriodStr":null,"StatusStr":"报名中","OrderNums":[1],"IsSeriesTicket":false,"DisPrice":0,"PriceStr":"免费","SrcPriceStr":null,"Discount":null,"Token":null}],"Setting":{"IsAdmin":false,"IsPrivate":false,"ShowRegisterStatus":false,"RemindNotes":null,"Summary":"当戏剧遇见人工智能，让想象成为作品。邀请青年创作者与市民共同参与，通过AI影像创作、互动应用开发与角色海报体验，感受科技与艺术融合的魅力。","Layout":null,"RequireParticipant":false,"ShowMembers":true,"Province":"广东","HdxTags":null,"RefundType":"0","RefundContact":null,"RefundPrinciple":null,"ApplyReject":0,"IsOnlyWeixin":false,"ReqCoupon":null,"RWMsg":null,"AdBlock":false,"RequireContact":0,"TicketValidRule":null,"RankRemark":null,"CourseAssistantWechat":null,"PlaybackMemberSN":null,"PromoteCopywriting":null,"PromoteQrCode":null,"PrivacyAgreement":null,"PrivacyAgreementUrl":null,"ContactOrg":true,"ContactOrgPhone":"18829233746","ContactOrgEmail":"doupao@clonebot.ai","ContactOrgQrCode":"/logo/202611/6887876169600/186165868791267.jpg","ContactOrgDescription":null,"ShowAddressAfterRegister":false,"OrgInvoicing":0,"BrandLogo":null,"PcBanner":null,"MobileBanner":null,"ThemeColor":null,"BgColor":null,"AgentInvoiceRate":0,"RealnameRegistration":false,"RealnameRegistrationInstanceNumber":0,"AcceleratedReview":false},"IsFree":true,"Follows":6,"VisitNumber":59,"Token":null,"CreateDate":"\/Date(1795000834000)\/","UpdateDate":"\/Date(1795091953000)\/","Mode":"","AddrRemark":null,"ActivityGuests":null,"AcquiringMode":-1,"IsOwnerMchReady":false,"ExConfig":null,"IsHomeH5":false,"IsTicketH5":false};
+  var ReturnUrl = '/login?ReturnUrl=%2fevent%2f6887876169600';
+  var specialTopic = null;
+  var IsFollow = false
+  var realnameRegistration = false;
+  /* 【中票通·购票须知】v5.8.10 #64 / 7.5.10：中票通（Category 80）的购票须知弹窗只在
+   * Views/Event/V2.0/80/Partials/Main.cshtml 中实现，本目录（兜底 Default）不渲染该弹窗，
+   * 故固定声明为 false。hdx-details.js 的拦截条件把该变量放在第一操作数，falsy 即整体短路，
+   * 不会拦截「立即报名」流程。
+   * 未注入该变量的旧视图（其它 per-event 定制目录）同样不会拦截，行为一致。 */
+  var attendanceNoticeEnabled = false;
+
+  var multiRegister = false;
+  var hasMemberCoupon = false;
+  var url = "https://hdxu.cn/MlyQ6";
+
+  var relevanceList = null;
+  var recommendActs = [{"Id":6887876169600,"Type":0,"Featureds":[9,28],"Title":"深圳第四届湾区青年戏剧季·AI戏剧共创营·戏剧季黑客松","Logo":"202611/6887876169600/326165809289001.jpg","LogoV2":"202611/6887876169600/756165809281847_v2.jpg","LogoV2Small":"202611/6887876169600/756165809281847_v2small.jpg","Start":"\/Date(1795050000000)\/","End":"\/Date(1798538400000)\/","StartShort":"11/19 09:00","EndShort":"12/29 18:00","City":"深圳","Address":"光明区马术中心·骑士之家","Location":null,"Category":0,"Tag":"AI戏剧共创,AIGC,黑客松","MaxInstance":500,"InstanceNumber":0,"Status":1,"IsPrivate":false,"Organizers":[601479791841],"ActivityTickets":[{"SN":1,"Status":0,"Price":0,"Currency":null,"Title":"免费票","Logo":null,"Description":"","DescriptionEn":"","Desc":"","SysCouponDesc":"","SysCouponDescEn":"","Quantity":0,"SoldNumber":0,"BookNumber":0,"BookStart":null,"BookEnd":null,"QuantityUnit":1,"MinOrder":1,"MaxOrder":1,"NeedApply":null,"AutoApply":0,"EffectiveDate":null,"ExpiredDate":null,"WeekDayRepeat":null,"Group":null,"CouponId":0,"IsHide":false,"MembersType":0,"Enabled":false,"BookPeriodStr":null,"EffectPeriodStr":null,"StatusStr":null,"OrderNums":null,"IsSeriesTicket":false,"DisPrice":0,"PriceStr":"免费","SrcPriceStr":null,"Discount":null,"Token":null}],"Setting":{"IsAdmin":false,"IsPrivate":false,"ShowRegisterStatus":false,"RemindNotes":null,"Summary":"当戏剧遇见人工智能，让想象成为作品。邀请青年创作者与市民共同参与，通过AI影像创作、互动应用开发与角色海报体验，感受科技与艺术融合的魅力。","Layout":null,"RequireParticipant":false,"ShowMembers":true,"Province":"广东","HdxTags":null,"RefundType":"0","RefundContact":null,"RefundPrinciple":null,"ApplyReject":0,"IsOnlyWeixin":false,"ReqCoupon":null,"RWMsg":null,"AdBlock":false,"RequireContact":0,"TicketValidRule":null,"RankRemark":null,"CourseAssistantWechat":null,"PlaybackMemberSN":null,"PromoteCopywriting":null,"PromoteQrCode":null,"PrivacyAgreement":null,"PrivacyAgreementUrl":null,"ContactOrg":true,"ContactOrgPhone":"18829233746","ContactOrgEmail":"doupao@clonebot.ai","ContactOrgQrCode":"/logo/202611/6887876169600/186165868791267.jpg","ContactOrgDescription":null,"ShowAddressAfterRegister":false,"OrgInvoicing":0,"BrandLogo":null,"PcBanner":null,"MobileBanner":null,"ThemeColor":null,"BgColor":null,"AgentInvoiceRate":0,"RealnameRegistration":false,"RealnameRegistrationInstanceNumber":0,"AcceleratedReview":false},"IsFree":true,"Follows":6,"VisitNumber":59,"Token":null,"CreateDate":"\/Date(1795000834000)\/","UpdateDate":"\/Date(1795091953000)\/","Mode":"","AddrRemark":null,"ActivityGuests":null,"AcquiringMode":-1,"IsOwnerMchReady":false,"ExConfig":null,"IsHomeH5":false,"IsTicketH5":false},{"Id":5887580839500,"Type":0,"Featureds":[9,28],"Title":"活动预告丨科学魔法秀空降龙华书城，快来跟米吴一起当小小科学家！","Logo":"202611/5887580839500/626163760270921.jpg","LogoV2":"202611/5887580839500/826163760286563_v2.jpg","LogoV2Small":"202611/5887580839500/826163760286563_v2small.jpg","Start":"\/Date(1795330800000)\/","End":"\/Date(1795339800000)\/","StartShort":"11/22 15:00","EndShort":"11/22 17:30","City":"深圳","Address":"深圳书城龙华城L2中庭","Location":null,"Category":12,"Tag":"科学实验秀,少儿科普,亲子互动","MaxInstance":100,"InstanceNumber":69,"Status":1,"IsPrivate":false,"Organizers":[130926984933],"ActivityTickets":[{"SN":1,"Status":0,"Price":0,"Currency":null,"Title":"免费票","Logo":null,"Description":"","DescriptionEn":"","Desc":"","SysCouponDesc":"","SysCouponDescEn":"","Quantity":100,"SoldNumber":0,"BookNumber":0,"BookStart":null,"BookEnd":null,"QuantityUnit":1,"MinOrder":1,"MaxOrder":1,"NeedApply":null,"AutoApply":0,"EffectiveDate":null,"ExpiredDate":null,"WeekDayRepeat":null,"Group":null,"CouponId":0,"IsHide":false,"MembersType":0,"Enabled":false,"BookPeriodStr":null,"EffectPeriodStr":null,"StatusStr":null,"OrderNums":null,"IsSeriesTicket":false,"DisPrice":0,"PriceStr":"免费","SrcPriceStr":null,"Discount":null,"Token":null}],"Setting":{"IsAdmin":false,"IsPrivate":false,"ShowRegisterStatus":false,"RemindNotes":null,"Summary":"11 月 22 日，米吴科学团队将带着神奇的科学实验空降深圳书城龙华城。课本里的原理，就这样变成了眼前的奇迹！ 带上你的好奇心，来当一回真正的科学小达人吧！","Layout":null,"RequireParticipant":false,"ShowMembers":true,"Province":"广东","HdxTags":"亲子家庭,兴趣体验","RefundType":"0","RefundContact":null,"RefundPrinciple":null,"ApplyReject":0,"IsOnlyWeixin":false,"ReqCoupon":null,"RWMsg":null,"AdBlock":false,"RequireContact":0,"TicketValidRule":null,"RankRemark":null,"CourseAssistantWechat":null,"PlaybackMemberSN":null,"PromoteCopywriting":null,"PromoteQrCode":null,"PrivacyAgreement":null,"PrivacyAgreementUrl":null,"ContactOrg":false,"ContactOrgPhone":null,"ContactOrgEmail":null,"ContactOrgQrCode":null,"ContactOrgDescription":null,"ShowAddressAfterRegister":false,"OrgInvoicing":0,"BrandLogo":null,"PcBanner":null,"MobileBanner":null,"ThemeColor":null,"BgColor":null,"AgentInvoiceRate":0,"RealnameRegistration":false,"RealnameRegistrationInstanceNumber":0,"AcceleratedReview":false},"IsFree":true,"Follows":99,"VisitNumber":1135,"Token":null,"CreateDate":"\/Date(1794823658000)\/","UpdateDate":"\/Date(1795104687000)\/","Mode":"","AddrRemark":null,"ActivityGuests":null,"AcquiringMode":-1,"IsOwnerMchReady":false,"ExConfig":null,"IsHomeH5":false,"IsTicketH5":false},{"Id":8880656127912,"Type":0,"Featureds":[9,28],"Title":"中式禅意插花 | 公益艺术沙龙","Logo":"202609/8880656127912/426115668221808.jpg","LogoV2":"202609/8880656127912/256115668220114_v2.jpg","LogoV2Small":"202609/8880656127912/256115668220114_v2small.jpg","Start":"\/Date(1795932000000)\/","End":"\/Date(1795942800000)\/","StartShort":"11/29 14:00","EndShort":"11/29 17:00","City":"深圳","Address":"龙岗区 布吉 金利路26号","Location":"","Category":12,"Tag":"中式禅意插花,公益艺术沙龙,国庆祈福","MaxInstance":150,"InstanceNumber":101,"Status":1,"IsPrivate":false,"Organizers":[331435339363],"ActivityTickets":[{"SN":1,"Status":0,"Price":0,"Currency":null,"Title":"免费票","Logo":null,"Description":"","DescriptionEn":"","Desc":"","SysCouponDesc":"","SysCouponDescEn":"","Quantity":150,"SoldNumber":0,"BookNumber":0,"BookStart":null,"BookEnd":null,"QuantityUnit":1,"MinOrder":1,"MaxOrder":1,"NeedApply":null,"AutoApply":0,"EffectiveDate":null,"ExpiredDate":null,"WeekDayRepeat":null,"Group":null,"CouponId":0,"IsHide":false,"MembersType":0,"Enabled":false,"BookPeriodStr":null,"EffectPeriodStr":null,"StatusStr":null,"OrderNums":null,"IsSeriesTicket":false,"DisPrice":0,"PriceStr":"免费","SrcPriceStr":null,"Discount":null,"Token":null}],"Setting":{"IsAdmin":false,"IsPrivate":false,"ShowRegisterStatus":false,"RemindNotes":null,"Summary":null,"Layout":null,"RequireParticipant":false,"ShowMembers":true,"Province":"广东","HdxTags":"艺文,兴趣体验","RefundType":"0","RefundContact":null,"RefundPrinciple":null,"ApplyReject":0,"IsOnlyWeixin":false,"ReqCoupon":null,"RWMsg":null,"AdBlock":true,"RequireContact":0,"TicketValidRule":null,"RankRemark":null,"CourseAssistantWechat":null,"PlaybackMemberSN":null,"PromoteCopywriting":null,"PromoteQrCode":null,"PrivacyAgreement":null,"PrivacyAgreementUrl":null,"ContactOrg":true,"ContactOrgPhone":"19270314951","ContactOrgEmail":"87499476@qq.com","ContactOrgQrCode":"/logo/202607/7868407138300/276030687435938.jpg","ContactOrgDescription":null,"ShowAddressAfterRegister":false,"OrgInvoicing":0,"BrandLogo":null,"PcBanner":null,"MobileBanner":null,"ThemeColor":null,"BgColor":null,"AgentInvoiceRate":0,"RealnameRegistration":false,"RealnameRegistrationInstanceNumber":0,"AcceleratedReview":false},"IsFree":true,"Follows":190,"VisitNumber":13484,"Token":null,"CreateDate":"\/Date(1790668835000)\/","UpdateDate":"\/Date(1795104720000)\/","Mode":"","AddrRemark":null,"ActivityGuests":null,"AcquiringMode":-1,"IsOwnerMchReady":false,"ExConfig":null,"IsHomeH5":false,"IsTicketH5":false},{"Id":4882850996900,"Type":0,"Featureds":[9,28],"Title":"你的人生，还可以怎样生长？——《终身成长》里的思维与转机","Logo":"202610/4882850996900/126130910639311.jpg","LogoV2":"202610/4882850996900/966130910631339_v2.jpg","LogoV2Small":"202610/4882850996900/966130910631339_v2small.jpg","Start":"\/Date(1795336200000)\/","End":"\/Date(1795341600000)\/","StartShort":"11/22 16:30","EndShort":"11/22 18:00","City":"深圳","Address":"深圳图书馆中心馆·南书房","Location":null,"Category":12,"Tag":"终身成长,成长型思维,读书沙龙","MaxInstance":500,"InstanceNumber":62,"Status":1,"IsPrivate":false,"Organizers":[770601631060],"ActivityTickets":[{"SN":1,"Status":0,"Price":0,"Currency":null,"Title":"免费票","Logo":null,"Description":"","DescriptionEn":"","Desc":"","SysCouponDesc":"","SysCouponDescEn":"","Quantity":150,"SoldNumber":0,"BookNumber":0,"BookStart":null,"BookEnd":null,"QuantityUnit":1,"MinOrder":1,"MaxOrder":1,"NeedApply":null,"AutoApply":0,"EffectiveDate":null,"ExpiredDate":null,"WeekDayRepeat":null,"Group":null,"CouponId":0,"IsHide":false,"MembersType":0,"Enabled":false,"BookPeriodStr":null,"EffectPeriodStr":null,"StatusStr":null,"OrderNums":null,"IsSeriesTicket":false,"DisPrice":0,"PriceStr":"免费","SrcPriceStr":null,"Discount":null,"Token":null}],"Setting":{"IsAdmin":false,"IsPrivate":false,"ShowRegisterStatus":false,"RemindNotes":null,"Summary":null,"Layout":null,"RequireParticipant":false,"ShowMembers":true,"Province":"广东","HdxTags":"读书会","RefundType":"0","RefundContact":null,"RefundPrinciple":null,"ApplyReject":0,"IsOnlyWeixin":false,"ReqCoupon":null,"RWMsg":null,"AdBlock":false,"RequireContact":2,"TicketValidRule":null,"RankRemark":null,"CourseAssistantWechat":null,"PlaybackMemberSN":null,"PromoteCopywriting":null,"PromoteQrCode":null,"PrivacyAgreement":null,"PrivacyAgreementUrl":null,"ContactOrg":false,"ContactOrgPhone":null,"ContactOrgEmail":null,"ContactOrgQrCode":null,"ContactOrgDescription":null,"ShowAddressAfterRegister":false,"OrgInvoicing":0,"BrandLogo":null,"PcBanner":null,"MobileBanner":null,"ThemeColor":null,"BgColor":null,"AgentInvoiceRate":0,"RealnameRegistration":false,"RealnameRegistrationInstanceNumber":0,"AcceleratedReview":false},"IsFree":true,"Follows":174,"VisitNumber":8548,"Token":null,"CreateDate":"\/Date(1791985753000)\/","UpdateDate":"\/Date(1795104717000)\/","Mode":"","AddrRemark":null,"ActivityGuests":null,"AcquiringMode":-1,"IsOwnerMchReady":false,"ExConfig":null,"IsHomeH5":false,"IsTicketH5":false},{"Id":8882848972300,"Type":0,"Featureds":[9,28],"Title":"“智慧女性”系列活动第十八期 跳出世俗规训，每个女生都能活出理想的自己","Logo":"202610/8882848972300/906130897598051.jpg","LogoV2":"202610/8882848972300/186130897596805_v2.jpg","LogoV2Small":"202610/8882848972300/186130897596805_v2small.jpg","Start":"\/Date(1795329000000)\/","End":"\/Date(1795334400000)\/","StartShort":"11/22 14:30","EndShort":"11/22 16:00","City":"深圳","Address":"深圳图书馆中心馆南书房","Location":null,"Category":12,"Tag":"智慧女性,女性成长,不配得感","MaxInstance":150,"InstanceNumber":30,"Status":1,"IsPrivate":false,"Organizers":[770601631060],"ActivityTickets":[{"SN":1,"Status":0,"Price":0,"Currency":null,"Title":"免费票","Logo":null,"Description":"","DescriptionEn":"","Desc":"","SysCouponDesc":"","SysCouponDescEn":"","Quantity":150,"SoldNumber":0,"BookNumber":0,"BookStart":null,"BookEnd":null,"QuantityUnit":1,"MinOrder":1,"MaxOrder":1,"NeedApply":null,"AutoApply":0,"EffectiveDate":null,"ExpiredDate":null,"WeekDayRepeat":null,"Group":null,"CouponId":0,"IsHide":false,"MembersType":0,"Enabled":false,"BookPeriodStr":null,"EffectPeriodStr":null,"StatusStr":null,"OrderNums":null,"IsSeriesTicket":false,"DisPrice":0,"PriceStr":"免费","SrcPriceStr":null,"Discount":null,"Token":null}],"Setting":{"IsAdmin":false,"IsPrivate":false,"ShowRegisterStatus":false,"RemindNotes":null,"Summary":null,"Layout":null,"RequireParticipant":false,"ShowMembers":true,"Province":"广东","HdxTags":"读书会,心理","RefundType":"0","RefundContact":null,"RefundPrinciple":null,"ApplyReject":0,"IsOnlyWeixin":false,"ReqCoupon":null,"RWMsg":null,"AdBlock":false,"RequireContact":2,"TicketValidRule":null,"RankRemark":null,"CourseAssistantWechat":null,"PlaybackMemberSN":null,"PromoteCopywriting":null,"PromoteQrCode":null,"PrivacyAgreement":null,"PrivacyAgreementUrl":null,"ContactOrg":false,"ContactOrgPhone":null,"ContactOrgEmail":null,"ContactOrgQrCode":null,"ContactOrgDescription":null,"ShowAddressAfterRegister":false,"OrgInvoicing":0,"BrandLogo":null,"PcBanner":null,"MobileBanner":null,"ThemeColor":null,"BgColor":null,"AgentInvoiceRate":0,"RealnameRegistration":false,"RealnameRegistrationInstanceNumber":0,"AcceleratedReview":false},"IsFree":true,"Follows":90,"VisitNumber":7200,"Token":null,"CreateDate":"\/Date(1791984568000)\/","UpdateDate":"\/Date(1795104709000)\/","Mode":"","AddrRemark":null,"ActivityGuests":null,"AcquiringMode":-1,"IsOwnerMchReady":false,"ExConfig":null,"IsHomeH5":false,"IsTicketH5":false},{"Id":4884552727600,"Type":0,"Featureds":[9,15,28,54],"Title":"深圳职场女性演讲练习社/周六上午","Logo":"202610/4884552727600/496156837172984.jpg","LogoV2":"202610/4884552727600/676156837178592_v2.jpg","LogoV2Small":"202610/4884552727600/676156837178592_v2small.jpg","Start":"\/Date(1795226400000)\/","End":"\/Date(1795233600000)\/","StartShort":"11/21 10:00","EndShort":"11/21 12:00","City":"深圳","Address":"福田文化创意园ROBOHUB(地铁7号线沙尾站B出口)","Location":"","Category":12,"Tag":"","MaxInstance":80,"InstanceNumber":33,"Status":1,"IsPrivate":false,"Organizers":[930857907309],"ActivityTickets":[{"SN":1,"Status":0,"Price":0,"Currency":null,"Title":"免费票","Logo":null,"Description":"","DescriptionEn":"","Desc":"","SysCouponDesc":"","SysCouponDescEn":"","Quantity":20,"SoldNumber":0,"BookNumber":0,"BookStart":null,"BookEnd":null,"QuantityUnit":1,"MinOrder":1,"MaxOrder":1,"NeedApply":null,"AutoApply":0,"EffectiveDate":null,"ExpiredDate":null,"WeekDayRepeat":null,"Group":null,"CouponId":0,"IsHide":false,"MembersType":0,"Enabled":false,"BookPeriodStr":null,"EffectPeriodStr":null,"StatusStr":null,"OrderNums":null,"IsSeriesTicket":false,"DisPrice":0,"PriceStr":"免费","SrcPriceStr":null,"Discount":null,"Token":null},{"SN":2,"Status":0,"Price":0,"Currency":null,"Title":"嘉宾票","Logo":null,"Description":"","DescriptionEn":"","Desc":"","SysCouponDesc":"","SysCouponDescEn":"","Quantity":10,"SoldNumber":0,"BookNumber":0,"BookStart":null,"BookEnd":null,"QuantityUnit":1,"MinOrder":1,"MaxOrder":1,"NeedApply":true,"AutoApply":0,"EffectiveDate":null,"ExpiredDate":null,"WeekDayRepeat":null,"Group":null,"CouponId":0,"IsHide":false,"MembersType":0,"Enabled":false,"BookPeriodStr":null,"EffectPeriodStr":null,"StatusStr":null,"OrderNums":null,"IsSeriesTicket":false,"DisPrice":0,"PriceStr":"免费","SrcPriceStr":null,"Discount":null,"Token":null},{"SN":3,"Status":0,"Price":0,"Currency":null,"Title":"嘉宾票","Logo":null,"Description":"报名后请留意主办方小姐姐的电话，沟通清楚确认参加后，会通过审核，欢迎您的参加🌹","DescriptionEn":"报名后请留意主办方小姐姐的电话，沟通清楚确认参加后，会通过审核，欢迎您的参加🌹","Desc":"报名后请留意主办方小姐姐的电话，沟通清楚确认参加后，会通过审核，欢迎您的参加🌹","SysCouponDesc":"","SysCouponDescEn":"","Quantity":50,"SoldNumber":0,"BookNumber":0,"BookStart":null,"BookEnd":null,"QuantityUnit":1,"MinOrder":1,"MaxOrder":1,"NeedApply":true,"AutoApply":0,"EffectiveDate":null,"ExpiredDate":null,"WeekDayRepeat":null,"Group":null,"CouponId":0,"IsHide":false,"MembersType":0,"Enabled":false,"BookPeriodStr":null,"EffectPeriodStr":null,"StatusStr":null,"OrderNums":null,"IsSeriesTicket":false,"DisPrice":0,"PriceStr":"免费","SrcPriceStr":null,"Discount":null,"Token":null}],"Setting":{"IsAdmin":false,"IsPrivate":false,"ShowRegisterStatus":false,"RemindNotes":null,"Summary":"愿景：活出自己想要的的样子！口号：开启不被定义的人生。我们的会员均为女性，在这里可以很安全地表达自我，聚焦不被定义的新时代女性，倡导女性对自我价值和目标实现的自我掌控，做闪闪发光的自己！","Layout":null,"RequireParticipant":false,"ShowMembers":true,"Province":"广东","HdxTags":null,"RefundType":"0","RefundContact":null,"RefundPrinciple":null,"ApplyReject":0,"IsOnlyWeixin":false,"ReqCoupon":null,"RWMsg":null,"AdBlock":false,"RequireContact":0,"TicketValidRule":null,"RankRemark":null,"CourseAssistantWechat":null,"PlaybackMemberSN":null,"PromoteCopywriting":null,"PromoteQrCode":null,"PrivacyAgreement":null,"PrivacyAgreementUrl":null,"ContactOrg":true,"ContactOrgPhone":null,"ContactOrgEmail":"569339443@qq.com","ContactOrgQrCode":"/logo/202610/4884552727600/626142731238126.jpg","ContactOrgDescription":"请扫码咨询活动详情","ShowAddressAfterRegister":false,"OrgInvoicing":0,"BrandLogo":null,"PcBanner":null,"MobileBanner":null,"ThemeColor":null,"BgColor":null,"AgentInvoiceRate":0,"RealnameRegistration":false,"RealnameRegistrationInstanceNumber":0,"AcceleratedReview":false},"IsFree":true,"Follows":78,"VisitNumber":7117,"Token":null,"CreateDate":"\/Date(1793006797000)\/","UpdateDate":"\/Date(1795104690000)\/","Mode":"","AddrRemark":null,"ActivityGuests":null,"AcquiringMode":-1,"IsOwnerMchReady":false,"ExConfig":null,"IsHomeH5":false,"IsTicketH5":false},{"Id":8883083135612,"Type":0,"Featureds":[9,28],"Title":"每周二📚《财富自由之路》读书会·心悦三公里书院布吉水径站","Logo":"202610/8883083135612/666132521442605.jpg","LogoV2":"202610/8883083135612/186132521444849_v2.jpg","LogoV2Small":"202610/8883083135612/186132521444849_v2small.jpg","Start":"\/Date(1795483800000)\/","End":"\/Date(1795492800000)\/","StartShort":"11/24 09:30","EndShort":"11/24 12:00","City":"深圳","Address":"龙岗区万科麓城一期F栋同学都荟A101-05YOMO COFFEE悠沫咖啡","Location":null,"Category":12,"Tag":"财富自由之路,李笑来,读书会","MaxInstance":20,"InstanceNumber":20,"Status":1,"IsPrivate":false,"Organizers":[341428383487],"ActivityTickets":[{"SN":2,"Status":0,"Price":0,"Currency":null,"Title":"免费","Logo":null,"Description":"","DescriptionEn":"","Desc":"","SysCouponDesc":"","SysCouponDescEn":"","Quantity":20,"SoldNumber":0,"BookNumber":0,"BookStart":null,"BookEnd":null,"QuantityUnit":1,"MinOrder":1,"MaxOrder":1,"NeedApply":null,"AutoApply":0,"EffectiveDate":null,"ExpiredDate":null,"WeekDayRepeat":null,"Group":null,"CouponId":0,"IsHide":false,"MembersType":0,"Enabled":false,"BookPeriodStr":null,"EffectPeriodStr":null,"StatusStr":null,"OrderNums":null,"IsSeriesTicket":false,"DisPrice":0,"PriceStr":"免费","SrcPriceStr":null,"Discount":null,"Token":null}],"Setting":{"IsAdmin":false,"IsPrivate":false,"ShowRegisterStatus":false,"RemindNotes":null,"Summary":"🏠创想国际心悦．三公里书院，是一个致力于在大湾区凝聚周围一群热爱生活、积极向上的有志之士提供高质量的学习、成长和交流平台。","Layout":"cn","RequireParticipant":false,"ShowMembers":true,"Province":"广东","HdxTags":"读书会","RefundType":"0","RefundContact":null,"RefundPrinciple":null,"ApplyReject":0,"IsOnlyWeixin":false,"ReqCoupon":null,"RWMsg":null,"AdBlock":false,"RequireContact":2,"TicketValidRule":null,"RankRemark":null,"CourseAssistantWechat":null,"PlaybackMemberSN":null,"PromoteCopywriting":null,"PromoteQrCode":null,"PrivacyAgreement":null,"PrivacyAgreementUrl":null,"ContactOrg":true,"ContactOrgPhone":"15989555260","ContactOrgEmail":null,"ContactOrgQrCode":"/logo/202605/3861667423000/735983804659293.jpg","ContactOrgDescription":"报名后麻烦添加微信哦~方便沟通活动细节。","ShowAddressAfterRegister":false,"OrgInvoicing":0,"BrandLogo":null,"PcBanner":null,"MobileBanner":null,"ThemeColor":null,"BgColor":null,"AgentInvoiceRate":0,"RealnameRegistration":false,"RealnameRegistrationInstanceNumber":0,"AcceleratedReview":false},"IsFree":true,"Follows":97,"VisitNumber":1537,"Token":null,"CreateDate":"\/Date(1792125044000)\/","UpdateDate":"\/Date(1795109006000)\/","Mode":"","AddrRemark":null,"ActivityGuests":null,"AcquiringMode":-1,"IsOwnerMchReady":false,"ExConfig":null,"IsHomeH5":false,"IsTicketH5":false},{"Id":5887408856200,"Type":0,"Featureds":[9,28],"Title":"灯塔夜校 AI课堂 【让画面动起来：图生视频与剪映出片】","Logo":"202611/5887408856200/766162561679163.jpg","LogoV2":"202611/5887408856200/526162561672345_v2.jpg","LogoV2Small":"202611/5887408856200/526162561672345_v2small.jpg","Start":"\/Date(1795258800000)\/","End":"\/Date(1795264200000)\/","StartShort":"11/21 19:00","EndShort":"11/21 20:30","City":"深圳","Address":"盐田区沙盐路3017号 盐田现代产业服务中心商业裙楼B座1-4层","Location":"","Category":12,"Tag":"图生视频,剪映,AI视频制作","MaxInstance":20,"InstanceNumber":20,"Status":1,"IsPrivate":false,"Organizers":[351477834444],"ActivityTickets":[{"SN":1,"Status":0,"Price":0,"Currency":null,"Title":"免费票","Logo":null,"Description":"","DescriptionEn":"","Desc":"","SysCouponDesc":"","SysCouponDescEn":"","Quantity":0,"SoldNumber":0,"BookNumber":0,"BookStart":null,"BookEnd":null,"QuantityUnit":1,"MinOrder":1,"MaxOrder":1,"NeedApply":null,"AutoApply":0,"EffectiveDate":null,"ExpiredDate":null,"WeekDayRepeat":null,"Group":null,"CouponId":0,"IsHide":false,"MembersType":0,"Enabled":false,"BookPeriodStr":null,"EffectPeriodStr":null,"StatusStr":null,"OrderNums":null,"IsSeriesTicket":false,"DisPrice":0,"PriceStr":"免费","SrcPriceStr":null,"Discount":null,"Token":null}],"Setting":{"IsAdmin":false,"IsPrivate":false,"ShowRegisterStatus":false,"RemindNotes":null,"Summary":null,"Layout":null,"RequireParticipant":false,"ShowMembers":true,"Province":"广东","HdxTags":null,"RefundType":"0","RefundContact":null,"RefundPrinciple":null,"ApplyReject":0,"IsOnlyWeixin":false,"ReqCoupon":null,"RWMsg":null,"AdBlock":false,"RequireContact":2,"TicketValidRule":null,"RankRemark":null,"CourseAssistantWechat":null,"PlaybackMemberSN":null,"PromoteCopywriting":null,"PromoteQrCode":null,"PrivacyAgreement":null,"PrivacyAgreementUrl":null,"ContactOrg":true,"ContactOrgPhone":"18665394423","ContactOrgEmail":null,"ContactOrgQrCode":null,"ContactOrgDescription":null,"ShowAddressAfterRegister":false,"OrgInvoicing":0,"BrandLogo":null,"PcBanner":null,"MobileBanner":null,"ThemeColor":null,"BgColor":null,"AgentInvoiceRate":0,"RealnameRegistration":false,"RealnameRegistrationInstanceNumber":0,"AcceleratedReview":false},"IsFree":true,"Follows":113,"VisitNumber":2203,"Token":null,"CreateDate":"\/Date(1794720496000)\/","UpdateDate":"\/Date(1794931919000)\/","Mode":"","AddrRemark":null,"ActivityGuests":null,"AcquiringMode":-1,"IsOwnerMchReady":false,"ExConfig":null,"IsHomeH5":false,"IsTicketH5":false},{"Id":2883133547200,"Type":3,"Featureds":[9,10,15,28],"Title":"女王盛宴第十二季","Logo":"202610/2883133547200/576133455466686.png","LogoV2":"202610/2883133547200/486133455466905_v2.jpg","LogoV2Small":"202610/2883133547200/486133455466905_v2small.jpg","Start":"\/Date(1795782600000)\/","End":"\/Date(1795788000000)\/","StartShort":"11/27 20:30","EndShort":"11/27 22:00","City":"深圳","Address":"景田东路景田东一街2号(地铁蛇门线-景田站D出口)2楼剧场","Location":"114.050090163066,22.5609943511247","Category":12,"Tag":"小众舞蹈,原创作品,即兴","MaxInstance":100,"InstanceNumber":30,"Status":1,"IsPrivate":false,"Organizers":[510840607194],"ActivityTickets":[{"SN":1,"Status":0,"Price":80,"Currency":"RMB","Title":"普通票种","Logo":null,"Description":"普通票","DescriptionEn":"普通票","Desc":"普通票","SysCouponDesc":"","SysCouponDescEn":"","Quantity":0,"SoldNumber":0,"BookNumber":0,"BookStart":null,"BookEnd":null,"QuantityUnit":1,"MinOrder":1,"MaxOrder":1,"NeedApply":null,"AutoApply":0,"EffectiveDate":null,"ExpiredDate":null,"WeekDayRepeat":null,"Group":null,"CouponId":0,"IsHide":false,"MembersType":0,"Enabled":false,"BookPeriodStr":null,"EffectPeriodStr":null,"StatusStr":null,"OrderNums":null,"IsSeriesTicket":false,"DisPrice":80,"PriceStr":"¥80","SrcPriceStr":null,"Discount":null,"Token":null},{"SN":2,"Status":0,"Price":0,"Currency":"RMB","Title":"内部价","Logo":null,"Description":"限时抢购","DescriptionEn":"限时抢购","Desc":"限时抢购","SysCouponDesc":"","SysCouponDescEn":"","Quantity":50,"SoldNumber":0,"BookNumber":0,"BookStart":"\/Date(1792296000000)\/","BookEnd":"\/Date(1793462400000)\/","QuantityUnit":1,"MinOrder":1,"MaxOrder":1,"NeedApply":null,"AutoApply":0,"EffectiveDate":null,"ExpiredDate":null,"WeekDayRepeat":null,"Group":null,"CouponId":0,"IsHide":false,"MembersType":0,"Enabled":false,"BookPeriodStr":null,"EffectPeriodStr":null,"StatusStr":null,"OrderNums":null,"IsSeriesTicket":false,"DisPrice":0,"PriceStr":"免费","SrcPriceStr":null,"Discount":null,"Token":null}],"Setting":{"IsAdmin":false,"IsPrivate":false,"ShowRegisterStatus":false,"RemindNotes":null,"Summary":"小众舞蹈艺术都是一群爱好舞蹈的灵魂，每个人有自己的原创作品，展示自己的创造力以及对身体持之以恒的关照。\n","Layout":null,"RequireParticipant":false,"ShowMembers":true,"Province":"广东","HdxTags":"演出","RefundType":"0","RefundContact":null,"RefundPrinciple":null,"ApplyReject":0,"IsOnlyWeixin":false,"ReqCoupon":null,"RWMsg":null,"AdBlock":false,"RequireContact":0,"TicketValidRule":null,"RankRemark":null,"CourseAssistantWechat":null,"PlaybackMemberSN":null,"PromoteCopywriting":null,"PromoteQrCode":null,"PrivacyAgreement":null,"PrivacyAgreementUrl":null,"ContactOrg":false,"ContactOrgPhone":null,"ContactOrgEmail":null,"ContactOrgQrCode":null,"ContactOrgDescription":null,"ShowAddressAfterRegister":false,"OrgInvoicing":1,"BrandLogo":null,"PcBanner":null,"MobileBanner":null,"ThemeColor":null,"BgColor":null,"AgentInvoiceRate":6,"RealnameRegistration":false,"RealnameRegistrationInstanceNumber":0,"AcceleratedReview":false},"IsFree":false,"Follows":104,"VisitNumber":3718,"Token":null,"CreateDate":"\/Date(1792155302000)\/","UpdateDate":"\/Date(1794499920000)\/","Mode":null,"AddrRemark":null,"ActivityGuests":null,"AcquiringMode":0,"IsOwnerMchReady":false,"ExConfig":null,"IsHomeH5":false,"IsTicketH5":false},{"Id":7886836116600,"Type":0,"Featureds":[9,13,28],"Title":"UN活动 | 海畔时光：在深圳读诗","Logo":"202611/7886836116600/216159474610855.jpg","LogoV2":"202611/7886836116600/406159474611861_v2.jpg","LogoV2Small":"202611/7886836116600/406159474611861_v2small.jpg","Start":"\/Date(1795258800000)\/","End":"\/Date(1795266000000)\/","StartShort":"11/21 19:00","EndShort":"11/21 21:00","City":"深圳","Address":"大鹏新区较场尾路59号紫荆维景酒店","Location":null,"Category":12,"Tag":"诗歌,大湾区,深港共读双城","MaxInstance":50,"InstanceNumber":24,"Status":1,"IsPrivate":false,"Organizers":[730742668093],"ActivityTickets":[{"SN":1,"Status":0,"Price":0,"Currency":null,"Title":"留位票","Logo":null,"Description":"活动公益免费，请在安排好您的行程可准时到场参与后报名，感谢您的理解与支持。","DescriptionEn":"活动公益免费，请在安排好您的行程可准时到场参与后报名，感谢您的理解与支持。","Desc":"活动公益免费，请在安排好您的行程可准时到场参与后报名，感谢您的理解与支持。","SysCouponDesc":"","SysCouponDescEn":"","Quantity":50,"SoldNumber":0,"BookNumber":0,"BookStart":null,"BookEnd":null,"QuantityUnit":1,"MinOrder":1,"MaxOrder":1,"NeedApply":null,"AutoApply":0,"EffectiveDate":null,"ExpiredDate":null,"WeekDayRepeat":null,"Group":null,"CouponId":0,"IsHide":false,"MembersType":0,"Enabled":false,"BookPeriodStr":null,"EffectPeriodStr":null,"StatusStr":null,"OrderNums":null,"IsSeriesTicket":false,"DisPrice":0,"PriceStr":"免费","SrcPriceStr":null,"Discount":null,"Token":null}],"Setting":{"IsAdmin":false,"IsPrivate":false,"ShowRegisterStatus":false,"RemindNotes":null,"Summary":"让我的言语成为你的声音——通过声音的交流，共同说出朗读诗歌的意义。","Layout":null,"RequireParticipant":false,"ShowMembers":false,"Province":"广东","HdxTags":"艺文,hdx_9850853703587","RefundType":"0","RefundContact":null,"RefundPrinciple":null,"ApplyReject":0,"IsOnlyWeixin":false,"ReqCoupon":null,"RWMsg":null,"AdBlock":false,"RequireContact":2,"TicketValidRule":null,"RankRemark":null,"CourseAssistantWechat":null,"PlaybackMemberSN":null,"PromoteCopywriting":null,"PromoteQrCode":null,"PrivacyAgreement":null,"PrivacyAgreementUrl":null,"ContactOrg":false,"ContactOrgPhone":null,"ContactOrgEmail":null,"ContactOrgQrCode":null,"ContactOrgDescription":null,"ShowAddressAfterRegister":false,"OrgInvoicing":0,"BrandLogo":null,"PcBanner":null,"MobileBanner":null,"ThemeColor":null,"BgColor":null,"AgentInvoiceRate":0,"RealnameRegistration":false,"RealnameRegistrationInstanceNumber":0,"AcceleratedReview":false},"IsFree":true,"Follows":71,"VisitNumber":1981,"Token":null,"CreateDate":"\/Date(1794376879000)\/","UpdateDate":"\/Date(1795105407000)\/","Mode":"","AddrRemark":null,"ActivityGuests":null,"AcquiringMode":-1,"IsOwnerMchReady":false,"ExConfig":null,"IsHomeH5":false,"IsTicketH5":false},{"Id":1882817878912,"Type":0,"Featureds":[9,28],"Title":"半日禅 · 插花公益艺术沙龙","Logo":"202610/1882817878912/716131583343583.jpg","LogoV2":"202610/1882817878912/116131583346682_v2.jpg","LogoV2Small":"202610/1882817878912/116131583346682_v2small.jpg","Start":"\/Date(1795932000000)\/","End":"\/Date(1795942800000)\/","StartShort":"11/29 14:00","EndShort":"11/29 17:00","City":"深圳","Address":"龙岗区 布吉 金利路26号","Location":"","Category":12,"Tag":"插花,禅文化,公益沙龙","MaxInstance":100,"InstanceNumber":18,"Status":1,"IsPrivate":false,"Organizers":[331435339363],"ActivityTickets":[{"SN":1,"Status":0,"Price":0,"Currency":null,"Title":"免费票","Logo":null,"Description":"","DescriptionEn":"","Desc":"","SysCouponDesc":"","SysCouponDescEn":"","Quantity":100,"SoldNumber":0,"BookNumber":0,"BookStart":null,"BookEnd":null,"QuantityUnit":1,"MinOrder":1,"MaxOrder":1,"NeedApply":null,"AutoApply":0,"EffectiveDate":null,"ExpiredDate":null,"WeekDayRepeat":null,"Group":null,"CouponId":0,"IsHide":false,"MembersType":0,"Enabled":false,"BookPeriodStr":null,"EffectPeriodStr":null,"StatusStr":null,"OrderNums":null,"IsSeriesTicket":false,"DisPrice":0,"PriceStr":"免费","SrcPriceStr":null,"Discount":null,"Token":null}],"Setting":{"IsAdmin":false,"IsPrivate":false,"ShowRegisterStatus":false,"RemindNotes":null,"Summary":null,"Layout":null,"RequireParticipant":false,"ShowMembers":true,"Province":"广东","HdxTags":"艺文,兴趣体验","RefundType":"0","RefundContact":null,"RefundPrinciple":null,"ApplyReject":0,"IsOnlyWeixin":false,"ReqCoupon":null,"RWMsg":null,"AdBlock":true,"RequireContact":0,"TicketValidRule":null,"RankRemark":null,"CourseAssistantWechat":null,"PlaybackMemberSN":null,"PromoteCopywriting":null,"PromoteQrCode":null,"PrivacyAgreement":null,"PrivacyAgreementUrl":null,"ContactOrg":true,"ContactOrgPhone":"19270314951","ContactOrgEmail":"87499476@qq.com","ContactOrgQrCode":"/logo/202607/7868407138300/276030687435938.jpg","ContactOrgDescription":null,"ShowAddressAfterRegister":false,"OrgInvoicing":0,"BrandLogo":null,"PcBanner":null,"MobileBanner":null,"ThemeColor":null,"BgColor":null,"AgentInvoiceRate":0,"RealnameRegistration":false,"RealnameRegistrationInstanceNumber":0,"AcceleratedReview":false},"IsFree":true,"Follows":65,"VisitNumber":3391,"Token":null,"CreateDate":"\/Date(1791965861000)\/","UpdateDate":"\/Date(1795080219000)\/","Mode":null,"AddrRemark":null,"ActivityGuests":null,"AcquiringMode":-1,"IsOwnerMchReady":false,"ExConfig":null,"IsHomeH5":false,"IsTicketH5":false},{"Id":9886715771700,"Type":0,"Featureds":[9,28],"Title":"非遗体验工作坊 | 洪拳体验班","Logo":"202611/9886715771700/426157757079427.jpg","LogoV2":"202611/9886715771700/896157757082387_v2.jpg","LogoV2Small":"202611/9886715771700/896157757082387_v2small.jpg","Start":"\/Date(1795329000000)\/","End":"\/Date(1795332600000)\/","StartShort":"11/22 14:30","EndShort":"11/22 15:30","City":"深圳","Address":"福田区华富街道深业上城L1中庭展览区","Location":null,"Category":12,"Tag":"洪拳,非遗体验,黄飞鸿传人","MaxInstance":25,"InstanceNumber":14,"Status":1,"IsPrivate":false,"Organizers":[730742668093],"ActivityTickets":[{"SN":1,"Status":0,"Price":0,"Currency":null,"Title":"留位票","Logo":null,"Description":"活动公益免费，但名额有限，请在确认您的行程安排可准时到场参与后报名，感谢您的理解与支持。","DescriptionEn":"活动公益免费，但名额有限，请在确认您的行程安排可准时到场参与后报名，感谢您的理解与支持。","Desc":"活动公益免费，但名额有限，请在确认您的行程安排可准时到场参与后报名，感谢您的理解与支持。","SysCouponDesc":"","SysCouponDescEn":"","Quantity":25,"SoldNumber":0,"BookNumber":0,"BookStart":null,"BookEnd":null,"QuantityUnit":1,"MinOrder":1,"MaxOrder":1,"NeedApply":null,"AutoApply":0,"EffectiveDate":null,"ExpiredDate":null,"WeekDayRepeat":null,"Group":null,"CouponId":0,"IsHide":false,"MembersType":0,"Enabled":false,"BookPeriodStr":null,"EffectPeriodStr":null,"StatusStr":null,"OrderNums":null,"IsSeriesTicket":false,"DisPrice":0,"PriceStr":"免费","SrcPriceStr":null,"Discount":null,"Token":null}],"Setting":{"IsAdmin":false,"IsPrivate":false,"ShowRegisterStatus":false,"RemindNotes":null,"Summary":"结合西方运动科学与传统洪拳狮艺，助学员强身健体、锻炼心智及凝聚团队。","Layout":null,"RequireParticipant":false,"ShowMembers":false,"Province":"广东","HdxTags":"兴趣体验","RefundType":"0","RefundContact":null,"RefundPrinciple":null,"ApplyReject":0,"IsOnlyWeixin":false,"ReqCoupon":null,"RWMsg":null,"AdBlock":false,"RequireContact":2,"TicketValidRule":null,"RankRemark":null,"CourseAssistantWechat":null,"PlaybackMemberSN":null,"PromoteCopywriting":null,"PromoteQrCode":null,"PrivacyAgreement":null,"PrivacyAgreementUrl":null,"ContactOrg":false,"ContactOrgPhone":null,"ContactOrgEmail":null,"ContactOrgQrCode":null,"ContactOrgDescription":null,"ShowAddressAfterRegister":false,"OrgInvoicing":0,"BrandLogo":null,"PcBanner":null,"MobileBanner":null,"ThemeColor":null,"BgColor":null,"AgentInvoiceRate":0,"RealnameRegistration":false,"RealnameRegistrationInstanceNumber":0,"AcceleratedReview":false},"IsFree":true,"Follows":59,"VisitNumber":958,"Token":null,"CreateDate":"\/Date(1794304613000)\/","UpdateDate":"\/Date(1795018320000)\/","Mode":"","AddrRemark":null,"ActivityGuests":null,"AcquiringMode":-1,"IsOwnerMchReady":false,"ExConfig":null,"IsHomeH5":false,"IsTicketH5":false},{"Id":8886698200700,"Type":0,"Featureds":[9,28],"Title":"分享会 | 香港乡村的非虚构书写——每个人都找到属于自己的「精神菜地」","Logo":"202611/8886698200700/606157766306212.jpg","LogoV2":"202611/8886698200700/166157766302409_v2.jpg","LogoV2Small":"202611/8886698200700/166157766302409_v2small.jpg","Start":"\/Date(1795248000000)\/","End":"\/Date(1795251600000)\/","StartShort":"11/21 16:00","EndShort":"11/21 17:00","City":"深圳","Address":"福田区华富街道深业上城L3小镇T3065铺联合书店·本来艺文馆","Location":null,"Category":12,"Tag":"非虚构写作,香港乡村,《在香港的离岛种菜》","MaxInstance":40,"InstanceNumber":22,"Status":1,"IsPrivate":false,"Organizers":[730742668093],"ActivityTickets":[{"SN":1,"Status":0,"Price":0,"Currency":null,"Title":"留位票","Logo":null,"Description":"活动公益免费，但名额有限，请在确认您的行程安排可准时到场参与后报名，感谢您的理解与支持。","DescriptionEn":"活动公益免费，但名额有限，请在确认您的行程安排可准时到场参与后报名，感谢您的理解与支持。","Desc":"活动公益免费，但名额有限，请在确认您的行程安排可准时到场参与后报名，感谢您的理解与支持。","SysCouponDesc":"","SysCouponDescEn":"","Quantity":40,"SoldNumber":0,"BookNumber":0,"BookStart":null,"BookEnd":null,"QuantityUnit":1,"MinOrder":1,"MaxOrder":1,"NeedApply":null,"AutoApply":0,"EffectiveDate":null,"ExpiredDate":null,"WeekDayRepeat":null,"Group":null,"CouponId":0,"IsHide":false,"MembersType":0,"Enabled":false,"BookPeriodStr":null,"EffectPeriodStr":null,"StatusStr":null,"OrderNums":null,"IsSeriesTicket":false,"DisPrice":0,"PriceStr":"免费","SrcPriceStr":null,"Discount":null,"Token":null}],"Setting":{"IsAdmin":false,"IsPrivate":false,"ShowRegisterStatus":false,"RemindNotes":null,"Summary":"吴燕青携其新书《在香港的离岛种菜》，分享她如何在日益繁忙的生活中，找到属于自己的“精神菜地”。","Layout":null,"RequireParticipant":false,"ShowMembers":false,"Province":"广东","HdxTags":"艺文,读书会","RefundType":"0","RefundContact":null,"RefundPrinciple":null,"ApplyReject":0,"IsOnlyWeixin":false,"ReqCoupon":null,"RWMsg":null,"AdBlock":false,"RequireContact":2,"TicketValidRule":null,"RankRemark":null,"CourseAssistantWechat":null,"PlaybackMemberSN":null,"PromoteCopywriting":null,"PromoteQrCode":null,"PrivacyAgreement":null,"PrivacyAgreementUrl":null,"ContactOrg":false,"ContactOrgPhone":null,"ContactOrgEmail":null,"ContactOrgQrCode":null,"ContactOrgDescription":null,"ShowAddressAfterRegister":false,"OrgInvoicing":0,"BrandLogo":null,"PcBanner":null,"MobileBanner":null,"ThemeColor":null,"BgColor":null,"AgentInvoiceRate":0,"RealnameRegistration":false,"RealnameRegistrationInstanceNumber":0,"AcceleratedReview":false},"IsFree":true,"Follows":62,"VisitNumber":929,"Token":null,"CreateDate":"\/Date(1794294119000)\/","UpdateDate":"\/Date(1795108288000)\/","Mode":"","AddrRemark":null,"ActivityGuests":null,"AcquiringMode":-1,"IsOwnerMchReady":false,"ExConfig":null,"IsHomeH5":false,"IsTicketH5":false},{"Id":4887409741300,"Type":0,"Featureds":[9,28],"Title":"周末爱学堂 AI实操营 【会讲故事，就会做漫剧：剧本、分镜与提示词】","Logo":"202611/4887409741300/596162567579257.jpg","LogoV2":"202611/4887409741300/926162567575279_v2.jpg","LogoV2Small":"202611/4887409741300/926162567575279_v2small.jpg","Start":"\/Date(1795246200000)\/","End":"\/Date(1795251600000)\/","StartShort":"11/21 15:30","EndShort":"11/21 17:00","City":"深圳","Address":"盐田区沙盐路3017号 盐田现代产业服务中心商业裙楼B座1-4层","Location":"","Category":12,"Tag":"AI漫剧,剧本分镜,提示词","MaxInstance":30,"InstanceNumber":13,"Status":1,"IsPrivate":false,"Organizers":[351477834444],"ActivityTickets":[{"SN":1,"Status":0,"Price":0,"Currency":null,"Title":"免费票","Logo":null,"Description":"","DescriptionEn":"","Desc":"","SysCouponDesc":"","SysCouponDescEn":"","Quantity":0,"SoldNumber":0,"BookNumber":0,"BookStart":null,"BookEnd":null,"QuantityUnit":1,"MinOrder":1,"MaxOrder":1,"NeedApply":null,"AutoApply":0,"EffectiveDate":null,"ExpiredDate":null,"WeekDayRepeat":null,"Group":null,"CouponId":0,"IsHide":false,"MembersType":0,"Enabled":false,"BookPeriodStr":null,"EffectPeriodStr":null,"StatusStr":null,"OrderNums":null,"IsSeriesTicket":false,"DisPrice":0,"PriceStr":"免费","SrcPriceStr":null,"Discount":null,"Token":null}],"Setting":{"IsAdmin":false,"IsPrivate":false,"ShowRegisterStatus":false,"RemindNotes":null,"Summary":null,"Layout":null,"RequireParticipant":false,"ShowMembers":true,"Province":"广东","HdxTags":null,"RefundType":"0","RefundContact":null,"RefundPrinciple":null,"ApplyReject":0,"IsOnlyWeixin":false,"ReqCoupon":null,"RWMsg":null,"AdBlock":false,"RequireContact":2,"TicketValidRule":null,"RankRemark":null,"CourseAssistantWechat":null,"PlaybackMemberSN":null,"PromoteCopywriting":null,"PromoteQrCode":null,"PrivacyAgreement":null,"PrivacyAgreementUrl":null,"ContactOrg":true,"ContactOrgPhone":"18665394423","ContactOrgEmail":null,"ContactOrgQrCode":null,"ContactOrgDescription":null,"ShowAddressAfterRegister":false,"OrgInvoicing":0,"BrandLogo":null,"PcBanner":null,"MobileBanner":null,"ThemeColor":null,"BgColor":null,"AgentInvoiceRate":0,"RealnameRegistration":false,"RealnameRegistrationInstanceNumber":0,"AcceleratedReview":false},"IsFree":true,"Follows":20,"VisitNumber":694,"Token":null,"CreateDate":"\/Date(1794720998000)\/","UpdateDate":"\/Date(1795018318000)\/","Mode":"","AddrRemark":null,"ActivityGuests":null,"AcquiringMode":-1,"IsOwnerMchReady":false,"ExConfig":null,"IsHomeH5":false,"IsTicketH5":false},{"Id":4886694679200,"Type":0,"Featureds":[9,13,28],"Title":"分享会 | 银幕上的江湖：华语流行文化中的「黄、金、龙、女」","Logo":"202611/4886694679200/216157605967842.jpg","LogoV2":"202611/4886694679200/526157605961988_v2.jpg","LogoV2Small":"202611/4886694679200/526157605961988_v2small.jpg","Start":"\/Date(1795242600000)\/","End":"\/Date(1795246200000)\/","StartShort":"11/21 14:30","EndShort":"11/21 15:30","City":"深圳","Address":"福田区华富街道深业上城L3小镇T3065铺联合书店·本来艺文馆","Location":null,"Category":12,"Tag":"华语流行文化,黄、金、龙、女,文化认同","MaxInstance":40,"InstanceNumber":22,"Status":1,"IsPrivate":false,"Organizers":[730742668093],"ActivityTickets":[{"SN":1,"Status":0,"Price":0,"Currency":null,"Title":"留位票","Logo":null,"Description":"此活动公益免费，但名额有限，请在确认行程安排可准时到场参与后报名，谢谢您的理解与支持。","DescriptionEn":"此活动公益免费，但名额有限，请在确认行程安排可准时到场参与后报名，谢谢您的理解与支持。","Desc":"此活动公益免费，但名额有限，请在确认行程安排可准时到场参与后报名，谢谢您的理解与支持。","SysCouponDesc":"","SysCouponDescEn":"","Quantity":40,"SoldNumber":0,"BookNumber":0,"BookStart":null,"BookEnd":null,"QuantityUnit":1,"MinOrder":1,"MaxOrder":1,"NeedApply":null,"AutoApply":0,"EffectiveDate":null,"ExpiredDate":null,"WeekDayRepeat":null,"Group":null,"CouponId":0,"IsHide":false,"MembersType":0,"Enabled":false,"BookPeriodStr":null,"EffectPeriodStr":null,"StatusStr":null,"OrderNums":null,"IsSeriesTicket":false,"DisPrice":0,"PriceStr":"免费","SrcPriceStr":null,"Discount":null,"Token":null}],"Setting":{"IsAdmin":false,"IsPrivate":false,"ShowRegisterStatus":false,"RemindNotes":null,"Summary":"黄飞鸿、金庸、李小龙和女侠，这四个经典IP，如何成为流行文化产业中历久不衰的创作源泉？优势如何承载着我们的民族精神和文化认同？","Layout":null,"RequireParticipant":false,"ShowMembers":false,"Province":"广东","HdxTags":"艺文,hdx_5817441747487","RefundType":"0","RefundContact":null,"RefundPrinciple":null,"ApplyReject":0,"IsOnlyWeixin":false,"ReqCoupon":null,"RWMsg":null,"AdBlock":false,"RequireContact":2,"TicketValidRule":null,"RankRemark":null,"CourseAssistantWechat":null,"PlaybackMemberSN":null,"PromoteCopywriting":null,"PromoteQrCode":null,"PrivacyAgreement":null,"PrivacyAgreementUrl":null,"ContactOrg":false,"ContactOrgPhone":null,"ContactOrgEmail":null,"ContactOrgQrCode":null,"ContactOrgDescription":null,"ShowAddressAfterRegister":false,"OrgInvoicing":0,"BrandLogo":null,"PcBanner":null,"MobileBanner":null,"ThemeColor":null,"BgColor":null,"AgentInvoiceRate":0,"RealnameRegistration":false,"RealnameRegistrationInstanceNumber":0,"AcceleratedReview":false},"IsFree":true,"Follows":45,"VisitNumber":634,"Token":null,"CreateDate":"\/Date(1794291971000)\/","UpdateDate":"\/Date(1795108288000)\/","Mode":"","AddrRemark":null,"ActivityGuests":null,"AcquiringMode":-1,"IsOwnerMchReady":false,"ExConfig":null,"IsHomeH5":false,"IsTicketH5":false},{"Id":9887535196412,"Type":0,"Featureds":[7,9,28],"Title":"【11月22号精英相亲会】集体相亲；高效脱单，优秀单身交友","Logo":"202611/9887535196412/546163440309246.jpg","LogoV2":"202611/9887535196412/396163440303239_v2.jpg","LogoV2Small":"202611/9887535196412/396163440303239_v2small.jpg","Start":"\/Date(1795327200000)\/","End":"\/Date(1795338000000)\/","StartShort":"11/22 14:00","EndShort":"11/22 17:00","City":"深圳","Address":"福田区观璟高空西餐厅","Location":null,"Category":12,"Tag":"精英相亲,高效脱单,单身交友","MaxInstance":100,"InstanceNumber":5,"Status":1,"IsPrivate":false,"Organizers":[540624233997],"ActivityTickets":[{"SN":1,"Status":0,"Price":69,"Currency":"RMB","Title":"女士费用","Logo":null,"Description":"包含所有费用，无任何其它费用！【购买2张以上每张减9.00元】","DescriptionEn":"包含所有费用，无任何其它费用！【购买2张以上每张减9.00元】","Desc":"包含所有费用，无任何其它费用！【购买2张以上每张减9.00元】","SysCouponDesc":"","SysCouponDescEn":"","Quantity":0,"SoldNumber":0,"BookNumber":0,"BookStart":null,"BookEnd":null,"QuantityUnit":1,"MinOrder":1,"MaxOrder":3,"NeedApply":null,"AutoApply":0,"EffectiveDate":null,"ExpiredDate":null,"WeekDayRepeat":null,"Group":null,"CouponId":476163444873254,"IsHide":false,"MembersType":0,"Enabled":false,"BookPeriodStr":null,"EffectPeriodStr":null,"StatusStr":null,"OrderNums":null,"IsSeriesTicket":false,"DisPrice":69,"PriceStr":"¥69","SrcPriceStr":null,"Discount":null,"Token":null},{"SN":3,"Status":0,"Price":99,"Currency":"RMB","Title":"男士费用","Logo":null,"Description":"包含所有费用，无任何其它费用！【购买2张以上每张减9.00元】","DescriptionEn":"包含所有费用，无任何其它费用！【购买2张以上每张减9.00元】","Desc":"包含所有费用，无任何其它费用！【购买2张以上每张减9.00元】","SysCouponDesc":"","SysCouponDescEn":"","Quantity":0,"SoldNumber":0,"BookNumber":0,"BookStart":null,"BookEnd":null,"QuantityUnit":1,"MinOrder":1,"MaxOrder":3,"NeedApply":null,"AutoApply":0,"EffectiveDate":null,"ExpiredDate":null,"WeekDayRepeat":null,"Group":null,"CouponId":146163445270745,"IsHide":false,"MembersType":0,"Enabled":false,"BookPeriodStr":null,"EffectPeriodStr":null,"StatusStr":null,"OrderNums":null,"IsSeriesTicket":false,"DisPrice":99,"PriceStr":"¥99","SrcPriceStr":null,"Discount":null,"Token":null}],"Setting":{"IsAdmin":false,"IsPrivate":false,"ShowRegisterStatus":false,"RemindNotes":null,"Summary":"【深圳精英单身交友派对】集体相亲；高效脱单","Layout":null,"RequireParticipant":false,"ShowMembers":true,"Province":"广东","HdxTags":"聚会交友","RefundType":"1","RefundContact":null,"RefundPrinciple":null,"ApplyReject":0,"IsOnlyWeixin":false,"ReqCoupon":null,"RWMsg":null,"AdBlock":false,"RequireContact":0,"TicketValidRule":null,"RankRemark":null,"CourseAssistantWechat":null,"PlaybackMemberSN":null,"PromoteCopywriting":null,"PromoteQrCode":null,"PrivacyAgreement":null,"PrivacyAgreementUrl":null,"ContactOrg":true,"ContactOrgPhone":"13928472671","ContactOrgEmail":"13928472671@163.com","ContactOrgQrCode":"/logo/202602/9847148399412/775883465494370.jpg","ContactOrgDescription":"微信/电话:13928472671","ShowAddressAfterRegister":false,"OrgInvoicing":1,"BrandLogo":null,"PcBanner":null,"MobileBanner":null,"ThemeColor":null,"BgColor":null,"AgentInvoiceRate":0,"RealnameRegistration":false,"RealnameRegistrationInstanceNumber":0,"AcceleratedReview":false},"IsFree":false,"Follows":12,"VisitNumber":6369,"Token":null,"CreateDate":"\/Date(1794796288000)\/","UpdateDate":"\/Date(1795095134000)\/","Mode":"","AddrRemark":null,"ActivityGuests":null,"AcquiringMode":0,"IsOwnerMchReady":false,"ExConfig":null,"IsHomeH5":false,"IsTicketH5":false},{"Id":5873278315412,"Type":0,"Featureds":[9,19,28],"Title":"深圳千万资产局单身交友活动","Logo":"202608/5873278315412/196064432472560.jpg","LogoV2":"202608/5873278315412/206064432478753_v2.jpg","LogoV2Small":"202608/5873278315412/206064432478753_v2small.jpg","Start":"\/Date(1795847400000)\/","End":"\/Date(1795856400000)\/","StartShort":"11/28 14:30","EndShort":"11/28 17:00","City":"深圳","Address":"柏悦酒店","Location":null,"Category":12,"Tag":"精英婚恋,名校相亲,单身交友","MaxInstance":500,"InstanceNumber":2,"Status":1,"IsPrivate":false,"Organizers":[131092383763],"ActivityTickets":[{"SN":4,"Status":0,"Price":2999,"Currency":null,"Title":"千万资产局","Logo":null,"Description":"","DescriptionEn":"","Desc":"","SysCouponDesc":"","SysCouponDescEn":"","Quantity":0,"SoldNumber":0,"BookNumber":0,"BookStart":null,"BookEnd":null,"QuantityUnit":1,"MinOrder":1,"MaxOrder":10,"NeedApply":true,"AutoApply":0,"EffectiveDate":null,"ExpiredDate":null,"WeekDayRepeat":null,"Group":null,"CouponId":0,"IsHide":false,"MembersType":0,"Enabled":false,"BookPeriodStr":null,"EffectPeriodStr":null,"StatusStr":null,"OrderNums":null,"IsSeriesTicket":false,"DisPrice":2999,"PriceStr":"¥2,999","SrcPriceStr":null,"Discount":null,"Token":null},{"SN":5,"Status":0,"Price":4999,"Currency":null,"Title":"5千万资产局","Logo":null,"Description":"","DescriptionEn":"","Desc":"","SysCouponDesc":"","SysCouponDescEn":"","Quantity":0,"SoldNumber":0,"BookNumber":0,"BookStart":null,"BookEnd":null,"QuantityUnit":1,"MinOrder":1,"MaxOrder":10,"NeedApply":true,"AutoApply":0,"EffectiveDate":null,"ExpiredDate":null,"WeekDayRepeat":null,"Group":null,"CouponId":0,"IsHide":false,"MembersType":0,"Enabled":false,"BookPeriodStr":null,"EffectPeriodStr":null,"StatusStr":null,"OrderNums":null,"IsSeriesTicket":false,"DisPrice":4999,"PriceStr":"¥4,999","SrcPriceStr":null,"Discount":null,"Token":null},{"SN":6,"Status":0,"Price":9999,"Currency":null,"Title":"A9资产局","Logo":null,"Description":"","DescriptionEn":"","Desc":"","SysCouponDesc":"","SysCouponDescEn":"","Quantity":0,"SoldNumber":0,"BookNumber":0,"BookStart":null,"BookEnd":null,"QuantityUnit":1,"MinOrder":1,"MaxOrder":10,"NeedApply":true,"AutoApply":0,"EffectiveDate":null,"ExpiredDate":null,"WeekDayRepeat":null,"Group":null,"CouponId":0,"IsHide":false,"MembersType":0,"Enabled":false,"BookPeriodStr":null,"EffectPeriodStr":null,"StatusStr":null,"OrderNums":null,"IsSeriesTicket":false,"DisPrice":9999,"PriceStr":"¥9,999","SrcPriceStr":null,"Discount":null,"Token":null},{"SN":7,"Status":0,"Price":999,"Currency":null,"Title":"名校专场（近1年结婚计划）","Logo":null,"Description":"","DescriptionEn":"","Desc":"","SysCouponDesc":"","SysCouponDescEn":"","Quantity":0,"SoldNumber":0,"BookNumber":0,"BookStart":null,"BookEnd":null,"QuantityUnit":1,"MinOrder":1,"MaxOrder":10,"NeedApply":true,"AutoApply":0,"EffectiveDate":null,"ExpiredDate":null,"WeekDayRepeat":null,"Group":null,"CouponId":0,"IsHide":false,"MembersType":0,"Enabled":false,"BookPeriodStr":null,"EffectPeriodStr":null,"StatusStr":null,"OrderNums":null,"IsSeriesTicket":false,"DisPrice":999,"PriceStr":"¥999","SrcPriceStr":null,"Discount":null,"Token":null}],"Setting":{"IsAdmin":false,"IsPrivate":false,"ShowRegisterStatus":false,"RemindNotes":null,"Summary":"#Seekr精英婚恋 #名校相亲 #海归婚恋 #高端婚恋 #精英择偶 #高净值婚恋 #同频婚姻","Layout":null,"RequireParticipant":false,"ShowMembers":true,"Province":"广东","HdxTags":"聚会交友","RefundType":"0","RefundContact":null,"RefundPrinciple":null,"ApplyReject":0,"IsOnlyWeixin":false,"ReqCoupon":null,"RWMsg":null,"AdBlock":false,"RequireContact":0,"TicketValidRule":null,"RankRemark":null,"CourseAssistantWechat":null,"PlaybackMemberSN":null,"PromoteCopywriting":null,"PromoteQrCode":null,"PrivacyAgreement":null,"PrivacyAgreementUrl":null,"ContactOrg":true,"ContactOrgPhone":"18664306597","ContactOrgEmail":null,"ContactOrgQrCode":"/logo/202606/7865662126100/126011543157172.jpg","ContactOrgDescription":"扫码添加客服微信","ShowAddressAfterRegister":true,"OrgInvoicing":1,"BrandLogo":null,"PcBanner":null,"MobileBanner":null,"ThemeColor":null,"BgColor":null,"AgentInvoiceRate":0,"RealnameRegistration":false,"RealnameRegistrationInstanceNumber":0,"AcceleratedReview":false},"IsFree":false,"Follows":40,"VisitNumber":10682,"Token":null,"CreateDate":"\/Date(1786242158000)\/","UpdateDate":"\/Date(1793419369000)\/","Mode":"","AddrRemark":null,"ActivityGuests":null,"AcquiringMode":0,"IsOwnerMchReady":false,"ExConfig":null,"IsHomeH5":false,"IsTicketH5":false},{"Id":5885571456300,"Type":0,"Featureds":[9,28],"Title":"深圳清晖双语国际演讲会-第120期例会：跳出压力陷阱","Logo":"202611/5885571456300/126149802001179.jpg","LogoV2":"202611/5885571456300/706149802004593_v2.jpg","LogoV2Small":"202611/5885571456300/706149802004593_v2small.jpg","Start":"\/Date(1795329000000)\/","End":"\/Date(1795336200000)\/","StartShort":"11/22 14:30","EndShort":"11/22 16:30","City":"深圳","Address":"福田区八卦岭平安大厦3楼创新创业党群服务中心","Location":"","Category":12,"Tag":"压力管理,头马演讲,个人成长","MaxInstance":56,"InstanceNumber":3,"Status":1,"IsPrivate":false,"Organizers":[930857907309],"ActivityTickets":[{"SN":1,"Status":0,"Price":0,"Currency":null,"Title":"免费票","Logo":null,"Description":"","DescriptionEn":"","Desc":"","SysCouponDesc":"","SysCouponDescEn":"","Quantity":0,"SoldNumber":0,"BookNumber":0,"BookStart":null,"BookEnd":null,"QuantityUnit":1,"MinOrder":1,"MaxOrder":1,"NeedApply":true,"AutoApply":0,"EffectiveDate":null,"ExpiredDate":null,"WeekDayRepeat":null,"Group":null,"CouponId":0,"IsHide":false,"MembersType":0,"Enabled":false,"BookPeriodStr":null,"EffectPeriodStr":null,"StatusStr":null,"OrderNums":null,"IsSeriesTicket":false,"DisPrice":0,"PriceStr":"免费","SrcPriceStr":null,"Discount":null,"Token":null}],"Setting":{"IsAdmin":false,"IsPrivate":false,"ShowRegisterStatus":false,"RemindNotes":null,"Summary":"有没有这种时刻：\n明明没做错什么，被人一问就慌了；\n对方只是提问，你已经紧绷、自我怀疑。\n \n压力不一定是狂风暴雨，\n更多时候，是不动声色的陷阱。\n \n这期例会很特别：\n不是教你对抗全世界，\n而是给自己多一份「不被压力牵着走」的底气。","Layout":null,"RequireParticipant":false,"ShowMembers":true,"Province":"广东","HdxTags":null,"RefundType":"0","RefundContact":null,"RefundPrinciple":null,"ApplyReject":0,"IsOnlyWeixin":false,"ReqCoupon":null,"RWMsg":null,"AdBlock":false,"RequireContact":0,"TicketValidRule":null,"RankRemark":null,"CourseAssistantWechat":null,"PlaybackMemberSN":null,"PromoteCopywriting":null,"PromoteQrCode":null,"PrivacyAgreement":null,"PrivacyAgreementUrl":null,"ContactOrg":true,"ContactOrgPhone":"15361628938","ContactOrgEmail":"qinshengfei@gmail.com","ContactOrgQrCode":"/logo/202611/5885571456300/556149806498596.jpg","ContactOrgDescription":null,"ShowAddressAfterRegister":false,"OrgInvoicing":0,"BrandLogo":null,"PcBanner":null,"MobileBanner":null,"ThemeColor":null,"BgColor":null,"AgentInvoiceRate":0,"RealnameRegistration":false,"RealnameRegistrationInstanceNumber":0,"AcceleratedReview":false},"IsFree":true,"Follows":33,"VisitNumber":1666,"Token":null,"CreateDate":"\/Date(1793618028000)\/","UpdateDate":"\/Date(1794845492000)\/","Mode":"","AddrRemark":null,"ActivityGuests":null,"AcquiringMode":-1,"IsOwnerMchReady":false,"ExConfig":null,"IsHomeH5":false,"IsTicketH5":false},{"Id":5883818486800,"Type":0,"Featureds":[9,13,28],"Title":"爵士即兴日 11/20","Logo":"202610/5883818486800/766137627988952.jpg","LogoV2":"202610/5883818486800/436137627988279_v2.jpg","LogoV2Small":"202610/5883818486800/436137627988279_v2small.jpg","Start":"\/Date(1795179600000)\/","End":"\/Date(1795188600000)\/","StartShort":"11/20 21:00","EndShort":"11/20 23:30","City":"深圳","Address":"南山区华侨城创意园E3栋101C  ROOTS HOUSE(华侨城店)","Location":null,"Category":12,"Tag":"爵士即兴,Jam Session,谢梓枫三重奏","MaxInstance":30,"InstanceNumber":10,"Status":1,"IsPrivate":false,"Organizers":[830937312899],"ActivityTickets":[{"SN":1,"Status":0,"Price":0,"Currency":"RMB","Title":"免票入场，入场仅需消费酒水","Logo":null,"Description":"","DescriptionEn":"","Desc":"","SysCouponDesc":"","SysCouponDescEn":"","Quantity":10,"SoldNumber":0,"BookNumber":0,"BookStart":null,"BookEnd":null,"QuantityUnit":1,"MinOrder":1,"MaxOrder":1,"NeedApply":null,"AutoApply":0,"EffectiveDate":null,"ExpiredDate":null,"WeekDayRepeat":null,"Group":null,"CouponId":0,"IsHide":false,"MembersType":0,"Enabled":false,"BookPeriodStr":null,"EffectPeriodStr":null,"StatusStr":null,"OrderNums":null,"IsSeriesTicket":false,"DisPrice":0,"PriceStr":"免费","SrcPriceStr":null,"Discount":null,"Token":null}],"Setting":{"IsAdmin":false,"IsPrivate":false,"ShowRegisterStatus":false,"RemindNotes":null,"Summary":"我的人生没有一条直线","Layout":null,"RequireParticipant":false,"ShowMembers":true,"Province":"广东","HdxTags":"音乐,hdx_2829648864987,hdx_7817441851287","RefundType":"0","RefundContact":null,"RefundPrinciple":null,"ApplyReject":0,"IsOnlyWeixin":false,"ReqCoupon":null,"RWMsg":null,"AdBlock":false,"RequireContact":0,"TicketValidRule":null,"RankRemark":null,"CourseAssistantWechat":null,"PlaybackMemberSN":null,"PromoteCopywriting":null,"PromoteQrCode":null,"PrivacyAgreement":null,"PrivacyAgreementUrl":null,"ContactOrg":true,"ContactOrgPhone":"15302618010","ContactOrgEmail":"roots_house@163.com","ContactOrgQrCode":null,"ContactOrgDescription":null,"ShowAddressAfterRegister":false,"OrgInvoicing":0,"BrandLogo":null,"PcBanner":null,"MobileBanner":null,"ThemeColor":null,"BgColor":null,"AgentInvoiceRate":0,"RealnameRegistration":false,"RealnameRegistrationInstanceNumber":0,"AcceleratedReview":false},"IsFree":true,"Follows":36,"VisitNumber":1427,"Token":null,"CreateDate":"\/Date(1792566248000)\/","UpdateDate":"\/Date(1794972544000)\/","Mode":"","AddrRemark":null,"ActivityGuests":null,"AcquiringMode":-1,"IsOwnerMchReady":false,"ExConfig":null,"IsHomeH5":false,"IsTicketH5":false},{"Id":7884438240400,"Type":4,"Featureds":[9,28],"Title":"素饺子制作活动","Logo":"202610/7884438240400/426141932428270.jpg","LogoV2":"202610/7884438240400/926141932439400_v2.jpg","LogoV2Small":"202610/7884438240400/926141932439400_v2small.jpg","Start":"\/Date(1795240800000)\/","End":"\/Date(1795251600000)\/","StartShort":"11/21 14:00","EndShort":"11/21 17:00","City":"深圳","Address":"地点：【宝安区西乡街道锦花路天骄荟五楼506室，瑜乐秀馆","Location":"","Category":12,"Tag":"素饺子制作,素食,手作体验","MaxInstance":50,"InstanceNumber":8,"Status":1,"IsPrivate":false,"Organizers":[101432019851],"ActivityTickets":[{"SN":1,"Status":0,"Price":0,"Currency":"RMB","Title":"免费票","Logo":null,"Description":"","DescriptionEn":"","Desc":"","SysCouponDesc":"","SysCouponDescEn":"","Quantity":50,"SoldNumber":0,"BookNumber":0,"BookStart":null,"BookEnd":null,"QuantityUnit":1,"MinOrder":1,"MaxOrder":1,"NeedApply":null,"AutoApply":0,"EffectiveDate":null,"ExpiredDate":null,"WeekDayRepeat":null,"Group":null,"CouponId":0,"IsHide":false,"MembersType":0,"Enabled":false,"BookPeriodStr":null,"EffectPeriodStr":null,"StatusStr":null,"OrderNums":null,"IsSeriesTicket":false,"DisPrice":0,"PriceStr":"免费","SrcPriceStr":null,"Discount":null,"Token":null}],"Setting":{"IsAdmin":false,"IsPrivate":false,"ShowRegisterStatus":false,"RemindNotes":null,"Summary":null,"Layout":null,"RequireParticipant":false,"ShowMembers":true,"Province":"广东","HdxTags":"美食,兴趣体验","RefundType":"0","RefundContact":null,"RefundPrinciple":null,"ApplyReject":0,"IsOnlyWeixin":false,"ReqCoupon":null,"RWMsg":null,"AdBlock":false,"RequireContact":0,"TicketValidRule":null,"RankRemark":null,"CourseAssistantWechat":null,"PlaybackMemberSN":null,"PromoteCopywriting":null,"PromoteQrCode":null,"PrivacyAgreement":null,"PrivacyAgreementUrl":null,"ContactOrg":false,"ContactOrgPhone":null,"ContactOrgEmail":null,"ContactOrgQrCode":null,"ContactOrgDescription":null,"ShowAddressAfterRegister":false,"OrgInvoicing":0,"BrandLogo":null,"PcBanner":null,"MobileBanner":null,"ThemeColor":null,"BgColor":null,"AgentInvoiceRate":0,"RealnameRegistration":false,"RealnameRegistrationInstanceNumber":0,"AcceleratedReview":false},"IsFree":true,"Follows":11,"VisitNumber":1013,"Token":null,"CreateDate":"\/Date(1792938103000)\/","UpdateDate":"\/Date(1794931914000)\/","Mode":null,"AddrRemark":null,"ActivityGuests":null,"AcquiringMode":-1,"IsOwnerMchReady":false,"ExConfig":null,"IsHomeH5":false,"IsTicketH5":false},{"Id":1886883558712,"Type":0,"Featureds":[9,10,28,55],"Title":"11月22日深圳大型公益相亲会，海上田园景区内优质单身丨遇见同频的TA~","Logo":"202611/1886883558712/236158914437171.jpg","LogoV2":"202611/1886883558712/196158914430879_v2.jpg","LogoV2Small":"202611/1886883558712/196158914430879_v2small.jpg","Start":"\/Date(1795327200000)\/","End":"\/Date(1795338000000)\/","StartShort":"11/22 14:00","EndShort":"11/22 17:00","City":"深圳","Address":"宝安区海上田园景区内","Location":null,"Category":12,"Tag":"公益相亲,单身交友,百人联谊","MaxInstance":500,"InstanceNumber":7,"Status":1,"IsPrivate":false,"Organizers":[761364768755],"ActivityTickets":[{"SN":1,"Status":0,"Price":0,"Currency":null,"Title":"公益相亲会","Logo":null,"Description":"","DescriptionEn":"","Desc":"","SysCouponDesc":"","SysCouponDescEn":"","Quantity":0,"SoldNumber":0,"BookNumber":0,"BookStart":null,"BookEnd":null,"QuantityUnit":1,"MinOrder":1,"MaxOrder":1,"NeedApply":null,"AutoApply":0,"EffectiveDate":null,"ExpiredDate":null,"WeekDayRepeat":null,"Group":null,"CouponId":0,"IsHide":false,"MembersType":0,"Enabled":false,"BookPeriodStr":null,"EffectPeriodStr":null,"StatusStr":null,"OrderNums":null,"IsSeriesTicket":false,"DisPrice":0,"PriceStr":"免费","SrcPriceStr":null,"Discount":null,"Token":null},{"SN":2,"Status":0,"Price":60,"Currency":null,"Title":"非首次报名","Logo":null,"Description":"","DescriptionEn":"","Desc":"","SysCouponDesc":"","SysCouponDescEn":"","Quantity":0,"SoldNumber":0,"BookNumber":0,"BookStart":null,"BookEnd":null,"QuantityUnit":1,"MinOrder":1,"MaxOrder":10,"NeedApply":null,"AutoApply":0,"EffectiveDate":null,"ExpiredDate":null,"WeekDayRepeat":null,"Group":null,"CouponId":0,"IsHide":false,"MembersType":0,"Enabled":false,"BookPeriodStr":null,"EffectPeriodStr":null,"StatusStr":null,"OrderNums":null,"IsSeriesTicket":false,"DisPrice":60,"PriceStr":"¥60","SrcPriceStr":null,"Discount":null,"Token":null}],"Setting":{"IsAdmin":false,"IsPrivate":false,"ShowRegisterStatus":false,"RemindNotes":null,"Summary":"破冰游戏｜八分钟轮桌｜心动互选丨精品茶歇 只差你来。","Layout":null,"RequireParticipant":false,"ShowMembers":true,"Province":"广东","HdxTags":"聚会交友","RefundType":"0","RefundContact":null,"RefundPrinciple":null,"ApplyReject":0,"IsOnlyWeixin":false,"ReqCoupon":null,"RWMsg":null,"AdBlock":false,"RequireContact":2,"TicketValidRule":null,"RankRemark":null,"CourseAssistantWechat":null,"PlaybackMemberSN":null,"PromoteCopywriting":null,"PromoteQrCode":null,"PrivacyAgreement":null,"PrivacyAgreementUrl":null,"ContactOrg":true,"ContactOrgPhone":"13189716841","ContactOrgEmail":null,"ContactOrgQrCode":"/logo/202609/7878935014912/486103718552248.jpg","ContactOrgDescription":null,"ShowAddressAfterRegister":false,"OrgInvoicing":1,"BrandLogo":null,"PcBanner":null,"MobileBanner":null,"ThemeColor":null,"BgColor":null,"AgentInvoiceRate":6,"RealnameRegistration":false,"RealnameRegistrationInstanceNumber":0,"AcceleratedReview":false},"IsFree":false,"Follows":56,"VisitNumber":1013,"Token":null,"CreateDate":"\/Date(1794405328000)\/","UpdateDate":"\/Date(1795104690000)\/","Mode":"","AddrRemark":null,"ActivityGuests":null,"AcquiringMode":0,"IsOwnerMchReady":false,"ExConfig":null,"IsHomeH5":false,"IsTicketH5":false}];
+
+  var HasCoupons = {
+		HasCoupon: false,
+		CouponName: "coupon-code",
+		couponMsg: ""
+	}
+  var liveRoomId = 0;
+  var webTokenValue1 = '1293D50686544878C63D83F5333111E2A2560FF6E3FC9CFAD46603D396FE85BF7B4F17E0B28D70592021E66648196C41B309CCE783A7F3E6C6'
+  var webTokenValue = "125C584A51ACB3410A73EB0C3FFACE1F254F0C5FFD68BD3E7D1106465B07CABA239B64230850CA7F2B"
+  var webTokenValue3 = "12760C3F7B94591222D3F656A583D9C7D0AAFA3E0DB766FD2F9263AC7E4EB6C24A168450C8B2F29CFF"
+  var addressContent = `广东深圳光明区马术中心&#183;骑士之家`
+  var addressContentEn = `光明区马术中心&#183;骑士之家 , ShenZhen,GuangDong`
+  let ativityTimeEn = "Thu, 19 Nov 2026 09:00:00 GMT ～ Tue, 29 Dec 2026 18:00:00 GMT"
+  var dateFrom = "2026-10-21 08:01:34"
+  dateFrom = ""
+</script>
+<style>
+
+  
+  .layer-success .modal-body{
+    background: url(https://cdn.huodongxing.com/Content/v3.0/img/hdx/hdx-admin-applet/approve-easily.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 250px;
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 12px;
+  }
+  .modal .modal-header .new-close {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 0;
+    right: -50px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    font-size: 29px;
+    color: #666;
+    font-weight: initial;
+  }
+  .layer-success .text{color: #333333;font-size: 16px;margin-top: 10px;}
+  .layer-success .title,.layer-success .layer-success-title{color: #03B349;font-size: 24px;margin-bottom: 0;}
+  .layer-success .code-img-box{display: flex;margin-top: 20px;background: rgba(216, 235, 224, 0.50);padding: 10px;width: 232px;box-sizing: border-box;border-radius: 5px;}
+  .modal-open .new-close-modal{
+    overflow: initial;
+  }
+  
+  .authentication-vip{
+    width: 44px;
+    background-image: url(https://cdn.huodongxing.com/Content/v2.0/hdx-details/images/authentication-vip.png);
+  }
+  .authentication-vip0{
+    width: 44px;
+    background-image: url(https://cdn.huodongxing.com/Content/v2.0/img/hdx/hdx-mobile/0.png);
+  }
+  .authentication-unvip{
+    width: 44px;
+    background-image: url(https://cdn.huodongxing.com/Content/v2.0/hdx-details/images/authentication-unvip.png);
+  }
+  .hdx-feature-wrap::after{
+      content: "";
+    width: 100%;
+    height: 426px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+        z-index: -1;
+    }
+  .hdx-details-price{
+    margin-top: 10px;
+    font-size: 24px;
+    color: var(--el-color-primary);
+              font-weight: 600;
+    display: flex;
+    align-items: center;
+  }
+  .vip-discount{
+    font-weight: normal;
+    font-size: 14px;
+    height: 28px;
+    line-height: 28px;
+    padding: 0 13px;
+    color: #4E2706;
+    background: linear-gradient(270deg, #E4CEA3 0%, #F5E6CB 100%);
+    display: inline-block;
+    border-radius: 4px 8px;
+    margin-left: 6px;
+  }
+  .refund-principle-time{
+    margin-left: 130px;
+  }
+  .refund-principle-slot-time{
+    margin-left: 40px;
+  }
+  #eventCommentList .media-body .face{
+    width: 46px;
+    height: 46px;
+  }
+</style>
+
+
+
+<link rel="stylesheet" href="https://cdn.huodongxing.com/Content/v2.0/hdx-details/css/common.css?v=v6.11.4" />
+<script type="text/javascript" src="https://cdn.huodongxing.com/Content/v2.0/hdx-details/js/decimal.js?v=v6.11.4"></script>
+<script type="text/javascript" src="https://cdn.huodongxing.com/Content/v2.0/hdx-details/js/components/hdx-user-logo.js?v=v6.11.4"></script>
+<!-- <script type="text/javascript" src="https://cdn.huodongxing.com/Content/v2.0/hdx-details/js/components/hdx-btns.js"></script> -->
+<script type="text/javascript" src="https://cdn.huodongxing.com/Content/v2.0/hdx-details/js/components/hdx-input.js?v=v6.11.4"></script>
+<script type="text/javascript" src="https://cdn.huodongxing.com/Content/v2.0/hdx-details/js/components/hdx-form-item.js?v=v6.11.4"></script>
+<script type="text/javascript" src="https://cdn.huodongxing.com/Content/v2.0/hdx-details/js/components/hdx-login-verify.js?v=v6.11.4"></script>
+
+<div id="hdx-details" v-cloak>
+  <div ref="eventMenu" class="hdx-scroll-fixed-wrap" :class="showTopHeader ? 'active' : ''">
+      <div class="hdx-scroll-fixed-content">
+          <a class="link-img-hdx" href="https://www.huodongxing.com/">
+              <img width="100" src="https://cdn.huodongxing.com/Content/v3.0/img/hdx/hdx-main-feature/hdx-logo-green.png" />
+          </a>
+          <div class="flex">
+            <div class="top-menu-list">
+                <div v-on:click="scrollTo('details-main')" class="top-menu-list-item">{{$tm("nav-activity")}}</div>
+                <a v-on:click="scrollTo('activity-detail')" :class="activeMenus == 'activity-detail'? 'active' : ''" class="top-menu-list-item">{{$tm("nav-details")}}</a>
+                <div v-on:click="scrollTo('ticket-notice')" :class="activeMenus == 'ticket-notice'? 'active' : ''" class="top-menu-list-item">{{$tm("nav-instructions")}}</div>
+                  <div v-on:click="scrollTo('recommend')" :class="activeMenus == 'recommend' ? 'active' : ''" class="top-menu-list-item recommend">
+                    {{$tm("nav-recommend")}}
+                  </div>
+                <div v-on:click="openLayoutUrl" class="top-menu-list-item">{{locales == 'en'? '中文': 'English'}}</div>
+            </div>
+                <el-button  size="large" class="hdx-footer-btn" type="primary" round v-on:click="submitRegister">
+                  {{$tm("details-register-now")}}
+                </el-button>
+            
+          </div>
+      </div>
+  </div>
+ 
+  <main ref="details-main" class="details-main details-card">
+    
+    <div class="details-banner-card">
+       
+      <div class="banner-filter" style="background-image: url(https://wimg.huodongxing.com/logo/202611/6887876169600/756165809281847_v2large.jpg@!wmlogo)"></div>
+      <div class="details-banner-main">
+        <img src="https://wimg.huodongxing.com/logo/202611/6887876169600/756165809281847_v2large.jpg@!wmlogo" alt="深圳第四届湾区青年戏剧季&#183;AI戏剧共创营&#183;戏剧季黑客松">
+      </div>
+      
+    </div>
+    <div class="details-content-box">
+      <div class="details-content">
+        
+        <div class="hdx-details-title">深圳第四届湾区青年戏剧季&#183;AI戏剧共创营&#183;戏剧季黑客松</div>
+        <div class="hdx-details-browse">
+          <span class="selector-rect">{{$t("details-view", {value: 59})}}</span>
+          <span class="selector-rect">{{$t("details-like", {value: 6})}}</span>
+          
+          
+        </div>
+
+        
+
+        <div class="hdx-details-times hdx-details-view selector-rect">
+          <p>{{$tm("time")}}</p>
+          <p class="hdx-details-view-value">
+            <span v-if="locales == 'en'">{{ativityData.ativityTimeEn}}</span>
+            <span v-else>{{ativityData.ativityTime}}</span>
+          </p> 
+        </div>
+        <div v-on:click="copyToClipboardText(addressText)" class="hdx-details-address hdx-details-view selector-rect">
+          <p>{{$tm("location")}}</p>
+          <p class="hdx-details-view-value">
+            <span v-html="addressText"></span>
+          </p>
+        </div>
+        <div class="hdx-venue-more" v-if="venueInfo.hasVenue && !addressText?.includes('报名后可查看详细地址')" :data-url="'/venue/detail?id=' + venueInfo.venueId" :data-blank="true" v-on:click="go">
+            查看该场地更多活动<template v-if="venueInfo.todoCount > 0"> · {{venueInfo.todoCount}}场待办</template>
+        </div>
+        <div class="hdx-details-price selector-rect">
+          <template v-if="isTicketEmpty">{{$tm("details-suspended")}}</template>
+          <template v-else-if="priceInterval.Lowest === 0 && priceInterval.Highest === 0">{{$tm("details-free")}}</template>
+          <template v-else-if="priceInterval.Lowest == priceInterval.Highest">¥ {{priceInterval.Highest}}</template>
+          <template v-else>¥ {{priceInterval.Lowest}}</template>
+
+          <template v-if="priceInterval.Lowest != priceInterval.Highest">&nbsp;-&nbsp;{{priceInterval.Highest}}</template>
+          <span class="vip-discount" v-if="MemberCoupon.available">{{MemberCoupon.value}}</span>
+        </div>
+
+        <el-carousel class="hdx-details-preferential" style="height: 20px;" arrow='never' :interval="3000" :loop="couponTicketList.length > 0" direction="vertical" v-if="couponTicketList.length > 0">
+          <el-carousel-item v-for="(item, index) in couponTicketList" :key="`couponTicket${item.SN}`">
+            <div class="preferential-item" :class="`coupon-${item.couponType} ${locales}`">
+            「<span>{{item.Title}}</span>」{{item.couponDescs}}
+            </div>
+          </el-carousel-item>
+        </el-carousel>
+
+        <div v-if="ticketsData.length != 0" class="title-container">
+          <div ref="event-ticket" class="hdx-footer-btn-box">
+            <div id="hdx-submit-register-btn" class="hdx-footer-btn-rel">
+                <el-button  size="large" class="hdx-footer-btn" type="primary" round v-on:click="submitRegister">
+                  {{$tm("details-register-now")}}
+                </el-button>
+              <div class="icon-botton-img-box">
+                <div :class="isFollow ? 'active' : ''" class="details-layout details-follow cursor-pointer" v-on:click="setEventFollow"></div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div id="event_desc_page"></div>
+        <div class="eventContentAreaMain">
+          <section class='js-event-sub-content'></section>
+          <div ref="activity-detail" id="activity-detail" class="hdx-details-headline">{{$tm("details-about-event")}}</div>
+          <div class="js-event-content"></div>
+        </div>
+        
+        <div class="forum">
+          
+          <h3 class="historical-evaluation">{{$t("details-event-consultation")}} 
+            <el-button class="historical-evaluation-btn" type="primary" round v-on:click="eventsEnquiriesDialog = true">{{$t("details-event-consult2")}}</el-button>
+          </h3>
+          <div id="eventCommentList">
+                      <div class="text-center">
+                          <span class="icon-warning"></span>{{$t("No-comments")}}
+                        </div>
+            </div>
+          <div id="event-bottom"></div>
+          
+          
+        </div>
+      
+        
+        <div ref="ticket-notice" id="ticket-notice" class="hdx-details-content">
+          <div class=" wow fadeIn " data-wow-delay="0.1s">
+            <div class="hdx-details-headline selector-rect">{{$tm("details-registration-instructions")}}</div>
+          </div>
+          <div ref="contentRef" class="line-place-box"> 
+              <p class="line-place">{{$t("disclaimer1", {value: "图灵造物"})}}</p>  
+              <p class="line-place">{{$t("disclaimer2")}}</p>         
+              <p class="line-place">{{$t("disclaimer3")}}</p>         
+          </div>
+        </div>
+      </div>
+      <div class="details-sidebar">
+        <div class="hdx-sticky">
+          <div class="details-layout-box">
+            <div class="details-layout cursor-pointer" v-on:click="openLayoutUrl">{{locales == 'en'? '中': 'EN'}}</div>
+            <div class="details-layout wechat" v-on:click="openWechatModal"></div>
+            <div class="details-layout smallProgram" v-on:click="openProgramModal"></div>
+          </div>
+          <div class="hdx-event-card flex">
+            <img class="hdx-app-code-new" src="https://cdn.huodongxing.com/Content/v3.0/img/hdx/hdx-main-feature/hdx-app-code-new.png" alt="">
+            
+            <div class="hdx-app-code-box">
+              <p class="hdx-app-code-title">{{$tm("download-App")}}</p>
+              <p style="word-break: keep-all;">{{$t("download-App-text")}}</p>
+            </div>
+          </div>
+            <div class="hdx-event-card hdx-org-card selector-rect" :class="currentUserData.IsIdentity && currentUserData.IsVip && currentUserData.VipRank >= 1? 'hdx-svip':''">
+              <div class="hdx-org-header" :data-url="`/org/${orgData.Id}`" v-on:click="go">    
+                <div class="org-logo" :class="currentUserData.VipRank == 2 ? 'viprank2' : currentUserData.VipRank ? 'viprank1' : ''">
+                  <hdx-user-logo class="org-userLogo" :user-logo='"https://cdn.huodongxing.com/logo/202306/1706165792927/946165804788894.jpg"' :user-name='`图灵造物`'></hdx-user-logo>
+                </div>
+                <div class="org-main">
+                  <div class="org-title clamp">图灵造物</div>
+                  <div class="org-vip-boxs">
+                    
+                  </div>
+                  <div class="org-authentication-boxs flex">
+                    <span :class="`authentication-${currentUserData.IsIdentity ? (currentUserData.IdentityType === 1 ? 'vip' : 'vip0') : 'unvip'}`"></span>
+                    <span :class="currentUserData.IsVip && currentUserData.VipRank == 1?'authentication-svip1':'authentication-svip'" v-if="currentUserData.IsIdentity && currentUserData.IsVip && currentUserData.VipRank >= 1"></span>
+                  </div>
+                  <div class="org-followers-boxs">
+                    <span class="org-followers">{{$t("details-events", {value: "0"})}}</span>
+                    <span class="org-followers">{{$t("details-followers", {value: "0"})}}</span>    
+                  </div>
+                </div>
+                
+              </div>
+               
+              <div class="hdx-org-review " v-if="OrgReview.isHostOrg" :class="currentUserData.IsIdentity && currentUserData.IsVip && currentUserData.VipRank >= 1? 'vip':''" data-url="https://topic.huodongxing.com/2025BestOrg/h5/h5.html" v-on:click.stop="go">
+                <span class="hdx-org-review-text">荣获{{OrgReview.year}}{{OrgReview.title}}</span> 
+              <el-icon class="hdx-org-review-icon" :color="currentUserData.IsIdentity && currentUserData.IsVip && currentUserData.VipRank >= 1? '#666':'#AB9E86'"><arrow-right></arrow-right></el-icon></div>
+              <div class="hdx-org-follow-box">
+                  
+                  
+                  <el-button size="large" type="primary" class="hdx-org-follow" v-on:click.stop="setOrgFollow">{{ViewBags.IsFollowCreator ? $tm("details-followed") : $tm("details-follow")}}</el-button>
+                </div> 
+             
+            </div>
+          <div class="hdx-event-card"  v-if="isOpenSharingList && sharingList && sharingList.length > 2">
+            <div class="expandNetwork1">
+              {{$t("sharingList")}}
+            </div>
+            <div class="sharingList">
+              <div v-for="(item,index) in sharingList" class="sharingList-item">
+                <span class="sharingList-top">{{index + 1}}</span>
+                <img class="sharingList-logo" :src="item.logo" alt="">
+                <span class="sharingList-nick overflow-text">{{item.nick}}</span>
+                <span class="sharingList-convertApplyNum">{{item.convertApplyNum}}</span>
+              </div>
+            </div>
+            
+          </div>
+
+        </div>
+      </div>
+    </div>
+    
+    <div class="report-box" v-on:click="reportDialog = true">{{$tm("report")}}</div>
+    
+    <div ref="recommend" id="recommend"></div>
+      <hdx-event-recommend class="scuccess-recommend" qd="5428363092855"  :recommend-list="recommendList" recommend-source="pc" ></hdx-event-recommend>
+    <div class="hdx-app-banner">
+        <p class="hdx-app-banner-title">精彩城市生活，尽在活动行！<br>
+        即刻下载APP，享专属会员权益</p>
+        <div class="hdx-app-banner-code-box">
+          <div class="hdx-app-code-border">
+            <img class="hdx-app-code" src="https://cdn.huodongxing.com/Content/v3.0/img/hdx/hdx-main-feature/hdx-gzh.png" alt="">
+          </div>
+          <div class="hdx-app-button-box">
+            <a href="/app" target="_blank">
+                <div class="hdx-app-button hdx-app-ios">
+                    <img class="hdx-app-button-icon" src="https://cdn.huodongxing.com/Content/v3.0/img/hdx/hdx-main-feature/icon-hdx-app-ios.png" alt="">
+                    <span>iOS 下载</span>
+                </div>
+            </a>
+            <a href="/app" target="_blank">
+                <div class="hdx-app-button hdx-app-android">
+                    <img class="hdx-app-button-icon" src="https://cdn.huodongxing.com/Content/v3.0/img/hdx/hdx-main-feature/icon-hdx-app-android.png" alt="">
+                    <span>android 下载</span>
+                </div>
+            </a>
+          </div>
+        </div>
+        <p class="hdx-app-code-text">下载活动行APP</p>
+    </div>
+  </main>
+  
+  <el-dialog width="400" align-center v-model="noUploadedPopup"  class="contactOrgModal"> 
+    <div class="contactOrgModal-body">
+      <div class="org-content"> 
+        <img class="modal-logo" width="120" src="https://cdn.huodongxing.com/Content/v2.0/img/2022-hdx/ico/modal-logo2.png" alt="">
+        <p class="dialog-content-text">{{$t("noUploadedPopup")}}</p>  
+        <el-button v-if="isNotifiedOrg" type="primary" disabled class="popup-btn">已通知主办方</el-button>
+        <el-button v-else type="primary" v-on:click="isInformSponsor" class="popup-btn">通知主办方</el-button>      
+      </div>   
+    </div>   
+  </el-dialog>
+  
+  <el-dialog width="400" align-center v-model="noApplyPopup"  class="contactOrgModal"> 
+    <div class="contactOrgModal-body">
+      <div class="org-content"> 
+        <img class="modal-logo" width="120" src="https://cdn.huodongxing.com/Content/v2.0/img/2022-hdx/ico/modal-logo2.png" alt="">
+        <p class="dialog-content-text">{{$t("noApplyPopup")}}</p>          
+      </div>  
+    </div>   
+  </el-dialog>
+  
+  <el-dialog width="400" align-center v-model="confirmViewPopup"  class="contactOrgModal"> 
+    <div class="contactOrgModal-body">
+      <div class="org-content"> 
+        <img class="modal-logo" width="120" src="https://cdn.huodongxing.com/Content/v2.0/img/2022-hdx/ico/modal-logo2.png" alt="">
+        <p class="dialog-content-text">{{$t("confirmViewPopup")}}</p> 
+        <el-button :disabled="!confirmViewingCheckbox" type="primary" round v-on:click="goPlayback"  data-eid="6887876169600" data-roomid="0" class="popup-btn">确定观看回放</el-button>
+        <el-checkbox class="confirmViewingCheckbox" v-model="confirmViewingCheckbox">
+          {{$t("forms-confirm")}}<a target="_blank" href="https://www.huodongxing.com/privacy" style="color: #333;">《{{$t("forms-confirm1")}}》</a>
+        </el-checkbox>
+      </div>     
+    </div>   
+  </el-dialog>
+  
+  <el-dialog width="400" align-center v-model="noVipPopup"  class="contactOrgModal"> 
+    <div class="contactOrgModal-body">
+      <div class="org-content"> 
+        <img class="modal-logo" width="120" src="https://cdn.huodongxing.com/Content/v2.0/img/2022-hdx/ico/modal-logo2.png" alt="">
+        <p style="word-break: keep-all;" class="dialog-content-text">{{$t("noCirclePopup")}}
+        </p>  
+        <el-button class="popup-btn" data-url="/app" type="primary" round v-on:click="go">{{$t("expandNetworkJoin")}}</el-button>     
+      </div>
+    </div>   
+  </el-dialog>
+  
+  
+  
+  <el-dialog
+    v-model="orgModal"
+    width="400"
+    align-center
+    :title='$tm("contactOrg")'
+    center
+  >
+    <div class="org-content"> 
+      <p class="ContactOrgDescription"></p>
+      <div class="img-cover">
+        <img class="org-content-code" src="/logo/202611/6887876169600/186165868791267.jpg" alt="">
+      </div>
+      <p class="ContactOrgPhone">{{$tm("contactOrgPhone")}}： 18829233746</p>
+    </div>
+  </el-dialog>
+  
+  <el-dialog
+    v-model="wechatModal"
+    width="400"
+    :title="wechatTitle"
+    center
+    align-center
+  >
+    <div style="width:180px;margin:0 auto;text-align:center;" class="code-addimgdown-detail-china" name="qr_wechat_img" id="code-addimgdown-detail-china">
+    </div>
+  </el-dialog>
+  
+  <el-dialog
+    v-model="programModal"
+    width="400"
+    :title='$tm("programModal")'
+    center
+    align-center
+  >
+      <div>
+          
+          <div id="wxMiniCodeImg" style="margin:0 auto;width:180px;height:180px;">
+              <img src="https://cdn.huodongxing.com/logo/202611/6887876169600/promoteMini.png" alt="" />
+          </div>
+      </div>
+  </el-dialog>
+  
+  <el-dialog class="regErrorState" width="400" align-center v-model="regErrorState">
+    <div class="reg-error">
+      <img height="48" src="https://cdn.huodongxing.com/Content/v2.0/img/2022-hdx/ico/ico-warning.png" alt="" srcset="">
+      <p>
+        {{regErrorText}} <template v-if="regErrorText.indexOf('请勿重复报名') > 0"><br/>{{$tm("details-click-view")}} <a href="/user/regevents">{{$tm("details-my-tickets")}}</a></template>
+      </p>
+      <el-button style="margin-top: 20px;" class="popup-btn" type="primary" round v-on:click="regErrorState = false">{{$t('details-got-it')}}</el-button>
+    </div>
+  </el-dialog>
+  
+  <el-dialog align-center :title='$t("Question")' width="400" v-model="eventsEnquiriesDialog" class="coupon-dialog">
+    <div class="forum">
+			<div class="textarea form-control">
+        <textarea id="comment_text_box" v-model="publishCommentTextVal" :placeholder='$t("details-event-consultation-no")'></textarea>
+      </div>
+    </div>
+		<el-button size="large" class="coupon-dialog-btn" type="primary" round v-on:click="publishComment(-1);">{{$t("details-event-consult2")}}</el-button>
+	</el-dialog>
+
+  
+  <el-dialog align-center :title='$t("report")' width="600" v-model="reportDialog" class="coupon-dialog">
+    <div class="report-dialog forum">
+      <div style="margin-bottom: 15px;">
+				<el-input size="large" type="text" :placeholder="$tm('verify-please-tip0')" v-model="reportContact" maxlength="30" />
+      </div>
+      <div class="textarea form-control">
+        <textarea v-model="reportContent" :placeholder='$t("report-placeholder")'></textarea>
+      </div>
+    </div>
+		<el-button size="large" class="coupon-dialog-btn" type="primary" round v-on:click="submitReport">{{$tm("submit")}}</el-button>
+  </el-dialog>
+</div>
+<script type="text/javascript" src="https://cdn.huodongxing.com/Content/v2.0/hdx-details/js/components/event-recommend.js?v=v6.11.4"></script>
+
+
+<script type="text/javascript" src="https://cdn.huodongxing.com/Content/v2.0/hdx-details/js/hdx-details.js?v=v6.11.4""></script>
+<script type="text/javascript">
+  
+  function publishComment(replyId){
+		$.ajax({
+			url: '/account/ajaxislogin',
+			type: "GET",
+			cache: false,
+			success: function (data) {
+				if (data != null && data == "true") {
+					invokePublishComment(replyId);
+				} else {
+					window.location = "/login?ReturnUrl=" + encodeURIComponent(location.pathname + location.search)
+				}
+			}
+		});
+	}
+	
+	function invokePublishComment(replyId){
+		var textval = "";
+		var isReply = (parseInt(replyId) > -1);
+		if(isReply){
+			textval = $("#reply_comment_text").val();
+			if($.trim(textval) == "") textval = $("#reply_comment_text").text();
+			if($.trim(textval) == ""){
+				ElMessage.warning(i18n.global.t("reply-comments-empty"));
+				return;
+			}
+		}
+		else{
+			textval = $("#comment_text_box").val();
+			if($.trim(textval) == "") textval = $("#comment_text_box").text();
+			if($.trim(textval) == ""){
+				ElMessage.warning(i18n.global.t("posted-comments-empty"));
+				return;
+			}
+		}
+		$.ajax({
+			url: '/comment/publish',
+			type: "POST",
+			data: { "type": 0, "target": 6887876169600, "comment": textval, "replyId": replyId, "webTokenValue":"125C584A51ACB3410A29AB4667AA3BC7E7CB7697FB3FADCE5BC6B3BB5D7071EA1A9F3CC50E1DB4FECB" },
+			success: function (data) {
+                if(data.result){
+                  if(isReply){
+                    ElMessage.success(i18n.global.t("reply-comments-success"));
+                    $("#comment_text_box").val("");
+                  }
+                  else{
+                    ElMessage.success(i18n.global.t("posted-comments-success"));
+                    $("#comment_text_box").val("");
+                  }
+                  refreshComments(10, -1);
+                }
+                else{
+                    ElMessage.error(i18n.global.t("Not-allowed-send",{ value: data.msg }));
+                }
+			},
+			error: function (XMLHttpRequest, textStatus, errorThrown) {
+			}
+		});
+	}
+	function loveComment(commentId){
+    $.ajax({
+			url: '/account/ajaxislogin',
+			type: "GET",
+			cache: false,
+			success: function (data) {
+				if (data != null && data == "true") {
+					invokeLoveComment(commentId);
+				} else {
+					window.location = "/login?ReturnUrl=" + encodeURIComponent(location.pathname + location.search)
+				}
+			}
+		});
+	}
+
+	function invokeLoveComment(commentId){
+		$.ajax({
+			url: '/comment/love',
+			type: "POST",
+			cache: false,
+			global: false,
+			data: { "commentId": commentId },
+			success: function (data) {
+				if(data != null && data == true){
+					var lovebtn = $("#clbtn_" + commentId);
+					if (lovebtn.hasClass('active')) return;
+					lovebtn.addClass('active').attr('title','已顶');
+					lovebtn.attr("onclick", "");
+					var loveAppend = $('<strong>+1</strong>').appendTo(lovebtn);
+					commentLoveAdd(loveAppend, "-14px");
+
+					var loveele = $("#cln_" + commentId);
+					if(loveele != null && loveele.length > 0){
+						var lovenum = parseInt(loveele.html());
+						loveele.html(lovenum + 1);
+					}
+				}
+			},
+			error: function (XMLHttpRequest, textStatus, errorThrown) {
+
+			}
+		});
+	}
+
+	function commentLoveAdd(loveBtn, offsetTop, callback){
+		loveBtn.animate({top:offsetTop,opacity:1},200,function(){
+			setTimeout($.proxy(function(){
+				$(this).fadeOut(500,function(){
+					callback && callback();
+				});
+			}, this), 500);
+		})
+	}
+
+	function replyComment(commentId, replyId, replyName){
+		$(".reply-comment-box").remove();
+		$("#eventCommentList b.arrow").hide();
+		var cid = commentId;
+		var isReply = (parseInt(replyId) > 1);
+		if(isReply) cid = replyId;
+
+		var replyText = '<div class="reply-comment-box"><div class="textarea form-control"><textarea id="reply_comment_text"></textarea></div>';
+		replyText = replyText + '<div class="func"><div class="tips pull-left" id="reply_comment_message"></div><button class="btn btn-primary pull-right" onclick="javascript:publishComment(\'' + cid + '\');">确定</button></div></div>';
+
+		var replyArea = $("#comment_reply_" + cid);
+		replyArea.prepend(replyText);
+		$("#carrow_" + cid).show();
+		$('html, body').animate({scrollTop:replyArea.position().top - 140}, 'normal');
+		var commtext = $("#reply_comment_text");
+		commtext.focus()
+		commtext.val('回复@' + replyName + '：');
+		setCursorPosition(commtext[0], 30);
+	}
+
+	function setCursorPosition(ctrl, pos){ 
+		if(ctrl.setSelectionRange){ 
+			ctrl.focus(); 
+			ctrl.setSelectionRange(pos,pos); 
+		} 
+		else if (ctrl.createTextRange) { 
+			var range = ctrl.createTextRange(); 
+			range.collapse(true); 
+			range.moveEnd('character', pos); 
+			range.moveStart('character', pos); 
+			range.select(); 
+		} 
+	} 
+	
+	function refreshComments(pageSize, pageIndex, focusTextBox){
+		$.ajax({
+			url: '/comment/comments',
+			type: "GET",
+			global: (pageIndex == -1 ? false : true),
+			data: { "type": 0, "target": 6887876169600, "pageSize": pageSize, "pageIndex": (pageIndex == -1 ? 1 : pageIndex )},
+			success: function (data) {
+				$("#eventCommentList").html(data);
+				if(false){
+					$("#eventCommentList span.comment-event-from").show();
+				}
+				if (focusTextBox != null && focusTextBox == true) {
+					$("#comment_text_box").focus();
+				}
+				else {
+					if(pageIndex != -1){
+						$('html, body').animate({scrollTop:$("#eventCommentList").offset().top - 140}, 'normal');
+					}
+				}
+			},
+			error: function (XMLHttpRequest, textStatus, errorThrown) {
+
+			}
+		});
+	}
+
+	$(function() {
+		if(false){
+			refreshComments(10, -1);
+		}
+		var commentTextArea = $('#comment_text_box');
+		commentTextArea.focus(function(){
+			$(this).parent().addClass('focus')
+		}).blur(function(){
+			$(this).parent().removeClass('focus')
+		});
+	});
+</script>
+
+
+        </section>
+        
+<style>
+    .org-center-new-form-box .form-group {
+      text-align: left;
+      margin-bottom: 20px;
+    }
+    .org-center-new-form-box .describe{
+        font-size: 14px;
+    }
+    .org-center-form-group {
+      display: inline-block;
+      width: 207px;
+      text-align: left;
+      margin-right: 20px;
+    }
+    .org-center-form-group:nth-child(2n) {
+      margin-right: 0;
+    }
+    .org-center-new-form-box .form-group > label {
+      display: block;
+      margin-bottom: 10px;
+      font-size: 16px;
+      color: #333;
+    }
+    .required-highlight {
+      color: #f23030;
+    }
+    .org-center-new-form-box .form-control {
+      width: 100%;
+      padding: 0 0 0 10px;
+      border: 1px solid #cccccc;
+      border-radius: 6px;
+      background: #ffffff;
+      box-sizing: border-box;
+    }
+
+    .org-center-new-form-box input.form-control,
+    .org-center-new-form-box div.form-control {
+      height: 36px;
+    }
+    .org-center-new-form-box textarea.form-control {
+      padding: 10px;
+    }
+
+    .checkbox-list {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .el-popper .checkbox-list label {
+      width: 50%;
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+      font-size: 16px;
+      color: #333;
+    }
+
+    .checkbox-list label:last-child {
+      margin-bottom: 0;
+    }
+
+    .checkbox-list input[type="checkbox"][name="ecType1"] {
+      margin-top: 0;
+      margin-right: 10px;
+      height: 16px;
+      width: 16px;
+      box-sizing: border-box;
+      border-radius: 2px;
+      border: 1px solid #cccccc;
+    }
+    .org-center-new-form-box .textarea {
+      height: 76px;
+      width: 350px;
+    }
+    .org-center-new-form-box .text {
+      cursor: pointer;
+      vertical-align: middle;
+    }
+    .org-center-new-form-box .label {
+      font-size: 12px;
+      color: #333333;
+    }
+    .org-center-new-form-box .btn-success {
+      height: 40px;
+      background: #2bb967;
+      border-radius: 8px;
+      color: #ffffff;
+      font-size: 14px;
+      width: 100%;
+    }
+    .org-center-new-form-box .describe {
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .huodongxing .el-popover__title {
+      font-size: 24px;
+      color: #333333;
+      text-align: center;
+      font-weight: bold;
+    }
+    .huodongxing .el-popover.el-popper {
+      padding: 20px;
+    }
+    .huodongxing .el-popover.el-popper {
+      color: var(--text-color-level-two);
+    }
+    .custom-popover {
+      transform: translateX(-187px);
+      -webkit-transform: translateX(-187px);
+      -moz-transform: translateX(-187px);
+      -ms-transform: translateX(-187px);
+      -o-transform: translateX(-187px);
+    }
+    .huodongxing .user-custom-popover.el-popper {
+      padding: 0;
+      transform: translateX(-48px);
+      -webkit-transform: translateX(-48px);
+      -moz-transform: translateX(-48px);
+      -ms-transform: translateX(-48px);
+      -o-transform: translateX(-48px);
+    }
+    .checkbox-list input[type="checkbox"]:checked::before {
+      background-image: url(https://cdn.huodongxing.com/Content/v3.0/img/hdx/hdx-main-feature/icon-check-true.png);
+      background-size: cover;
+      display: block;
+      width: 100%;
+      height: 100%;
+      content: "";
+      background-repeat: no-repeat;
+      background-color: #03b349;
+    }
+
+    #floating-menu[v-cloak] {
+      display: none;
+    }
+    .floating-menu-form-box .form-group:nth-child(even) {
+        padding-left: 0
+    }
+    .floating-menu-form-box .form-group:nth-child(odd){
+        padding-right: 0
+    }
+</style>
+<div id="floating-menu" class="floating-menu" v-cloak>
+    <div class="floating-menu-item">
+        <el-popover
+            placement="left"
+            title="合作洽询"
+            :width="500"
+            trigger="click" 
+            :show-arrow="false" 
+            popper-class="custom-popover"                        
+        >
+            <div class="floating-menu-form-box org-center-new-form-box">
+                <p class="describe">由专业活动顾问，为您提供最合适的方案</p>              
+                <form class="online-footer-form needs-validation"> 
+                    <div>
+                        <div class="form-group org-center-form-group">
+                            <label for="ecName1">姓名<span class="required-highlight">*</span></label>
+                            <input type="text" id="ecName1" class="form-control col"
+                                aria-describedby="passwordHelpInline" value="">
+                        </div>
+                        <div class="form-group org-center-form-group">
+                            <label for="ecWX1">微信<span class="required-highlight">*</span></label>
+                            <input type="text" id="ecWX1" class="form-control col" aria-describedby="passwordHelpInline">
+                        </div>
+                        <div class="form-group org-center-form-group">
+                            <label for="ecJob1">城市<span class="required-highlight">*</span></label>
+                            <input type="text" id="ecJob1" value=""
+                                class="form-control col">
+                        </div>
+                        <div style="display: none;" class="form-group org-center-form-group">
+                            <label for="ecPhone1">手机号<span class="required-highlight">*</span></label>
+                            <input type="text" id="ecPhone1" value=""
+                                class="form-control col" aria-describedby="passwordHelpInline">
+                        </div>
+                        <div class="form-group org-center-form-group">
+                            <label for="ecCompany1">公司/单位<span class="required-highlight">*</span></label>
+                            <input type="text" id="ecCompany1" class="form-control col" aria-describedby="passwordHelpInline">
+                        </div>
+                        
+                    </div>
+                    <div style="position: relative;width: 100%;padding-right: 0;" class="form-group">
+                        <label>想咨询的服务？<span class="required-highlight">*</span></label>
+                        <div class="checkbox-list">
+                            <label><input type="checkbox" name="ecType1" value="活动宣传推广" />活动宣传推广</label>
+                            <label><input type="checkbox" name="ecType1" value="现场签到服务" />现场签到服务</label>
+                            <label><input type="checkbox" name="ecType1" value="定制活动官网/APP/小程序" />定制活动官网/APP/小程序</label>
+                            <label><input type="checkbox" name="ecType1" value="云摄影及直播服务" />云摄影及直播服务</label>
+                            <label><input type="checkbox" name="ecType1" value="活动数据AP接口" />活动数据AP接口</label>
+                            <label><input type="checkbox" name="ecType1" value="活动系统私有部署" />活动系统私有部署</label>
+                            <label><input type="checkbox" name="ecType1" value="其他合作需求" />其他合作需求</label>
+                        </div>
+                    </div>
+                    <div class="form-group" style="padding-left: 0;width: 100%;">
+                        <label for="ecDesc1">更多需求描述</label>
+                        <textarea type="text" id="ecDesc1" class="form-control col" rows="4" placeholder="请描述活动主题、人数规模、举办时间及需求，我们将尽快与您联系！" aria-describedby="passwordHelpInline"></textarea>
+                    </div>
+                    <p style="margin-top:15px;text-align: center;">
+                        <button onclick="submitLead1(event)" class="submitLead btn btn-success" type="submit" col="6">提交需求</button>
+                    </p>
+                </form>
+            </div> 
+            <template #reference>
+                <span class="floating-menu-item-img floating-menu-item-send"></span>
+            </template>
+        </el-popover>
+    </div>
+    <div class="floating-menu-item backTopMenu">
+        <span onClick="javascript:$('body,html').animate({scrollTop: 0 }, 500);" class="floating-menu-item-img floating-menu-item-backTop"></span>
+    </div>
+</div>
+<script>
+    const floatingMenu = createApp({  
+            setup() {  
+                return {
+                
+                }
+            }
+    })     
+    floatingMenu.use(ElementPlus).mount('#floating-menu')
+    function submitLead1(event) {
+        event.preventDefault();
+        event.stopPropagation();
+
+        if (!$('#ecName1').val()) {
+            ElMessage.warning('请填写您的姓名')            
+            return
+        }
+        if (!$('#ecPhone1').val()) {
+            ElMessage.warning('请您填写手机号')
+            return
+        } else if (!(/^1[3456789]\d{9}$/.test($('#ecPhone1').val()))) {
+            ElMessage.warning('请您填写正确的手机号')
+            return
+        }
+        if (!$('#ecJob1').val()) {
+            ElMessage.warning('请您填写城市')
+            return
+        }
+        if (!$('#ecCompany1').val()) {
+            ElMessage.warning('请您填写公司/单位名称')
+            return
+        }
+
+
+        if (!$('#ecWX1').val()) {
+            ElMessage.warning('请您填写微信账号')
+            return
+        }
+        let checkedList = []
+        $('input[name="ecType1"]:checked').each((index, item) => {
+            checkedList.push($(item).val())
+        })
+        if (!checkedList.length) {
+            ElMessage.warning('请选择您想咨询的服务')
+            return
+        }
+        let value = {
+            'name': $('#ecName1').val(),
+            'phone': $('#ecPhone1').val(),
+            'source': 45032,
+            'company': $('#ecCompany1').val(),
+            'job': $('#ecJob1').val(),
+            'wx': $('#ecWX1').val(),
+            "customFields":[ 
+                {
+                    "fieldId": 82670553,
+                    "fieldValue": checkedList.join(','),
+                }
+            ],
+            'remark': $('#ecDesc1').val(),
+        }
+        let loadingInstance = null
+        loadingInstance = ElLoading.service();      
+        $.ajax({
+            url: '/apiredrect',
+            type: "POST",
+            data: {
+                aid: 0,
+                activityAuth: false,
+                url: '/admin-api/openapi/v2/lead/submit',
+                args: JSON.stringify(value),
+            },
+            success: function (data) {
+                let res = data ? JSON.parse(data) : {}
+                if (res.code === 200) {
+                    if (res.data.code === 200) {
+                        ElMessage('需求登记成功')
+                    } else {
+                        ElMessage.error(res.data.msg)
+                    }
+                } else {
+                    ElMessage.error(res.message)
+                }
+                loadingInstance.close();
+            },
+            error: function (err) {
+                ElMessage.error('请求失败，请稍后重试')
+                loadingInstance.close();
+            }
+        });
+    }
+</script>
+            <link href="https://cdn.huodongxing.com/Content/v2.0/dist/css/footer-moblie.css" rel="stylesheet" type="text/css" />
+    <footer id="hdx-footer" style="background: #282E3D;">
+      <div class="footer-content auto-width">
+        <div class="footer-content-top flex">
+          <div class="footer-content-right flex">
+            <div class="footer-content-right-item">
+              <dl>
+                <dt data-i18n-text="PlanEvent">办活动</dt>
+                <dd><a href="https://www.huodongxing.com/intro" target="_blank" data-i18n-text="PlanEventTip1">首次发活动</a></dd>
+                <dd><a href="https://cdn.huodongxing.com/hdx-help/examine.html" target="_blank" data-i18n-text="PlanEventTip2">活动审核标准</a></dd>
+                <dd><a href="https://shimo.im/docs/5bqnrXN5XEtdJ1qy" target="_blank" data-i18n-text="PlanEventTip3">如何推广活动</a></dd>
+                <dd><a href="https://shimo.im/docs/pkXJwkgQtD8jCP66" target="_blank" data-i18n-text="PlanEventTip4">举办线上活动</a></dd>
+                <dd><a href="https://shimo.im/docs/m8AZVogweLUgLVAb" target="_blank" data-i18n-text="PlanEventTip5">票款提领</a></dd>
+                <dd><a href="https://media.huodongxing.com/" target="_blank" data-i18n-text="PlanEventTip6">帮助中心</a></dd>           
+              </dl>
+            </div>
+            <div class="footer-content-right-item">
+                <dl>
+                    <dt data-i18n-text="BusinessCooperation">业务合作</dt>
+                    <dd><a href="https://www.huodongxing.com/marketing?utm_source=footer&utm_medium=&utm_campaign=footpage" target="_blank" data-i18n-text="BusinessCooperationTip1">广告服务</a></dd>
+                    <dd><a href="https://www.huodongxing.com/onsite?utm_source=footer&utm_medium=&utm_campaign=footpage" target="_blank" data-i18n-text="BusinessCooperationTip2">签到服务</a></dd>
+                    <dd><a href="https://www.huodongxing.com/customized?utm_source=footer&utm_medium=&utm_campaign=footpage" target="_blank" data-i18n-text="BusinessCooperationTip3">个性化定制</a></dd>
+                    <dd><a href="https://www.huodongxing.com/online?utm_source=footer&utm_medium=&utm_campaign=footpage" target="_blank" data-i18n-text="BusinessCooperationTip4">活动直播</a></dd>
+                    <dd><a href="https://www.huodongxing.com/private?utm_source=footer&utm_medium=&utm_campaign=footpage" target="_blank" data-i18n-text="BusinessCooperationTip5">私有化部署</a></dd>
+                    
+                    
+                    <!-- <dd><a href="https://www.huodongxing.com/console/home#?utm_source=footer&utm_medium=&utm_campaign=footpage" target="_blank">账号升级</a></dd> -->
+                    <!-- <dd><a href="https://www.huodongxing.com/guanjia?utm_source=footer&utm_medium=&utm_campaign=footpage" target="_blank">品牌合作</a></dd> -->
+                    
+                    <!-- <dd><a href="https://www.huodongxing.com/app?utm_source=footer&utm_medium=&utm_campaign=footpage" target="_blank">活动行学院</a></dd>          -->
+                </dl>
+            </div>            
+            <div class="footer-content-right-item">
+              <dl>
+                <dt data-i18n-text="More">更多</dt>   
+                <dd><a href="https://www.huodongxing.com/about?utm_source=footer&utm_medium=&utm_campaign=footpage" target="_blank" data-i18n-text="MoreTip1">公司简介</a></dd>
+                <!-- <dd><a href="https://www.huodongxing.com/terms?utm_source=footer&utm_medium=&utm_campaign=footpage" target="_blank">招聘英才</a></dd> -->
+                <dd><a href="https://www.huodongxing.com/terms?utm_source=footer&utm_medium=&utm_campaign=footpage" target="_blank" data-i18n-text="MoreTip2">用户协议</a></dd>
+                <dd><a href="https://www.huodongxing.com/privacy?utm_source=footer&utm_medium=&utm_campaign=footpage" target="_blank" data-i18n-text="MoreTip3">隐私政策</a></dd>
+                <dd><a href="https://www.huodongxing.com/logodownload?utm_source=footer&amp;utm_medium=&amp;utm_campaign=footpage" target="_blank" data-i18n-text="MoreTip4">活动行Logo</a></dd>
+                <dd><a href="https://mp.weixin.qq.com/s/PLWiIg_ENsj621ajxdgGrg" target="_blank" data-i18n-text="MoreTip5">诚聘英才</a></dd>
+              </dl>
+            </div>
+            <div class="footer-content-right-item" style="width:250px;">
+              <dl>
+                <dt data-i18n-text="ContactUs">联系我们</dt>
+                <dd class="advice-dd"><a style="font-size:24px;">0755-36654679</a></dd>
+                <dd class="date-dd"><span data-i18n-text="WorkingDay">周一至周五</span> 9:00-18:30</dd>
+                
+
+                <dd><span data-i18n-text="CustomerSupport">客服支持</span>：service@huodongxing.com</dd>
+                
+                <dd><span data-i18n-text="OperationsTeam">运营审核</span>：shenhe@huodongxing.com</dd>
+                <!-- <dd><span>商务合作：tuiguang@huodongxing.com</span></dd> -->
+              </dl>
+            </div>
+            <div class="footer-content-right-item footer-hdx-app" style="width:auto">
+              <div class="footer-hdx-logo">
+                <img height="40" src="https://cdn.huodongxing.com/Content/v3.0/img/hdx/hdx-main-feature/hdx-logo-white.png" alt="">
+                <p class="hdx-description">5000万用户，亚洲领先活动社交平台</p>
+              </div>
+              <div class="flex footer-hdx-app">
+                <div style="margin-right: 50px;" class="footer-content-right-item-image-warp">
+                  <img class="footer-content-right-item-image" src="https://cdn.huodongxing.com/Content/v3.0/img/hdx/hdx-main-feature/hdx-gzh.png" alt="">
+                  <div class="footer-content-right-item-title" data-i18n-text="DownloadAppFooter">下载活动行APP</div>
+                </div>
+                <div class="footer-content-right-item-image-warp" >
+                  <img class="footer-content-right-item-image" src="https://cdn.huodongxing.com/Content/v3.0/img/hdx/hdx-main-feature/hdx-xcx.png" alt="">
+                  <div class="footer-content-right-item-title" data-i18n-text="OpenMiniProgram">打开活动行小程序</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-content-bottom">
+            
+    <div>
+          
+          <div class="footer-person flex">
+            
+            <ul class="footer-city-list flex" style="width: 1080px;height: auto;">
+              <li><span data-i18n-text="FriendLinks">友情链接</span>：</li>
+              <li><a href="https://36kr.com/activity"	 target="_blank">36氪</a></li>
+              <li><a href="https://www.cyzone.cn/" target="_blank">创业邦</a></li>
+              <li><a href="https://www.newrank.cn/" target="_blank">新榜</a></li>
+              <li><a href="https://www.chinajoy.net/cjgw/" target="_blank">ChinaJoy</a></li>
+              <li><a href="https://www.ui.cn/" target="_blank">UI中国</a></li>
+              <li><a href="https://www.designup.cn/" target="_blank">Designup</a></li>
+              <li><a href="https://itjuzi.com/" target="_blank">IT桔子</a></li>
+              <li><a href="https://www.baijing.cn/" target="_blank">白鲸出海</a></li> 
+              <li><a href="https://www.im2maker.com/" target="_blank">镁客网</a></li>
+              <li><a href="https://www.iresearch.cn/" target="_blank">艾瑞网</a></li>
+              <li><a href="https://www.chuangkit.com/" target="_blank">创客贴</a></li>
+              <li><a href="https://www.laihua.com/" target="_blank">来画视频</a></li>
+              <li><a href="https://www.iimedia.cn" target="_blank">艾媒网</a></li>
+              <li><a href="https://www.sxl.cn/" target="_blank">上线了</a></li>
+              <li><a href="https://www.sensorsdata.cn" target="_blank">神策数据</a></li>                  
+              <li><a href="https://www.zhiyeapp.com/" target="_blank">知页简历</a></li>    
+              <li><a href="https://www.hrloo.com/" target="_blank">三茅网</a></li>         
+          </div>
+          <p class="copyright top-text flex">ICP证京B2-20180942<span class="line-border"></span>
+            <a class="footer-link footer-link-right" href="https://beian.miit.gov.cn/" target="_blank">京ICP备12026130号-2</a>
+            <span class="line-border"></span>
+            <a class="footer-link" href="https://www.beian.gov.cn/portal/registerSystemInfo" target="_blank"><span class="footer-link">京公网安备11010802041038</span></a> 
+            <span class="line-border"></span>
+            <a class="footer-link footer-link-right" href="https://cdn.huodongxing.com/html/ycz.html" target="_blank">营业性演出许可证</a>
+          </p>
+          <p class="copyright flex copyright-box"><span data-i18n-text="Copyright">版权所有</span>：北京艾科创意信息技术有限公司<span class="line-border"></span>©2012-2026 Huodongxing.com All Right Reserved </p>
+          
+        </div></div>
+      </div>
+    </footer>
+
+  <style>
+    
+    *{
+      user-select: auto !important;
+    }
+  </style>
+
+
+        <div class="create-inPop" id="create-inPop">
+          <div class="create-modal-body">
+              <p class="create-modal-title">免费发布</p>
+              <img src="//cdn.huodongxing.com/Content/v2.0/img/create-event/closeModal.png" class="create-modal-close" />
+              <div class="lessons-wrapper">
+                  <a class="lessons-box" href="https://www.huodongxing.com/create" target="_blank">
+                      <img src="//cdn.huodongxing.com/Content/v2.0/img/create-event/Offline-lessons.png" alt="">
+                      <p class="lesson-text">线下活动</p>
+                  </a>
+                  <a class="lessons-box" href="https://www.huodongxing.com/createonlineevent" target="_blank">
+                  <img src="//cdn.huodongxing.com/Content/v2.0/img/create-event/createonlineevent.png" alt="">
+                  <p class="lesson-text">
+                      线上活动
+                      <img class="lessons-tip" src="//cdn.huodongxing.com/Content/v2.0/img/create-event/lessons-newtip.png">
+                  </p>
+                  </a>
+                  
+              </div>
+          </div>
+        </div>
+        <div class="login-modal modal fade" id="login-modal">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+                        
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                        <a class="login-modal-link login-modal-botton" href="https://www.huodongxing.com/login?ReturnUrl=%2fevent%2f6887876169600">手机号登录</a>	
+                        <a class="login-modal-link" href="https://www.huodongxing.com/login?ReturnUrl=%2fevent%2f6887876169600">
+                            <img class="login-phone" height="68" src="https://cdn.huodongxing.com/Content/v3.0/img/hdx/hdx-main-feature/login-phone.png" alt="">				
+                        </a>
+                        
+                    </div>
+
+                    <div class="modal-body">
+                        <p style="color: #333333;font-size: 20px;text-align: center;margin-bottom: 20px;font-weight: bold;">微信登录</p>
+                        <div style="position: relative;min-height: 220px;" class="qr_wrapper">
+                            <!-- <div class="mask_box" >
+                                <p class="qrcode_status_desc">二维码已失效</p>
+                                <div class="reloadBtn">刷新二维码</div>
+                            </div> -->
+                            <div id="login_container" style="width:220px;margin:auto;"></div>
+                            <div style="width: 220px;height: 220px;text-align: center;position: absolute;left: 50%;transform: translateX(-50%);cursor: pointer;display: none;z-index: 1;top: 0;background: #fff;" class="mask_box reloadBtn">
+                                <img width="220" height="220" src="https://cdn.huodongxing.com/Content/v3.0/img/hdx/hdx-main-feature/code-over-time.png" alt="">
+                            </div>
+                        </div>
+                        <p style="color: #666666;margin-top: 20px;text-align: center;">使用微信扫一扫登录“活动行”</p>
+                    </div>
+                    <div class="modal-footer">
+                        <p class="login-modal-tip">
+                            登录即视为同意<a class="login-modal-link" href="https://www.huodongxing.com/terms">《用户服务协议》</a>及<a class="login-modal-link" href="https://www.huodongxing.com/privacy">《隐私政策》</a>
+                            <a style="margin-left: 40px;" href="https://www.huodongxing.com/register?returnUrl=%2fevent%2f6887876169600" class="login-modal-link">手机号注册</a>
+                        </p>
+                    </div>
+                </div>
+			</div>
+		</div>
+        <div class="feedback-layer modal fade" id="home_feedback_layer">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+						<h4 class="modal-title">让批评和口水来的更猛烈些吧！</h4>
+					</div>
+					<div class="modal-body">
+						
+						<div class="feedback-face"></div>
+						<form action="">
+							<input class="form-control" type="text" placeholder="请输入您的邮箱/手机号" id="home_suggest_contact" max-length="64" value=""/>
+							<textarea placeholder="在这里写下您想说的话。" id="home_suggest_content" max-length="512"></textarea>
+							<div class="text-right">
+								<button type="button" class="btn btn-link" data-dismiss="modal">取消</button><button type="button" class="btn btn-primary btn-lg" onclick="javascript:submitMySuggestion();">发送</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+        <div class="modal fade" id="pop_message_dlg">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+						<h4 class="modal-title" id="pop_msg_head"><span class="icon-danger" id="pop_message_icon"></span><span id="pop_message_content"></span></h4>
+					</div>
+				</div>
+			</div>
+		</div>
+        
+		
+    <script type="text/javascript">
+        window.setTimeout(function(){
+            statVisit('6887876169600', '', '1706165792927');
+        }, 800);
+    </script>
+
+          <script>
+            (function (a, h, c, b, f, g) { a["UdeskApiObject"] = f; a[f] = a[f] || function () { (a[f].d = a[f].d || []).push(arguments) }; g = h.createElement(c); g.async = 1; g.charset = "utf-8"; g.src = b; c = h.getElementsByTagName(c)[0]; c.parentNode.insertBefore(g, c) })(window, document, "script", "https://assets-cli.udesk.cn/im_client/js/udeskApi.js", "ud");
+            ud({
+                "code": "4k6gj92",
+                "pos_flag": "vrm",
+                "color": "#03b349",
+                "css": { "right": "-20%" },
+                "link": "https://huodongxing.udesk.cn/im_client/?web_plugin_id=42173"
+            });
+    </script>
+        
+		<script type="text/javascript">
+            var remote_ip_info = { "country": "中国", "province": "上海", "city": "上海", "desc": "中国–上海–上海/" };
+		    function setupScriptDelay(scriptPath, sync, onHead) {
+		        var setupScript = document.createElement("script"); setupScript.type = 'text/javascript';
+		        if (!sync) setupScript.async = true;
+		        if (scriptPath.indexOf("http") == 0) setupScript.src = scriptPath;
+		        else setupScript.src = (("https:" == document.location.protocol) ? "https://" : "http://") + scriptPath;
+		        if (onHead) document.getElementsByTagName("head")[0].appendChild(setupScript);
+		        else document.body.appendChild(setupScript);
+		    }
+
+		    function setupGlobalScript() {
+		        setupScriptDelay("https://hm.baidu.com/h.js?d86fd7b8dedb0c67f4b881dbac1af82c", true, true);
+		        google_analytics_script();
+		    }
+
+		    $(function () {
+                
+                $('img.svgClass').each(function(){
+                    var $img = $(this);
+                    var imgID = $img.attr('id');
+                    var imgClass = $img.attr('class');
+                    var imgURL = $img.attr('src');
+
+                    $.get(imgURL, function(data) {
+                        // Get the SVG tag, ignore the rest
+                        var $svg = $(data).find('svg');
+
+                        // Add replaced image's ID to the new SVG
+                        if(typeof imgID !== 'undefined') {
+                            $svg = $svg.attr('id', imgID);
+                        }
+                        // Add replaced image's classes to the new SVG
+                        if(typeof imgClass !== 'undefined') {
+                            $svg = $svg.attr('class', imgClass+' replaced-svg');
+                        }
+
+                        // Remove any invalid XML tags as per http://validator.w3.org
+                        $svg = $svg.removeAttr('xmlns:a');
+
+                        // Replace image with new SVG
+                        $img.replaceWith($svg);
+
+                    }, 'xml');
+
+                });
+                //灰度模式
+                $.ajax({
+                    url: "https://cdn.huodongxing.com/app/hdx/dark.json",
+                    type: "GET",
+                    success: function (data) {                     
+                        if(data.dark_mode == true) {                    
+                            $("body").css({
+                                "-webkit-filter": "grayscale(100%)",
+                                "-moz-filter": "grayscale(100%)",
+                                "-ms-filter": "grayscale(100%)",
+                                "-o-filter": "grayscale(100%)",
+                                "filter": "grayscale(100%)"
+                            })
+                        }          
+                    }
+                });
+                
+
+		        window.setTimeout("setupGlobalScript()", 1200);
+
+		        $(window).scroll(function () {
+		            var adminwarpheight = $("body").height();
+		            var windowHeight = $(window).height();
+		            var scrollTop = $(document).scrollTop();
+		            var adminwarpfoot = $("footer").height();
+		            if (scrollTop + windowHeight + adminwarpfoot >= adminwarpheight) {
+		                $(".js-sticky-position").css({
+		                    'position': 'absolute',
+                            'bottom': 30
+//		                    'bottom': adminwarpfoot + 70
+		                });
+		            } else {
+		                $(".js-sticky-position").css({
+		                    'position': 'fixed',
+		                    'bottom': 30
+		                });
+		            }
+		        });
+                //发布活动入口
+
+                //$('.punlish-activity').on("click", function () {
+
+                //    $('#create-inPop').show()
+                //});
+                $('.create-modal-close').on("click", function () {
+
+                    $('#create-inPop').hide()
+		        });
+                //回到顶部
+		        $(".js-top-div").on("click", function () {
+		            $('body,html').animate({
+		                scrollTop: 0
+		            }, 500);
+		            return false;
+		        });
+
+                //友情链接更多按钮
+                $('.js_foot_div_more').on('click',function(){
+                    $('.footer-person .footer-city-list').css('height','auto');
+
+                    setTimeout(function(){
+                        $('.js_foot_div_more').attr('href','https://www.huodongxing.com/friendlink');
+                    },500);
+                })
+
+                if (typeof (remote_ip_info) != "undefined" && remote_ip_info != null) {
+                    var currentCityHtml = "<a ";
+                    var cityText = remote_ip_info.city == ''?'无法定位城市':remote_ip_info.city;
+                    if (remote_ip_info.city == "北京") currentCityHtml += " href='https://bj.huodongxing.com'";
+                    else if (remote_ip_info.city == "上海") currentCityHtml += " href='https://sh.huodongxing.com'";
+                    else if (remote_ip_info.city == "广州") currentCityHtml += " href='https://gz.huodongxing.com'";
+                    else if (remote_ip_info.city == "深圳") currentCityHtml += " href='https://sz.huodongxing.com'";
+                    else if (remote_ip_info.city == "杭州") currentCityHtml += " href='https://hz.huodongxing.com'";
+                    else if (remote_ip_info.city == "武汉") currentCityHtml += " href='https://wh.huodongxing.com'";
+                    else if (remote_ip_info.city == "成都") currentCityHtml += " href='https://cd.huodongxing.com'";
+                    else if (remote_ip_info.city == "长沙") currentCityHtml += " href='https://cs.huodongxing.com'";
+                    else currentCityHtml += " href='https://www.huodongxing.com/events?city=" + (cityText=='无法定位城市'?'':cityText) + "'";
+
+                    currentCityHtml += ">" + cityText + "</a>";
+                    $('.city-present-item .city-present').html(currentCityHtml);
+
+                    $("input[type=hidden][name='ex_country']").val(remote_ip_info.country);
+                    $("input[type=hidden][name='ex_province']").val(remote_ip_info.province);
+                    $("input[type=hidden][name='ex_city']").val(remote_ip_info.city);
+
+                    if ($("input[type=hidden][name='City']") != null && $("input[type=hidden][name='City']").val() == "") {
+                        $("input[type=hidden][name='City']").val(remote_ip_info.city);
+                        $("input[type=hidden][name='Province']").val(remote_ip_info.province);
+                        $("input[type=hidden][name='Address']").val(remote_ip_info.province + "--" + remote_ip_info.city);
+                    }
+
+                    $("input[type=hidden][name='country']").val(remote_ip_info.country);
+                    $("input[type=hidden][name='province']").val(remote_ip_info.province);
+                    $("input[type=hidden][name='city']").val(remote_ip_info.city);
+                    $("input[type=hidden][name='district']").val(remote_ip_info.district);
+                    var currentRegion = null;
+                    if (document.cookie.length > 0) {
+                        var regionstart = document.cookie.indexOf("HDX_REGION=");
+                        if (regionstart != -1) {
+                            regionstart = regionstart + "HDX_REGION".length + 1;
+                            var regionend = document.cookie.indexOf(";", regionstart);
+                            if (regionend == -1) regionend = document.cookie.length;
+                            currentRegion = document.cookie.substring(regionstart, regionend);
+                        }
+                    }
+                    if ((currentRegion == null || $.trim(currentRegion) == "") && remote_ip_info.city != null && $.trim(remote_ip_info.city) != "") {
+                        var regionExDate = new Date();
+                        regionExDate.setDate(regionExDate.getDate() + 365);
+                        document.cookie = "HDX_REGION=" + escape(remote_ip_info.province + "," + remote_ip_info.city) + ";domain=huodongxing.com;path=/;expires=" + regionExDate.toGMTString();
+                    }
+                }
+                else{
+                    currentCityHtml = "<a href='https://www.huodongxing.com/events'>无法定位城市</a>";
+                    $('.city-present-item .city-present').html(currentCityHtml);
+                }
+		    });
+
+            function submitMySuggestion() {
+		        var sContactVal = $("#home_suggest_contact").val();
+		        var sContentVal = $("#home_suggest_content").val();
+		        if (sContactVal == '' || sContentVal == '') return;
+		        $.ajax({
+		            url: '/suggest',
+		            type: "POST",
+		            data: { "contact": sContactVal, "content": sContentVal, "token":"12760C3F7B945912224EF8BF71C325B11BB139046E5F72924788A42170A624A3BC6871F626E1B4F90B" },
+		            success: function (data) {
+		                window.alert("我们已收到您反馈的意见，感谢对我们的支持。");
+		                $("#home_feedback_layer").modal("hide");
+		            }
+		        });
+		    }
+            function PopupMessage(type, msg, hideTime,backdrop){
+				if(msg == null || msg == "" || type < 0) return;
+				if(type == 0){
+					type = 'icon-success'
+				}else if(type == 'warning'){
+					type = 'icon-warning'
+				}else{
+					type = 'icon-danger'
+				}
+				$("#pop_message_icon").removeClass("icon-danger icon-success icon-warning").addClass(type);
+				$("#pop_message_content").html(msg);
+                if(msg != null && msg.length <= 25){ $("#pop_msg_head").css("text-align","center"); }
+                else{ $("#pop_msg_head").css("text-align","center"); }
+
+				window.setTimeout(function () { $('#pop_message_dlg').modal({show:true,backdrop:'static'}); }, 350);
+				if(hideTime != null && hideTime > 0) window.setTimeout(function () { $('#pop_message_dlg').modal('hide'); }, hideTime);
+            }
+            var checkLogin = null;
+            function getWxQrCodeUrl() {
+                $.getJSON("/account/getwxqrcodeloginurl", function (data) {
+                    if (data.qrCodeUrl && data.loginKey) {
+                        let newUrl = data.qrCodeUrl;
+                        document.getElementById("login_container").innerHTML = '<img src="' + newUrl + '" />';                 
+                        checkLogin = setInterval(function () {
+                            $.get("/account/getwxqrcodeloginstatus?key=" + data.loginKey, function (status) {
+                                 if (status == -1) { //二维码失效
+                                     $('.qr_wrapper .mask_box').show();
+                                     document.getElementById("login_container").innerHTML = ''                               
+                                     clearInterval(checkLogin);
+                                     checkLogin = null;
+                                 }
+                                 if (status == 2) {
+                                     $.post('/account/loginbywxqrcode', { 'key': data.loginKey }, function (result) {
+                                         hdxDebug.log(result);
+                                         if (result.ret) {
+                                             location.reload();
+                                         }
+                                     });
+                                 }
+                             });
+                        }, 2000);
+                    }
+                });
+            }
+            $(".reloadBtn").on('click', function () {
+                if(!checkLogin) {
+                    $('.qr_wrapper .mask_box').hide();
+                    getWxQrCodeUrl();
+                }        
+            });
+        </script>
+        
+        <!-- Start Alexa Certify Javascript -->
+        <script type="text/javascript">
+            _atrk_opts = { atrk_acct: "GgKTe1aoiI00WL", domain: "huodongxing.com", dynamic: true };
+            function alexa_script() { var as = document.createElement('script'); as.type = 'text/javascript'; as.async = true; as.src = "https://d31qbv1cthcecs.cloudfront.net/atrk.js"; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(as, s); }
+
+            //(function (w) { w.frontjsConfig = { token: "b37495be3a3ed5017225e8b359c6d6e7", behaviour: 9, FPSThreshold: 10 }; w.frontjsTmpData = { r: [], e: [], l: [] }; w.frontjsTmpCollector = function (ev) { (ev.message ? window.frontjsTmpData.e : window.frontjsTmpData.r).push([new Date().getTime(), ev]) }; w.FrontJS = { addEventListener: function (t, f) { w.frontjsTmpData.l.push([t, f]); return f; }, removeEventListener: function (t, f) { for (var i = 0; i < w.frontjsTmpData.l.length; i++) { t === w.frontjsTmpData.l[i][0] && f === w.frontjsTmpData.l[i][1] && w.frontjsTmpData.l.splice(i, 1); } return f; } }; w.document.addEventListener("error", w.frontjsTmpCollector, true); w.addEventListener("error", w.frontjsTmpCollector, true); w.addEventListener("load", function () { var n = w.document.createElement("script"); n.src = "https://frontjs-static.pgyer.com/dist/current/frontjs.web.min.js"; w.document.body.appendChild(n); }, true); })(window);
+        </script>
+        <noscript><img src="https://d5nxst8fruw4z.cloudfront.net/atrk.gif?account=GgKTe1aoiI00WL" style="display:none" height="1" width="1" alt="" /></noscript>
+        <!-- End Alexa Certify Javascript -->
+
+        <input type="hidden" value="web02"/>
+	</body>
+</html>
