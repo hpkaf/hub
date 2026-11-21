@@ -22,18 +22,6 @@
     ]
   },
   {
-    "name": "AI Hacker House × Hi3D",
-    "slug": "aihh-hi3d",
-    "cities": [
-      "上海"
-    ],
-    "website": "",
-    "intro": "AI Hacker House 与 Hi3D 联合组织的 AI 黑客松与社区活动。",
-    "events": [
-      "3d0e7fb3cd2f"
-    ]
-  },
-  {
     "name": "Algorand",
     "slug": "algorand",
     "cities": [],
@@ -44,21 +32,11 @@
     ]
   },
   {
-    "name": "Binance",
-    "slug": "binance",
-    "cities": [],
-    "website": "",
-    "intro": "已收录 1 场 AI 赛事（在架 1 / 往届 0），形式：线上；最近一场：Beyond the Benchmark: The Binance Agentic AI Challenge。",
-    "events": [
-      "fb3f0698599e"
-    ]
-  },
-  {
     "name": "Gensyn",
     "slug": "gensyn",
     "cities": [],
     "website": "",
-    "intro": "已收录 1 场 AI 赛事（在架 1 / 往届 0），形式：线上；最近一场：Agent Arena Competition: Evidence Mining，报名截止 2026-11-23。",
+    "intro": "已收录 1 场 AI 赛事（在架 1 / 往届 0），形式：线上；最近一场：Agent Arena Competition: Evidence Mining，报名截止 2026-11-25。",
     "events": [
       "17ce50173bb1"
     ]
@@ -382,6 +360,18 @@
     "events": [
       "10fea0fb7e83",
       "9f5f60216c05"
+    ]
+  },
+  {
+    "name": "AI Hacker House × Hi3D",
+    "slug": "aihh-hi3d",
+    "cities": [
+      "上海"
+    ],
+    "website": "",
+    "intro": "AI Hacker House 与 Hi3D 联合组织的 AI 黑客松与社区活动。",
+    "events": [
+      "3d0e7fb3cd2f"
     ]
   },
   {

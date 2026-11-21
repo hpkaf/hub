@@ -330,7 +330,7 @@
     "city": null,
     "start_date": "2026-11-13",
     "end_date": "2026-12-11",
-    "deadline": "2026-11-23",
+    "deadline": "2026-11-25",
     "prize": "7250 USD",
     "tracks": [
       "Evidence Mining Agents"
@@ -396,21 +396,6 @@
     "notes": "DoraHacks API: tags=Smart City,Renewable Energy,Traffic Management,Urban Planning,Public Health,IoT (Internet of Things),AI & Machine Learning; ecosystem=IBM Watsonx,AWS Greengrass,Azure IoT Edge,Google Maps Platform,NVIDIA Metropolis"
   },
   {
-    "title": "Beyond the Benchmark: The Binance Agentic AI Challenge",
-    "organizer": "Binance",
-    "mode": "online",
-    "city": null,
-    "start_date": "2026-09-06",
-    "end_date": "2026-11-13",
-    "deadline": null,
-    "prize": null,
-    "tracks": [],
-    "url": "https://dorahacks.io/hackathon/binance",
-    "source": "dorahacks",
-    "source_url": "https://dorahacks.io/hackathon",
-    "notes": "DoraHacks API: tags=AI Agent,Live Trading,Trading Strategies,Real World Assets,Onchain Finance; ecosystem=OpenAI,Anthropic,Llama,LangChain,Python"
-  },
-  {
     "title": "奥林匹斯青少年AI黑客松训练营",
     "organizer": "小威鸽",
     "mode": "offline",
@@ -446,7 +431,7 @@
     "url": "https://www.huodongxing.com/event/1886960427411",
     "source": "huodongxing",
     "source_url": "https://www.huodongxing.com/search?qs=AI%E9%BB%91%E5%AE%A2%E6%9D%BE",
-    "notes": "活动行详情内嵌 ativityJson; 标签=AI硬件,黑客松,Agent; 地址=上海前滩中心; 状态=1"
+    "notes": "活动行详情内嵌 ativityJson; 标签=AI硬件,黑客松,Agent; 地址=上海前滩中心19楼; 状态=1"
   },
   {
     "title": "免费试玩｜AI PLAY 72H 游戏&互动剧创作黑客松观众招募中",

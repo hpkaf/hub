@@ -1,13 +1,13 @@
 # AI 赛事雷达 · 赛事清单
 
-> 更新：2026-11-20 08:05（构建时间，Asia/Shanghai）
-> 共 69 条（在架 + 近 90 天）；报名/奖金以主办方官方页为准。
+> 更新：2026-11-21 08:05（构建时间，Asia/Shanghai）
+> 共 68 条（在架 + 近 90 天）；报名/奖金以主办方官方页为准。
 > JSON: https://race.howfun.cn/api/events.json · 许可: CC BY 4.0
 
 ## Agent Arena Competition: Evidence Mining
 - 状态: 即将截止 | AI: core
 - 形式: 线上
-- 截止: 2026-11-23 | 比赛: 2026-11-13 → 2026-12-11
+- 截止: 2026-11-25 | 比赛: 2026-11-13 → 2026-12-11
 - 奖金: 7250 USD
 - 报名: https://dorahacks.io/hackathon/delphi-agent-competition2
 
@@ -24,6 +24,13 @@
 - 截止: 2026-11-30 | 比赛: ? → ?
 - 奖金: 30W现金奖池
 - 报名: https://modelscope.cn/events/416/%E6%AF%94%E8%B5%9B%E7%AE%80%E4%BB%8B
+
+## 余震预测技术国际大赛
+- 状态: 报名中 | AI: platform
+- 形式: 线上
+- 截止: 2026-11-30 | 比赛: 2026-01-28 → 2026-12-20
+- 奖金: 30,000元
+- 报名: https://tianchi.aliyun.com/competition/entrance/532460
 
 ## AI造游戏，人人都是游戏制作人｜AI+∞开发者创作大赛第三期
 - 状态: 报名中 | AI: core
@@ -76,7 +83,7 @@
 ## 2023年第二届粤港澳大湾区（黄埔）国际算法算例大赛
 - 状态: 待确认 | AI: other
 - 形式: 待确认
-- 截止: 待确认 | 比赛: ? → 2026-11-20
+- 截止: 待确认 | 比赛: ? → 2026-11-21
 - 奖金: ￥10,000,000
 - 报名: https://www.heywhale.com/u/heywhale_comp
 
@@ -173,7 +180,7 @@
 - 报名: https://luma.com/ba5jlhla
 
 ## What If Lab｜万一实验室——AI 硬件创意黑客松
-- 状态: 即将开始 | AI: core
+- 状态: 报名中 | AI: core
 - 形式: 线下 · 浦东
 - 截止: 2026-11-21 | 比赛: 2026-11-21 → 2026-11-21
 - 报名: https://www.huodongxing.com/event/1886960427411
@@ -188,23 +195,16 @@
 ## 中国气象服务协会首届青年AI气象应用创意作品征集与交流主题活动
 - 状态: 待确认 | AI: core
 - 形式: 待确认
-- 截止: 待确认 | 比赛: ? → 2026-11-20
+- 截止: 待确认 | 比赛: ? → 2026-11-21
 - 奖金: ￥2,000,000+国家级平台项目+名企和事业单位实习及入职机会+创意后续转化
 - 报名: http://activity.chinamsa.org/youthCreate/home
 
 ## 人工智能气象预报大模型示范计划（AIM-FDP）
 - 状态: 待确认 | AI: core
 - 形式: 待确认
-- 截止: 待确认 | 比赛: ? → 2026-11-20
+- 截止: 待确认 | 比赛: ? → 2026-11-21
 - 奖金: 国家气象部门合作机会
 - 报名: http://aimfdp.nmc.cn/
-
-## 余震预测技术国际大赛
-- 状态: 报名中 | AI: platform
-- 形式: 线上
-- 截止: 2026-01-28 | 比赛: 2026-01-28 → 2026-12-20
-- 奖金: 30,000元
-- 报名: https://tianchi.aliyun.com/competition/entrance/532460
 
 ## 免费试玩｜AI PLAY 72H 游戏&互动剧创作黑客松观众招募中
 - 状态: 即将开始 | AI: core
@@ -213,7 +213,7 @@
 - 报名: https://www.huodongxing.com/event/9887549891000
 
 ## 华硕 A+ 青年 Creator Lab
-- 状态: 即将开始 | AI: track
+- 状态: 报名中 | AI: track
 - 形式: 线下
 - 截止: 2026-11-21 | 比赛: 2026-11-21 → 2026-11-22
 - 报名: https://events.waytoagi.com/events/%E5%8D%8E%E7%A1%95-a-%E9%9D%92%E5%B9%B4-creator-lab-e_c2f243437e
@@ -431,12 +431,6 @@
 - 截止: 2026-04-07 | 比赛: 2026-04-07 → 2026-08-31
 - 奖金: 90,000元
 - 报名: https://www.datafountain.cn/competitions/1169
-
-## Beyond the Benchmark: The Binance Agentic AI Challenge
-- 状态: 已截止 | AI: core
-- 形式: 线上
-- 截止: 2026-09-06 | 比赛: 2026-09-06 → 2026-11-13
-- 报名: https://dorahacks.io/hackathon/binance
 
 ## MICCAI2026 Challenge: GAVE2
 - 状态: 已截止 | AI: core

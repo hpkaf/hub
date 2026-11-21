@@ -6,7 +6,7 @@
     "mode": "online",
     "city": null,
     "status": "closing",
-    "deadline": "2026-11-23",
+    "deadline": "2026-11-25",
     "ai_level": "core",
     "tracks": [
       "Evidence Mining Agents"
@@ -51,6 +51,25 @@
     ],
     "directions": [
       "embodied"
+    ],
+    "summary": ""
+  },
+  {
+    "id": "f0227a006b6d",
+    "title": "余震预测技术国际大赛",
+    "organizer": null,
+    "mode": "online",
+    "city": null,
+    "status": "open",
+    "deadline": "2026-11-30",
+    "ai_level": "platform",
+    "tracks": [
+      "地质科学",
+      "地震学",
+      "地球物理学"
+    ],
+    "directions": [
+      "algorithm"
     ],
     "summary": ""
   },
@@ -459,7 +478,7 @@
     "organizer": "亚马逊云科技 User Group",
     "mode": "offline",
     "city": "浦东",
-    "status": "upcoming",
+    "status": "open",
     "deadline": null,
     "ai_level": "core",
     "tracks": [
@@ -519,25 +538,6 @@
     "summary": ""
   },
   {
-    "id": "f0227a006b6d",
-    "title": "余震预测技术国际大赛",
-    "organizer": null,
-    "mode": "online",
-    "city": null,
-    "status": "open",
-    "deadline": null,
-    "ai_level": "platform",
-    "tracks": [
-      "地质科学",
-      "地震学",
-      "地球物理学"
-    ],
-    "directions": [
-      "algorithm"
-    ],
-    "summary": ""
-  },
-  {
     "id": "0294c79e5e6b",
     "title": "免费试玩｜AI PLAY 72H 游戏&互动剧创作黑客松观众招募中",
     "organizer": "LinkLike活动专家",
@@ -563,7 +563,7 @@
     "organizer": "华硕 A+ 青年",
     "mode": "offline",
     "city": null,
-    "status": "upcoming",
+    "status": "open",
     "deadline": null,
     "ai_level": "track",
     "tracks": [
@@ -1163,22 +1163,6 @@
     "directions": [
       "multimodal",
       "algorithm"
-    ],
-    "summary": ""
-  },
-  {
-    "id": "fb3f0698599e",
-    "title": "Beyond the Benchmark: The Binance Agentic AI Challenge",
-    "organizer": "Binance",
-    "mode": "online",
-    "city": null,
-    "status": "closed",
-    "deadline": null,
-    "ai_level": "core",
-    "tracks": [],
-    "directions": [
-      "agent",
-      "llm"
     ],
     "summary": ""
   },

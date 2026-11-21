@@ -7,20 +7,20 @@ X-WR-CALNAME:AI 赛事雷达
 X-WR-TIMEZONE:Asia/Shanghai
 BEGIN:VEVENT
 UID:9d1e77a417ba@ai-race-radar
-DTSTAMP:20261120T000559Z
+DTSTAMP:20261121T000559Z
 DTSTART;VALUE=DATE:20261102
 DTEND;VALUE=DATE:20261122
 SUMMARY:首届AI × 音乐视觉黑客松
 DESCRIPTION:主办方：WaytoAGI × ACE-CON；报名截止：2026-11-15
  ；奖金：赛事奖金+官方证书+华为电脑/AirPods 等实物奖
  品+剪映 Hub 积分与流量曝光；报名：https://resonance.waytoa
- gi.com/；收录：AI 赛事雷达（2026-11-20T08:05:59 核验）
+ gi.com/；收录：AI 赛事雷达（2026-11-21T08:05:58 核验）
 URL:https://resonance.waytoagi.com/
 LOCATION:北京
 END:VEVENT
 BEGIN:VEVENT
 UID:9d1e77a417ba-deadline@ai-race-radar
-DTSTAMP:20261120T000559Z
+DTSTAMP:20261121T000559Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:⏰ 报名截止：首届AI × 音乐视觉黑客松

@@ -208,5 +208,25 @@
     "status": "pending",
     "status_note": "联谱聚合页；需找到主办方官方报名页后再决定是否收录",
     "first_seen": "2026-11-18T08:04:51"
+  },
+  {
+    "title": "OPC 搞钱派 Vol.41 | OPC 创新创业大赛",
+    "city": "上海",
+    "url": "https://lianpu.com/event/opc-gaoqianpai-vol41-opc-chuangxin-chuangye-dasai",
+    "source": "lianpu",
+    "source_url": "https://lianpu.com/topics/shanghai-ai",
+    "status": "pending",
+    "status_note": "联谱聚合页；需找到主办方官方报名页后再决定是否收录",
+    "first_seen": "2026-11-21T08:04:37"
+  },
+  {
+    "title": "MoonBit 重磅发布 Meetup 暨黑客松季度决赛",
+    "city": "深圳",
+    "url": "https://lianpu.com/event/moonbit-1-0-meetup-hackathon-quarter-final",
+    "source": "lianpu",
+    "source_url": "https://lianpu.com/topics/shenzhen-ai",
+    "status": "pending",
+    "status_note": "联谱聚合页；需找到主办方官方报名页后再决定是否收录",
+    "first_seen": "2026-11-21T08:04:44"
   }
 ]
