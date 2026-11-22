@@ -7,19 +7,19 @@ X-WR-CALNAME:AI 赛事雷达
 X-WR-TIMEZONE:Asia/Shanghai
 BEGIN:VEVENT
 UID:babe69fb0ddb@ai-race-radar
-DTSTAMP:20261121T000559Z
+DTSTAMP:20261122T000541Z
 DTSTART;VALUE=DATE:20260903
 DTEND;VALUE=DATE:20261025
 SUMMARY:阳光玫瑰葡萄花穗完整性判断与分割挑战赛
 DESCRIPTION:主办方：中国农业大学；报名截止：2026-09-28；
  奖金：1万元；报名：https://challenge.xfyun.cn/topic/info?type=G
- rapeFlowerSeg；收录：AI 赛事雷达（2026-11-21T08:05:58 核验）
+ rapeFlowerSeg；收录：AI 赛事雷达（2026-11-22T08:05:41 核验）
 URL:https://challenge.xfyun.cn/topic/info?type=GrapeFlowerSeg
 LOCATION:线上
 END:VEVENT
 BEGIN:VEVENT
 UID:babe69fb0ddb-deadline@ai-race-radar
-DTSTAMP:20261121T000559Z
+DTSTAMP:20261122T000541Z
 DTSTART;VALUE=DATE:20260928
 DTEND;VALUE=DATE:20260929
 SUMMARY:⏰ 报名截止：阳光玫瑰葡萄花穗完整性判断与分

@@ -2,9 +2,9 @@
   "site": "AI 赛事雷达",
   "homepage": "https://race.howfun.cn/",
   "description": "每一场都经过人工核验：官方链接、报名截止、线上 / 线下，点开就能报名。 含近 90 天已结束赛事（status=closed），供检索与存档。",
-  "updated": "2026-11-21T00:05:59Z",
+  "updated": "2026-11-22T00:05:41Z",
   "cadence": "daily 08:00 Asia/Shanghai",
-  "count": 68,
+  "count": 66,
   "license": "CC BY 4.0 (attribution: AI 赛事雷达)",
   "attribution": "数据来自 AI 赛事雷达，报名与奖金以主办方官方页面为准",
   "fields": {
@@ -55,10 +55,10 @@
       ],
       "status": "closing",
       "ai_level": "core",
-      "verified_at": "2026-11-21T08:05:58",
+      "verified_at": "2026-11-22T08:05:41",
       "verify_code": 200,
       "first_seen": "2026-11-14T08:05:56",
-      "last_seen": "2026-11-21T08:05:58"
+      "last_seen": "2026-11-22T08:05:41"
     },
     {
       "id": "c6d27accef22",
@@ -86,10 +86,10 @@
       ],
       "status": "open",
       "ai_level": "platform",
-      "verified_at": "2026-11-21T08:05:58",
+      "verified_at": "2026-11-22T08:05:41",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-21T08:05:58"
+      "last_seen": "2026-11-22T08:05:41"
     },
     {
       "id": "1fe2ff118454",
@@ -117,10 +117,10 @@
       ],
       "status": "open",
       "ai_level": "core",
-      "verified_at": "2026-11-21T08:05:58",
+      "verified_at": "2026-11-22T08:05:41",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-21T08:05:58"
+      "last_seen": "2026-11-22T08:05:41"
     },
     {
       "id": "f0227a006b6d",
@@ -148,10 +148,10 @@
       ],
       "status": "open",
       "ai_level": "platform",
-      "verified_at": "2026-11-21T08:05:58",
+      "verified_at": "2026-11-22T08:05:41",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-21T08:05:58"
+      "last_seen": "2026-11-22T08:05:41"
     },
     {
       "id": "72fe5f5ee153",
@@ -179,44 +179,10 @@
       ],
       "status": "open",
       "ai_level": "core",
-      "verified_at": "2026-11-21T08:05:58",
+      "verified_at": "2026-11-22T08:05:41",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-21T08:05:58"
-    },
-    {
-      "id": "29042d3c2565",
-      "title": "征集赛15-智析云荐——基于百炼的智能新闻推荐系统挑战赛",
-      "organizer": null,
-      "mode": "online",
-      "city": null,
-      "start_date": "2026-10-21",
-      "end_date": "2026-12-01",
-      "deadline": "2026-12-01",
-      "prize": null,
-      "tracks": [
-        "信息技术",
-        "大语言模型",
-        "自然语言处理",
-        "智能体"
-      ],
-      "summary": "",
-      "directions": [
-        "agent",
-        "llm",
-        "algorithm"
-      ],
-      "url": "https://tianchi.aliyun.com/competition/entrance/532532",
-      "source": "tianchi",
-      "sources": [
-        "tianchi"
-      ],
-      "status": "open",
-      "ai_level": "platform",
-      "verified_at": "2026-11-21T08:05:58",
-      "verify_code": 200,
-      "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-21T08:05:58"
+      "last_seen": "2026-11-22T08:05:41"
     },
     {
       "id": "c23a3e9cad51",
@@ -243,10 +209,10 @@
       ],
       "status": "open",
       "ai_level": "core",
-      "verified_at": "2026-11-21T08:05:58",
+      "verified_at": "2026-11-22T08:05:41",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-21T08:05:58"
+      "last_seen": "2026-11-22T08:05:41"
     },
     {
       "id": "54230fde8632",
@@ -274,10 +240,10 @@
       ],
       "status": "open",
       "ai_level": "track",
-      "verified_at": "2026-11-21T08:05:58",
+      "verified_at": "2026-11-22T08:05:41",
       "verify_code": 200,
       "first_seen": "2026-11-06T17:04:00",
-      "last_seen": "2026-11-21T08:05:58"
+      "last_seen": "2026-11-22T08:05:41"
     },
     {
       "id": "cf5b09f6b87b",
@@ -306,10 +272,10 @@
       ],
       "status": "open",
       "ai_level": "core",
-      "verified_at": "2026-11-21T08:05:58",
+      "verified_at": "2026-11-22T08:05:41",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-21T08:05:58"
+      "last_seen": "2026-11-22T08:05:41"
     },
     {
       "id": "c2e042442ff6",
@@ -337,10 +303,10 @@
       ],
       "status": "open",
       "ai_level": "core",
-      "verified_at": "2026-11-21T08:05:58",
+      "verified_at": "2026-11-22T08:05:41",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-21T08:05:58"
+      "last_seen": "2026-11-22T08:05:41"
     },
     {
       "id": "acdd6a7080e1",
@@ -368,10 +334,10 @@
       ],
       "status": "open",
       "ai_level": "track",
-      "verified_at": "2026-11-21T08:05:58",
+      "verified_at": "2026-11-22T08:05:41",
       "verify_code": 200,
       "first_seen": "2026-11-06T17:39:23",
-      "last_seen": "2026-11-21T08:05:58"
+      "last_seen": "2026-11-22T08:05:41"
     },
     {
       "id": "95ebc2bd22c1",
@@ -380,7 +346,7 @@
       "mode": null,
       "city": null,
       "start_date": null,
-      "end_date": "2026-11-21",
+      "end_date": "2026-11-22",
       "deadline": null,
       "prize": "￥10,000,000",
       "tracks": [],
@@ -395,10 +361,10 @@
       ],
       "status": "unknown",
       "ai_level": "other",
-      "verified_at": "2026-11-21T08:05:58",
+      "verified_at": "2026-11-22T08:05:41",
       "verify_code": 200,
       "first_seen": "2026-11-06T17:53:05",
-      "last_seen": "2026-11-21T08:05:58"
+      "last_seen": "2026-11-22T08:05:41"
     },
     {
       "id": "cbca4a1eae45",
@@ -423,10 +389,10 @@
       ],
       "status": "open",
       "ai_level": "other",
-      "verified_at": "2026-11-21T08:05:58",
+      "verified_at": "2026-11-22T08:05:41",
       "verify_code": 200,
       "first_seen": "2026-11-06T17:53:05",
-      "last_seen": "2026-11-21T08:05:58"
+      "last_seen": "2026-11-22T08:05:41"
     },
     {
       "id": "c8e2acd7a03e",
@@ -451,10 +417,10 @@
       ],
       "status": "open",
       "ai_level": "core",
-      "verified_at": "2026-11-21T08:05:58",
+      "verified_at": "2026-11-22T08:05:41",
       "verify_code": 200,
       "first_seen": "2026-11-06T17:53:05",
-      "last_seen": "2026-11-21T08:05:58"
+      "last_seen": "2026-11-22T08:05:41"
     },
     {
       "id": "f1a5e296d879",
@@ -482,10 +448,10 @@
       ],
       "status": "unknown",
       "ai_level": "core",
-      "verified_at": "2026-11-21T08:05:58",
+      "verified_at": "2026-11-22T08:05:41",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-21T08:05:58"
+      "last_seen": "2026-11-22T08:05:41"
     },
     {
       "id": "4519d308a943",
@@ -512,10 +478,10 @@
       ],
       "status": "open",
       "ai_level": "core",
-      "verified_at": "2026-11-21T08:05:58",
+      "verified_at": "2026-11-22T08:05:41",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-21T08:05:58"
+      "last_seen": "2026-11-22T08:05:41"
     },
     {
       "id": "51f61f4f129e",
@@ -543,10 +509,10 @@
       ],
       "status": "open",
       "ai_level": "platform",
-      "verified_at": "2026-11-21T08:05:58",
+      "verified_at": "2026-11-22T08:05:41",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-21T08:05:58"
+      "last_seen": "2026-11-22T08:05:41"
     },
     {
       "id": "e7dffd72a861",
@@ -572,10 +538,10 @@
       ],
       "status": "open",
       "ai_level": "platform",
-      "verified_at": "2026-11-21T08:05:58",
+      "verified_at": "2026-11-22T08:05:41",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-21T08:05:58"
+      "last_seen": "2026-11-22T08:05:41"
     },
     {
       "id": "04ea79cafa53",
@@ -599,10 +565,10 @@
       ],
       "status": "open",
       "ai_level": "other",
-      "verified_at": "2026-11-21T08:05:58",
+      "verified_at": "2026-11-22T08:05:41",
       "verify_code": 200,
       "first_seen": "2026-11-06T17:53:05",
-      "last_seen": "2026-11-21T08:05:58"
+      "last_seen": "2026-11-22T08:05:41"
     },
     {
       "id": "db0d1dfbf7f0",
@@ -630,10 +596,10 @@
       ],
       "status": "unknown",
       "ai_level": "core",
-      "verified_at": "2026-11-21T08:05:58",
+      "verified_at": "2026-11-22T08:05:41",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-21T08:05:58"
+      "last_seen": "2026-11-22T08:05:41"
     },
     {
       "id": "fe67b063dfb9",
@@ -661,10 +627,10 @@
       ],
       "status": "unknown",
       "ai_level": "core",
-      "verified_at": "2026-11-21T08:05:58",
+      "verified_at": "2026-11-22T08:05:41",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-21T08:05:58"
+      "last_seen": "2026-11-22T08:05:41"
     },
     {
       "id": "459842ff0003",
@@ -693,10 +659,10 @@
       ],
       "status": "unknown",
       "ai_level": "other",
-      "verified_at": "2026-11-21T08:05:58",
+      "verified_at": "2026-11-22T08:05:41",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-21T08:05:58"
+      "last_seen": "2026-11-22T08:05:41"
     },
     {
       "id": "5dabc3dc90a5",
@@ -724,10 +690,10 @@
       ],
       "status": "open",
       "ai_level": "track",
-      "verified_at": "2026-11-21T08:05:58",
+      "verified_at": "2026-11-22T08:05:41",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-21T08:05:58"
+      "last_seen": "2026-11-22T08:05:41"
     },
     {
       "id": "bcd4b4ade563",
@@ -755,10 +721,10 @@
       ],
       "status": "upcoming",
       "ai_level": "core",
-      "verified_at": "2026-11-21T08:05:58",
+      "verified_at": "2026-11-22T08:05:41",
       "verify_code": 200,
       "first_seen": "2026-11-18T08:05:53",
-      "last_seen": "2026-11-21T08:05:58"
+      "last_seen": "2026-11-22T08:05:41"
     },
     {
       "id": "57507797734e",
@@ -784,10 +750,10 @@
       ],
       "status": "open",
       "ai_level": "core",
-      "verified_at": "2026-11-21T08:05:58",
+      "verified_at": "2026-11-22T08:05:41",
       "verify_code": 200,
       "first_seen": "2026-11-12T08:06:21",
-      "last_seen": "2026-11-21T08:05:58"
+      "last_seen": "2026-11-22T08:05:41"
     },
     {
       "id": "2f56064d2684",
@@ -811,41 +777,10 @@
       ],
       "status": "open",
       "ai_level": "core",
-      "verified_at": "2026-11-21T08:05:58",
+      "verified_at": "2026-11-22T08:05:41",
       "verify_code": 200,
       "first_seen": "2026-11-08T19:50:09",
-      "last_seen": "2026-11-21T08:05:58"
-    },
-    {
-      "id": "efb09823937c",
-      "title": "What If Lab｜万一实验室——AI 硬件创意黑客松",
-      "organizer": "亚马逊云科技 User Group",
-      "mode": "offline",
-      "city": "浦东",
-      "start_date": "2026-11-21",
-      "end_date": "2026-11-21",
-      "deadline": null,
-      "prize": null,
-      "tracks": [
-        "AI硬件",
-        "黑客松",
-        "Agent"
-      ],
-      "summary": "",
-      "directions": [
-        "agent"
-      ],
-      "url": "https://www.huodongxing.com/event/1886960427411",
-      "source": "huodongxing",
-      "sources": [
-        "huodongxing"
-      ],
-      "status": "open",
-      "ai_level": "core",
-      "verified_at": "2026-11-21T08:05:58",
-      "verify_code": 200,
-      "first_seen": "2026-11-13T08:06:48",
-      "last_seen": "2026-11-21T08:05:58"
+      "last_seen": "2026-11-22T08:05:41"
     },
     {
       "id": "262785fdd6f9",
@@ -869,10 +804,10 @@
       ],
       "status": "open",
       "ai_level": "core",
-      "verified_at": "2026-11-21T08:05:58",
+      "verified_at": "2026-11-22T08:05:41",
       "verify_code": 200,
       "first_seen": "2026-11-06T17:53:05",
-      "last_seen": "2026-11-21T08:05:58"
+      "last_seen": "2026-11-22T08:05:41"
     },
     {
       "id": "05ce2b5f7d65",
@@ -881,7 +816,7 @@
       "mode": null,
       "city": null,
       "start_date": null,
-      "end_date": "2026-11-21",
+      "end_date": "2026-11-22",
       "deadline": null,
       "prize": "￥2,000,000+国家级平台项目+名企和事业单位实习及入职机会+创意后续转化",
       "tracks": [],
@@ -896,10 +831,10 @@
       ],
       "status": "unknown",
       "ai_level": "core",
-      "verified_at": "2026-11-21T08:05:58",
+      "verified_at": "2026-11-22T08:05:41",
       "verify_code": 200,
       "first_seen": "2026-11-06T17:53:05",
-      "last_seen": "2026-11-21T08:05:58"
+      "last_seen": "2026-11-22T08:05:41"
     },
     {
       "id": "5602055a7732",
@@ -908,7 +843,7 @@
       "mode": null,
       "city": null,
       "start_date": null,
-      "end_date": "2026-11-21",
+      "end_date": "2026-11-22",
       "deadline": null,
       "prize": "国家气象部门合作机会",
       "tracks": [],
@@ -924,10 +859,10 @@
       ],
       "status": "unknown",
       "ai_level": "core",
-      "verified_at": "2026-11-21T08:05:58",
+      "verified_at": "2026-11-22T08:05:41",
       "verify_code": 200,
       "first_seen": "2026-11-06T17:53:05",
-      "last_seen": "2026-11-21T08:05:58"
+      "last_seen": "2026-11-22T08:05:41"
     },
     {
       "id": "0294c79e5e6b",
@@ -956,10 +891,10 @@
       ],
       "status": "upcoming",
       "ai_level": "core",
-      "verified_at": "2026-11-21T08:05:58",
+      "verified_at": "2026-11-22T08:05:41",
       "verify_code": 200,
       "first_seen": "2026-11-17T08:05:48",
-      "last_seen": "2026-11-21T08:05:58"
+      "last_seen": "2026-11-22T08:05:41"
     },
     {
       "id": "ee8e836e4cee",
@@ -987,10 +922,10 @@
       ],
       "status": "open",
       "ai_level": "track",
-      "verified_at": "2026-11-21T08:05:58",
+      "verified_at": "2026-11-22T08:05:41",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-21T08:05:58"
+      "last_seen": "2026-11-22T08:05:41"
     },
     {
       "id": "094f5bca46a6",
@@ -1018,10 +953,10 @@
       ],
       "status": "unknown",
       "ai_level": "other",
-      "verified_at": "2026-11-21T08:05:58",
+      "verified_at": "2026-11-22T08:05:41",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-21T08:05:58"
+      "last_seen": "2026-11-22T08:05:41"
     },
     {
       "id": "384ec6224bd6",
@@ -1048,10 +983,10 @@
       ],
       "status": "unknown",
       "ai_level": "core",
-      "verified_at": "2026-11-21T08:05:58",
+      "verified_at": "2026-11-22T08:05:41",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-21T08:05:58"
+      "last_seen": "2026-11-22T08:05:41"
     },
     {
       "id": "7461baf67a94",
@@ -1079,10 +1014,10 @@
       ],
       "status": "open",
       "ai_level": "core",
-      "verified_at": "2026-11-21T08:05:58",
+      "verified_at": "2026-11-22T08:05:41",
       "verify_code": 200,
       "first_seen": "2026-11-20T08:05:59",
-      "last_seen": "2026-11-21T08:05:58"
+      "last_seen": "2026-11-22T08:05:41"
     },
     {
       "id": "bfd3aecdcbab",
@@ -1109,10 +1044,10 @@
       ],
       "status": "unknown",
       "ai_level": "core",
-      "verified_at": "2026-11-21T08:05:58",
+      "verified_at": "2026-11-22T08:05:41",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-21T08:05:58"
+      "last_seen": "2026-11-22T08:05:41"
     },
     {
       "id": "1f4f5ff53ed4",
@@ -1141,10 +1076,10 @@
       ],
       "status": "unknown",
       "ai_level": "other",
-      "verified_at": "2026-11-21T08:05:58",
+      "verified_at": "2026-11-22T08:05:41",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-21T08:05:58"
+      "last_seen": "2026-11-22T08:05:41"
     },
     {
       "id": "bcad4c1c92d9",
@@ -1173,10 +1108,10 @@
       ],
       "status": "open",
       "ai_level": "platform",
-      "verified_at": "2026-11-21T08:05:58",
+      "verified_at": "2026-11-22T08:05:41",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-21T08:05:58"
+      "last_seen": "2026-11-22T08:05:41"
     },
     {
       "id": "6b6403ff04d6",
@@ -1203,10 +1138,10 @@
       ],
       "status": "closed",
       "ai_level": "platform",
-      "verified_at": "2026-11-21T08:05:58",
+      "verified_at": "2026-11-22T08:05:41",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-21T08:05:58"
+      "last_seen": "2026-11-22T08:05:41"
     },
     {
       "id": "86c57475d2e5",
@@ -1233,10 +1168,10 @@
       ],
       "status": "closed",
       "ai_level": "platform",
-      "verified_at": "2026-11-21T08:05:58",
+      "verified_at": "2026-11-22T08:05:41",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-21T08:05:58"
+      "last_seen": "2026-11-22T08:05:41"
     },
     {
       "id": "6e599c31ba58",
@@ -1263,10 +1198,10 @@
       ],
       "status": "closed",
       "ai_level": "platform",
-      "verified_at": "2026-11-21T08:05:58",
+      "verified_at": "2026-11-22T08:05:41",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-21T08:05:58"
+      "last_seen": "2026-11-22T08:05:41"
     },
     {
       "id": "730f1f20c8ea",
@@ -1294,10 +1229,10 @@
       ],
       "status": "closed",
       "ai_level": "platform",
-      "verified_at": "2026-11-21T08:05:58",
+      "verified_at": "2026-11-22T08:05:41",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-21T08:05:58"
+      "last_seen": "2026-11-22T08:05:41"
     },
     {
       "id": "10fea0fb7e83",
@@ -1325,10 +1260,10 @@
       ],
       "status": "closed",
       "ai_level": "platform",
-      "verified_at": "2026-11-21T08:05:58",
+      "verified_at": "2026-11-22T08:05:41",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-21T08:05:58"
+      "last_seen": "2026-11-22T08:05:41"
     },
     {
       "id": "8541cb1e0341",
@@ -1357,10 +1292,10 @@
       ],
       "status": "closed",
       "ai_level": "platform",
-      "verified_at": "2026-11-21T08:05:58",
+      "verified_at": "2026-11-22T08:05:41",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-21T08:05:58"
+      "last_seen": "2026-11-22T08:05:41"
     },
     {
       "id": "5b1041241f12",
@@ -1389,10 +1324,10 @@
       ],
       "status": "closed",
       "ai_level": "core",
-      "verified_at": "2026-11-21T08:05:58",
+      "verified_at": "2026-11-22T08:05:41",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-21T08:05:58"
+      "last_seen": "2026-11-22T08:05:41"
     },
     {
       "id": "9f5f60216c05",
@@ -1420,10 +1355,10 @@
       ],
       "status": "closed",
       "ai_level": "platform",
-      "verified_at": "2026-11-21T08:05:58",
+      "verified_at": "2026-11-22T08:05:41",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-21T08:05:58"
+      "last_seen": "2026-11-22T08:05:41"
     },
     {
       "id": "c60e42bd1ffe",
@@ -1452,10 +1387,10 @@
       ],
       "status": "closed",
       "ai_level": "platform",
-      "verified_at": "2026-11-21T08:05:58",
+      "verified_at": "2026-11-22T08:05:41",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-21T08:05:58"
+      "last_seen": "2026-11-22T08:05:41"
     },
     {
       "id": "21454fa7efac",
@@ -1483,10 +1418,10 @@
       ],
       "status": "closed",
       "ai_level": "platform",
-      "verified_at": "2026-11-21T08:05:58",
+      "verified_at": "2026-11-22T08:05:41",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-21T08:05:58"
+      "last_seen": "2026-11-22T08:05:41"
     },
     {
       "id": "1712b226ef79",
@@ -1514,10 +1449,10 @@
       ],
       "status": "closed",
       "ai_level": "platform",
-      "verified_at": "2026-11-21T08:05:58",
+      "verified_at": "2026-11-22T08:05:41",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-21T08:05:58"
+      "last_seen": "2026-11-22T08:05:41"
     },
     {
       "id": "69ae8f54528a",
@@ -1545,10 +1480,10 @@
       ],
       "status": "closed",
       "ai_level": "platform",
-      "verified_at": "2026-11-21T08:05:58",
+      "verified_at": "2026-11-22T08:05:41",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-21T08:05:58"
+      "last_seen": "2026-11-22T08:05:41"
     },
     {
       "id": "babe69fb0ddb",
@@ -1576,10 +1511,10 @@
       ],
       "status": "closed",
       "ai_level": "platform",
-      "verified_at": "2026-11-21T08:05:58",
+      "verified_at": "2026-11-22T08:05:41",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-21T08:05:58"
+      "last_seen": "2026-11-22T08:05:41"
     },
     {
       "id": "0e5440864541",
@@ -1608,10 +1543,10 @@
       ],
       "status": "closed",
       "ai_level": "core",
-      "verified_at": "2026-11-21T08:05:58",
+      "verified_at": "2026-11-22T08:05:41",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-21T08:05:58"
+      "last_seen": "2026-11-22T08:05:41"
     },
     {
       "id": "e020b4265bb8",
@@ -1638,10 +1573,10 @@
       ],
       "status": "closed",
       "ai_level": "core",
-      "verified_at": "2026-11-21T08:05:58",
+      "verified_at": "2026-11-22T08:05:41",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-21T08:05:58"
+      "last_seen": "2026-11-22T08:05:41"
     },
     {
       "id": "3d0e7fb3cd2f",
@@ -1667,10 +1602,10 @@
       ],
       "status": "closed",
       "ai_level": "track",
-      "verified_at": "2026-11-21T08:05:58",
+      "verified_at": "2026-11-22T08:05:41",
       "verify_code": 200,
       "first_seen": "2026-11-06T18:34:04",
-      "last_seen": "2026-11-21T08:05:58"
+      "last_seen": "2026-11-22T08:05:41"
     },
     {
       "id": "312063dc7ec9",
@@ -1697,10 +1632,10 @@
       ],
       "status": "closed",
       "ai_level": "core",
-      "verified_at": "2026-11-21T08:05:58",
+      "verified_at": "2026-11-22T08:05:41",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-21T08:05:58"
+      "last_seen": "2026-11-22T08:05:41"
     },
     {
       "id": "4ada71681515",
@@ -1727,10 +1662,10 @@
       ],
       "status": "closed",
       "ai_level": "platform",
-      "verified_at": "2026-11-21T08:05:58",
+      "verified_at": "2026-11-22T08:05:41",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-21T08:05:58"
+      "last_seen": "2026-11-22T08:05:41"
     },
     {
       "id": "0f21cf92282d",
@@ -1757,10 +1692,10 @@
       ],
       "status": "closed",
       "ai_level": "core",
-      "verified_at": "2026-11-21T08:05:58",
+      "verified_at": "2026-11-22T08:05:41",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-21T08:05:58"
+      "last_seen": "2026-11-22T08:05:41"
     },
     {
       "id": "18d9e2649373",
@@ -1789,10 +1724,10 @@
       ],
       "status": "closed",
       "ai_level": "core",
-      "verified_at": "2026-11-21T08:05:58",
+      "verified_at": "2026-11-22T08:05:41",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-21T08:05:58"
+      "last_seen": "2026-11-22T08:05:41"
     },
     {
       "id": "9d1e77a417ba",
@@ -1820,10 +1755,10 @@
       ],
       "status": "closed",
       "ai_level": "core",
-      "verified_at": "2026-11-21T08:05:58",
+      "verified_at": "2026-11-22T08:05:41",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-21T08:05:58"
+      "last_seen": "2026-11-22T08:05:41"
     },
     {
       "id": "878465bc4362",
@@ -1856,10 +1791,10 @@
       ],
       "status": "closed",
       "ai_level": "track",
-      "verified_at": "2026-11-21T08:05:58",
+      "verified_at": "2026-11-22T08:05:41",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-21T08:05:58"
+      "last_seen": "2026-11-22T08:05:41"
     },
     {
       "id": "625b5a71ebac",
@@ -1888,10 +1823,10 @@
       ],
       "status": "closed",
       "ai_level": "core",
-      "verified_at": "2026-11-21T08:05:58",
+      "verified_at": "2026-11-22T08:05:41",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-21T08:05:58"
+      "last_seen": "2026-11-22T08:05:41"
     },
     {
       "id": "3770f5a44e8f",
@@ -1919,10 +1854,10 @@
       ],
       "status": "closed",
       "ai_level": "core",
-      "verified_at": "2026-11-21T08:05:58",
+      "verified_at": "2026-11-22T08:05:41",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-21T08:05:58"
+      "last_seen": "2026-11-22T08:05:41"
     },
     {
       "id": "59a629172564",
@@ -1949,10 +1884,10 @@
       ],
       "status": "closed",
       "ai_level": "core",
-      "verified_at": "2026-11-21T08:05:58",
+      "verified_at": "2026-11-22T08:05:41",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-21T08:05:58"
+      "last_seen": "2026-11-22T08:05:41"
     },
     {
       "id": "ea6b6bc9088d",
@@ -1978,10 +1913,10 @@
       ],
       "status": "closed",
       "ai_level": "core",
-      "verified_at": "2026-11-21T08:05:58",
+      "verified_at": "2026-11-22T08:05:41",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-21T08:05:58"
+      "last_seen": "2026-11-22T08:05:41"
     },
     {
       "id": "c4cc7b8c077f",
@@ -2008,10 +1943,10 @@
       ],
       "status": "closed",
       "ai_level": "platform",
-      "verified_at": "2026-11-21T08:05:58",
+      "verified_at": "2026-11-22T08:05:41",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-21T08:05:58"
+      "last_seen": "2026-11-22T08:05:41"
     },
     {
       "id": "19f3973c4ad3",
@@ -2039,10 +1974,10 @@
       ],
       "status": "closed",
       "ai_level": "core",
-      "verified_at": "2026-11-21T08:05:58",
+      "verified_at": "2026-11-22T08:05:41",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-21T08:05:58"
+      "last_seen": "2026-11-22T08:05:41"
     },
     {
       "id": "936661a1f359",
@@ -2070,10 +2005,10 @@
       ],
       "status": "closed",
       "ai_level": "platform",
-      "verified_at": "2026-11-21T08:05:58",
+      "verified_at": "2026-11-22T08:05:41",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-21T08:05:58"
+      "last_seen": "2026-11-22T08:05:41"
     },
     {
       "id": "60c4ebefaca4",
@@ -2102,10 +2037,10 @@
       ],
       "status": "closed",
       "ai_level": "core",
-      "verified_at": "2026-11-21T08:05:58",
+      "verified_at": "2026-11-22T08:05:41",
       "verify_code": 200,
       "first_seen": "2026-11-06T15:50:27",
-      "last_seen": "2026-11-21T08:05:58"
+      "last_seen": "2026-11-22T08:05:41"
     }
   ]
 }

@@ -93,28 +93,6 @@
     "summary": ""
   },
   {
-    "id": "29042d3c2565",
-    "title": "征集赛15-智析云荐——基于百炼的智能新闻推荐系统挑战赛",
-    "organizer": null,
-    "mode": "online",
-    "city": null,
-    "status": "open",
-    "deadline": "2026-12-01",
-    "ai_level": "platform",
-    "tracks": [
-      "信息技术",
-      "大语言模型",
-      "自然语言处理",
-      "智能体"
-    ],
-    "directions": [
-      "agent",
-      "llm",
-      "algorithm"
-    ],
-    "summary": ""
-  },
-  {
     "id": "c23a3e9cad51",
     "title": "支付宝AI付年度黑客松",
     "organizer": "支付宝",
@@ -471,25 +449,6 @@
       "other"
     ],
     "summary": "WAISS (Wiener AI Software Stammtisch) is a cozy get-together, planned monthly, for everyone who builds, codes & experiments with AI. We'll kick things off with…"
-  },
-  {
-    "id": "efb09823937c",
-    "title": "What If Lab｜万一实验室——AI 硬件创意黑客松",
-    "organizer": "亚马逊云科技 User Group",
-    "mode": "offline",
-    "city": "浦东",
-    "status": "open",
-    "deadline": null,
-    "ai_level": "core",
-    "tracks": [
-      "AI硬件",
-      "黑客松",
-      "Agent"
-    ],
-    "directions": [
-      "agent"
-    ],
-    "summary": ""
   },
   {
     "id": "262785fdd6f9",
