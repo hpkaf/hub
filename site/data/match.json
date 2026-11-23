@@ -22,7 +22,7 @@
     "organizer": null,
     "mode": "online",
     "city": null,
-    "status": "open",
+    "status": "closing",
     "deadline": "2026-11-30",
     "ai_level": "platform",
     "tracks": [
@@ -41,7 +41,7 @@
     "organizer": "地瓜机器人",
     "mode": "online",
     "city": null,
-    "status": "open",
+    "status": "closing",
     "deadline": "2026-11-30",
     "ai_level": "core",
     "tracks": [
@@ -60,7 +60,7 @@
     "organizer": null,
     "mode": "online",
     "city": null,
-    "status": "open",
+    "status": "closing",
     "deadline": "2026-11-30",
     "ai_level": "platform",
     "tracks": [
@@ -126,6 +126,24 @@
     ],
     "directions": [
       "vertical"
+    ],
+    "summary": ""
+  },
+  {
+    "id": "3ac8f8019274",
+    "title": "FlagOS开放计算全球挑战赛S2",
+    "organizer": null,
+    "mode": null,
+    "city": null,
+    "status": "open",
+    "deadline": "2026-12-30",
+    "ai_level": "track",
+    "tracks": [
+      "LLM算法竞赛"
+    ],
+    "directions": [
+      "llm",
+      "algorithm"
     ],
     "summary": ""
   },
@@ -515,25 +533,6 @@
       "other"
     ],
     "summary": ""
-  },
-  {
-    "id": "ee8e836e4cee",
-    "title": "华硕 A+ 青年 Creator Lab",
-    "organizer": "华硕 A+ 青年",
-    "mode": "offline",
-    "city": null,
-    "status": "open",
-    "deadline": null,
-    "ai_level": "track",
-    "tracks": [
-      "48 小时黑客松",
-      "AI 创作",
-      "跨学科共创"
-    ],
-    "directions": [
-      "vertical"
-    ],
-    "summary": "华硕 A+ 青年 Creator Lab 正式开启报名！这是一场专为年轻人打造的 48 小时 AI 创作实验，旨在通过 AI 技术让创造变得触手可及，将灵感转化为现实。 无论你是技术玩家，还是来自设计、商科、传媒、法律、医学等不同专业的学生，都可以参与其中。你可以带着成熟的 De"
   },
   {
     "id": "094f5bca46a6",
@@ -1178,6 +1177,25 @@
       "algorithm"
     ],
     "summary": ""
+  },
+  {
+    "id": "ee8e836e4cee",
+    "title": "华硕 A+ 青年 Creator Lab",
+    "organizer": "华硕 A+ 青年",
+    "mode": "offline",
+    "city": null,
+    "status": "closed",
+    "deadline": null,
+    "ai_level": "track",
+    "tracks": [
+      "48 小时黑客松",
+      "AI 创作",
+      "跨学科共创"
+    ],
+    "directions": [
+      "vertical"
+    ],
+    "summary": "华硕 A+ 青年 Creator Lab 正式开启报名！这是一场专为年轻人打造的 48 小时 AI 创作实验，旨在通过 AI 技术让创造变得触手可及，将灵感转化为现实。 无论你是技术玩家，还是来自设计、商科、传媒、法律、医学等不同专业的学生，都可以参与其中。你可以带着成熟的 De"
   },
   {
     "id": "936661a1f359",

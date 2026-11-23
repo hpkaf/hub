@@ -1,26 +1,5 @@
 [
   {
-    "title": "魔搭社区 X 虹桥国际科技周黑客松｜选手火热招募🚀",
-    "organizer": null,
-    "mode": null,
-    "city": null,
-    "start_date": null,
-    "end_date": null,
-    "deadline": "2026-11-15",
-    "prize": "现金奖金、神秘硬件、魔粒值",
-    "tracks": [
-      "黑客松"
-    ],
-    "url": "https://modelscope.cn/events/394/%E6%AF%94%E8%B5%9B%E4%BB%8B%E7%BB%8D?from=list",
-    "source": "modelscope",
-    "source_url": "https://modelscope.cn/events",
-    "evidence": null,
-    "notes": "魔搭活动页（进行中）：✨报名参赛即可领取 1000 元基础算力✨ 确认线下到场参赛，还可解锁额外算力资源！",
-    "registration_closed": false,
-    "id": "72fe5f5ee153",
-    "status": "closed"
-  },
-  {
     "title": "AI造游戏，人人都是游戏制作人｜AI+∞开发者创作大赛第三期",
     "organizer": null,
     "mode": null,
@@ -32,13 +11,13 @@
     "tracks": [
       "应用开发赛"
     ],
-    "url": "https://modelscope.cn/events/426/%E6%B4%BB%E5%8A%A8%E4%BB%8B%E7%BB%8D?from=list",
+    "url": "https://modelscope.cn/events/421/%E6%AF%94%E8%B5%9B%E4%BB%8B%E7%BB%8D?from=list",
     "source": "modelscope",
     "source_url": "https://modelscope.cn/events",
     "evidence": null,
     "notes": "魔搭活动页（进行中）：本期以「AI 造游戏」为主题，邀请你用 AI 创作一款原创游戏，发布到魔搭创空间，让大家点开就能玩。",
     "registration_closed": false,
-    "id": "2a253ede7caa",
+    "id": "728793a0a832",
     "status": "open"
   },
   {
@@ -53,13 +32,13 @@
     "tracks": [
       "黑客松"
     ],
-    "url": "https://modelscope.cn/events/419/%E6%AF%94%E8%B5%9B%E4%BB%8B%E7%BB%8D?from=list",
+    "url": "https://modelscope.cn/events/416/%E6%AF%94%E8%B5%9B%E7%AE%80%E4%BB%8B?from=list",
     "source": "modelscope",
     "source_url": "https://modelscope.cn/events",
     "evidence": null,
     "notes": "魔搭活动页（进行中）：次赛事线下宣讲落地大湾区，面向全球开放线上报名、全程支持云参赛",
     "registration_closed": false,
-    "id": "6bbf86ad0a09",
+    "id": "1fe2ff118454",
     "status": "open"
   },
   {
@@ -74,35 +53,56 @@
     "tracks": [
       "黑客松"
     ],
-    "url": "https://modelscope.cn/events/386/%E6%AF%94%E8%B5%9B%E4%BB%8B%E7%BB%8D?from=list",
+    "url": "https://modelscope.cn/events/395/%E6%AF%94%E8%B5%9B%E4%BB%8B%E7%BB%8D?from=list",
     "source": "modelscope",
     "source_url": "https://modelscope.cn/events",
     "evidence": null,
     "notes": "魔搭活动页（进行中）：欢迎来到2026地瓜机器人黑客松，和真实世界碰一碰！",
     "registration_closed": false,
-    "id": "3770f5a44e8f",
-    "status": "open"
+    "id": "e3d18ccf5bdb",
+    "status": "closing"
   },
   {
-    "title": "群核科技Ahoolo 全球3D AI黑客松",
+    "title": "支付宝AI付年度黑客松",
     "organizer": null,
     "mode": null,
     "city": null,
     "start_date": null,
     "end_date": null,
-    "deadline": "2026-11-19",
-    "prize": "¥32万元奖金池",
+    "deadline": "2026-12-01",
+    "prize": "总奖池¥200,000",
     "tracks": [
       "黑客松"
     ],
-    "url": "https://modelscope.cn/events/395/%E6%AF%94%E8%B5%9B%E4%BB%8B%E7%BB%8D?from=list",
+    "url": "https://modelscope.cn/events/391/%E6%B4%BB%E5%8A%A8%E4%BB%8B%E7%BB%8D?from=list",
     "source": "modelscope",
     "source_url": "https://modelscope.cn/events",
     "evidence": null,
-    "notes": "魔搭活动页（进行中）：本届黑客松，我们不设命题。只需你使用3D生成模型Aholo Lux3D，完成一份3D AI作品或Demo。",
+    "notes": "魔搭活动页（进行中）：把AI做成一门真实的生意。不只做出 Demo，更要完成从发现、使用到付款、交付的商业闭环。",
     "registration_closed": false,
-    "id": "e3d18ccf5bdb",
-    "status": "closed"
+    "id": "3da0a14fe5bb",
+    "status": "open"
+  },
+  {
+    "title": "FlagOS开放计算全球挑战赛S2",
+    "organizer": null,
+    "mode": null,
+    "city": null,
+    "start_date": null,
+    "end_date": null,
+    "deadline": "2026-12-30",
+    "prize": "200w",
+    "tracks": [
+      "LLM算法竞赛"
+    ],
+    "url": "https://modelscope.cn/events/250/%E6%98%87%E8%85%BECANN%E7%A4%BE%E5%8C%BA%E4%BB%BB%E5%8A%A1%E3%80%907%E6%9C%88%E3%80%91?from=list",
+    "source": "modelscope",
+    "source_url": "https://modelscope.cn/events",
+    "evidence": null,
+    "notes": "魔搭活动页（进行中）：由众智FlagOS社区主办的一项多赛季、综合性赛事。大赛鼓励开发者基于统一AI系统软件栈FlagOS的能力进行创作实战和创新探索，促进AI开发者能力提升，推动开放计算生态的蓬勃发展。",
+    "registration_closed": false,
+    "id": "3ac8f8019274",
+    "status": "open"
   },
   {
     "title": "2026全国大数据与计算智能挑战赛",
@@ -205,7 +205,7 @@
     "mode": null,
     "city": null,
     "start_date": null,
-    "end_date": "2026-11-22",
+    "end_date": "2026-11-23",
     "deadline": null,
     "prize": "￥10,000,000",
     "tracks": [],
@@ -224,7 +224,7 @@
     "mode": null,
     "city": null,
     "start_date": null,
-    "end_date": "2026-11-22",
+    "end_date": "2026-11-23",
     "deadline": null,
     "prize": "￥2,000,000+国家级平台项目+名企和事业单位实习及入职机会+创意后续转化",
     "tracks": [],
@@ -243,7 +243,7 @@
     "mode": null,
     "city": null,
     "start_date": null,
-    "end_date": "2026-11-22",
+    "end_date": "2026-11-23",
     "deadline": null,
     "prize": "国家气象部门合作机会",
     "tracks": [],

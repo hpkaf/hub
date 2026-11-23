@@ -1,7 +1,7 @@
 # AI 赛事雷达 · 赛事清单
 
-> 更新：2026-11-22 08:05（构建时间，Asia/Shanghai）
-> 共 66 条（在架 + 近 90 天）；报名/奖金以主办方官方页为准。
+> 更新：2026-11-23 08:05（构建时间，Asia/Shanghai）
+> 共 67 条（在架 + 近 90 天）；报名/奖金以主办方官方页为准。
 > JSON: https://race.howfun.cn/api/events.json · 许可: CC BY 4.0
 
 ## Agent Arena Competition: Evidence Mining
@@ -12,21 +12,21 @@
 - 报名: https://dorahacks.io/hackathon/delphi-agent-competition2
 
 ## 2026 Qoder 高校创造力大赛
-- 状态: 报名中 | AI: platform
+- 状态: 即将截止 | AI: platform
 - 形式: 线上
 - 截止: 2026-11-30 | 比赛: 2026-10-29 → 2026-12-15
 - 奖金: 88,500元
 - 报名: https://tianchi.aliyun.com/competition/entrance/532536
 
 ## 48H和真实世界碰一碰｜首届地瓜机器人黑客松
-- 状态: 报名中 | AI: core
+- 状态: 即将截止 | AI: core
 - 形式: 线上
 - 截止: 2026-11-30 | 比赛: ? → ?
 - 奖金: 30W现金奖池
 - 报名: https://modelscope.cn/events/416/%E6%AF%94%E8%B5%9B%E7%AE%80%E4%BB%8B
 
 ## 余震预测技术国际大赛
-- 状态: 报名中 | AI: platform
+- 状态: 即将截止 | AI: platform
 - 形式: 线上
 - 截止: 2026-11-30 | 比赛: 2026-01-28 → 2026-12-20
 - 奖金: 30,000元
@@ -53,6 +53,13 @@
 - 奖金: 总奖金池 ¥120,000（一等奖 ¥30,000）
 - 报名: https://www.zhihu.com/hackathon/register?activity_code=zhihu_hackathon_2026_p3
 
+## FlagOS开放计算全球挑战赛S2
+- 状态: 报名中 | AI: track
+- 形式: 待确认
+- 截止: 2026-12-30 | 比赛: ? → ?
+- 奖金: 200w
+- 报名: https://modelscope.cn/events/250/%E6%98%87%E8%85%BECANN%E7%A4%BE%E5%8C%BA%E4%BB%BB%E5%8A%A1%E3%80%907%E6%9C%88%E3%80%91?from=list
+
 ## OpenLET 具身智能挑战赛
 - 状态: 报名中 | AI: core
 - 形式: 线上
@@ -77,7 +84,7 @@
 ## 2023年第二届粤港澳大湾区（黄埔）国际算法算例大赛
 - 状态: 待确认 | AI: other
 - 形式: 待确认
-- 截止: 待确认 | 比赛: ? → 2026-11-22
+- 截止: 待确认 | 比赛: ? → 2026-11-23
 - 奖金: ￥10,000,000
 - 报名: https://www.heywhale.com/u/heywhale_comp
 
@@ -183,14 +190,14 @@
 ## 中国气象服务协会首届青年AI气象应用创意作品征集与交流主题活动
 - 状态: 待确认 | AI: core
 - 形式: 待确认
-- 截止: 待确认 | 比赛: ? → 2026-11-22
+- 截止: 待确认 | 比赛: ? → 2026-11-23
 - 奖金: ￥2,000,000+国家级平台项目+名企和事业单位实习及入职机会+创意后续转化
 - 报名: http://activity.chinamsa.org/youthCreate/home
 
 ## 人工智能气象预报大模型示范计划（AIM-FDP）
 - 状态: 待确认 | AI: core
 - 形式: 待确认
-- 截止: 待确认 | 比赛: ? → 2026-11-22
+- 截止: 待确认 | 比赛: ? → 2026-11-23
 - 奖金: 国家气象部门合作机会
 - 报名: http://aimfdp.nmc.cn/
 
@@ -199,12 +206,6 @@
 - 形式: 线下 · 杭州
 - 截止: 2026-11-27 | 比赛: 2026-11-27 → 2026-11-29
 - 报名: https://www.huodongxing.com/event/9887549891000
-
-## 华硕 A+ 青年 Creator Lab
-- 状态: 报名中 | AI: track
-- 形式: 线下
-- 截止: 2026-11-21 | 比赛: 2026-11-21 → 2026-11-22
-- 报名: https://events.waytoagi.com/events/%E5%8D%8E%E7%A1%95-a-%E9%9D%92%E5%B9%B4-creator-lab-e_c2f243437e
 
 ## 复杂工业场景异常检测算法挑战赛
 - 状态: 待确认 | AI: other
@@ -440,6 +441,12 @@
 - 截止: 2026-03-16 | 比赛: 2026-03-16 → 2026-08-31
 - 奖金: 145,000元
 - 报名: https://www.datafountain.cn/competitions/1165
+
+## 华硕 A+ 青年 Creator Lab
+- 状态: 已截止 | AI: track
+- 形式: 线下
+- 截止: 2026-11-21 | 比赛: 2026-11-21 → 2026-11-22
+- 报名: https://events.waytoagi.com/events/%E5%8D%8E%E7%A1%95-a-%E9%9D%92%E5%B9%B4-creator-lab-e_c2f243437e
 
 ## 挑战赛B榜-2026中国软件杯大学生软件设计大赛——文心小汪赛道
 - 状态: 已截止 | AI: platform
