@@ -1,5 +1,26 @@
 [
   {
+    "title": "2026 SPARK S全球AI硬件创新大赛正式启动",
+    "organizer": null,
+    "mode": null,
+    "city": null,
+    "start_date": null,
+    "end_date": null,
+    "deadline": "2026-12-10",
+    "prize": "0",
+    "tracks": [
+      "应用开发赛"
+    ],
+    "url": "https://modelscope.cn/events/394/%E6%AF%94%E8%B5%9B%E4%BB%8B%E7%BB%8D?from=list",
+    "source": "modelscope",
+    "source_url": "https://modelscope.cn/events",
+    "evidence": null,
+    "notes": "魔搭活动页（进行中）：大赛旨在面向全球招募具有技术创新能力、产品基础和成长潜力的AI硬件项目，助力硬科技从概念走向落地。",
+    "registration_closed": false,
+    "id": "72fe5f5ee153",
+    "status": "open"
+  },
+  {
     "title": "AI造游戏，人人都是游戏制作人｜AI+∞开发者创作大赛第三期",
     "organizer": null,
     "mode": null,
@@ -18,7 +39,7 @@
     "notes": "魔搭活动页（进行中）：本期以「AI 造游戏」为主题，邀请你用 AI 创作一款原创游戏，发布到魔搭创空间，让大家点开就能玩。",
     "registration_closed": false,
     "id": "728793a0a832",
-    "status": "open"
+    "status": "closing"
   },
   {
     "title": "知乎黑客松S3 |湾区共创季",
@@ -74,35 +95,14 @@
     "tracks": [
       "黑客松"
     ],
-    "url": "https://modelscope.cn/events/391/%E6%B4%BB%E5%8A%A8%E4%BB%8B%E7%BB%8D?from=list",
+    "url": "https://modelscope.cn/events",
     "source": "modelscope",
     "source_url": "https://modelscope.cn/events",
     "evidence": null,
     "notes": "魔搭活动页（进行中）：把AI做成一门真实的生意。不只做出 Demo，更要完成从发现、使用到付款、交付的商业闭环。",
     "registration_closed": false,
-    "id": "3da0a14fe5bb",
-    "status": "open"
-  },
-  {
-    "title": "FlagOS开放计算全球挑战赛S2",
-    "organizer": null,
-    "mode": null,
-    "city": null,
-    "start_date": null,
-    "end_date": null,
-    "deadline": "2026-12-30",
-    "prize": "200w",
-    "tracks": [
-      "LLM算法竞赛"
-    ],
-    "url": "https://modelscope.cn/events/250/%E6%98%87%E8%85%BECANN%E7%A4%BE%E5%8C%BA%E4%BB%BB%E5%8A%A1%E3%80%907%E6%9C%88%E3%80%91?from=list",
-    "source": "modelscope",
-    "source_url": "https://modelscope.cn/events",
-    "evidence": null,
-    "notes": "魔搭活动页（进行中）：由众智FlagOS社区主办的一项多赛季、综合性赛事。大赛鼓励开发者基于统一AI系统软件栈FlagOS的能力进行创作实战和创新探索，促进AI开发者能力提升，推动开放计算生态的蓬勃发展。",
-    "registration_closed": false,
-    "id": "3ac8f8019274",
-    "status": "open"
+    "id": "8738669c012d",
+    "status": "closing"
   },
   {
     "title": "2026全国大数据与计算智能挑战赛",
@@ -205,7 +205,7 @@
     "mode": null,
     "city": null,
     "start_date": null,
-    "end_date": "2026-11-23",
+    "end_date": "2026-11-24",
     "deadline": null,
     "prize": "￥10,000,000",
     "tracks": [],
@@ -224,7 +224,7 @@
     "mode": null,
     "city": null,
     "start_date": null,
-    "end_date": "2026-11-23",
+    "end_date": "2026-11-24",
     "deadline": null,
     "prize": "￥2,000,000+国家级平台项目+名企和事业单位实习及入职机会+创意后续转化",
     "tracks": [],
@@ -243,7 +243,7 @@
     "mode": null,
     "city": null,
     "start_date": null,
-    "end_date": "2026-11-23",
+    "end_date": "2026-11-24",
     "deadline": null,
     "prize": "国家气象部门合作机会",
     "tracks": [],

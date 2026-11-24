@@ -228,5 +228,15 @@
     "status": "pending",
     "status_note": "联谱聚合页；需找到主办方官方报名页后再决定是否收录",
     "first_seen": "2026-11-21T08:04:44"
+  },
+  {
+    "title": "FDT·X Lab 黑客松 流动世代",
+    "city": "杭州",
+    "url": "https://lianpu.com/event/fdt-x-lab-hackathon-2-0-liudong-shidai",
+    "source": "lianpu",
+    "source_url": "https://lianpu.com/topics/hangzhou-ai",
+    "status": "pending",
+    "status_note": "联谱聚合页；需找到主办方官方报名页后再决定是否收录",
+    "first_seen": "2026-11-24T08:10:06"
   }
 ]

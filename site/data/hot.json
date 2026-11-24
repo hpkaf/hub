@@ -6,10 +6,10 @@
     "mode": "online",
     "city": null,
     "deadline": "2026-11-25",
-    "days": 2,
-    "when": "2 天后截止",
+    "days": 1,
+    "when": "明天截止",
     "prize": "7250 USD",
-    "reason": "2 天后截止 · 7250 USD · Gensyn",
+    "reason": "明天截止 · 7250 USD · Gensyn",
     "url": "https://dorahacks.io/hackathon/delphi-agent-competition2"
   },
   {
@@ -19,10 +19,10 @@
     "mode": "online",
     "city": null,
     "deadline": "2026-11-30",
-    "days": 7,
-    "when": "7 天后截止",
+    "days": 6,
+    "when": "6 天后截止",
     "prize": "30W现金奖池",
-    "reason": "7 天后截止 · 30W现金奖池 · 地瓜机器人",
+    "reason": "6 天后截止 · 30W现金奖池 · 地瓜机器人",
     "url": "https://modelscope.cn/events/416/%E6%AF%94%E8%B5%9B%E7%AE%80%E4%BB%8B"
   },
   {
@@ -32,10 +32,10 @@
     "mode": "online",
     "city": null,
     "deadline": "2026-11-30",
-    "days": 7,
-    "when": "7 天后截止",
+    "days": 6,
+    "when": "6 天后截止",
     "prize": "88,500元",
-    "reason": "7 天后截止 · 88,500元 · 主办方待确认",
+    "reason": "6 天后截止 · 88,500元 · 主办方待确认",
     "url": "https://tianchi.aliyun.com/competition/entrance/532536"
   },
   {
@@ -45,10 +45,23 @@
     "mode": "online",
     "city": null,
     "deadline": "2026-11-30",
+    "days": 6,
+    "when": "6 天后截止",
+    "prize": "30,000元",
+    "reason": "6 天后截止 · 30,000元 · 主办方待确认",
+    "url": "https://tianchi.aliyun.com/competition/entrance/532460"
+  },
+  {
+    "id": "c23a3e9cad51",
+    "title": "支付宝AI付年度黑客松",
+    "organizer": "支付宝",
+    "mode": "online",
+    "city": null,
+    "deadline": "2026-12-01",
     "days": 7,
     "when": "7 天后截止",
-    "prize": "30,000元",
-    "reason": "7 天后截止 · 30,000元 · 主办方待确认",
-    "url": "https://tianchi.aliyun.com/competition/entrance/532460"
+    "prize": "总奖池¥200,000",
+    "reason": "7 天后截止 · 总奖池¥200,000 · 支付宝",
+    "url": "https://modelscope.cn/events/380/%E6%AF%94%E8%B5%9B%E4%BB%8B%E7%BB%8D"
   }
 ]

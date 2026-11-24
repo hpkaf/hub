@@ -416,7 +416,7 @@
     "notes": "活动行详情内嵌 ativityJson; 标签=PLAY,72H,游戏互动剧,创作黑客松; 地址=西投·云城犀谷; 状态=1"
   },
   {
-    "title": "11 月 28 日，深圳见！MoonBit 1.0 重磅发布 meetup 暨黑客松季度决赛预告",
+    "title": "11 月 28 日，深圳见！AI 时代下的智能体开发丨MoonBit 1.0 重磅发布 meetup 暨黑客松季度决赛预告",
     "organizer": "粤港澳大湾区数字经济研究院（福田）",
     "mode": "offline",
     "city": "深圳",
@@ -471,26 +471,7 @@
     "url": "https://www.huodongxing.com/event/5887680202100",
     "source": "huodongxing",
     "source_url": "https://www.huodongxing.com/search?qs=AI%E9%BB%91%E5%AE%A2%E6%9D%BE",
-    "notes": "活动行详情内嵌 ativityJson; 标签=AI出海,海外市场拓展,Infra; 地址=西丽; 状态=1"
-  },
-  {
-    "title": "河南青少年AI黑客松实战营",
-    "organizer": "AI黄埔学院",
-    "mode": "offline",
-    "city": "郑州",
-    "start_date": "2026-08-22",
-    "end_date": "2026-08-23",
-    "deadline": null,
-    "prize": null,
-    "tracks": [
-      "AI黑客松",
-      "青少年编程",
-      "AI实战营"
-    ],
-    "url": "https://www.huodongxing.com/event/9873641087600",
-    "source": "huodongxing",
-    "source_url": "https://www.huodongxing.com/search?qs=AI%E9%BB%91%E5%AE%A2%E6%9D%BE",
-    "notes": "活动行详情内嵌 ativityJson; 标签=AI黑客松,青少年编程,AI实战营; 地址=报名后可查看详细地址; 状态=4"
+    "notes": "活动行详情内嵌 ativityJson; 标签=AI出海,海外市场拓展,Infra; 地址=报名后可查看详细地址; 状态=1"
   },
   {
     "title": "奥林匹斯青少年AI黑客松训练营",
@@ -510,6 +491,25 @@
     "source": "huodongxing",
     "source_url": "https://www.huodongxing.com/search?qs=AI%E9%BB%91%E5%AE%A2%E6%9D%BE",
     "notes": "活动行详情内嵌 ativityJson; 标签=青少年AI,黑客松,AIGC创作; 地址=报名后可查看详细地址; 状态=4"
+  },
+  {
+    "title": "河南青少年AI黑客松实战营",
+    "organizer": "AI黄埔学院",
+    "mode": "offline",
+    "city": "郑州",
+    "start_date": "2026-08-22",
+    "end_date": "2026-08-23",
+    "deadline": null,
+    "prize": null,
+    "tracks": [
+      "AI黑客松",
+      "青少年编程",
+      "AI实战营"
+    ],
+    "url": "https://www.huodongxing.com/event/9873641087600",
+    "source": "huodongxing",
+    "source_url": "https://www.huodongxing.com/search?qs=AI%E9%BB%91%E5%AE%A2%E6%9D%BE",
+    "notes": "活动行详情内嵌 ativityJson; 标签=AI黑客松,青少年编程,AI实战营; 地址=报名后可查看详细地址; 状态=4"
   },
   {
     "title": "24小时极限开发“AI黑客松助力OPC创业”",

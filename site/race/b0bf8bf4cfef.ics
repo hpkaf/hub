@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AI Race Radar//CN//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:AI 赛事雷达
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:b0bf8bf4cfef@ai-race-radar
+DTSTAMP:20261124T001128Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:11 月 28 日，深圳见！AI 时代下的智能体开发丨Moon
+ Bit 1.0 重磅发布 meetup 暨黑客松季度决赛预告
+DESCRIPTION:主办方：粤港澳大湾区数字经济研究院（福田
+ ）；报名：https://www.huodongxing.com/event/4887574320800；收录
+ ：AI 赛事雷达（2026-11-24T08:11:28 核验）
+URL:https://www.huodongxing.com/event/4887574320800
+LOCATION:深圳
+END:VEVENT
+END:VCALENDAR

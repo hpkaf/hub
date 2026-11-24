@@ -7,13 +7,13 @@ X-WR-CALNAME:AI 赛事雷达
 X-WR-TIMEZONE:Asia/Shanghai
 BEGIN:VEVENT
 UID:04ea79cafa53@ai-race-radar
-DTSTAMP:20261123T000545Z
+DTSTAMP:20261124T001128Z
 DTSTART;VALUE=DATE:20251231
 DTEND;VALUE=DATE:20270131
 SUMMARY:2026全国大数据与计算智能挑战赛
 DESCRIPTION:奖金：研究经费资助/证书；报名：https://challen
- ge.pazhoulab-huangpu.com/；收录：AI 赛事雷达（2026-11-23T08:05:
- 45 核验）
+ ge.pazhoulab-huangpu.com/；收录：AI 赛事雷达（2026-11-24T08:11:
+ 28 核验）
 URL:https://challenge.pazhoulab-huangpu.com/
 END:VEVENT
 END:VCALENDAR

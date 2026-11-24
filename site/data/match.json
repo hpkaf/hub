@@ -79,7 +79,7 @@
     "organizer": "魔搭社区（ModelScope）",
     "mode": "online",
     "city": null,
-    "status": "open",
+    "status": "closing",
     "deadline": "2026-12-01",
     "ai_level": "core",
     "tracks": [
@@ -98,7 +98,7 @@
     "organizer": "支付宝",
     "mode": "online",
     "city": null,
-    "status": "open",
+    "status": "closing",
     "deadline": "2026-12-01",
     "ai_level": "core",
     "tracks": [
@@ -126,24 +126,6 @@
     ],
     "directions": [
       "vertical"
-    ],
-    "summary": ""
-  },
-  {
-    "id": "3ac8f8019274",
-    "title": "FlagOS开放计算全球挑战赛S2",
-    "organizer": null,
-    "mode": null,
-    "city": null,
-    "status": "open",
-    "deadline": "2026-12-30",
-    "ai_level": "track",
-    "tracks": [
-      "LLM算法竞赛"
-    ],
-    "directions": [
-      "llm",
-      "algorithm"
     ],
     "summary": ""
   },
@@ -199,6 +181,26 @@
       "AIUI 智能体",
       "AR 游戏",
       "行业命题"
+    ],
+    "directions": [
+      "agent"
+    ],
+    "summary": ""
+  },
+  {
+    "id": "b0bf8bf4cfef",
+    "title": "11 月 28 日，深圳见！AI 时代下的智能体开发丨MoonBit 1.0 重磅发布 meetup 暨黑客松季度决赛预告",
+    "organizer": "粤港澳大湾区数字经济研究院（福田）",
+    "mode": "offline",
+    "city": "深圳",
+    "status": "upcoming",
+    "deadline": null,
+    "ai_level": "core",
+    "tracks": [
+      "MoonBit",
+      "1",
+      "0版本发布",
+      "开发者Meetup"
     ],
     "directions": [
       "agent"
