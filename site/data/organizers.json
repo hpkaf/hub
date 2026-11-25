@@ -86,16 +86,6 @@
     ]
   },
   {
-    "name": "Telos Circle",
-    "slug": "telos-circle",
-    "cities": [],
-    "website": "",
-    "intro": "已收录 1 场 AI 赛事（在架 1 / 往届 0），形式：线上；最近一场：WAISS #1 - Wiener AI Software Stammtisch。",
-    "events": [
-      "2f56064d2684"
-    ]
-  },
-  {
     "name": "Terminal 3",
     "slug": "terminal-3",
     "cities": [],
@@ -274,16 +264,6 @@
     ]
   },
   {
-    "name": "词元星火科技有限公司",
-    "slug": "org-2949bfec",
-    "cities": [],
-    "website": "",
-    "intro": "已收录 1 场 AI 赛事（在架 1 / 往届 0），形式：线上；最近一场：Spark-X2.5端侧模型创新挑战赛，报名截止 2026-11-10。",
-    "events": [
-      "4ada71681515"
-    ]
-  },
-  {
     "name": "阿里云+天池",
     "slug": "org-b2235f73",
     "cities": [],
@@ -412,6 +392,16 @@
     "intro": "已收录 1 场 AI 赛事（在架 0 / 往届 1），形式：线上；最近一场：AI新睿人才“星探计划”。",
     "events": [
       "59a629172564"
+    ]
+  },
+  {
+    "name": "词元星火科技有限公司",
+    "slug": "org-2949bfec",
+    "cities": [],
+    "website": "",
+    "intro": "已收录 1 场 AI 赛事（在架 0 / 往届 1），形式：线上；最近一场：Spark-X2.5端侧模型创新挑战赛，报名截止 2026-11-10。",
+    "events": [
+      "4ada71681515"
     ]
   }
 ]
