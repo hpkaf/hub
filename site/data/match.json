@@ -1,22 +1,5 @@
 [
   {
-    "id": "17ce50173bb1",
-    "title": "Agent Arena Competition: Evidence Mining",
-    "organizer": "Gensyn",
-    "mode": "online",
-    "city": null,
-    "status": "closing",
-    "deadline": "2026-11-25",
-    "ai_level": "core",
-    "tracks": [
-      "Evidence Mining Agents"
-    ],
-    "directions": [
-      "agent"
-    ],
-    "summary": ""
-  },
-  {
     "id": "c6d27accef22",
     "title": "2026 Qoder 高校创造力大赛",
     "organizer": null,
@@ -502,26 +485,6 @@
     "summary": ""
   },
   {
-    "id": "0294c79e5e6b",
-    "title": "免费试玩｜AI PLAY 72H 游戏&互动剧创作黑客松观众招募中",
-    "organizer": "LinkLike活动专家",
-    "mode": "offline",
-    "city": "杭州",
-    "status": "upcoming",
-    "deadline": null,
-    "ai_level": "core",
-    "tracks": [
-      "PLAY",
-      "72H",
-      "游戏互动剧",
-      "创作黑客松"
-    ],
-    "directions": [
-      "other"
-    ],
-    "summary": ""
-  },
-  {
     "id": "094f5bca46a6",
     "title": "复杂工业场景异常检测算法挑战赛",
     "organizer": "天池（阿里云）+CSIG",
@@ -634,79 +597,6 @@
       "compute"
     ],
     "summary": "使用飞桨深度学习框架，在官方给定的数据集上，训练一个神经网络模型，使其能够具备三类野生动物的目标检测能力。｜CV、目标检测"
-  },
-  {
-    "id": "6b6403ff04d6",
-    "title": "人才匹配与发展智能辅助Skill开发挑战赛",
-    "organizer": "科大讯飞股份有限公司",
-    "mode": "online",
-    "city": null,
-    "status": "closed",
-    "deadline": "2026-08-27",
-    "ai_level": "platform",
-    "tracks": [
-      "Skill技能开发",
-      "算法赛"
-    ],
-    "directions": [
-      "algorithm"
-    ],
-    "summary": ""
-  },
-  {
-    "id": "86c57475d2e5",
-    "title": "智慧生活助理Skill开发挑战赛",
-    "organizer": "科大讯飞股份有限公司",
-    "mode": "online",
-    "city": null,
-    "status": "closed",
-    "deadline": "2026-08-27",
-    "ai_level": "platform",
-    "tracks": [
-      "Skill技能开发",
-      "算法赛"
-    ],
-    "directions": [
-      "algorithm"
-    ],
-    "summary": ""
-  },
-  {
-    "id": "6e599c31ba58",
-    "title": "智能办公协同助理Skill开发挑战赛",
-    "organizer": "科大讯飞股份有限公司",
-    "mode": "online",
-    "city": null,
-    "status": "closed",
-    "deadline": "2026-08-27",
-    "ai_level": "platform",
-    "tracks": [
-      "Skill技能开发",
-      "算法赛"
-    ],
-    "directions": [
-      "algorithm"
-    ],
-    "summary": ""
-  },
-  {
-    "id": "730f1f20c8ea",
-    "title": "编程竞赛测试用例生成挑战赛 赛季2",
-    "organizer": "中国科学技术大学认知智能全国重点实验室",
-    "mode": "online",
-    "city": null,
-    "status": "closed",
-    "deadline": "2026-08-27",
-    "ai_level": "platform",
-    "tracks": [
-      "大模型技术",
-      "算法赛"
-    ],
-    "directions": [
-      "llm",
-      "algorithm"
-    ],
-    "summary": ""
   },
   {
     "id": "10fea0fb7e83",
@@ -1090,6 +980,23 @@
     ],
     "directions": [
       "aigc"
+    ],
+    "summary": ""
+  },
+  {
+    "id": "17ce50173bb1",
+    "title": "Agent Arena Competition: Evidence Mining",
+    "organizer": "Gensyn",
+    "mode": "online",
+    "city": null,
+    "status": "closed",
+    "deadline": "2026-11-25",
+    "ai_level": "core",
+    "tracks": [
+      "Evidence Mining Agents"
+    ],
+    "directions": [
+      "agent"
     ],
     "summary": ""
   },

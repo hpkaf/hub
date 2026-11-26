@@ -300,6 +300,23 @@
     "notes": "入口=mobile-ua；搜狗文章跳转链未能还原真实 mp.weixin 地址（no-article-url，反爬）；url 为搜索页链接；微信文章发布日=2023-05-08；摘要：原帖地址:https://twitter.com/FinanceYF5/status/1655283124237131776【 旧金山最大规模AI黑客松LabL"
   },
   {
+    "title": "Mozilla Otari Hackathon - Developers Wilding Jam Sesh #1!",
+    "organizer": "Mozilla",
+    "mode": "online",
+    "city": null,
+    "start_date": "2026-11-25",
+    "end_date": "2026-12-03",
+    "deadline": null,
+    "prize": "100 USD",
+    "tracks": [
+      "Default Track"
+    ],
+    "url": "https://dorahacks.io/hackathon/mozilla-jam-sesh-1",
+    "source": "dorahacks",
+    "source_url": "https://dorahacks.io/hackathon",
+    "notes": "DoraHacks API: tags=ai,open source ai,local ai,open source; ecosystem=open source ai,ai,local ai,open source"
+  },
+  {
     "title": "Aevum Builder Challenge #1",
     "organizer": "QDay",
     "mode": "online",
@@ -377,45 +394,6 @@
     "notes": "DoraHacks API: tags=Algorand,Web3,Blockchain,Crypto,ai,agentic commerce,x402,payments; ecosystem=Algorand"
   },
   {
-    "title": "Hackathon 2026 Challenge",
-    "organizer": "TechHub Africa LLC",
-    "mode": "online",
-    "city": null,
-    "start_date": "2026-03-01",
-    "end_date": "2026-12-18",
-    "deadline": "2026-03-02",
-    "prize": "1000 USD",
-    "tracks": [
-      "Track 1: Improving Electricity Efficiency",
-      "Track 2: Mitigating Traffic Congestion",
-      "Track 3: Reducing Public Pollution"
-    ],
-    "url": "https://dorahacks.io/hackathon/hackathon2026challenge",
-    "source": "dorahacks",
-    "source_url": "https://dorahacks.io/hackathon",
-    "notes": "DoraHacks API: tags=Smart City,Renewable Energy,Traffic Management,Urban Planning,Public Health,IoT (Internet of Things),AI & Machine Learning; ecosystem=IBM Watsonx,AWS Greengrass,Azure IoT Edge,Google Maps Platform,NVIDIA Metropolis"
-  },
-  {
-    "title": "免费试玩｜AI PLAY 72H 游戏&互动剧创作黑客松观众招募中",
-    "organizer": "LinkLike活动专家",
-    "mode": "offline",
-    "city": "杭州",
-    "start_date": "2026-11-27",
-    "end_date": "2026-11-29",
-    "deadline": null,
-    "prize": null,
-    "tracks": [
-      "PLAY",
-      "72H",
-      "游戏互动剧",
-      "创作黑客松"
-    ],
-    "url": "https://www.huodongxing.com/event/9887549891000",
-    "source": "huodongxing",
-    "source_url": "https://www.huodongxing.com/search?qs=AI%E9%BB%91%E5%AE%A2%E6%9D%BE",
-    "notes": "活动行详情内嵌 ativityJson; 标签=PLAY,72H,游戏互动剧,创作黑客松; 地址=西投·云城犀谷; 状态=1"
-  },
-  {
     "title": "11 月 28 日，深圳见！AI 时代下的智能体开发丨MoonBit 1.0 重磅发布 meetup 暨黑客松季度决赛预告",
     "organizer": "粤港澳大湾区数字经济研究院（福田）",
     "mode": "offline",
@@ -436,25 +414,6 @@
     "notes": "活动行详情内嵌 ativityJson; 标签=MoonBit,1,0版本发布,开发者Meetup; 地址=莞深(河套)创新中心福田保税区达升物流大厦5层; 状态=1"
   },
   {
-    "title": "深圳第四届湾区青年戏剧季·AI戏剧共创营·戏剧季黑客松",
-    "organizer": "图灵造物",
-    "mode": "offline",
-    "city": "深圳",
-    "start_date": "2026-11-19",
-    "end_date": "2026-12-29",
-    "deadline": null,
-    "prize": null,
-    "tracks": [
-      "AI戏剧共创",
-      "AIGC",
-      "黑客松"
-    ],
-    "url": "https://www.huodongxing.com/event/6887876169600",
-    "source": "huodongxing",
-    "source_url": "https://www.huodongxing.com/search?qs=AI%E9%BB%91%E5%AE%A2%E6%9D%BE",
-    "notes": "活动行详情内嵌 ativityJson; 标签=AI戏剧共创,AIGC,黑客松; 地址=光明区马术中心·骑士之家; 状态=1"
-  },
-  {
     "title": "GO WEST. SCALE UP. 「2027 AI 出海创新交流」",
     "organizer": "ModelHub AI创客松",
     "mode": "offline",
@@ -472,6 +431,25 @@
     "source": "huodongxing",
     "source_url": "https://www.huodongxing.com/search?qs=AI%E9%BB%91%E5%AE%A2%E6%9D%BE",
     "notes": "活动行详情内嵌 ativityJson; 标签=AI出海,海外市场拓展,Infra; 地址=报名后可查看详细地址; 状态=1"
+  },
+  {
+    "title": "深圳第四届湾区青年戏剧季·AI戏剧共创营·戏剧季黑客松",
+    "organizer": "图灵造物",
+    "mode": "offline",
+    "city": "深圳",
+    "start_date": "2026-11-19",
+    "end_date": "2026-12-29",
+    "deadline": null,
+    "prize": null,
+    "tracks": [
+      "AI戏剧共创",
+      "AIGC",
+      "黑客松"
+    ],
+    "url": "https://www.huodongxing.com/event/6887876169600",
+    "source": "huodongxing",
+    "source_url": "https://www.huodongxing.com/search?qs=AI%E9%BB%91%E5%AE%A2%E6%9D%BE",
+    "notes": "活动行详情内嵌 ativityJson; 标签=AI戏剧共创,AIGC,黑客松; 地址=光明区马术中心·骑士之家; 状态=1"
   },
   {
     "title": "奥林匹斯青少年AI黑客松训练营",
@@ -569,23 +547,41 @@
     "notes": "活动行详情内嵌 ativityJson; 标签=青少年AI教育,AI黑客松,编程实战; 地址=报名后可查看详细地址; 状态=4"
   },
   {
-    "title": "光年AI黑客松：如何做一个卖货的智能体",
-    "organizer": "光年AI",
+    "title": "2.5W奖金池｜10小时小白友好 AI 黑客松@上海",
+    "organizer": "HackQuest",
     "mode": "offline",
-    "city": "杭州",
-    "start_date": "2026-01-10",
-    "end_date": "2026-01-10",
+    "city": "浦东",
+    "start_date": "2026-05-23",
+    "end_date": "2026-05-23",
     "deadline": null,
     "prize": null,
     "tracks": [
-      "AI智能体",
-      "电商卖货",
-      "黑客松",
-      "AI增长"
+      "AI黑客松",
+      "Bittensor子网",
+      "激励机制设计"
     ],
-    "url": "https://www.huodongxing.com/event/5840452724500",
+    "url": "https://www.huodongxing.com/event/5860088194200",
     "source": "huodongxing",
     "source_url": "https://www.huodongxing.com/search?qs=AI%E9%BB%91%E5%AE%A2%E6%9D%BE",
-    "notes": "活动行详情内嵌 ativityJson; 标签=AI智能体,电商卖货,黑客松,AI增长; 地址=具体地址待定(报名成功后客服将加您统一通知); 状态=4"
+    "notes": "活动行详情内嵌 ativityJson; 标签=AI黑客松,Bittensor子网,激励机制设计; 地址=报名后可查看详细地址; 状态=4"
+  },
+  {
+    "title": "探索AI黑客松 × 非视觉拼搭无障碍体验工坊",
+    "organizer": "派誉文化科技",
+    "mode": "offline",
+    "city": "静安",
+    "start_date": "2025-05-10",
+    "end_date": "2025-05-10",
+    "deadline": null,
+    "prize": null,
+    "tracks": [
+      "人工智能",
+      "无障碍科技",
+      "社会创新"
+    ],
+    "url": "https://www.huodongxing.com/event/6802129395500",
+    "source": "huodongxing",
+    "source_url": "https://www.huodongxing.com/search?qs=AI%E9%BB%91%E5%AE%A2%E6%9D%BE",
+    "notes": "活动行详情内嵌 ativityJson; 标签=人工智能,无障碍科技,社会创新; 地址=报名后可查看详细地址; 状态=4"
   }
 ]

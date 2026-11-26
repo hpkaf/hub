@@ -5,14 +5,7 @@
     <link>https://race.howfun.cn/</link>
     <description>每一场都经过人工核验：官方链接、报名截止、线上 / 线下，点开就能报名。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 25 Nov 2026 00:12:07 +0000</lastBuildDate>
-    <item>
-      <title>Agent Arena Competition: Evidence Mining</title>
-      <link>https://race.howfun.cn/race/17ce50173bb1.html</link>
-      <guid isPermaLink="false">17ce50173bb1</guid>
-      <pubDate>Sat, 14 Nov 2026 08:05:56 +0800</pubDate>
-      <description>即将截止 · Gensyn · 截止 2026-11-25 · https://dorahacks.io/hackathon/delphi-agent-competition2</description>
-    </item>
+    <lastBuildDate>Thu, 26 Nov 2026 00:11:29 +0000</lastBuildDate>
     <item>
       <title>2026 Qoder 高校创造力大赛</title>
       <link>https://race.howfun.cn/race/c6d27accef22.html</link>
@@ -203,13 +196,6 @@
       <description>待确认 · 截止待确认 · http://aimfdp.nmc.cn/</description>
     </item>
     <item>
-      <title>免费试玩｜AI PLAY 72H 游戏&amp;互动剧创作黑客松观众招募中</title>
-      <link>https://race.howfun.cn/race/0294c79e5e6b.html</link>
-      <guid isPermaLink="false">0294c79e5e6b</guid>
-      <pubDate>Tue, 17 Nov 2026 08:05:48 +0800</pubDate>
-      <description>即将开始 · LinkLike活动专家 · 截止待确认 · https://www.huodongxing.com/event/9887549891000</description>
-    </item>
-    <item>
       <title>复杂工业场景异常检测算法挑战赛</title>
       <link>https://race.howfun.cn/race/094f5bca46a6.html</link>
       <guid isPermaLink="false">094f5bca46a6</guid>
@@ -250,34 +236,6 @@
       <guid isPermaLink="false">bcad4c1c92d9</guid>
       <pubDate>Fri, 06 Nov 2026 15:50:27 +0800</pubDate>
       <description>使用飞桨深度学习框架，在官方给定的数据集上，训练一个神经网络模型，使其能够具备三类野生动物的目标检测能力。｜CV、目标检测 · 报名中 · 北京百度网讯科技有限公司 · 截止待确认 · https://aistudio.baidu.com/competition/detail/1407/0/introduction</description>
-    </item>
-    <item>
-      <title>人才匹配与发展智能辅助Skill开发挑战赛</title>
-      <link>https://race.howfun.cn/race/6b6403ff04d6.html</link>
-      <guid isPermaLink="false">6b6403ff04d6</guid>
-      <pubDate>Fri, 06 Nov 2026 15:50:27 +0800</pubDate>
-      <description>已截止 · 科大讯飞股份有限公司 · 截止 2026-08-27 · https://challenge.xfyun.cn/topic/info?type=TM-DIA-Skill</description>
-    </item>
-    <item>
-      <title>智慧生活助理Skill开发挑战赛</title>
-      <link>https://race.howfun.cn/race/86c57475d2e5.html</link>
-      <guid isPermaLink="false">86c57475d2e5</guid>
-      <pubDate>Fri, 06 Nov 2026 15:50:27 +0800</pubDate>
-      <description>已截止 · 科大讯飞股份有限公司 · 截止 2026-08-27 · https://challenge.xfyun.cn/topic/info?type=SLA-Skill</description>
-    </item>
-    <item>
-      <title>智能办公协同助理Skill开发挑战赛</title>
-      <link>https://race.howfun.cn/race/6e599c31ba58.html</link>
-      <guid isPermaLink="false">6e599c31ba58</guid>
-      <pubDate>Fri, 06 Nov 2026 15:50:27 +0800</pubDate>
-      <description>已截止 · 科大讯飞股份有限公司 · 截止 2026-08-27 · https://challenge.xfyun.cn/topic/info?type=OCAS-skill</description>
-    </item>
-    <item>
-      <title>编程竞赛测试用例生成挑战赛 赛季2</title>
-      <link>https://race.howfun.cn/race/730f1f20c8ea.html</link>
-      <guid isPermaLink="false">730f1f20c8ea</guid>
-      <pubDate>Fri, 06 Nov 2026 15:50:27 +0800</pubDate>
-      <description>已截止 · 中国科学技术大学认知智能全国重点实验室 · 截止 2026-08-27 · https://challenge.xfyun.cn/topic/info?type=CP-TCG</description>
     </item>
     <item>
       <title>声纹迷雾复杂场景说话人确认挑战赛</title>
@@ -418,6 +376,13 @@
       <guid isPermaLink="false">3770f5a44e8f</guid>
       <pubDate>Fri, 06 Nov 2026 15:50:27 +0800</pubDate>
       <description>已截止 · 群核科技 · 截止 2026-11-19 · https://modelscope.cn/events/386/%E6%AF%94%E8%B5%9B%E4%BB%8B%E7%BB%8D</description>
+    </item>
+    <item>
+      <title>Agent Arena Competition: Evidence Mining</title>
+      <link>https://race.howfun.cn/race/17ce50173bb1.html</link>
+      <guid isPermaLink="false">17ce50173bb1</guid>
+      <pubDate>Sat, 14 Nov 2026 08:05:56 +0800</pubDate>
+      <description>已截止 · Gensyn · 截止 2026-11-25 · https://dorahacks.io/hackathon/delphi-agent-competition2</description>
     </item>
     <item>
       <title>AI新睿人才“星探计划”</title>

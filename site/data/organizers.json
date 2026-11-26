@@ -42,18 +42,6 @@
     ]
   },
   {
-    "name": "LinkLike活动专家",
-    "slug": "linklike",
-    "cities": [
-      "杭州"
-    ],
-    "website": "",
-    "intro": "已收录 1 场 AI 赛事（在架 1 / 往届 0），形式：线下；最近一场：免费试玩｜AI PLAY 72H 游戏&互动剧创作黑客松观众招募中。",
-    "events": [
-      "0294c79e5e6b"
-    ]
-  },
-  {
     "name": "ModelHub AI创客松",
     "slug": "modelhub-ai",
     "cities": [
@@ -298,19 +286,6 @@
     ]
   },
   {
-    "name": "科大讯飞股份有限公司",
-    "slug": "iflytek",
-    "cities": [],
-    "website": "https://www.iflytek.com",
-    "intro": "科大讯飞是智能语音与人工智能企业，主办讯飞 AI 开发者大赛系列。",
-    "events": [
-      "6b6403ff04d6",
-      "86c57475d2e5",
-      "6e599c31ba58",
-      "5b1041241f12"
-    ]
-  },
-  {
     "name": "中国电子学会&睿创微纳",
     "slug": "cie-raytron",
     "cities": [],
@@ -365,16 +340,6 @@
     ]
   },
   {
-    "name": "中国科学技术大学认知智能全国重点实验室",
-    "slug": "ustc-cogai",
-    "cities": [],
-    "website": "https://www.ustc.edu.cn",
-    "intro": "中国科学技术大学认知智能全国重点实验室，研究方向覆盖认知智能与大模型。",
-    "events": [
-      "730f1f20c8ea"
-    ]
-  },
-  {
     "name": "天猫",
     "slug": "org-65b866db",
     "cities": [],
@@ -392,6 +357,16 @@
     "intro": "已收录 1 场 AI 赛事（在架 0 / 往届 1），形式：线上；最近一场：AI新睿人才“星探计划”。",
     "events": [
       "59a629172564"
+    ]
+  },
+  {
+    "name": "科大讯飞股份有限公司",
+    "slug": "iflytek",
+    "cities": [],
+    "website": "https://www.iflytek.com",
+    "intro": "科大讯飞是智能语音与人工智能企业，主办讯飞 AI 开发者大赛系列。",
+    "events": [
+      "5b1041241f12"
     ]
   },
   {

@@ -7,20 +7,20 @@ X-WR-CALNAME:AI 赛事雷达
 X-WR-TIMEZONE:Asia/Shanghai
 BEGIN:VEVENT
 UID:5b1041241f12@ai-race-radar
-DTSTAMP:20261125T001207Z
+DTSTAMP:20261126T001129Z
 DTSTART;VALUE=DATE:20260814
 DTEND;VALUE=DATE:20261025
 SUMMARY:基于星评测Agent的养虾Skills横评挑战赛
 DESCRIPTION:主办方：科大讯飞股份有限公司；报名截止：2
  026-09-21；奖金：1万元；报名：https://challenge.xfyun.cn/topic
- /info?type=ShrimpAIBench；收录：AI 赛事雷达（2026-11-25T08:12:0
- 7 核验）
+ /info?type=ShrimpAIBench；收录：AI 赛事雷达（2026-11-26T08:11:2
+ 9 核验）
 URL:https://challenge.xfyun.cn/topic/info?type=ShrimpAIBench
 LOCATION:线上
 END:VEVENT
 BEGIN:VEVENT
 UID:5b1041241f12-deadline@ai-race-radar
-DTSTAMP:20261125T001207Z
+DTSTAMP:20261126T001129Z
 DTSTART;VALUE=DATE:20260921
 DTEND;VALUE=DATE:20260922
 SUMMARY:⏰ 报名截止：基于星评测Agent的养虾Skills横评挑

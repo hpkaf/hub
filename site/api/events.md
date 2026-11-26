@@ -1,15 +1,8 @@
 # AI 赛事雷达 · 赛事清单
 
-> 更新：2026-11-25 08:12（构建时间，Asia/Shanghai）
-> 共 66 条（在架 + 近 90 天）；报名/奖金以主办方官方页为准。
+> 更新：2026-11-26 08:11（构建时间，Asia/Shanghai）
+> 共 61 条（在架 + 近 90 天）；报名/奖金以主办方官方页为准。
 > JSON: https://race.howfun.cn/api/events.json · 许可: CC BY 4.0
-
-## Agent Arena Competition: Evidence Mining
-- 状态: 即将截止 | AI: core
-- 形式: 线上
-- 截止: 2026-11-25 | 比赛: 2026-11-13 → 2026-12-11
-- 奖金: 7250 USD
-- 报名: https://dorahacks.io/hackathon/delphi-agent-competition2
 
 ## 2026 Qoder 高校创造力大赛
 - 状态: 即将截止 | AI: platform
@@ -83,7 +76,7 @@
 ## 2023年第二届粤港澳大湾区（黄埔）国际算法算例大赛
 - 状态: 待确认 | AI: other
 - 形式: 待确认
-- 截止: 待确认 | 比赛: ? → 2026-11-25
+- 截止: 待确认 | 比赛: ? → 2026-11-26
 - 奖金: ￥10,000,000
 - 报名: https://www.heywhale.com/u/heywhale_comp
 
@@ -183,22 +176,16 @@
 ## 中国气象服务协会首届青年AI气象应用创意作品征集与交流主题活动
 - 状态: 待确认 | AI: core
 - 形式: 待确认
-- 截止: 待确认 | 比赛: ? → 2026-11-25
+- 截止: 待确认 | 比赛: ? → 2026-11-26
 - 奖金: ￥2,000,000+国家级平台项目+名企和事业单位实习及入职机会+创意后续转化
 - 报名: http://activity.chinamsa.org/youthCreate/home
 
 ## 人工智能气象预报大模型示范计划（AIM-FDP）
 - 状态: 待确认 | AI: core
 - 形式: 待确认
-- 截止: 待确认 | 比赛: ? → 2026-11-25
+- 截止: 待确认 | 比赛: ? → 2026-11-26
 - 奖金: 国家气象部门合作机会
 - 报名: http://aimfdp.nmc.cn/
-
-## 免费试玩｜AI PLAY 72H 游戏&互动剧创作黑客松观众招募中
-- 状态: 即将开始 | AI: core
-- 形式: 线下 · 杭州
-- 截止: 2026-11-27 | 比赛: 2026-11-27 → 2026-11-29
-- 报名: https://www.huodongxing.com/event/9887549891000
 
 ## 复杂工业场景异常检测算法挑战赛
 - 状态: 待确认 | AI: other
@@ -238,34 +225,6 @@
 - 截止: 2025-10-14 | 比赛: 2025-10-14 → 2026-12-31
 - 奖金: 神秘礼品
 - 报名: https://aistudio.baidu.com/competition/detail/1407/0/introduction
-
-## 人才匹配与发展智能辅助Skill开发挑战赛
-- 状态: 已截止 | AI: platform
-- 形式: 线上
-- 截止: 2026-08-27 | 比赛: 2026-06-09 → 2026-10-24
-- 奖金: 1.23万元
-- 报名: https://challenge.xfyun.cn/topic/info?type=TM-DIA-Skill
-
-## 智慧生活助理Skill开发挑战赛
-- 状态: 已截止 | AI: platform
-- 形式: 线上
-- 截止: 2026-08-27 | 比赛: 2026-06-23 → 2026-10-24
-- 奖金: 1.23万元
-- 报名: https://challenge.xfyun.cn/topic/info?type=SLA-Skill
-
-## 智能办公协同助理Skill开发挑战赛
-- 状态: 已截止 | AI: platform
-- 形式: 线上
-- 截止: 2026-08-27 | 比赛: 2026-06-09 → 2026-10-24
-- 奖金: 1.23万元
-- 报名: https://challenge.xfyun.cn/topic/info?type=OCAS-skill
-
-## 编程竞赛测试用例生成挑战赛 赛季2
-- 状态: 已截止 | AI: platform
-- 形式: 线上
-- 截止: 2026-08-27 | 比赛: 2026-06-09 → 2026-10-24
-- 奖金: 1万元
-- 报名: https://challenge.xfyun.cn/topic/info?type=CP-TCG
 
 ## 声纹迷雾复杂场景说话人确认挑战赛
 - 状态: 已截止 | AI: platform
@@ -406,6 +365,13 @@
 - 截止: 2026-11-19 | 比赛: ? → ?
 - 奖金: ¥32万元奖金池
 - 报名: https://modelscope.cn/events/386/%E6%AF%94%E8%B5%9B%E4%BB%8B%E7%BB%8D
+
+## Agent Arena Competition: Evidence Mining
+- 状态: 已截止 | AI: core
+- 形式: 线上
+- 截止: 2026-11-25 | 比赛: 2026-11-13 → 2026-12-11
+- 奖金: 7250 USD
+- 报名: https://dorahacks.io/hackathon/delphi-agent-competition2
 
 ## AI新睿人才“星探计划”
 - 状态: 已截止 | AI: core
