@@ -238,5 +238,25 @@
     "status": "pending",
     "status_note": "联谱聚合页；需找到主办方官方报名页后再决定是否收录",
     "first_seen": "2026-11-24T08:10:06"
+  },
+  {
+    "title": "V2Fun 2026 3D AI 黑客松",
+    "city": "上海",
+    "url": "https://lianpu.com/event/v2fun-2026-3d-ai-hei-ke-song",
+    "source": "lianpu",
+    "source_url": "https://lianpu.com/topics/shanghai-ai",
+    "status": "pending",
+    "status_note": "联谱聚合页；需找到主办方官方报名页后再决定是否收录",
+    "first_seen": "2026-11-27T08:02:05"
+  },
+  {
+    "title": "知乎黑客松 S3 · 湾区共创季",
+    "city": "深圳",
+    "url": "https://lianpu.com/event/zhihu-hackathon-s3-wanqu-gongchuang-j",
+    "source": "lianpu",
+    "source_url": "https://lianpu.com/topics/shenzhen-ai",
+    "status": "pending",
+    "status_note": "联谱聚合页；需找到主办方官方报名页后再决定是否收录",
+    "first_seen": "2026-11-27T08:02:13"
   }
 ]

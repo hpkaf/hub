@@ -394,6 +394,25 @@
     "notes": "DoraHacks API: tags=Algorand,Web3,Blockchain,Crypto,ai,agentic commerce,x402,payments; ecosystem=Algorand"
   },
   {
+    "title": "GEIA具身智能创新周暨 RebuildZxGEIA黑客松|游客报名",
+    "organizer": "Rebuild-Z",
+    "mode": "offline",
+    "city": "海淀",
+    "start_date": "2026-12-09",
+    "end_date": "2026-12-10",
+    "deadline": null,
+    "prize": null,
+    "tracks": [
+      "具身智能",
+      "人形机器人",
+      "黑客松"
+    ],
+    "url": "https://www.huodongxing.com/event/1888890912800",
+    "source": "huodongxing",
+    "source_url": "https://www.huodongxing.com/search?qs=AI%E9%BB%91%E5%AE%A2%E6%9D%BE",
+    "notes": "活动行详情内嵌 ativityJson; 标签=具身智能,人形机器人,黑客松; 地址=朗丽兹西山花园酒店; 状态=1"
+  },
+  {
     "title": "11 月 28 日，深圳见！AI 时代下的智能体开发丨MoonBit 1.0 重磅发布 meetup 暨黑客松季度决赛预告",
     "organizer": "粤港澳大湾区数字经济研究院（福田）",
     "mode": "offline",
@@ -414,25 +433,6 @@
     "notes": "活动行详情内嵌 ativityJson; 标签=MoonBit,1,0版本发布,开发者Meetup; 地址=莞深(河套)创新中心福田保税区达升物流大厦5层; 状态=1"
   },
   {
-    "title": "GO WEST. SCALE UP. 「2027 AI 出海创新交流」",
-    "organizer": "ModelHub AI创客松",
-    "mode": "offline",
-    "city": "深圳",
-    "start_date": "2026-12-01",
-    "end_date": "2026-12-01",
-    "deadline": null,
-    "prize": null,
-    "tracks": [
-      "AI出海",
-      "海外市场拓展",
-      "Infra"
-    ],
-    "url": "https://www.huodongxing.com/event/5887680202100",
-    "source": "huodongxing",
-    "source_url": "https://www.huodongxing.com/search?qs=AI%E9%BB%91%E5%AE%A2%E6%9D%BE",
-    "notes": "活动行详情内嵌 ativityJson; 标签=AI出海,海外市场拓展,Infra; 地址=报名后可查看详细地址; 状态=1"
-  },
-  {
     "title": "深圳第四届湾区青年戏剧季·AI戏剧共创营·戏剧季黑客松",
     "organizer": "图灵造物",
     "mode": "offline",
@@ -450,6 +450,25 @@
     "source": "huodongxing",
     "source_url": "https://www.huodongxing.com/search?qs=AI%E9%BB%91%E5%AE%A2%E6%9D%BE",
     "notes": "活动行详情内嵌 ativityJson; 标签=AI戏剧共创,AIGC,黑客松; 地址=光明区马术中心·骑士之家; 状态=1"
+  },
+  {
+    "title": "GO WEST. SCALE UP. 「2027 AI 出海创新交流」",
+    "organizer": "ModelHub AI创客松",
+    "mode": "offline",
+    "city": "深圳",
+    "start_date": "2026-12-01",
+    "end_date": "2026-12-01",
+    "deadline": null,
+    "prize": null,
+    "tracks": [
+      "AI出海",
+      "海外市场拓展",
+      "Infra"
+    ],
+    "url": "https://www.huodongxing.com/event/5887680202100",
+    "source": "huodongxing",
+    "source_url": "https://www.huodongxing.com/search?qs=AI%E9%BB%91%E5%AE%A2%E6%9D%BE",
+    "notes": "活动行详情内嵌 ativityJson; 标签=AI出海,海外市场拓展,Infra; 地址=城市规划设计研究院(南山区西丽创智云城A4栋4F多功能厅); 状态=1"
   },
   {
     "title": "奥林匹斯青少年AI黑客松训练营",
@@ -564,24 +583,5 @@
     "source": "huodongxing",
     "source_url": "https://www.huodongxing.com/search?qs=AI%E9%BB%91%E5%AE%A2%E6%9D%BE",
     "notes": "活动行详情内嵌 ativityJson; 标签=AI黑客松,Bittensor子网,激励机制设计; 地址=报名后可查看详细地址; 状态=4"
-  },
-  {
-    "title": "探索AI黑客松 × 非视觉拼搭无障碍体验工坊",
-    "organizer": "派誉文化科技",
-    "mode": "offline",
-    "city": "静安",
-    "start_date": "2025-05-10",
-    "end_date": "2025-05-10",
-    "deadline": null,
-    "prize": null,
-    "tracks": [
-      "人工智能",
-      "无障碍科技",
-      "社会创新"
-    ],
-    "url": "https://www.huodongxing.com/event/6802129395500",
-    "source": "huodongxing",
-    "source_url": "https://www.huodongxing.com/search?qs=AI%E9%BB%91%E5%AE%A2%E6%9D%BE",
-    "notes": "活动行详情内嵌 ativityJson; 标签=人工智能,无障碍科技,社会创新; 地址=报名后可查看详细地址; 状态=4"
   }
 ]

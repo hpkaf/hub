@@ -7,13 +7,13 @@ X-WR-CALNAME:AI 赛事雷达
 X-WR-TIMEZONE:Asia/Shanghai
 BEGIN:VEVENT
 UID:19f3973c4ad3@ai-race-radar
-DTSTAMP:20261126T001129Z
+DTSTAMP:20261127T000320Z
 DTSTART;VALUE=DATE:20260316
 DTEND;VALUE=DATE:20260901
 SUMMARY:具有多模态能力的客服智能体设计
 DESCRIPTION:主办方：中国电子学会&睿创微纳；奖金：145\,0
  00元；报名：https://www.datafountain.cn/competitions/1165；收录
- ：AI 赛事雷达（2026-11-26T08:11:29 核验）
+ ：AI 赛事雷达（2026-11-27T08:03:20 核验）
 URL:https://www.datafountain.cn/competitions/1165
 LOCATION:线上
 END:VEVENT

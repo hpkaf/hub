@@ -60,7 +60,7 @@
     "notes": "魔搭活动页（进行中）：次赛事线下宣讲落地大湾区，面向全球开放线上报名、全程支持云参赛",
     "registration_closed": false,
     "id": "1fe2ff118454",
-    "status": "open"
+    "status": "closing"
   },
   {
     "title": "48H和真实世界碰一碰｜首届地瓜机器人黑客松",
@@ -74,13 +74,13 @@
     "tracks": [
       "黑客松"
     ],
-    "url": "https://modelscope.cn/events/395/%E6%AF%94%E8%B5%9B%E4%BB%8B%E7%BB%8D?from=list",
+    "url": "https://modelscope.cn/events",
     "source": "modelscope",
     "source_url": "https://modelscope.cn/events",
     "evidence": null,
     "notes": "魔搭活动页（进行中）：欢迎来到2026地瓜机器人黑客松，和真实世界碰一碰！",
     "registration_closed": false,
-    "id": "e3d18ccf5bdb",
+    "id": "8738669c012d",
     "status": "closing"
   },
   {
@@ -184,7 +184,7 @@
     "mode": null,
     "city": null,
     "start_date": null,
-    "end_date": "2026-11-26",
+    "end_date": "2026-11-27",
     "deadline": null,
     "prize": "￥10,000,000",
     "tracks": [],
@@ -203,7 +203,7 @@
     "mode": null,
     "city": null,
     "start_date": null,
-    "end_date": "2026-11-26",
+    "end_date": "2026-11-27",
     "deadline": null,
     "prize": "￥2,000,000+国家级平台项目+名企和事业单位实习及入职机会+创意后续转化",
     "tracks": [],
@@ -222,7 +222,7 @@
     "mode": null,
     "city": null,
     "start_date": null,
-    "end_date": "2026-11-26",
+    "end_date": "2026-11-27",
     "deadline": null,
     "prize": "国家气象部门合作机会",
     "tracks": [],

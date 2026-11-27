@@ -99,7 +99,7 @@
     "organizer": "知乎",
     "mode": "online",
     "city": null,
-    "status": "open",
+    "status": "closing",
     "deadline": "2026-12-04",
     "ai_level": "track",
     "tracks": [
@@ -403,6 +403,25 @@
     "summary": "Empowering Builders Through Algorand-Powered Hackathons AlgoBharat Regional Hackathon Sponsorship Program is designed to enable Web3 communities, colleges, developers and builders across India to..."
   },
   {
+    "id": "6d1c247e7ebf",
+    "title": "GEIA具身智能创新周暨 RebuildZxGEIA黑客松|游客报名",
+    "organizer": "Rebuild-Z",
+    "mode": "offline",
+    "city": "海淀",
+    "status": "upcoming",
+    "deadline": null,
+    "ai_level": "core",
+    "tracks": [
+      "具身智能",
+      "人形机器人",
+      "黑客松"
+    ],
+    "directions": [
+      "embodied"
+    ],
+    "summary": ""
+  },
+  {
     "id": "bcd4b4ade563",
     "title": "GO WEST. SCALE UP. 「2027 AI 出海创新交流」",
     "organizer": "ModelHub AI创客松",
@@ -417,7 +436,7 @@
       "Infra"
     ],
     "directions": [
-      "other"
+      "vertical"
     ],
     "summary": ""
   },

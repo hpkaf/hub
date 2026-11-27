@@ -64,6 +64,18 @@
     ]
   },
   {
+    "name": "Rebuild-Z",
+    "slug": "rebuild-z",
+    "cities": [
+      "海淀"
+    ],
+    "website": "",
+    "intro": "已收录 1 场 AI 赛事（在架 1 / 往届 0），形式：线下；最近一场：GEIA具身智能创新周暨 RebuildZxGEIA黑客松|游客报名。",
+    "events": [
+      "6d1c247e7ebf"
+    ]
+  },
+  {
     "name": "Rokid 乐奇（灵伴科技）",
     "slug": "rokid",
     "cities": [],
