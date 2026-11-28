@@ -471,25 +471,6 @@
     "notes": "活动行详情内嵌 ativityJson; 标签=AI出海,海外市场拓展,Infra; 地址=城市规划设计研究院(南山区西丽创智云城A4栋4F多功能厅); 状态=1"
   },
   {
-    "title": "奥林匹斯青少年AI黑客松训练营",
-    "organizer": "小威鸽",
-    "mode": "offline",
-    "city": "徐汇",
-    "start_date": "2026-11-21",
-    "end_date": "2026-11-21",
-    "deadline": null,
-    "prize": null,
-    "tracks": [
-      "青少年AI",
-      "黑客松",
-      "AIGC创作"
-    ],
-    "url": "https://www.huodongxing.com/event/7887844421000",
-    "source": "huodongxing",
-    "source_url": "https://www.huodongxing.com/search?qs=AI%E9%BB%91%E5%AE%A2%E6%9D%BE",
-    "notes": "活动行详情内嵌 ativityJson; 标签=青少年AI,黑客松,AIGC创作; 地址=报名后可查看详细地址; 状态=4"
-  },
-  {
     "title": "河南青少年AI黑客松实战营",
     "organizer": "AI黄埔学院",
     "mode": "offline",
@@ -507,6 +488,25 @@
     "source": "huodongxing",
     "source_url": "https://www.huodongxing.com/search?qs=AI%E9%BB%91%E5%AE%A2%E6%9D%BE",
     "notes": "活动行详情内嵌 ativityJson; 标签=AI黑客松,青少年编程,AI实战营; 地址=报名后可查看详细地址; 状态=4"
+  },
+  {
+    "title": "奥林匹斯青少年AI黑客松训练营",
+    "organizer": "小威鸽",
+    "mode": "offline",
+    "city": "徐汇",
+    "start_date": "2026-11-21",
+    "end_date": "2026-11-21",
+    "deadline": null,
+    "prize": null,
+    "tracks": [
+      "青少年AI",
+      "黑客松",
+      "AIGC创作"
+    ],
+    "url": "https://www.huodongxing.com/event/7887844421000",
+    "source": "huodongxing",
+    "source_url": "https://www.huodongxing.com/search?qs=AI%E9%BB%91%E5%AE%A2%E6%9D%BE",
+    "notes": "活动行详情内嵌 ativityJson; 标签=青少年AI,黑客松,AIGC创作; 地址=报名后可查看详细地址; 状态=4"
   },
   {
     "title": "24小时极限开发“AI黑客松助力OPC创业”",

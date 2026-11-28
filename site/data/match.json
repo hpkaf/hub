@@ -113,6 +113,23 @@
     "summary": ""
   },
   {
+    "id": "d58263384dac",
+    "title": "2026 高德空间智能开发者大赛正式开启！",
+    "organizer": null,
+    "mode": null,
+    "city": null,
+    "status": "open",
+    "deadline": "2026-12-27",
+    "ai_level": "other",
+    "tracks": [
+      "应用开发赛"
+    ],
+    "directions": [
+      "other"
+    ],
+    "summary": ""
+  },
+  {
     "id": "cf5b09f6b87b",
     "title": "OpenLET 具身智能挑战赛",
     "organizer": "开放原子开源基金会丨OpenLET 具身智能开源数据集社区",
@@ -176,7 +193,7 @@
     "organizer": "粤港澳大湾区数字经济研究院（福田）",
     "mode": "offline",
     "city": "深圳",
-    "status": "upcoming",
+    "status": "open",
     "deadline": null,
     "ai_level": "core",
     "tracks": [
@@ -454,6 +471,21 @@
     ],
     "directions": [
       "agent"
+    ],
+    "summary": ""
+  },
+  {
+    "id": "e13ec5dd29b8",
+    "title": "「相遇」主题周日黑客松｜Ship it Sunday #016",
+    "organizer": "AI Hacker House",
+    "mode": "offline",
+    "city": "上海",
+    "status": "upcoming",
+    "deadline": null,
+    "ai_level": "other",
+    "tracks": [],
+    "directions": [
+      "other"
     ],
     "summary": ""
   },

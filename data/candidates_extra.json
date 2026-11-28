@@ -1,5 +1,26 @@
 [
   {
+    "title": "2026 高德空间智能开发者大赛正式开启！",
+    "organizer": null,
+    "mode": null,
+    "city": null,
+    "start_date": null,
+    "end_date": null,
+    "deadline": "2026-12-27",
+    "prize": "0",
+    "tracks": [
+      "应用开发赛"
+    ],
+    "url": "https://modelscope.cn/events/444/%E6%B4%BB%E5%8A%A8%E4%BB%8B%E7%BB%8D?from=list",
+    "source": "modelscope",
+    "source_url": "https://modelscope.cn/events",
+    "evidence": null,
+    "notes": "魔搭活动页（进行中）：今年高德空间智能开发者大赛迎来全新挑战，以「探图者计划」为赛事主题，开启面向高德千舆空间智能开放平台的特别挑战赛季，邀请开发者用 AI探索真实世界，将空间智能融入更多创新应用。",
+    "registration_closed": false,
+    "id": "d58263384dac",
+    "status": "open"
+  },
+  {
     "title": "2026 SPARK S全球AI硬件创新大赛正式启动",
     "organizer": null,
     "mode": null,
@@ -32,53 +53,11 @@
     "tracks": [
       "应用开发赛"
     ],
-    "url": "https://modelscope.cn/events/421/%E6%AF%94%E8%B5%9B%E4%BB%8B%E7%BB%8D?from=list",
-    "source": "modelscope",
-    "source_url": "https://modelscope.cn/events",
-    "evidence": null,
-    "notes": "魔搭活动页（进行中）：本期以「AI 造游戏」为主题，邀请你用 AI 创作一款原创游戏，发布到魔搭创空间，让大家点开就能玩。",
-    "registration_closed": false,
-    "id": "728793a0a832",
-    "status": "closing"
-  },
-  {
-    "title": "知乎黑客松S3 |湾区共创季",
-    "organizer": null,
-    "mode": null,
-    "city": null,
-    "start_date": null,
-    "end_date": null,
-    "deadline": "2026-12-04",
-    "prize": "120,000 元总奖金池",
-    "tracks": [
-      "黑客松"
-    ],
-    "url": "https://modelscope.cn/events/416/%E6%AF%94%E8%B5%9B%E7%AE%80%E4%BB%8B?from=list",
-    "source": "modelscope",
-    "source_url": "https://modelscope.cn/events",
-    "evidence": null,
-    "notes": "魔搭活动页（进行中）：次赛事线下宣讲落地大湾区，面向全球开放线上报名、全程支持云参赛",
-    "registration_closed": false,
-    "id": "1fe2ff118454",
-    "status": "closing"
-  },
-  {
-    "title": "48H和真实世界碰一碰｜首届地瓜机器人黑客松",
-    "organizer": null,
-    "mode": null,
-    "city": null,
-    "start_date": null,
-    "end_date": null,
-    "deadline": "2026-11-30",
-    "prize": "30W现金奖池",
-    "tracks": [
-      "黑客松"
-    ],
     "url": "https://modelscope.cn/events",
     "source": "modelscope",
     "source_url": "https://modelscope.cn/events",
     "evidence": null,
-    "notes": "魔搭活动页（进行中）：欢迎来到2026地瓜机器人黑客松，和真实世界碰一碰！",
+    "notes": "魔搭活动页（进行中）：本期以「AI 造游戏」为主题，邀请你用 AI 创作一款原创游戏，发布到魔搭创空间，让大家点开就能玩。",
     "registration_closed": false,
     "id": "8738669c012d",
     "status": "closing"
@@ -184,7 +163,7 @@
     "mode": null,
     "city": null,
     "start_date": null,
-    "end_date": "2026-11-27",
+    "end_date": "2026-11-28",
     "deadline": null,
     "prize": "￥10,000,000",
     "tracks": [],
@@ -203,7 +182,7 @@
     "mode": null,
     "city": null,
     "start_date": null,
-    "end_date": "2026-11-27",
+    "end_date": "2026-11-28",
     "deadline": null,
     "prize": "￥2,000,000+国家级平台项目+名企和事业单位实习及入职机会+创意后续转化",
     "tracks": [],
@@ -222,7 +201,7 @@
     "mode": null,
     "city": null,
     "start_date": null,
-    "end_date": "2026-11-27",
+    "end_date": "2026-11-28",
     "deadline": null,
     "prize": "国家气象部门合作机会",
     "tracks": [],

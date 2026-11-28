@@ -22,6 +22,18 @@
     ]
   },
   {
+    "name": "AI Hacker House",
+    "slug": "ai-hacker-house",
+    "cities": [
+      "上海"
+    ],
+    "website": "",
+    "intro": "已收录 1 场 AI 赛事（在架 1 / 往届 0），形式：线下；最近一场：「相遇」主题周日黑客松｜Ship it Sunday #016。",
+    "events": [
+      "e13ec5dd29b8"
+    ]
+  },
+  {
     "name": "Algorand",
     "slug": "algorand",
     "cities": [],

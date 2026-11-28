@@ -1,7 +1,7 @@
 # AI 赛事雷达 · Full Reference
 
 > 中国 AI 赛事与黑客松的核验清单。只收 AI 相关赛事；链接实测 200/301 才展示；
-> 报名与奖金以主办方官方页为准。更新：2026-11-27 08:03（构建时间，Asia/Shanghai）。
+> 报名与奖金以主办方官方页为准。更新：2026-11-28 08:04（构建时间，Asia/Shanghai）。
 
 ## 站点
 
@@ -14,7 +14,7 @@
 
 ## 数据入口
 
-- JSON: https://race.howfun.cn/api/events.json（62 条，在架 + 近 90 天）
+- JSON: https://race.howfun.cn/api/events.json（64 条，在架 + 近 90 天）
 - Markdown: https://race.howfun.cn/api/events.md
 - 本周值得看: https://race.howfun.cn/data/hot.json（编辑精选，不是流量榜）
 - 全量: https://race.howfun.cn/data/races.json（含 90 天外存档）
